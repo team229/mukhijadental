@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <circle cx="100" cy="100" r="95" stroke="#6b584c" stroke-width="3" fill="none"/>
+  <path d="M100 45 C85 45 72 58 70 75 C68 92 75 108 85 118 C90 123 95 125 100 125 C105 125 110 123 115 118 C125 108 132 92 130 75 C128 58 115 45 100 45Z" stroke="#6b584c" stroke-width="3" fill="none"/>
+  <path d="M85 118 C82 130 88 145 100 155 C112 145 118 130 115 118" stroke="#6b584c" stroke-width="3" fill="none"/>
+  <path d="M78 62 L82 58 M88 52 L90 46 M72 68 L68 64" stroke="#6b584c" stroke-width="2" stroke-linecap="round"/>
+  <path id="arc" d="M 35 100 A 65 65 0 0 1 100 35" fill="none"/>
+  <text font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#6b584c" letter-spacing="1">
+    <textPath href="#arc" startOffset="5%">DR. MUKHIJA'S DENTAL CENTRE</textPath>
+  </text>
+</svg>

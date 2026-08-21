@@ -1,0 +1,35 @@
+---
+interface Props {
+  title: string;
+  subtitle?: string;
+  breadcrumb?: { label: string; href?: string }[];
+}
+
+const { title, subtitle, breadcrumb } = Astro.props;
+---
+
+<section class="relative bg-gradient-to-br from-brand via-brand-dark to-brand text-white py-16 md:py-20 overflow-hidden">
+  <div class="absolute inset-0 opacity-10">
+    <div class="absolute top-0 right-0 w-96 h-96 bg-white rounded-full -translate-y-1/2 translate-x-1/2"></div>
+    <div class="absolute bottom-0 left-0 w-64 h-64 bg-white rounded-full translate-y-1/2 -translate-x-1/2"></div>
+  </div>
+  <div class="relative max-w-7xl mx-auto px-4">
+    {breadcrumb && breadcrumb.length > 0 && (
+      <nav class="flex items-center gap-2 text-sm text-white/70 mb-4">
+        <a href="/" class="hover:text-white transition-colors">Home</a>
+        {breadcrumb.map((item) => (
+          <>
+            <span>/</span>
+            {item.href ? (
+              <a href={item.href} class="hover:text-white transition-colors">{item.label}</a>
+            ) : (
+              <span class="text-white">{item.label}</span>
+            )}
+          </>
+        ))}
+      </nav>
+    )}
+    <h1 class="font-display text-3xl md:text-5xl font-bold mb-3">{title}</h1>
+    {subtitle && <p class="text-lg text-white/80 max-w-2xl">{subtitle}</p>}
+  </div>
+</section>

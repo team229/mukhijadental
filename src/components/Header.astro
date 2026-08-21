@@ -1,0 +1,86 @@
+---
+import { siteConfig, navigation } from "../data/site";
+import MobileNav from "./react/MobileNav";
+import { Phone, Mail, MapPin, Check } from "lucide-react";
+---
+
+<div class="bg-brand text-white text-[11px] hidden lg:block border-b border-brand-light">
+  <div class="max-w-7xl mx-auto px-4 py-1.5 flex flex-wrap items-center justify-between gap-2">
+    <div class="flex flex-wrap items-center gap-4">
+      <a href={`tel:${siteConfig.phone}`} class="hover:text-accent-light transition-colors flex items-center gap-1.5">
+        <Phone className="w-3.5 h-3.5 text-accent-light" /> {siteConfig.phone}
+      </a>
+      <span class="opacity-30">|</span>
+      <a href={`mailto:${siteConfig.email}`} class="hover:text-accent-light transition-colors flex items-center gap-1.5">
+        <Mail className="w-3.5 h-3.5 text-accent-light" /> {siteConfig.email}
+      </a>
+    </div>
+    <div class="flex items-center gap-4">
+      <span class="bg-accent text-brand-dark px-2.5 py-0.5 rounded font-bold text-[9px] tracking-wider uppercase flex items-center gap-1">
+        <Check className="w-2.5 h-2.5 text-brand-dark stroke-[3]" /> NABH Accredited Facility
+      </span>
+      <span class="opacity-30">|</span>
+      <span class="flex items-center gap-1.5">
+        <MapPin className="w-3.5 h-3.5 text-accent-light" /> {siteConfig.address}
+      </span>
+    </div>
+  </div>
+</div>
+
+<header class="sticky top-0 z-50 bg-white shadow-sm border-b border-slate-100">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="flex items-center justify-between h-14">
+      <a href="/" class="flex items-center gap-2 shrink-0">
+        <img src="/logo.png" alt={siteConfig.name} class="h-10 w-10 rounded-lg object-contain" />
+        <div class="hidden sm:block">
+          <p class="font-display font-bold text-brand text-base leading-tight">Dr. Mukhija's</p>
+          <p class="text-[10px] text-muted tracking-wide uppercase">Dental & Implant Centre</p>
+        </div>
+      </a>
+
+      <nav class="hidden xl:flex items-center gap-1">
+        {navigation.map((item) => (
+          item.children ? (
+            <div class="relative group">
+              <a
+                href={item.href === "#" ? item.children[0].href : item.href}
+                class="px-3 py-2 text-sm font-medium text-slate-700 hover:text-accent transition-colors rounded-lg hover:bg-surface"
+              >
+                {item.label} ▾
+              </a>
+              <div class="absolute left-0 top-full pt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                <div class="bg-white rounded-xl shadow-xl border border-slate-100 py-2 min-w-[240px] max-h-[400px] overflow-y-auto">
+                  {item.children.map((child) => (
+                    <a
+                      href={child.href}
+                      class="block px-4 py-2 text-sm text-slate-600 hover:bg-surface hover:text-accent transition-colors"
+                    >
+                      {child.label}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ) : (
+            <a
+              href={item.href}
+              class="px-3 py-2 text-sm font-medium text-slate-700 hover:text-accent transition-colors rounded-lg hover:bg-surface"
+            >
+              {item.label}
+            </a>
+          )
+        ))}
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a
+          href="/contact-us/"
+          class="hidden md:inline-flex items-center px-6 py-2.5 bg-brand hover:bg-brand-light border border-accent/20 hover:border-accent/40 text-white hover:text-accent-light text-xs font-bold uppercase tracking-wider rounded-xl transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-0.5"
+        >
+          Book Appointment
+        </a>
+        <MobileNav client:load />
+      </div>
+    </div>
+  </div>
+</header>

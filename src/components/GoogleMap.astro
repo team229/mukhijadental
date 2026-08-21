@@ -1,0 +1,26 @@
+---
+import { mapEmbedUrl } from "../data/homepage";
+import SectionHeading from "./SectionHeading.astro";
+---
+
+<section class="py-14 md:py-20 bg-surface">
+  <div class="max-w-7xl mx-auto px-4">
+    <SectionHeading
+      label="Find Us"
+      title="Visit Our Clinic"
+      description="Mukhija Dental & Implant Centre, Model Town, Sonepat — easy to reach from across Sonipat, Murthal, and Kundli."
+    />
+    <div class="rounded-3xl overflow-hidden shadow-lg border border-slate-100 aspect-[16/7] min-h-[320px]">
+      <iframe
+        src={mapEmbedUrl}
+        width="100%"
+        height="100%"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Mukhija Dental Clinic location on Google Maps"
+      ></iframe>
+    </div>
+  </div>
+</section>

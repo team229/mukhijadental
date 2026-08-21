@@ -1,0 +1,75 @@
+---
+import { siteConfig, navigation } from "../data/site";
+---
+
+<footer class="bg-brand-dark text-white">
+  <div class="max-w-7xl mx-auto px-4 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div>
+        <div class="flex items-center gap-3 mb-4">
+          <img src="/logo-white.png" alt={siteConfig.name} class="h-12 w-12 object-contain" />
+          <div>
+            <p class="font-display font-bold text-lg">Dr. Mukhija's</p>
+            <p class="text-xs text-white/70">Dental & Implant Centre</p>
+          </div>
+        </div>
+        <p class="text-white/70 text-sm leading-relaxed">
+          Comprehensive dental care in Model Town, Sonipat. Trusted by families across Sonipat, Murthal, Kundli and surrounding areas.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="font-semibold text-lg mb-4">Useful Links</h3>
+        <ul class="space-y-2 text-sm text-white/70">
+          <li><a href="/" class="hover:text-white transition-colors">Home</a></li>
+          <li><a href="/services/" class="hover:text-white transition-colors">Services</a></li>
+          <li><a href="/articles/" class="hover:text-white transition-colors">Articles</a></li>
+          <li><a href="/team-of-specialists/" class="hover:text-white transition-colors">Our Team</a></li>
+          <li><a href="/contact-us/" class="hover:text-white transition-colors">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="font-semibold text-lg mb-4">Treatments</h3>
+        <ul class="space-y-2 text-sm text-white/70">
+          <li><a href="/services/dental-implants/" class="hover:text-white transition-colors">Dental Implants</a></li>
+          <li><a href="/services/cosmetic-dentistry/" class="hover:text-white transition-colors">Cosmetic Dentistry</a></li>
+          <li><a href="/services/root-canal/" class="hover:text-white transition-colors">Root Canal</a></li>
+          <li><a href="/services/orthodontics-treatment/" class="hover:text-white transition-colors">Braces & Aligners</a></li>
+          <li><a href="/services/kids-dentistry/" class="hover:text-white transition-colors">Kids Dentistry</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="font-semibold text-lg mb-4">Contact Information</h3>
+        <ul class="space-y-3 text-sm text-white/70">
+          <li>
+            <span class="block text-white/50 text-xs uppercase tracking-wide mb-1">Clinic Location</span>
+            {siteConfig.address}
+          </li>
+          <li>
+            <span class="block text-white/50 text-xs uppercase tracking-wide mb-1">Phone</span>
+            <a href={`tel:${siteConfig.phone}`} class="hover:text-white transition-colors">{siteConfig.phone}</a>
+          </li>
+          <li>
+            <span class="block text-white/50 text-xs uppercase tracking-wide mb-1">Email</span>
+            <a href={`mailto:${siteConfig.email}`} class="hover:text-white transition-colors">{siteConfig.email}</a>
+          </li>
+          <li>
+            <span class="block text-white/50 text-xs uppercase tracking-wide mb-1">Hours</span>
+            {siteConfig.hours}
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-white/10 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-white/50">
+      <p>© {new Date().getFullYear()} {siteConfig.url.replace("https://", "")}. All Rights Reserved.</p>
+      <div class="flex gap-4">
+        {navigation.filter(n => n.href !== "#" && n.href !== "/").slice(0, 4).map((item) => (
+          <a href={item.href} class="hover:text-white transition-colors">{item.label}</a>
+        ))}
+      </div>
+    </div>
+  </div>
+</footer>

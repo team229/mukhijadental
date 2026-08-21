@@ -1,0 +1,40 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHero from "../../components/PageHero.astro";
+import ContentPage from "../../components/ContentPage.astro";
+import { staticPages, services } from "../../data/pages";
+import { getPageContent, contentToHtml } from "../../utils/content";
+
+const page = staticPages.services;
+const lines = getPageContent(page.contentKey);
+const { html, faqs } = contentToHtml(lines);
+---
+
+<BaseLayout title={page.title} description={page.description}>
+  <PageHero
+    title={page.heading}
+    subtitle="Comprehensive dental care for every need — from routine checkups to complex surgery."
+    breadcrumb={[{ label: "Services" }]}
+  />
+
+  <section class="py-12">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        {services.map((service) => (
+          <a
+            href={`/services/${service.slug}/`}
+            class="group bg-white rounded-2xl p-6 shadow-md hover:shadow-xl border border-slate-100 hover:border-accent/30 transition-all"
+          >
+            <h3 class="font-semibold text-lg text-brand-dark group-hover:text-accent transition-colors mb-2">
+              {service.heading}
+            </h3>
+            <p class="text-sm text-slate-600 mb-4 line-clamp-2">{service.description}</p>
+            <span class="text-accent text-sm font-medium">Learn More →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <ContentPage html={html} faqs={faqs} />
+</BaseLayout>

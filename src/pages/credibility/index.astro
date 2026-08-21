@@ -1,0 +1,40 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHero from "../../components/PageHero.astro";
+import ContentPage from "../../components/ContentPage.astro";
+import { staticPages, credibilityPages } from "../../data/pages";
+import { getPageContent, contentToHtml } from "../../utils/content";
+
+const page = staticPages.credibility;
+const lines = getPageContent(page.contentKey);
+const { html, faqs } = contentToHtml(lines);
+---
+
+<BaseLayout title={page.title} description={page.description}>
+  <PageHero
+    title={page.heading}
+    subtitle="What makes Mukhija Dental Clinic a trusted dental hospital in Sonipat."
+    breadcrumb={[{ label: "Credibility" }]}
+  />
+
+  <section class="py-12">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12">
+        {credibilityPages.map((item) => (
+          <a
+            href={`/credibility/${item.slug}/`}
+            class="group bg-white rounded-2xl p-6 shadow-md hover:shadow-xl border border-slate-100 hover:border-accent/30 transition-all"
+          >
+            <h3 class="font-semibold text-lg text-brand-dark group-hover:text-accent transition-colors mb-2">
+              {item.heading}
+            </h3>
+            <p class="text-sm text-slate-600 mb-4">{item.description}</p>
+            <span class="text-accent text-sm font-medium">View →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <ContentPage html={html} faqs={faqs} />
+</BaseLayout>

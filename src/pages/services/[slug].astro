@@ -1,0 +1,145 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import BannerWithForm from "../../components/BannerWithForm.astro";
+import SectionHeading from "../../components/SectionHeading.astro";
+import SplitSection from "../../components/SplitSection.astro";
+import GoogleMap from "../../components/GoogleMap.astro";
+import ContentPage from "../../components/ContentPage.astro";
+import AppointmentForm from "../../components/react/AppointmentForm";
+import VideoSection from "../../components/react/VideoSection";
+import TestimonialCarousel from "../../components/react/TestimonialCarousel";
+import CaseImageSlider from "../../components/react/CaseImageSlider";
+import { services } from "../../data/pages";
+import { getPageContent, contentToHtml } from "../../utils/content";
+import { getSubTreatments, caseImages } from "../../data/serviceDetails";
+import { whyChooseUsPoints, technologyItems } from "../../data/homepage";
+import { clinicVideo } from "../../data/images";
+import { faqs } from "../../data/site";
+
+export function getStaticPaths() {
+  return services.map((service) => ({
+    params: { slug: service.slug },
+    props: { service },
+  }));
+}
+
+const { service } = Astro.props;
+const lines = getPageContent(service.contentKey);
+const { html, faqs: contentFaqs } = contentToHtml(lines);
+const subTreatments = getSubTreatments(service.slug);
+const pageFaqs = contentFaqs.length > 0 ? contentFaqs : faqs;
+const serviceName = service.heading.replace(/ in Sonipat$/i, "");
+---
+
+<BaseLayout title={service.title} description={service.description}>
+  <!-- Section 1: Banner with form -->
+  <BannerWithForm
+    label="Dental Services"
+    title={service.heading}
+    description={service.description}
+    image={subTreatments[0]?.image ?? "/images/clinic/exterior/clinic-front.webp"}
+  >
+    <AppointmentForm client:visible compact={true} />
+  </BannerWithForm>
+
+  <!-- Section 2: Why Choose Our Service -->
+  <SplitSection
+    label="Why Choose Us"
+    title={`Why Choose Our ${serviceName}`}
+    description={`At Mukhija Dental & Implant Centre, we combine specialist expertise, modern technology, and a patient-first approach for every ${serviceName.toLowerCase()} case.`}
+    image={subTreatments[0]?.image ?? "/images/clinic/treatment/doctor-table.webp"}
+    bg="surface"
+  >
+    <ul class="space-y-4">
+      {whyChooseUsPoints.map((point) => (
+        <li class="flex gap-3">
+          <span class="shrink-0 w-8 h-8 bg-accent/10 text-accent rounded-full flex items-center justify-center font-bold text-sm">✓</span>
+          <div>
+            <p class="font-semibold text-brand-dark">{point.title}</p>
+            <p class="text-sm text-slate-600">{point.description}</p>
+          </div>
+        </li>
+      ))}
+    </ul>
+  </SplitSection>
+
+  <!-- Section 3: Treatments We Offer -->
+  <section class="py-14 md:py-20">
+    <div class="max-w-7xl mx-auto px-4">
+      <SectionHeading
+        label="Treatments"
+        title={`${serviceName} Treatments We Offer`}
+        description="Explore the range of procedures available under this specialty at our Model Town, Sonipat clinic."
+      />
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {subTreatments.map((treatment) => (
+          <div class="bg-white rounded-3xl overflow-hidden shadow-md border border-slate-100 hover:shadow-lg transition-shadow">
+            <div class="aspect-[16/10] overflow-hidden">
+              <img src={treatment.image} alt={treatment.title} class="w-full h-full object-cover" loading="lazy" />
+            </div>
+            <div class="p-5">
+              <h3 class="font-semibold text-brand-dark mb-2">{treatment.title}</h3>
+              <p class="text-sm text-slate-600">{treatment.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: Service Cases -->
+  <section class="py-14 md:py-20 bg-surface">
+    <div class="max-w-7xl mx-auto px-4">
+      <SectionHeading
+        label="Cases"
+        title="Service Cases"
+        description="Real treatment outcomes from patients who trusted Mukhija Dental & Implant Centre."
+      />
+      <CaseImageSlider client:visible images={caseImages} />
+    </div>
+  </section>
+
+  <!-- Section 5: Video -->
+  <VideoSection
+    client:visible
+    poster="/images/clinic/treatment/doctor-table.webp"
+    videoSrc={clinicVideo}
+    label="See Our Clinic"
+    title="Advanced Dental Care in Sonipat"
+    description="Watch a tour of our clinic and see the technology behind our treatments."
+  />
+
+  <!-- Section 6: Google Reviews -->
+  <section class="py-14 md:py-20 bg-surface">
+    <div class="max-w-7xl mx-auto px-4">
+      <SectionHeading label="Reviews" title="Our Google Reviews" description="What our patients say about their experience at Mukhija Dental Clinic." />
+      <div class="max-w-2xl mx-auto">
+        <TestimonialCarousel client:visible />
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 7: FAQs -->
+  <section class="py-14 md:py-20">
+    <div class="max-w-3xl mx-auto px-4">
+      <SectionHeading label="FAQ" title="Frequently Asked Questions" />
+      <div class="space-y-4">
+        {pageFaqs.map((faq) => (
+          <details class="group bg-surface rounded-2xl p-5 border border-slate-100">
+            <summary class="font-semibold text-brand-dark cursor-pointer list-none flex items-center justify-between">
+              {faq.question}
+              <span class="text-accent group-open:rotate-180 transition-transform">▾</span>
+            </summary>
+            <p class="mt-3 text-slate-600 leading-relaxed">{faq.answer}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 8: Google Maps -->
+  <GoogleMap />
+
+  <!-- SEO Content -->
+  <ContentPage html={html} faqs={[]} showForm={false} />
+</BaseLayout>

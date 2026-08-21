@@ -1,0 +1,61 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/PageHero.astro";
+import ContentPage from "../components/ContentPage.astro";
+import ImageGallery from "../components/react/ImageGallery";
+import { staticPages } from "../data/pages";
+import { getPageContent, contentToHtml } from "../utils/content";
+import { getImagesByCategory, clinicVideo } from "../data/images";
+
+const page = staticPages["clinic-tour"];
+const lines = getPageContent(page.contentKey);
+const { html, faqs } = contentToHtml(lines);
+const treatmentImages = getImagesByCategory("treatment");
+---
+
+<BaseLayout title={page.title} description={page.description}>
+  <PageHero title={page.heading} subtitle={page.description} />
+
+  <section class="py-12 md:py-16">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-10">
+        <h2 class="font-display text-2xl md:text-3xl font-bold text-brand mb-3">Explore Our Clinic</h2>
+        <p class="text-slate-600 max-w-2xl mx-auto">From the entrance to treatment rooms — see why patients trust Mukhija Dental & Implant Centre.</p>
+      </div>
+      <ImageGallery client:visible showFilters={true} columns={3} />
+    </div>
+  </section>
+
+  {treatmentImages.length > 0 && (
+    <section class="py-12 bg-surface">
+      <div class="max-w-7xl mx-auto px-4">
+        <h2 class="font-display text-2xl font-bold text-brand mb-8 text-center">Treatment Rooms</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {treatmentImages.map((img) => (
+            <div class="rounded-xl overflow-hidden shadow-md aspect-[4/3]">
+              <img src={img.src} alt={img.alt} class="w-full h-full object-cover" loading="lazy" />
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="py-12">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="font-display text-2xl font-bold text-brand mb-6 text-center">Clinic Video Tour</h2>
+      <div class="rounded-2xl overflow-hidden shadow-xl aspect-video bg-black">
+        <video
+          src={clinicVideo}
+          controls
+          class="w-full h-full"
+          poster="/images/clinic/exterior/clinic-front.webp"
+        >
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <ContentPage html={html} faqs={faqs} showForm={false} />
+</BaseLayout>

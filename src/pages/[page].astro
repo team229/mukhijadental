@@ -1,0 +1,33 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/PageHero.astro";
+import ContentPage from "../components/ContentPage.astro";
+import { staticPages } from "../data/pages";
+import { getPageContent, contentToHtml } from "../utils/content";
+
+export function getStaticPaths() {
+  const pageKeys = [
+    "team-of-specialists",
+    "cases",
+    "virtual-smile-makeover",
+    "smile-analysis",
+    "articles",
+    "contact-us",
+  ] as const;
+
+  return pageKeys.map((key) => ({
+    params: { page: key },
+    props: { pageKey: key },
+  }));
+}
+
+const { pageKey } = Astro.props;
+const page = staticPages[pageKey as keyof typeof staticPages];
+const lines = getPageContent(page.contentKey);
+const { html, faqs } = contentToHtml(lines);
+---
+
+<BaseLayout title={page.title} description={page.description}>
+  <PageHero title={page.heading} subtitle={page.description} />
+  <ContentPage html={html} faqs={faqs} showForm={pageKey === "contact-us"} />
+</BaseLayout>

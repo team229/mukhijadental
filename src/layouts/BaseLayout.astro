@@ -1,0 +1,63 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { siteConfig } from "../data/site";
+
+interface Props {
+  title: string;
+  description: string;
+  canonical?: string;
+}
+
+const { title, description, canonical } = Astro.props;
+const pageTitle = title.includes(siteConfig.shortName) ? title : `${title} | ${siteConfig.shortName}`;
+const canonicalUrl = canonical ?? new URL(Astro.url.pathname, siteConfig.url).href;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl} />
+    <title>{pageTitle}</title>
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <Header />
+    <main class="flex-1">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": siteConfig.name,
+  "url": siteConfig.url,
+  "telephone": siteConfig.phone,
+  "email": siteConfig.email,
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Sonipat",
+    "addressRegion": "Haryana",
+    "addressCountry": "IN",
+    "streetAddress": siteConfig.address,
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": siteConfig.googleRating,
+    "reviewCount": siteConfig.googleReviews,
+  },
+})} />

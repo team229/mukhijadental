@@ -1,0 +1,30 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHero from "../../components/PageHero.astro";
+import ContentPage from "../../components/ContentPage.astro";
+import { credibilityPages } from "../../data/pages";
+import { getPageContent, contentToHtml } from "../../utils/content";
+
+export function getStaticPaths() {
+  return credibilityPages.map((item) => ({
+    params: { slug: item.slug },
+    props: { item },
+  }));
+}
+
+const { item } = Astro.props;
+const lines = getPageContent(item.contentKey);
+const { html, faqs } = contentToHtml(lines);
+---
+
+<BaseLayout title={item.title} description={item.description}>
+  <PageHero
+    title={item.heading}
+    subtitle={item.description}
+    breadcrumb={[
+      { label: "Credibility", href: "/credibility/" },
+      { label: item.heading },
+    ]}
+  />
+  <ContentPage html={html} faqs={faqs} />
+</BaseLayout>

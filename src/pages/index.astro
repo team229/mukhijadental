@@ -1,0 +1,267 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BannerWithForm from "../components/BannerWithForm.astro";
+import SectionHeading from "../components/SectionHeading.astro";
+import SplitSection from "../components/SplitSection.astro";
+import GoogleMap from "../components/GoogleMap.astro";
+import ContentPage from "../components/ContentPage.astro";
+import AppointmentForm from "../components/react/AppointmentForm";
+import VideoSection from "../components/react/VideoSection";
+import TestimonialCarousel from "../components/react/TestimonialCarousel";
+import { staticPages } from "../data/pages";
+import { siteConfig, faqs } from "../data/site";
+import { getPageContent, contentToHtml } from "../utils/content";
+import BeforeAfterSlider from "../components/react/BeforeAfterSlider";
+import {
+  doctors,
+  allServices,
+  technologyItems,
+  whyChooseUsPoints,
+  smileMakeoverImage,
+} from "../data/homepage";
+import { clinicVideo } from "../data/images";
+
+const page = staticPages.home;
+const lines = getPageContent(page.contentKey);
+const { html } = contentToHtml(lines);
+---
+
+<BaseLayout title={page.title} description={page.description}>
+
+  <!-- Section 1: Banner with form -->
+  <BannerWithForm
+    label="Best Dental Clinic in Sonipat"
+    title="Mukhija Dental & Implant Centre"
+    description="Comprehensive dental care for your whole family — implants, braces, root canal, cosmetic dentistry and more under one roof in Model Town, Sonipat."
+    image="/images/clinic/exterior/entry-gate-new.jpeg"
+  >
+    <AppointmentForm client:visible compact={true} />
+  </BannerWithForm>
+
+  <!-- Section 2: Video -->
+  <VideoSection
+    client:visible
+    poster="/images/clinic/treatment/modern-treatment-room.jpeg"
+    videoSrc={clinicVideo}
+    label="Clinic Tour"
+    title="Take a Virtual Tour of Our Clinic"
+    description="See our modern facilities, advanced equipment, and patient-friendly environment before your visit."
+  />
+
+  <!-- Section 3: About Us -->
+  <section class="py-14 md:py-20 bg-surface">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <SectionHeading
+            label="About Us"
+            title="Best Dentist in Sonipat, India"
+            description="Welcome to Mukhija Dental & Implant Centre, the trusted dental clinic in Model Town, Sonepat. Our multispeciality setup brings together experts in dental surgery to provide top-quality care."
+            centered={false}
+          />
+          <p class="text-slate-600 leading-relaxed mb-4">
+            We specialize in dental implants, teeth whitening, porcelain veneers, smile corrections, root canal treatment, gum surgery, braces, kids dentistry, laser dentistry, and more — all under one roof.
+          </p>
+          <a href="/team-of-specialists/" class="text-accent font-semibold hover:underline">Meet Our Team →</a>
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+          <div class="col-span-2 rounded-3xl overflow-hidden shadow-lg aspect-[16/9]">
+            <img src="/images/clinic/exterior/clinic-front.webp" alt="Clinic exterior" class="w-full h-full object-cover" loading="lazy" />
+          </div>
+          <div class="rounded-3xl overflow-hidden shadow-lg aspect-square">
+            <img src="/images/clinic/reception/reception-3.jpeg" alt="Reception area" class="w-full h-full object-cover" loading="lazy" />
+          </div>
+          <div class="rounded-3xl overflow-hidden shadow-lg aspect-square">
+            <img src="/images/clinic/reception/waiting-area-3.webp" alt="Waiting area" class="w-full h-full object-cover" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: Why Choose Us — text left, image right -->
+  <SplitSection
+    label="Why Choose Us"
+    title="Why Patients Call Us the Best Dentist in Sonipat"
+    description="A good dentist doesn't just fix teeth — they build a relationship with your mouth over time."
+    image="/images/clinic/treatment/modern-treatment-room.jpeg"
+    imageAlt="Modern dental treatment at Mukhija Dental"
+  >
+    <ul class="space-y-4">
+      {whyChooseUsPoints.map((point) => (
+        <li class="flex gap-3">
+          <span class="shrink-0 w-8 h-8 bg-accent/10 text-accent rounded-full flex items-center justify-center font-bold text-sm">✓</span>
+          <div>
+            <p class="font-semibold text-brand-dark">{point.title}</p>
+            <p class="text-sm text-slate-600">{point.description}</p>
+          </div>
+        </li>
+      ))}
+    </ul>
+  </SplitSection>
+
+  <!-- Section 5: Meet Our Doctors -->
+  <section class="py-14 md:py-20 bg-surface">
+    <div class="max-w-7xl mx-auto px-4">
+      <SectionHeading
+        label="Our Specialists"
+        title="Meet Our Doctors"
+        description="Experienced specialists dedicated to gentle, precise, patient-first dental care."
+      />
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        {doctors.map((doctor) => (
+          <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-slate-100">
+            <div class="aspect-[4/3] overflow-hidden bg-slate-100">
+              <img src={doctor.image} alt={doctor.name} class="w-full h-full object-cover object-top" loading="lazy" />
+            </div>
+            <div class="p-6">
+              <h3 class="font-display text-xl font-bold text-brand">{doctor.name}</h3>
+              <p class="text-accent text-sm font-medium mb-1">{doctor.credentials}</p>
+              <p class="text-sm text-muted mb-3">{doctor.specialty}</p>
+              <p class="text-sm text-slate-600 leading-relaxed">{doctor.bio}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 6: Our Services — 2 per row -->
+  <section class="py-14 md:py-20">
+    <div class="max-w-7xl mx-auto px-4">
+      <SectionHeading
+        label="Treatments"
+        title="Our Services"
+        description="Comprehensive dental care under one roof — from routine checkups to complex implant surgery."
+      />
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {allServices.map((service) => (
+          <a href={service.href} class="group flex gap-5 bg-white rounded-[2rem] overflow-hidden shadow-md hover:shadow-2xl border border-slate-100 hover:border-accent/30 transition-all duration-300 hover:-translate-y-1">
+            <div class="w-36 md:w-44 shrink-0 overflow-hidden relative">
+              <img src={service.image} alt={service.title} class="w-full h-full object-cover group-hover:scale-108 transition-transform duration-500 min-h-[140px]" loading="lazy" />
+              <div class="absolute inset-0 bg-brand/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </div>
+            <div class="p-5 flex flex-col justify-center">
+              <h3 class="font-semibold text-lg text-brand-dark group-hover:text-accent transition-colors mb-2 leading-snug">{service.title}</h3>
+              <p class="text-xs sm:text-sm text-slate-500 leading-relaxed mb-3">{service.description}</p>
+              <span class="text-accent text-xs sm:text-sm font-bold flex items-center gap-1">
+                Read More <span class="transition-transform duration-200 group-hover:translate-x-1">→</span>
+              </span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 7: Latest Technologies -->
+  <section class="py-14 md:py-20 bg-surface">
+    <div class="max-w-7xl mx-auto px-4">
+      <SectionHeading
+        label="Innovation"
+        title="Latest Technologies With Us"
+        description="Advanced instruments and digital diagnostics for precise, comfortable dental care."
+      />
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {technologyItems.map((tech) => (
+          <div class="bg-white rounded-3xl overflow-hidden shadow-md border border-slate-100 hover:shadow-lg transition-shadow">
+            <div class="aspect-[16/10] overflow-hidden">
+              <img src={tech.image} alt={tech.title} class="w-full h-full object-cover" loading="lazy" />
+            </div>
+            <div class="p-5">
+              <h3 class="font-semibold text-brand-dark mb-2">{tech.title}</h3>
+              <p class="text-sm text-slate-600">{tech.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 8: Smile Makeover — Before/After Comparison Slider -->
+  <section class="py-14 md:py-20">
+    <div class="max-w-7xl mx-auto px-4">
+      <SectionHeading
+        label="Transformations"
+        title="Smile Makeover"
+        description="Drag the slider below to see how teeth spacing and misalignment are corrected into a straight, bright smile."
+      />
+      <div class="max-w-3xl mx-auto mt-10">
+        <BeforeAfterSlider 
+          client:visible
+          beforeImage="/images/clinic/gallery/teeth-before.png" 
+          afterImage="/images/clinic/gallery/teeth-after.png"
+          beforeLabel="Before: Teeth Spacing Gaps"
+          afterLabel="After: Perfectly Aligned & Fixed Teeth"
+        />
+      </div>
+      <div class="text-center mt-10">
+        <a href="/patient-gallery/" class="inline-flex px-8 py-3.5 bg-accent hover:bg-accent-light text-brand-dark font-bold uppercase tracking-wider text-xs rounded-xl transition-all duration-300 shadow-md hover:shadow-2xl hover:-translate-y-0.5">
+          View Patient Gallery
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 9: Teledentistry -->
+  <section class="py-14 md:py-20 bg-gradient-to-br from-brand to-brand-dark text-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+        <div>
+          <SectionHeading
+            label="Teledentistry"
+            title="Teledentistry Now Available"
+            description="Connect with our dentists over video for an assessment of your dental needs. We can evaluate your concern remotely and schedule an in-person appointment if needed."
+            centered={false}
+            light={true}
+          />
+          <a href="/contact-us/" class="inline-flex px-8 py-3.5 bg-white text-brand font-semibold rounded-full hover:bg-surface transition-colors">
+            Book Online Consultation
+          </a>
+        </div>
+        <div class="rounded-3xl overflow-hidden shadow-2xl aspect-video">
+          <img src="/images/clinic/treatment/consultation-desk.jpeg" alt="Teledentistry consultation" class="w-full h-full object-cover" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 10: Google Reviews -->
+  <section class="py-14 md:py-20 bg-surface">
+    <div class="max-w-7xl mx-auto px-4">
+      <SectionHeading
+        label="Reviews"
+        title="Our Google Reviews"
+        description={`Trusted by patients across Sonipat — ${siteConfig.googleRating} ★★★★★ on Google.`}
+      />
+      <div class="max-w-2xl mx-auto">
+        <TestimonialCarousel client:visible />
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 11: FAQs -->
+  <section class="py-14 md:py-20">
+    <div class="max-w-3xl mx-auto px-4">
+      <SectionHeading label="FAQ" title="Frequently Asked Questions" />
+      <div class="space-y-4">
+        {faqs.map((faq) => (
+          <details class="group bg-surface rounded-2xl p-5 border border-slate-100">
+            <summary class="font-semibold text-brand-dark cursor-pointer list-none flex items-center justify-between">
+              {faq.question}
+              <span class="text-accent group-open:rotate-180 transition-transform">▾</span>
+            </summary>
+            <p class="mt-3 text-slate-600 leading-relaxed">{faq.answer}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- SEO Content -->
+  <ContentPage html={html} showForm={false} />
+
+  <!-- Section 12: Maps -->
+  <GoogleMap />
+
+</BaseLayout>

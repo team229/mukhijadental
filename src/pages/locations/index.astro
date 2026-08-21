@@ -1,0 +1,43 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHero from "../../components/PageHero.astro";
+import ContentPage from "../../components/ContentPage.astro";
+import { staticPages, locations } from "../../data/pages";
+import { getPageContent, contentToHtml } from "../../utils/content";
+import { MapPin } from "lucide-react";
+
+const page = staticPages.locations;
+const lines = getPageContent(page.contentKey);
+const { html, faqs } = contentToHtml(lines);
+---
+
+<BaseLayout title={page.title} description={page.description}>
+  <PageHero
+    title={page.heading}
+    subtitle="Serving patients across Sonipat, Murthal, Kundli and all nearby sectors."
+    breadcrumb={[{ label: "Locations" }]}
+  />
+
+  <section class="py-12">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
+        {locations.map((location) => (
+          <a
+            href={`/locations/${location.slug}/`}
+            class="group flex items-center gap-3 bg-white rounded-xl p-4 shadow-sm hover:shadow-md border border-slate-100 hover:border-accent/30 transition-all"
+          >
+            <MapPin className="w-6 h-6 text-accent shrink-0" />
+            <div>
+              <h3 class="font-semibold text-brand-dark group-hover:text-accent transition-colors">
+                {location.heading}
+              </h3>
+              <p class="text-xs text-muted">Dental clinic near you</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <ContentPage html={html} faqs={faqs} />
+</BaseLayout>

@@ -1,0 +1,31 @@
+---
+interface Props {
+  label?: string;
+  title: string;
+  description?: string;
+  centered?: boolean;
+  light?: boolean;
+}
+
+const { label, title, description, centered = true, light = false } = Astro.props;
+---
+
+<div class:list={["mb-12", centered && "text-center"]}>
+  {label && (
+    <div class:list={["flex items-center gap-3 mb-3", centered ? "justify-center" : "justify-start"]}>
+      <span class:list={["h-[1px] w-8", light ? "bg-accent-light/40" : "bg-accent/40"]}></span>
+      <p class:list={["font-semibold uppercase tracking-wider text-xs", light ? "text-accent-light" : "text-accent"]}>
+        {label}
+      </p>
+      <span class:list={["h-[1px] w-8", light ? "bg-accent-light/40" : "bg-accent/40"]}></span>
+    </div>
+  )}
+  <h2 class:list={["font-display text-3xl md:text-4xl font-bold mb-4 tracking-tight leading-tight", light ? "text-white" : "text-brand"]}>
+    {title}
+  </h2>
+  {description && (
+    <p class:list={["leading-relaxed max-w-2xl text-sm sm:text-base", centered && "mx-auto", light ? "text-white/85" : "text-slate-500"]}>
+      {description}
+    </p>
+  )}
+</div>

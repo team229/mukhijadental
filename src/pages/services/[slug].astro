@@ -11,7 +11,7 @@ import TestimonialCarousel from "../../components/react/TestimonialCarousel";
 import CaseImageSlider from "../../components/react/CaseImageSlider";
 import { services } from "../../data/pages";
 import { getPageContent, contentToHtml } from "../../utils/content";
-import { getSubTreatments, caseImages } from "../../data/serviceDetails";
+import { getSubTreatments, getCaseImages } from "../../data/serviceDetails";
 import { whyChooseUsPoints, technologyItems } from "../../data/homepage";
 import { clinicVideo } from "../../data/images";
 import { faqs } from "../../data/site";
@@ -31,7 +31,7 @@ const pageFaqs = contentFaqs.length > 0 ? contentFaqs : faqs;
 const serviceName = service.heading.replace(/ in Sonipat$/i, "");
 ---
 
-<BaseLayout title={service.title} description={service.description}>
+<BaseLayout title={service.title} description={service.description} faqs={pageFaqs}>
   <!-- Section 1: Banner with form -->
   <BannerWithForm
     label="Dental Services"
@@ -95,7 +95,7 @@ const serviceName = service.heading.replace(/ in Sonipat$/i, "");
         title="Service Cases"
         description="Real treatment outcomes from patients who trusted Mukhija Dental & Implant Centre."
       />
-      <CaseImageSlider client:visible images={caseImages} />
+      <CaseImageSlider client:visible images={getCaseImages(service.slug)} />
     </div>
   </section>
 

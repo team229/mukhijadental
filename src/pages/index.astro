@@ -1,44 +1,85 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import BannerWithForm from "../components/BannerWithForm.astro";
 import SectionHeading from "../components/SectionHeading.astro";
-import SplitSection from "../components/SplitSection.astro";
 import GoogleMap from "../components/GoogleMap.astro";
 import ContentPage from "../components/ContentPage.astro";
 import AppointmentForm from "../components/react/AppointmentForm";
 import VideoSection from "../components/react/VideoSection";
 import TestimonialCarousel from "../components/react/TestimonialCarousel";
+import BeforeAfterSlider from "../components/react/BeforeAfterSlider";
 import { staticPages } from "../data/pages";
 import { siteConfig, faqs } from "../data/site";
 import { getPageContent, contentToHtml } from "../utils/content";
-import BeforeAfterSlider from "../components/react/BeforeAfterSlider";
-import {
-  doctors,
-  allServices,
-  technologyItems,
-  whyChooseUsPoints,
-  smileMakeoverImage,
-} from "../data/homepage";
+import { doctors, allServices, technologyItems, whyChooseUsPoints } from "../data/homepage";
 import { clinicVideo } from "../data/images";
+import { Check, Phone, Star } from "lucide-react";
 
 const page = staticPages.home;
 const lines = getPageContent(page.contentKey);
 const { html } = contentToHtml(lines);
 ---
 
-<BaseLayout title={page.title} description={page.description}>
+<BaseLayout title={page.title} description={page.description} faqs={faqs}>
 
-  <!-- Section 1: Banner with form -->
-  <BannerWithForm
-    label="Best Dental Clinic in Sonipat"
-    title="Mukhija Dental & Implant Centre"
-    description="Comprehensive dental care for your whole family — implants, braces, root canal, cosmetic dentistry and more under one roof in Model Town, Sonipat."
-    image="/images/clinic/exterior/entry-gate-new.jpeg"
-  >
-    <AppointmentForm client:visible compact={true} />
-  </BannerWithForm>
+  <!-- Section 1: Hero — content left, appointment form right -->
+  <section class="relative overflow-hidden bg-white">
+    <div class="absolute inset-0">
+      <img
+        src="/images/clinic/exterior/entry-gate-new.jpeg"
+        alt="Mukhija Dental & Implant Centre"
+        class="w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 bg-gradient-to-r from-white via-white/92 to-white/60"></div>
+    </div>
 
-  <!-- Section 2: Video -->
+    <div class="relative max-w-7xl mx-auto px-4 py-16 md:py-24">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <!-- Left: content -->
+        <div class="text-left">
+          <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/10 border border-accent/20 text-accent text-xs font-bold uppercase tracking-widest mb-6">
+            Best Dental Clinic in Sonipat
+          </span>
+          <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-5 leading-[1.08] tracking-tight text-brand-dark">
+            Mukhija Dental &amp; Implant Centre
+          </h1>
+          <p class="text-slate-600 text-base sm:text-lg leading-relaxed max-w-xl mb-8">
+            Comprehensive dental care for your whole family — implants, braces, root canal, cosmetic dentistry and more under one roof in Model Town, Sonipat.
+          </p>
+
+          <div class="flex flex-wrap items-center gap-x-8 gap-y-3 mb-9">
+            <div class="flex items-center gap-2">
+              <div class="flex gap-0.5 text-yellow-400">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <Star key={i} className="w-4 h-4 fill-current" />
+                ))}
+              </div>
+              <span class="text-sm text-slate-700"><strong class="font-semibold">{siteConfig.googleRating}</strong> <span class="text-muted">on Google</span></span>
+            </div>
+            <span class="h-5 w-px bg-slate-200 hidden sm:block"></span>
+            <span class="inline-flex items-center gap-2 text-sm text-slate-700">
+              <Check className="w-4 h-4 text-accent" /> NABH Accredited Facility
+            </span>
+          </div>
+
+          <div class="flex flex-wrap items-center gap-4">
+            <a href={`tel:${siteConfig.phone}`} class="inline-flex items-center gap-2 px-7 py-3.5 bg-accent hover:bg-accent-light text-white font-bold rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 text-sm uppercase tracking-wider">
+              <Phone className="w-4 h-4" /> {siteConfig.phone}
+            </a>
+            <a href="/contact-us/" class="inline-flex items-center gap-2 px-7 py-3.5 bg-white hover:bg-surface border border-slate-300 text-slate-700 font-semibold rounded-xl transition-all duration-300 text-sm">
+              Book Appointment
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: appointment form -->
+        <div class="lg:justify-self-end w-full max-w-md">
+          <AppointmentForm client:visible />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Clinic tour video -->
   <VideoSection
     client:visible
     poster="/images/clinic/treatment/modern-treatment-room.jpeg"
@@ -49,9 +90,9 @@ const { html } = contentToHtml(lines);
   />
 
   <!-- Section 3: About Us -->
-  <section class="py-14 md:py-20 bg-surface">
+  <section class="py-16 md:py-24 bg-white">
     <div class="max-w-7xl mx-auto px-4">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
         <div>
           <SectionHeading
             label="About Us"
@@ -59,65 +100,84 @@ const { html } = contentToHtml(lines);
             description="Welcome to Mukhija Dental & Implant Centre, the trusted dental clinic in Model Town, Sonepat. Our multispeciality setup brings together experts in dental surgery to provide top-quality care."
             centered={false}
           />
-          <p class="text-slate-600 leading-relaxed mb-4">
+          <p class="text-slate-600 leading-relaxed mb-7 max-w-lg">
             We specialize in dental implants, teeth whitening, porcelain veneers, smile corrections, root canal treatment, gum surgery, braces, kids dentistry, laser dentistry, and more — all under one roof.
           </p>
-          <a href="/team-of-specialists/" class="text-accent font-semibold hover:underline">Meet Our Team →</a>
+          <a href="/team-of-specialists/" class="group inline-flex items-center gap-2 text-accent font-semibold hover:underline">
+            Meet Our Team
+            <span class="transition-transform duration-200 group-hover:translate-x-1">→</span>
+          </a>
         </div>
-        <div class="grid grid-cols-2 gap-4">
-          <div class="col-span-2 rounded-3xl overflow-hidden shadow-lg aspect-[16/9]">
-            <img src="/images/clinic/exterior/clinic-front.webp" alt="Clinic exterior" class="w-full h-full object-cover" loading="lazy" />
+
+        <div class="relative">
+          <div class="grid grid-cols-2 gap-4">
+            <div class="col-span-2 rounded-2xl overflow-hidden border border-slate-200 shadow-sm aspect-[16/9]">
+              <img src="/images/clinic/exterior/clinic-front.webp" alt="Clinic exterior" class="w-full h-full object-cover" loading="lazy" />
+            </div>
+            <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-sm aspect-square">
+              <img src="/images/clinic/reception/reception-3.jpeg" alt="Reception area" class="w-full h-full object-cover" loading="lazy" />
+            </div>
+            <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-sm aspect-square">
+              <img src="/images/clinic/reception/waiting-area-3.webp" alt="Waiting area" class="w-full h-full object-cover" loading="lazy" />
+            </div>
           </div>
-          <div class="rounded-3xl overflow-hidden shadow-lg aspect-square">
-            <img src="/images/clinic/reception/reception-3.jpeg" alt="Reception area" class="w-full h-full object-cover" loading="lazy" />
-          </div>
-          <div class="rounded-3xl overflow-hidden shadow-lg aspect-square">
-            <img src="/images/clinic/reception/waiting-area-3.webp" alt="Waiting area" class="w-full h-full object-cover" loading="lazy" />
+          <div class="absolute -bottom-5 left-1/2 -translate-x-1/2 bg-white rounded-xl shadow-lg border border-slate-200 px-5 py-3.5 flex items-center gap-3">
+            <span class="w-10 h-10 rounded-full bg-accent/10 text-accent flex items-center justify-center">
+              <Star className="w-5 h-5 fill-current" />
+            </span>
+            <div>
+              <p class="font-bold text-brand-dark leading-tight">{siteConfig.googleRating} / 5</p>
+              <p class="text-xs text-muted">Google Rating</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Section 4: Why Choose Us — text left, image right -->
-  <SplitSection
-    label="Why Choose Us"
-    title="Why Patients Call Us the Best Dentist in Sonipat"
-    description="A good dentist doesn't just fix teeth — they build a relationship with your mouth over time."
-    image="/images/clinic/treatment/modern-treatment-room.jpeg"
-    imageAlt="Modern dental treatment at Mukhija Dental"
-  >
-    <ul class="space-y-4">
-      {whyChooseUsPoints.map((point) => (
-        <li class="flex gap-3">
-          <span class="shrink-0 w-8 h-8 bg-accent/10 text-accent rounded-full flex items-center justify-center font-bold text-sm">✓</span>
-          <div>
-            <p class="font-semibold text-brand-dark">{point.title}</p>
-            <p class="text-sm text-slate-600">{point.description}</p>
+  <!-- Section 4: Why Choose Us -->
+  <section class="py-16 md:py-24 bg-surface">
+    <div class="max-w-7xl mx-auto px-4">
+      <SectionHeading
+        label="Why Choose Us"
+        title="Why Patients Call Us the Best Dentist in Sonipat"
+        description="A good dentist doesn't just fix teeth — they build a relationship with your mouth over time."
+      />
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {whyChooseUsPoints.map((point) => (
+          <div class="bg-white rounded-2xl p-7 border border-slate-200 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+            <span class="w-11 h-11 rounded-xl bg-accent/10 text-accent flex items-center justify-center mb-5">
+              <Check className="w-6 h-6" />
+            </span>
+            <h3 class="font-semibold text-brand-dark mb-1.5 leading-snug">{point.title}</h3>
+            <p class="text-sm text-slate-600 leading-relaxed">{point.description}</p>
           </div>
-        </li>
-      ))}
-    </ul>
-  </SplitSection>
+        ))}
+      </div>
+    </div>
+  </section>
 
   <!-- Section 5: Meet Our Doctors -->
-  <section class="py-14 md:py-20 bg-surface">
+  <section class="py-16 md:py-24 bg-white">
     <div class="max-w-7xl mx-auto px-4">
       <SectionHeading
         label="Our Specialists"
         title="Meet Our Doctors"
         description="Experienced specialists dedicated to gentle, precise, patient-first dental care."
       />
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
         {doctors.map((doctor) => (
-          <div class="bg-white rounded-3xl overflow-hidden shadow-lg border border-slate-100">
-            <div class="aspect-[4/3] overflow-hidden bg-slate-100">
-              <img src={doctor.image} alt={doctor.name} class="w-full h-full object-cover object-top" loading="lazy" />
+          <div class="group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300">
+            <div class="relative aspect-[4/3] overflow-hidden">
+              <img src={doctor.image} alt={doctor.name} class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+              <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/40 to-transparent"></div>
+              <span class="absolute bottom-4 left-4 inline-flex px-3 py-1 bg-white/90 backdrop-blur text-accent text-[11px] font-bold uppercase tracking-wider rounded-full">
+                {doctor.credentials}
+              </span>
             </div>
-            <div class="p-6">
-              <h3 class="font-display text-xl font-bold text-brand">{doctor.name}</h3>
-              <p class="text-accent text-sm font-medium mb-1">{doctor.credentials}</p>
-              <p class="text-sm text-muted mb-3">{doctor.specialty}</p>
+            <div class="p-7">
+              <h3 class="font-display text-2xl font-bold text-brand tracking-tight">{doctor.name}</h3>
+              <p class="text-accent text-sm font-medium mt-1 mb-3">{doctor.specialty}</p>
               <p class="text-sm text-slate-600 leading-relaxed">{doctor.bio}</p>
             </div>
           </div>
@@ -126,26 +186,27 @@ const { html } = contentToHtml(lines);
     </div>
   </section>
 
-  <!-- Section 6: Our Services — 2 per row -->
-  <section class="py-14 md:py-20">
+  <!-- Section 6: Our Services -->
+  <section class="py-16 md:py-24 bg-surface">
     <div class="max-w-7xl mx-auto px-4">
       <SectionHeading
         label="Treatments"
         title="Our Services"
         description="Comprehensive dental care under one roof — from routine checkups to complex implant surgery."
       />
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {allServices.map((service) => (
-          <a href={service.href} class="group flex gap-5 bg-white rounded-[2rem] overflow-hidden shadow-md hover:shadow-2xl border border-slate-100 hover:border-accent/30 transition-all duration-300 hover:-translate-y-1">
-            <div class="w-36 md:w-44 shrink-0 overflow-hidden relative">
-              <img src={service.image} alt={service.title} class="w-full h-full object-cover group-hover:scale-108 transition-transform duration-500 min-h-[140px]" loading="lazy" />
-              <div class="absolute inset-0 bg-brand/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <a href={service.href} class="group flex flex-col bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+            <div class="relative aspect-[16/11] overflow-hidden">
+              <img src={service.image} alt={service.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+              <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <span class="absolute top-4 left-4 inline-flex w-9 h-9 bg-accent text-white items-center justify-center rounded-full shadow-lg opacity-0 group-hover:opacity-100 translate-y-1 group-hover:translate-y-0 transition-all duration-300">→</span>
             </div>
-            <div class="p-5 flex flex-col justify-center">
-              <h3 class="font-semibold text-lg text-brand-dark group-hover:text-accent transition-colors mb-2 leading-snug">{service.title}</h3>
-              <p class="text-xs sm:text-sm text-slate-500 leading-relaxed mb-3">{service.description}</p>
-              <span class="text-accent text-xs sm:text-sm font-bold flex items-center gap-1">
-                Read More <span class="transition-transform duration-200 group-hover:translate-x-1">→</span>
+            <div class="p-6 flex flex-col flex-1">
+              <h3 class="font-display font-bold text-brand-dark group-hover:text-accent transition-colors mb-2 leading-tight">{service.title}</h3>
+              <p class="text-sm text-slate-500 leading-relaxed mb-5 flex-1">{service.description}</p>
+              <span class="text-accent text-xs font-bold uppercase tracking-wider flex items-center gap-1.5">
+                Read More <span class="transition-transform duration-200 group-hover:translate-x-1.5">→</span>
               </span>
             </div>
           </a>
@@ -155,7 +216,7 @@ const { html } = contentToHtml(lines);
   </section>
 
   <!-- Section 7: Latest Technologies -->
-  <section class="py-14 md:py-20 bg-surface">
+  <section class="py-16 md:py-24 bg-white">
     <div class="max-w-7xl mx-auto px-4">
       <SectionHeading
         label="Innovation"
@@ -164,13 +225,13 @@ const { html } = contentToHtml(lines);
       />
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {technologyItems.map((tech) => (
-          <div class="bg-white rounded-3xl overflow-hidden shadow-md border border-slate-100 hover:shadow-lg transition-shadow">
+          <div class="group bg-surface rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-lg transition-all duration-300">
             <div class="aspect-[16/10] overflow-hidden">
-              <img src={tech.image} alt={tech.title} class="w-full h-full object-cover" loading="lazy" />
+              <img src={tech.image} alt={tech.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
             </div>
-            <div class="p-5">
-              <h3 class="font-semibold text-brand-dark mb-2">{tech.title}</h3>
-              <p class="text-sm text-slate-600">{tech.description}</p>
+            <div class="p-6">
+              <h3 class="font-display font-bold text-brand-dark mb-2 leading-snug">{tech.title}</h3>
+              <p class="text-sm text-slate-600 leading-relaxed">{tech.description}</p>
             </div>
           </div>
         ))}
@@ -179,55 +240,62 @@ const { html } = contentToHtml(lines);
   </section>
 
   <!-- Section 8: Smile Makeover — Before/After Comparison Slider -->
-  <section class="py-14 md:py-20">
+  <section class="py-16 md:py-24 bg-surface">
     <div class="max-w-7xl mx-auto px-4">
       <SectionHeading
         label="Transformations"
         title="Smile Makeover"
         description="Drag the slider below to see how teeth spacing and misalignment are corrected into a straight, bright smile."
       />
-      <div class="max-w-3xl mx-auto mt-10">
-        <BeforeAfterSlider 
+      <div class="max-w-3xl mx-auto mt-6">
+        <BeforeAfterSlider
           client:visible
-          beforeImage="/images/clinic/gallery/teeth-before.png" 
+          beforeImage="/images/clinic/gallery/teeth-before.png"
           afterImage="/images/clinic/gallery/teeth-after.png"
           beforeLabel="Before: Teeth Spacing Gaps"
           afterLabel="After: Perfectly Aligned & Fixed Teeth"
         />
       </div>
       <div class="text-center mt-10">
-        <a href="/patient-gallery/" class="inline-flex px-8 py-3.5 bg-accent hover:bg-accent-light text-brand-dark font-bold uppercase tracking-wider text-xs rounded-xl transition-all duration-300 shadow-md hover:shadow-2xl hover:-translate-y-0.5">
+        <a href="/patient-gallery/" class="group inline-flex items-center gap-2 px-8 py-3.5 bg-accent hover:bg-accent-light text-white font-bold uppercase tracking-wider text-xs rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5">
           View Patient Gallery
+          <span class="transition-transform duration-200 group-hover:translate-x-1">→</span>
         </a>
       </div>
     </div>
   </section>
 
   <!-- Section 9: Teledentistry -->
-  <section class="py-14 md:py-20 bg-gradient-to-br from-brand to-brand-dark text-white">
+  <section class="py-16 md:py-24 bg-white">
     <div class="max-w-7xl mx-auto px-4">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-        <div>
-          <SectionHeading
-            label="Teledentistry"
-            title="Teledentistry Now Available"
-            description="Connect with our dentists over video for an assessment of your dental needs. We can evaluate your concern remotely and schedule an in-person appointment if needed."
-            centered={false}
-            light={true}
-          />
-          <a href="/contact-us/" class="inline-flex px-8 py-3.5 bg-white text-brand font-semibold rounded-full hover:bg-surface transition-colors">
-            Book Online Consultation
-          </a>
+      <div class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-brand to-brand-dark text-white shadow-xl">
+        <div class="pointer-events-none absolute inset-0 opacity-[0.06]">
+          <div class="absolute -top-24 -left-20 w-96 h-96 rounded-full bg-white"></div>
+          <div class="absolute -bottom-32 -right-16 w-[28rem] h-[28rem] rounded-full bg-white"></div>
         </div>
-        <div class="rounded-3xl overflow-hidden shadow-2xl aspect-video">
-          <img src="/images/clinic/treatment/consultation-desk.jpeg" alt="Teledentistry consultation" class="w-full h-full object-cover" loading="lazy" />
+        <div class="relative grid grid-cols-1 lg:grid-cols-2 gap-12 items-center p-8 md:p-14">
+          <div>
+            <SectionHeading
+              label="Teledentistry"
+              title="Teledentistry Now Available"
+              description="Connect with our dentists over video for an assessment of your dental needs. We can evaluate your concern remotely and schedule an in-person appointment if needed."
+              centered={false}
+              light={true}
+            />
+            <a href="/contact-us/" class="group inline-flex items-center gap-2 px-8 py-3.5 bg-white text-brand-dark font-semibold rounded-xl hover:bg-surface transition-all duration-300">
+              Book Online Consultation <span class="transition-transform duration-200 group-hover:translate-x-1">→</span>
+            </a>
+          </div>
+          <div class="rounded-2xl overflow-hidden shadow-2xl aspect-video border-4 border-white/10">
+            <img src="/images/clinic/treatment/consultation-desk.jpeg" alt="Teledentistry consultation" class="w-full h-full object-cover" loading="lazy" />
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Section 10: Google Reviews -->
-  <section class="py-14 md:py-20 bg-surface">
+  <section class="py-16 md:py-24 bg-surface">
     <div class="max-w-7xl mx-auto px-4">
       <SectionHeading
         label="Reviews"
@@ -240,28 +308,32 @@ const { html } = contentToHtml(lines);
     </div>
   </section>
 
-  <!-- Section 11: FAQs -->
-  <section class="py-14 md:py-20">
+  <!-- SEO Content -->
+  <ContentPage html={html} showForm={false} />
+
+  <!-- Section 12: Maps -->
+  <GoogleMap />
+
+  <!-- Section 13: FAQs — just before the footer -->
+  <section class="py-16 md:py-24 bg-white">
     <div class="max-w-3xl mx-auto px-4">
       <SectionHeading label="FAQ" title="Frequently Asked Questions" />
       <div class="space-y-4">
-        {faqs.map((faq) => (
-          <details class="group bg-surface rounded-2xl p-5 border border-slate-100">
-            <summary class="font-semibold text-brand-dark cursor-pointer list-none flex items-center justify-between">
-              {faq.question}
-              <span class="text-accent group-open:rotate-180 transition-transform">▾</span>
+        {faqs.map((faq, i) => (
+          <details class="group bg-surface rounded-2xl border border-slate-200 overflow-hidden transition-all duration-300" open={i === 0}>
+            <summary class="flex items-center justify-between gap-4 p-5 font-semibold text-brand-dark cursor-pointer list-none">
+              <span class="flex items-center gap-3 text-left">
+                <span class="font-display font-bold text-accent text-sm">{String(i + 1).padStart(2, "0")}</span>
+                {faq.question}
+              </span>
+              <span class="shrink-0 w-8 h-8 rounded-full bg-accent/10 text-accent flex items-center justify-center transition-transform duration-200 group-open:rotate-180">▾</span>
             </summary>
-            <p class="mt-3 text-slate-600 leading-relaxed">{faq.answer}</p>
+            <p class="px-5 pb-5 text-slate-600 leading-relaxed">{faq.answer}</p>
           </details>
         ))}
       </div>
     </div>
   </section>
 
-  <!-- SEO Content -->
-  <ContentPage html={html} showForm={false} />
-
-  <!-- Section 12: Maps -->
-  <GoogleMap />
 
 </BaseLayout>

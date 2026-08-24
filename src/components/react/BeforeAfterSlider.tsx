@@ -78,7 +78,7 @@ export default function BeforeAfterSlider({
         className="absolute top-0 bottom-0 w-1 bg-white cursor-ew-resize z-30 shadow-2xl"
         style={{ left: `${sliderPosition}%` }}
       >
-        <div className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-12 h-12 bg-accent hover:bg-accent-light text-brand-dark rounded-full flex items-center justify-center shadow-2xl border-4 border-white transition-all duration-150 scale-100 hover:scale-110 active:scale-95">
+        <div className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-12 h-12 bg-accent hover:bg-accent-light text-white rounded-full flex items-center justify-center shadow-2xl border-4 border-white transition-all duration-150 scale-100 hover:scale-110 active:scale-95">
           <span className="text-xl font-bold select-none">↔</span>
         </div>
       </div>

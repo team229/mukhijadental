@@ -22,7 +22,6 @@ export const navigation = [
       { label: "Team of Specialists", href: "/team-of-specialists/" },
       { label: "Clinic Tour", href: "/clinic-tour/" },
       { label: "Technology", href: "/technology/" },
-      { label: "Articles", href: "/articles/" },
     ],
   },
   {
@@ -62,6 +61,7 @@ export const navigation = [
     ],
   },
   { label: "Smile Analysis", href: "/smile-analysis/" },
+  { label: "Blog", href: "/blog/" },
   {
     label: "Locations",
     href: "/locations/",

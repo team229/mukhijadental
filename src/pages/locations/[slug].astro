@@ -27,7 +27,7 @@ const { html, faqs: contentFaqs } = contentToHtml(lines);
 const pageFaqs = contentFaqs.length > 0 ? contentFaqs : faqs;
 ---
 
-<BaseLayout title={location.title} description={location.description}>
+<BaseLayout title={location.title} description={location.description} faqs={pageFaqs}>
   <!-- Section 1: Banner with form -->
   <BannerWithForm
     label="Locations"

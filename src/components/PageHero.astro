@@ -1,4 +1,6 @@
 ---
+import { siteConfig } from "../data/site";
+
 interface Props {
   title: string;
   subtitle?: string;
@@ -6,6 +8,29 @@ interface Props {
 }
 
 const { title, subtitle, breadcrumb } = Astro.props;
+
+const breadcrumbSchema =
+  breadcrumb && breadcrumb.length > 0
+    ? {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: siteConfig.url },
+          ...breadcrumb.map((item, i) => ({
+            "@type": "ListItem",
+            position: i + 2,
+            name: item.label,
+            ...(item.href ? { item: new URL(item.href, siteConfig.url).href } : {}),
+          })),
+          {
+            "@type": "ListItem",
+            position: breadcrumb.length + 2,
+            name: title,
+            item: new URL(Astro.url.pathname, siteConfig.url).href,
+          },
+        ],
+      }
+    : null;
 ---
 
 <section class="relative bg-gradient-to-br from-brand via-brand-dark to-brand text-white py-16 md:py-20 overflow-hidden">
@@ -33,3 +58,7 @@ const { title, subtitle, breadcrumb } = Astro.props;
     {subtitle && <p class="text-lg text-white/80 max-w-2xl">{subtitle}</p>}
   </div>
 </section>
+
+{breadcrumbSchema && (
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+)}

@@ -1,0 +1,46 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHero from "../../components/PageHero.astro";
+import { blogPosts, formatBlogDate } from "../../data/blogs";
+---
+
+<BaseLayout
+  title="Dental Health Blogs | Mukhija Dental Clinic, Sonipat"
+  description="Read expert dental health blogs by Mukhija Dental Clinic, Sonipat. Practical, honest guidance on implants, braces, root canals and everyday dental care."
+>
+  <PageHero
+    title="Dental Health Blogs"
+    subtitle="Practical, honest dental advice from the chair in Model Town — no jargon, no fluff, just guidance from a dental clinic that treats real patients every day."
+    breadcrumb={[{ label: "Blog" }]}
+  />
+
+  <section class="py-12 md:py-16">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {blogPosts.map((post) => (
+          <a
+            href={`/blog/${post.slug}/`}
+            class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl border border-slate-100 hover:border-accent/30 transition-all flex flex-col"
+          >
+            <div class="aspect-[16/10] overflow-hidden">
+              <img
+                src={post.image}
+                alt={post.title}
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+              />
+            </div>
+            <div class="p-6 flex flex-col flex-1">
+              <p class="text-xs uppercase tracking-wider text-slate-400 mb-2">{formatBlogDate(post.date)}</p>
+              <h3 class="font-display text-lg font-bold text-brand-dark group-hover:text-accent transition-colors mb-3 leading-snug line-clamp-3">
+                {post.title}
+              </h3>
+              <p class="text-sm text-slate-600 mb-4 line-clamp-3">{post.description}</p>
+              <span class="mt-auto text-accent text-sm font-medium">Read Article →</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

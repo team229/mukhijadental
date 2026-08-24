@@ -1,59 +1,64 @@
 ---
 import { siteConfig, navigation } from "../data/site";
 import MobileNav from "./react/MobileNav";
-import { Phone, Mail, MapPin, Check } from "lucide-react";
+import { Phone, Mail, ChevronDown } from "lucide-react";
 ---
 
-<div class="bg-brand text-white text-[11px] hidden lg:block border-b border-brand-light">
-  <div class="max-w-7xl mx-auto px-4 py-1.5 flex flex-wrap items-center justify-between gap-2">
-    <div class="flex flex-wrap items-center gap-4">
-      <a href={`tel:${siteConfig.phone}`} class="hover:text-accent-light transition-colors flex items-center gap-1.5">
-        <Phone className="w-3.5 h-3.5 text-accent-light" /> {siteConfig.phone}
+<!-- Brand masthead (scrolls away) -->
+<div class="bg-gradient-to-br from-brand-dark via-brand to-brand text-white relative overflow-hidden">
+  <div class="pointer-events-none absolute inset-0 opacity-[0.08]">
+    <div class="absolute -top-12 -left-12 w-72 h-72 rounded-full bg-white"></div>
+    <div class="absolute -bottom-20 -right-12 w-80 h-80 rounded-full bg-accent-light"></div>
+  </div>
+
+  <div class="relative mx-auto max-w-7xl px-4 py-7 md:py-9 flex flex-wrap items-center justify-between gap-4">
+    <a href="/" class="flex items-center gap-3" aria-label="Mukhija Dental & Implant Centre home">
+      <img src="/logo-white.png" alt={siteConfig.name} class="h-11 w-11 md:h-12 md:w-12 rounded-xl object-contain" />
+      <div>
+        <p class="font-display font-extrabold text-xl md:text-2xl leading-tight tracking-tight">Dr. Mukhija's</p>
+        <p class="text-[10px] md:text-[11px] font-medium text-white/70 tracking-[0.2em] uppercase">Dental &amp; Implant Centre</p>
+      </div>
+    </a>
+
+    <div class="hidden md:flex items-center gap-6">
+      <a href={`tel:${siteConfig.phone}`} class="hover:text-accent-light transition-colors inline-flex items-center gap-2 text-sm font-medium">
+        <Phone className="w-4 h-4 text-accent-light" /> {siteConfig.phone}
       </a>
-      <span class="opacity-30">|</span>
-      <a href={`mailto:${siteConfig.email}`} class="hover:text-accent-light transition-colors flex items-center gap-1.5">
-        <Mail className="w-3.5 h-3.5 text-accent-light" /> {siteConfig.email}
+      <a href={`mailto:${siteConfig.email}`} class="hover:text-accent-light transition-colors inline-flex items-center gap-2 text-sm font-medium">
+        <Mail className="w-4 h-4 text-accent-light" /> {siteConfig.email}
       </a>
-    </div>
-    <div class="flex items-center gap-4">
-      <span class="bg-accent text-brand-dark px-2.5 py-0.5 rounded font-bold text-[9px] tracking-wider uppercase flex items-center gap-1">
-        <Check className="w-2.5 h-2.5 text-brand-dark stroke-[3]" /> NABH Accredited Facility
-      </span>
-      <span class="opacity-30">|</span>
-      <span class="flex items-center gap-1.5">
-        <MapPin className="w-3.5 h-3.5 text-accent-light" /> {siteConfig.address}
-      </span>
+      <a
+        href="/contact-us/"
+        class="inline-flex items-center px-5 py-2.5 bg-white hover:bg-surface text-brand font-bold text-xs uppercase tracking-wider rounded-xl shadow-md hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
+      >
+        Book Appointment
+      </a>
     </div>
   </div>
 </div>
 
-<header class="sticky top-0 z-50 bg-white shadow-sm border-b border-slate-100">
-  <div class="max-w-7xl mx-auto px-4">
-    <div class="flex items-center justify-between h-14">
-      <a href="/" class="flex items-center gap-2 shrink-0">
-        <img src="/logo.png" alt={siteConfig.name} class="h-10 w-10 rounded-lg object-contain" />
-        <div class="hidden sm:block">
-          <p class="font-display font-bold text-brand text-base leading-tight">Dr. Mukhija's</p>
-          <p class="text-[10px] text-muted tracking-wide uppercase">Dental & Implant Centre</p>
-        </div>
-      </a>
-
-      <nav class="hidden xl:flex items-center gap-1">
-        {navigation.map((item) => (
+<!-- Sticky navigation bar (menu only, centered) -->
+<div class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200/70 shadow-sm">
+  <div class="mx-auto max-w-7xl px-4">
+    <div class="relative flex items-center justify-center h-16">
+      <nav class="hidden xl:flex items-center gap-2" aria-label="Main navigation">
+        {navigation.map((item) =>
           item.children ? (
-            <div class="relative group">
+            <div class="relative group" key={item.label}>
               <a
                 href={item.href === "#" ? item.children[0].href : item.href}
-                class="px-3 py-2 text-sm font-medium text-slate-700 hover:text-accent transition-colors rounded-lg hover:bg-surface"
+                class="group/link relative inline-flex items-center gap-1 px-4 py-2 text-sm font-medium whitespace-nowrap text-slate-600 hover:text-accent transition-colors"
               >
-                {item.label} ▾
+                {item.label}
+                <ChevronDown className="w-3.5 h-3.5 transition-transform duration-200 group-hover:rotate-180" />
+                <span class="pointer-events-none absolute inset-x-4 bottom-0.5 h-0.5 rounded-full bg-accent origin-center scale-x-0 group-hover/link:scale-x-100 transition-transform duration-300"></span>
               </a>
-              <div class="absolute left-0 top-full pt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                <div class="bg-white rounded-xl shadow-xl border border-slate-100 py-2 min-w-[240px] max-h-[400px] overflow-y-auto">
+              <div class="absolute left-0 top-full pt-3 opacity-0 invisible translate-y-1 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200">
+                <div class="bg-white rounded-2xl shadow-xl border border-slate-200 p-2 min-w-[230px]">
                   {item.children.map((child) => (
                     <a
                       href={child.href}
-                      class="block px-4 py-2 text-sm text-slate-600 hover:bg-surface hover:text-accent transition-colors"
+                      class="block px-4 py-2.5 text-sm text-slate-600 hover:bg-surface hover:text-accent rounded-xl transition-colors whitespace-nowrap"
                     >
                       {child.label}
                     </a>
@@ -64,23 +69,18 @@ import { Phone, Mail, MapPin, Check } from "lucide-react";
           ) : (
             <a
               href={item.href}
-              class="px-3 py-2 text-sm font-medium text-slate-700 hover:text-accent transition-colors rounded-lg hover:bg-surface"
+              class="group/link relative inline-flex items-center px-4 py-2 text-sm font-medium whitespace-nowrap text-slate-600 hover:text-accent transition-colors"
             >
               {item.label}
+              <span class="pointer-events-none absolute inset-x-4 bottom-0.5 h-0.5 rounded-full bg-accent origin-center scale-x-0 group-hover/link:scale-x-100 transition-transform duration-300"></span>
             </a>
           )
-        ))}
+        )}
       </nav>
 
-      <div class="flex items-center gap-3">
-        <a
-          href="/contact-us/"
-          class="hidden md:inline-flex items-center px-6 py-2.5 bg-brand hover:bg-brand-light border border-accent/20 hover:border-accent/40 text-white hover:text-accent-light text-xs font-bold uppercase tracking-wider rounded-xl transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-0.5"
-        >
-          Book Appointment
-        </a>
+      <div class="xl:hidden absolute right-0">
         <MobileNav client:load />
       </div>
     </div>
   </div>
-</header>
+</div>

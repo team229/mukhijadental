@@ -8,11 +8,34 @@ interface Props {
   title: string;
   description: string;
   canonical?: string;
+  noindex?: boolean;
+  faqs?: { question: string; answer: string }[];
 }
 
-const { title, description, canonical } = Astro.props;
+const { title, description, canonical, noindex = false, faqs } = Astro.props;
 const pageTitle = title.includes(siteConfig.shortName) ? title : `${title} | ${siteConfig.shortName}`;
 const canonicalUrl = canonical ?? new URL(Astro.url.pathname, siteConfig.url).href;
+
+const openingDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const openingHoursSpecification = openingDays.map((dayOfWeek) => ({
+  "@type": "OpeningHoursSpecification",
+  "dayOfWeek": dayOfWeek,
+  "opens": "09:30",
+  "closes": "19:00",
+}));
+
+const faqSchema =
+  faqs && faqs.length > 0
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqs.map((f) => ({
+          "@type": "Question",
+          "name": f.question,
+          "acceptedAnswer": { "@type": "Answer", "text": f.answer },
+        })),
+      }
+    : null;
 ---
 
 <!doctype html>
@@ -20,16 +43,19 @@ const canonicalUrl = canonical ?? new URL(Astro.url.pathname, siteConfig.url).hr
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalUrl} />
     <link rel="icon" type="image/png" href="/logo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={`${siteConfig.url}/images/clinic/exterior/clinic-front.webp`} />
+    <meta name="twitter:card" content="summary_large_image" />
     <title>{pageTitle}</title>
   </head>
   <body class="min-h-screen flex flex-col">
@@ -46,8 +72,11 @@ const canonicalUrl = canonical ?? new URL(Astro.url.pathname, siteConfig.url).hr
   "@type": "Dentist",
   "name": siteConfig.name,
   "url": siteConfig.url,
+  "image": `${siteConfig.url}/images/clinic/exterior/clinic-front.webp`,
+  "logo": `${siteConfig.url}/logo.png`,
   "telephone": siteConfig.phone,
   "email": siteConfig.email,
+  "priceRange": "₹₹",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Sonipat",
@@ -55,9 +84,15 @@ const canonicalUrl = canonical ?? new URL(Astro.url.pathname, siteConfig.url).hr
     "addressCountry": "IN",
     "streetAddress": siteConfig.address,
   },
+  "openingHoursSpecification": openingHoursSpecification,
+  "areaServed": ["Sonipat", "Sonepat", "Murthal", "Kundli", "Haryana"],
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": siteConfig.googleRating,
     "reviewCount": siteConfig.googleReviews,
   },
 })} />
+
+{faqSchema && (
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+)}

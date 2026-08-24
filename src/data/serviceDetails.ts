@@ -44,3 +44,16 @@ export const caseImages = [
   { src: "/images/clinic/gallery/teeth-cleaning-procedure.jpeg", alt: "Teeth cleaning case" },
   { src: "/images/clinic/gallery/crown-bridges-treatment.jpeg", alt: "Crown and bridge treatment result" },
 ];
+
+export const caseImagesByService: Record<string, { src: string; alt: string }[]> = {
+  "dental-implants": [
+    { src: "/images/clinic/gallery/clinic-18.jpeg", alt: "Missing and damaged teeth before implant treatment" },
+    { src: "/images/clinic/gallery/clinic-19.jpeg", alt: "Teeth restored after implant treatment" },
+    { src: "/images/clinic/gallery/clinic-21.jpeg", alt: "Gap from a missing tooth before implant placement" },
+    { src: "/images/clinic/gallery/clinic-22.jpeg", alt: "Gap closed after implant-supported restoration" },
+  ],
+};
+
+export function getCaseImages(slug: string) {
+  return caseImagesByService[slug] ?? caseImages;
+}

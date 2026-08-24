@@ -1,0 +1,45 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHero from "../../components/PageHero.astro";
+import ContentPage from "../../components/ContentPage.astro";
+import { blogPosts, getBlogBySlug, formatBlogDate } from "../../data/blogs";
+
+export function getStaticPaths() {
+  return blogPosts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { html, faqs, title, metaTitle, metaDescription, date } = post;
+const dateLabel = formatBlogDate(date);
+const canonical = new URL(`/blog/${post.slug}/`, Astro.site ?? "https://mukhijadentalclinic.com").href;
+---
+
+<BaseLayout title={metaTitle} description={metaDescription} canonical={canonical}>
+  <PageHero
+    title={title}
+    subtitle={dateLabel}
+    breadcrumb={[{ label: "Blog", href: "/blog/" }, { label: "Article" }]}
+  />
+
+  <ContentPage html={html} faqs={faqs} showForm={true} />
+</BaseLayout>
+
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": title,
+  "datePublished": date,
+  "mainEntityOfPage": canonical,
+  "publisher": {
+    "@type": "Organization",
+    "name": "Mukhija Dental & Implant Centre",
+    "url": "https://mukhijadentalclinic.com",
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Mukhija Dental & Implant Centre",
+  },
+})} />

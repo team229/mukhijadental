@@ -4,8 +4,8 @@ import MobileNav from "./react/MobileNav";
 import { Phone, Mail, ChevronDown } from "lucide-react";
 ---
 
-<!-- Brand masthead (scrolls away) -->
-<div class="bg-gradient-to-br from-brand-dark via-brand to-brand text-white relative overflow-hidden">
+<!-- Brand masthead (desktop only, scrolls away) -->
+<div class="hidden xl:block bg-gradient-to-br from-brand-dark via-brand to-brand text-white relative overflow-hidden">
   <div class="pointer-events-none absolute inset-0 opacity-[0.08]">
     <div class="absolute -top-12 -left-12 w-72 h-72 rounded-full bg-white"></div>
     <div class="absolute -bottom-20 -right-12 w-80 h-80 rounded-full bg-accent-light"></div>
@@ -37,10 +37,20 @@ import { Phone, Mail, ChevronDown } from "lucide-react";
   </div>
 </div>
 
-<!-- Sticky navigation bar (menu only, centered) -->
-<div class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200/70 shadow-sm">
+<!-- Sticky navigation bar -->
+<div class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-slate-200/70 shadow-sm">
   <div class="mx-auto max-w-7xl px-4">
-    <div class="relative flex items-center justify-center h-16">
+    <div class="flex items-center justify-between h-16">
+      <!-- Logo (mobile / tablet only; the desktop rail is menu-only) -->
+      <div class="flex-1 flex items-center">
+        <a href="/" class="xl:hidden flex items-center gap-2.5" aria-label="Mukhija Dental & Implant Centre">
+          <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-brand-dark via-brand to-brand">
+            <img src="/logo-white.png" alt={siteConfig.name} class="h-8 w-8 object-contain" />
+          </span>
+          <span class="font-display font-bold text-brand text-base tracking-tight">Dr. Mukhija's</span>
+        </a>
+      </div>
+
       <nav class="hidden xl:flex items-center gap-2" aria-label="Main navigation">
         {navigation.map((item) =>
           item.children ? (
@@ -78,7 +88,7 @@ import { Phone, Mail, ChevronDown } from "lucide-react";
         )}
       </nav>
 
-      <div class="xl:hidden absolute right-0">
+      <div class="flex-1 flex items-center justify-end">
         <MobileNav client:load />
       </div>
     </div>

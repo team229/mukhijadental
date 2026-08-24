@@ -22,67 +22,76 @@ const { html } = contentToHtml(lines);
 <BaseLayout title={page.title} description={page.description} faqs={faqs}>
 
   <!-- Section 1: Hero — content left, appointment form right -->
-  <section class="relative overflow-hidden bg-white">
+  <section class="relative overflow-hidden bg-brand-dark">
     <div class="absolute inset-0">
       <img
         src="/images/clinic/exterior/entry-gate-new.jpeg"
-        alt="Mukhija Dental & Implant Centre"
-        class="w-full h-full object-cover"
+        alt="Mukhija Dental & Implant Centre entrance"
+        class="w-full h-full object-cover hero-bg"
       />
-      <div class="absolute inset-0 bg-gradient-to-r from-white via-white/92 to-white/60"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-brand-dark/75 via-brand-dark/45 to-brand/10"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/25 to-transparent"></div>
     </div>
 
-    <div class="relative max-w-7xl mx-auto px-4 py-16 md:py-24">
+    <div class="relative max-w-7xl mx-auto px-4 py-12 md:py-24">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        <!-- Left: content -->
-        <div class="text-left">
-          <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/10 border border-accent/20 text-accent text-xs font-bold uppercase tracking-widest mb-6">
+        <!-- Content (centered on mobile, left on desktop) -->
+        <div class="text-center lg:text-left text-white">
+          <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/15 border border-white/25 text-white text-xs font-bold uppercase tracking-widest mb-6 backdrop-blur-sm">
+            <span class="w-1.5 h-1.5 rounded-full bg-accent-light"></span>
             Best Dental Clinic in Sonipat
           </span>
-          <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-5 leading-[1.08] tracking-tight text-brand-dark">
+          <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-5 leading-[1.08] tracking-tight text-white">
             Mukhija Dental &amp; Implant Centre
           </h1>
-          <p class="text-slate-600 text-base sm:text-lg leading-relaxed max-w-xl mb-8">
+          <p class="text-white/85 text-base sm:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0 mb-7">
             Comprehensive dental care for your whole family — implants, braces, root canal, cosmetic dentistry and more under one roof in Model Town, Sonipat.
           </p>
 
-          <div class="flex flex-wrap items-center gap-x-8 gap-y-3 mb-9">
+          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-x-8 gap-y-3 mb-8">
             <div class="flex items-center gap-2">
               <div class="flex gap-0.5 text-yellow-400">
                 {Array.from({ length: 5 }).map((_, i) => (
                   <Star key={i} className="w-4 h-4 fill-current" />
                 ))}
               </div>
-              <span class="text-sm text-slate-700"><strong class="font-semibold">{siteConfig.googleRating}</strong> <span class="text-muted">on Google</span></span>
+              <span class="text-sm text-white/90"><strong class="font-semibold text-white">{siteConfig.googleRating}</strong> <span class="text-white/70">on Google</span></span>
             </div>
-            <span class="h-5 w-px bg-slate-200 hidden sm:block"></span>
-            <span class="inline-flex items-center gap-2 text-sm text-slate-700">
-              <Check className="w-4 h-4 text-accent" /> NABH Accredited Facility
+            <span class="h-5 w-px bg-white/25 hidden sm:block"></span>
+            <span class="inline-flex items-center gap-2 text-sm text-white/90">
+              <Check className="w-4 h-4 text-accent-light" /> NABH Accredited Facility
             </span>
           </div>
 
-          <div class="flex flex-wrap items-center gap-4">
-            <a href={`tel:${siteConfig.phone}`} class="inline-flex items-center gap-2 px-7 py-3.5 bg-accent hover:bg-accent-light text-white font-bold rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 text-sm uppercase tracking-wider">
+          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4">
+            <a href={`tel:${siteConfig.phone}`} class="inline-flex items-center gap-2 px-7 py-3.5 bg-accent hover:bg-accent-light text-white font-bold rounded-xl shadow-xl hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300 text-sm uppercase tracking-wider">
               <Phone className="w-4 h-4" /> {siteConfig.phone}
             </a>
-            <a href="/contact-us/" class="inline-flex items-center gap-2 px-7 py-3.5 bg-white hover:bg-surface border border-slate-300 text-slate-700 font-semibold rounded-xl transition-all duration-300 text-sm">
+            <a href="/contact-us/" class="inline-flex items-center gap-2 px-7 py-3.5 bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold rounded-xl transition-all duration-300 text-sm">
               Book Appointment
             </a>
           </div>
         </div>
 
-        <!-- Right: appointment form -->
-        <div class="lg:justify-self-end w-full max-w-md">
+        <!-- Right: appointment form (desktop only) -->
+        <div class="hidden lg:block lg:justify-self-end w-full max-w-md">
           <AppointmentForm client:visible />
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Section 1b: Appointment form (mobile only, clean band) -->
+  <section class="lg:hidden bg-surface py-12 px-4">
+    <div class="max-w-md mx-auto">
+      <AppointmentForm client:visible />
+    </div>
+  </section>
+
   <!-- Section 2: Clinic tour video -->
   <VideoSection
     client:visible
-    poster="/images/clinic/treatment/modern-treatment-room.jpeg"
+    poster="/images/clinic/treatment/doctor-table.webp"
     videoSrc={clinicVideo}
     label="Clinic Tour"
     title="Take a Virtual Tour of Our Clinic"
@@ -335,5 +344,16 @@ const { html } = contentToHtml(lines);
     </div>
   </section>
 
-
 </BaseLayout>
+
+<style>
+  .hero-bg {
+    transform: translate(-5rem, 5rem) scale(1.5);
+    transform-origin: center;
+  }
+  @media (max-width: 1023px) {
+    .hero-bg {
+      transform: none;
+    }
+  }
+</style>

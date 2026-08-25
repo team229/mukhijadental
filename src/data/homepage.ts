@@ -8,18 +8,18 @@ export interface Doctor {
 
 export const doctors: Doctor[] = [
   {
-    name: "Dr. Shikha Mukhija",
-    credentials: "B.D.S., M.D.S.",
-    specialty: "Cosmetic Dentist & Endodontist",
-    image: "/images/doctors/dr-shikha-mukhija.jpg",
-    bio: "Specialist in cosmetic dentistry, root canal treatment, and smile makeovers with a gentle, patient-first approach.",
-  },
-  {
     name: "Dr. Bhupesh Mukhija",
     credentials: "B.D.S., M.D.S.",
-    specialty: "Prosthodontist & Implantologist",
+    specialty: "Endodontist",
     image: "/images/doctors/dr-bhupesh-mukhija.jpg",
-    bio: "Expert in dental implants, crowns, bridges, and full-mouth rehabilitation with precision planning and care.",
+    bio: "Specialist in Single Sitting Root Canal Treatment, Crowns, Bridges and Full Mouth Rehabilitation with precision planning and care.",
+  },
+  {
+    name: "Dr. Shikha Mukhija",
+    credentials: "B.D.S., M.D.S.",
+    specialty: "Periodontist & Implantologist",
+    image: "/images/doctors/dr-shikha-mukhija.jpg",
+    bio: "Specializes in Gum Care, Implants and Smile Makeover with a gentle patient-first approach.",
   },
 ];
 
@@ -28,15 +28,16 @@ export interface ServiceItem {
   description: string;
   href: string;
   image: string;
+  alt?: string;
 }
 
 export const allServices: ServiceItem[] = [
-  { title: "Dental Implants", description: "Permanent tooth replacement with precision-planned implant treatment.", href: "/services/dental-implants/", image: "/images/clinic/gallery/clinic-08.jpeg" },
+  { title: "Dental Implants", description: "Permanent tooth replacement with precision-planned implant treatment.", href: "/services/dental-implants/", image: "/images/clinic/gallery/dental-implants-before-after.jpeg", alt: "Dental implants before and after — full-arch dental implant treatment" },
   { title: "Cosmetic Dentistry", description: "Smile makeovers, veneers, and teeth whitening for a confident smile.", href: "/services/cosmetic-dentistry/", image: "/images/clinic/gallery/cosmetic-treatment.jpeg" },
   { title: "Gums Treatment", description: "Expert care for bleeding gums, gum disease, and laser gum procedures.", href: "/services/gums-treatment/", image: "/images/clinic/gallery/gum-treatment.jpeg" },
   { title: "Kids Dentistry", description: "Gentle pediatric dental care for children of all ages.", href: "/services/kids-dentistry/", image: "/images/clinic/gallery/paediatric-dentistry.jpeg" },
   { title: "Teeth Cleaning", description: "Professional scaling, polishing, and ultrasonic teeth cleaning.", href: "/services/teeth-cleaning/", image: "/images/clinic/gallery/teeth-cleaning-procedure.jpeg" },
-  { title: "Orthodontics Treatment", description: "Braces, clear aligners, and Invisalign for straighter teeth.", href: "/services/orthodontics-treatment/", image: "/images/clinic/gallery/clinic-21.jpeg" },
+  { title: "Orthodontics Treatment", description: "Braces, clear aligners, and Invisalign for straighter teeth.", href: "/services/orthodontics-treatment/", image: "/images/clinic/gallery/orthodontics.jpeg" },
   { title: "Maxillofacial Surgery", description: "Wisdom tooth removal and complex oral surgical procedures.", href: "/services/maxillofacial-surgery/", image: "/images/clinic/treatment/modern-treatment-room.jpeg" },
   { title: "Emergency Dentistry", description: "Urgent care for broken teeth, injuries, and dental emergencies.", href: "/services/emergency-dentistry/", image: "/images/clinic/gallery/treatment-broken-teeth.jpeg" },
   { title: "Crowns & Bridges", description: "Metal-free zirconia crowns and bridges for lasting restoration.", href: "/services/crowns-bridges/", image: "/images/clinic/gallery/crown-bridges-treatment.jpeg" },

@@ -60,8 +60,8 @@ export const services: PageMeta[] = [
     "slug": "emergency-dentistry",
     "heading": "Emergency Dentistry in Sonipat",
     "contentKey": "Emergency Dentistry - Dental Clinic",
-    "title": "Emergency Dentistry in Sonipat",
-    "description": "Emergency Dentistry in Sonipat"
+    "title": "Emergency Dentist in Sonipat | Broken Tooth & Tooth Injury – Mukhija Dental",
+    "description": "Broken tooth or dental injury? Mukhija Dental Clinic, Sonipat offers prompt emergency dental care with transparent treatment cost."
   },
   {
     "slug": "crowns-bridges",
@@ -244,7 +244,7 @@ export const staticPages: Record<string, PageMeta> = {
     "slug": "team-of-specialists",
     "heading": "Team of Specialists",
     "contentKey": "Team of Specialists - Dental Clinic",
-    "title": "Team of Specialists",
+    "title": "Our Dental Team | Best Dentist in Sonipat – Mukhija Dental",
     "description": "Meet the specialists behind Mukhija Dental Clinic, Sonipat — experienced dentists focused on gentle, precise, patient-first care."
   },
   "clinic-tour": {

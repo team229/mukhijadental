@@ -390,7 +390,7 @@ export const blogPosts: BlogPost[] = [
     metaDescription:
       "Finding the best dental clinic in Sonipat is about more than the nearest one. A patient-first guide to choosing the right dentist in Sonipat, from Mukhija Dental Clinic.",
     date: "2026-07-10",
-    image: "/images/doctors/dr-bhupesh-mukhija.jpg",
+    image: "/images/doctors/dr-bhupesh-mukhija.jpg?v=2",
     html: `
 <p>If you've typed "dentist near me" into Google at 11 PM because a tooth started throbbing out of nowhere, you already know the problem with dental searches. You get twenty results, all claiming to be the "best dental clinic in Sonipat," and no real way to tell which one actually knows what they're doing.</p>
 <p>I get it. Picking a dentist isn't like picking a restaurant. If the food's bad, you just don't go back. If a dentist gets it wrong, you're dealing with pain, extra cost, and sometimes damage that's hard to undo. So this guide is meant to cut through the noise a bit — what to actually look for in a dental clinic in Sonipat, and why we built Mukhija Dental Clinic the way we did.</p>

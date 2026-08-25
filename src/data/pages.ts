@@ -12,7 +12,7 @@ export const services: PageMeta[] = [
     "slug": "dental-implants",
     "heading": "Dental Implants in Sonipat",
     "contentKey": "Dental Implants Page - Dental Clinic",
-    "heroImage": "/images/services/dental-implants.jpg",
+    "heroImage": "/images/services/dental-implants.jpg?v=2",
     "title": "Dental Implants in Sonipat | Cost & Best Implant Dentist – Mukhija Dental",
     "description": "Considering dental implants in Sonipat? Get expert care, transparent implant costs, and long-lasting results at Mukhija Dental Clinic."
   },
@@ -20,7 +20,7 @@ export const services: PageMeta[] = [
     "slug": "cosmetic-dentistry",
     "heading": "Cosmetic Dentistry in Sonipat",
     "contentKey": "Cosmetic Dentistry - Dental Clinic",
-    "heroImage": "/images/services/cosmetic-dentistry.jpg",
+    "heroImage": "/images/services/cosmetic-dentistry.jpg?v=2",
     "title": "Cosmetic Dentistry in Sonipat | Veneers & Teeth Whitening – Mukhija Dental",
     "description": "Explore veneers, teeth whitening & smile makeovers at Mukhija Dental Clinic, Sonipat. Transparent veneer costs and natural-looking results."
   },
@@ -28,7 +28,7 @@ export const services: PageMeta[] = [
     "slug": "gums-treatment",
     "heading": "Gums Treatment in Sonipat",
     "contentKey": "Gum Treatment - Dental Clinic",
-    "heroImage": "/images/services/gums-treatment.jpg",
+    "heroImage": "/images/services/gums-treatment.jpg?v=2",
     "title": "Gum Treatment in Sonipat | Bleeding Gums Doctor – Mukhija Dental",
     "description": "Bleeding or swollen gums? Mukhija Dental Clinic, Sonipat offers expert gum treatment with transparent costs. Book a consultation today."
   },
@@ -36,7 +36,7 @@ export const services: PageMeta[] = [
     "slug": "kids-dentistry",
     "heading": "Kids Dentistry in Sonipat",
     "contentKey": "Kids Dentistry - Dental Clinic",
-    "heroImage": "/images/services/kids-dentistry.jpg",
+    "heroImage": "/images/services/kids-dentistry.jpg?v=2",
     "title": "Pediatric Dentist in Sonipat | Kids Dentistry – Mukhija Dental",
     "description": "Gentle, patient-friendly pediatric dental care in Sonipat. Mukhija Dental Clinic helps kids feel comfortable from their very first visit."
   },
@@ -44,7 +44,7 @@ export const services: PageMeta[] = [
     "slug": "teeth-cleaning",
     "heading": "Teeth Cleaning in Sonipat",
     "contentKey": "Teeth Cleaning - Dental Clinic",
-    "heroImage": "/images/services/teeth-cleaning.jpg",
+    "heroImage": "/images/services/teeth-cleaning.jpg?v=2",
     "title": "Teeth Cleaning in Sonipat | Scaling & Polishing Cost – Mukhija Dental",
     "description": "Professional teeth cleaning and scaling in Sonipat. Mukhija Dental Clinic offers gentle, thorough cleaning with transparent pricing."
   },
@@ -52,7 +52,7 @@ export const services: PageMeta[] = [
     "slug": "orthodontics-treatment",
     "heading": "Orthodontics Treatment in Sonipat",
     "contentKey": "Orthodontics Treatment - Dental Clinic",
-    "heroImage": "/images/services/orthodontics.jpg",
+    "heroImage": "/images/services/orthodontics.jpg?v=2",
     "title": "Braces & Invisalign in Sonipat | Orthodontist – Mukhija Dental",
     "description": "Straighten your smile with braces or Invisalign in Sonipat. Mukhija Dental Clinic offers expert orthodontic care with transparent cost guidance."
   },
@@ -60,7 +60,7 @@ export const services: PageMeta[] = [
     "slug": "maxillofacial-surgery",
     "heading": "Maxillofacial Surgery in Sonipat",
     "contentKey": "Maxillofacial Surgery - Dental Clinic",
-    "heroImage": "/images/services/maxillofacial-surgery.jpg",
+    "heroImage": "/images/services/maxillofacial-surgery.jpg?v=2",
     "title": "Wisdom Tooth Removal & Extractions in Sonipat | Mukhija Dental",
     "description": "Impacted wisdom tooth or need an extraction? Mukhija Dental Clinic, Sonipat offers safe, expert oral surgery with transparent cost guidance."
   },
@@ -68,7 +68,7 @@ export const services: PageMeta[] = [
     "slug": "emergency-dentistry",
     "heading": "Emergency Dentistry in Sonipat",
     "contentKey": "Emergency Dentistry - Dental Clinic",
-    "heroImage": "/images/services/emergency-dentistry.jpg",
+    "heroImage": "/images/services/emergency-dentistry.jpg?v=2",
     "title": "Emergency Dentist in Sonipat | Broken Tooth & Tooth Injury – Mukhija Dental",
     "description": "Broken tooth or dental injury? Mukhija Dental Clinic, Sonipat offers prompt emergency dental care with transparent treatment cost."
   },
@@ -76,7 +76,7 @@ export const services: PageMeta[] = [
     "slug": "crowns-bridges",
     "heading": "Crowns & Bridges in Sonipat",
     "contentKey": "Crowns & Bridges - Dental Clinic",
-    "heroImage": "/images/services/crowns-bridges.jpg",
+    "heroImage": "/images/services/crowns-bridges.jpg?v=2",
     "title": "Dental Crowns & Bridges in Sonipat | Zirconia Crown Cost – Mukhija Dental",
     "description": "Need a tooth cap or bridge? Mukhija Dental Clinic, Sonipat offers durable crowns and bridges, including zirconia, with transparent pricing."
   },
@@ -84,7 +84,7 @@ export const services: PageMeta[] = [
     "slug": "root-canal",
     "heading": "Root Canal Treatment in Sonipat",
     "contentKey": "Root Canal Treatment - Dental Clinic",
-    "heroImage": "/images/services/root-canal.jpg",
+    "heroImage": "/images/services/root-canal.jpg?v=2",
     "title": "Root Canal Treatment in Sonipat | Cost & Single Sitting RCT",
     "description": "Root canal treatment in Sonipat, done right. Mukhija Dental Clinic offers precise, comfortable RCT with transparent cost guidance."
   },
@@ -92,7 +92,7 @@ export const services: PageMeta[] = [
     "slug": "oral-cancer-detection",
     "heading": "Oral Cancer Detection in Sonipat",
     "contentKey": "Oral Cancer Detection - Dental Clinic",
-    "heroImage": "/images/services/oral-cancer-detection.jpg",
+    "heroImage": "/images/services/oral-cancer-detection.jpg?v=2",
     "title": "Oral Cancer Screening in Sonipat | Symptoms & Detection – Mukhija Dental",
     "description": "Regular oral cancer screening at Mukhija Dental Clinic, Sonipat. Learn key symptoms and why early detection matters for treatment outcomes."
   },
@@ -100,7 +100,7 @@ export const services: PageMeta[] = [
     "slug": "painless-dental-treatment",
     "heading": "Painless Dental Treatment in Sonipat",
     "contentKey": "Painless Dental Treatment - Dental Clinic",
-    "heroImage": "/images/services/painless-dental-treatment.jpg",
+    "heroImage": "/images/services/painless-dental-treatment.jpg?v=2",
     "title": "Painless Dental Treatment in Sonipat | Painless RCT – Mukhija Dental",
     "description": "Nervous about pain at the dentist? Mukhija Dental Clinic, Sonipat offers gentle, painless dental treatment, including painless RCT."
   }

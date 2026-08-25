@@ -1,0 +1,27 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHero from "../../components/PageHero.astro";
+import ContentPage from "../../components/ContentPage.astro";
+import VideoTestimonialGrid from "../../components/react/VideoTestimonialGrid";
+import { getCredibilityBySlug } from "../../data/pages";
+import { getPageContent, contentToHtml } from "../../utils/content";
+
+const page = getCredibilityBySlug("video-testimonials")!;
+const lines = getPageContent(page.contentKey);
+const { html, faqs } = contentToHtml(lines);
+---
+
+<BaseLayout title={page.title} description={page.description}>
+  <PageHero
+    title={page.heading}
+    subtitle={page.description}
+    breadcrumb={[
+      { label: "Credibility", href: "/credibility/" },
+      { label: "Video Testimonials" },
+    ]}
+  />
+
+  <VideoTestimonialGrid client:visible />
+
+  <ContentPage html={html} faqs={faqs} />
+</BaseLayout>

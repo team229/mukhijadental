@@ -32,33 +32,34 @@ export interface ServiceItem {
 }
 
 export const allServices: ServiceItem[] = [
-  { title: "Dental Implants", description: "Permanent tooth replacement with precision-planned implant treatment.", href: "/services/dental-implants/", image: "/images/clinic/gallery/dental-implants-before-after.jpeg", alt: "Dental implants before and after — full-arch dental implant treatment" },
-  { title: "Cosmetic Dentistry", description: "Smile makeovers, veneers, and teeth whitening for a confident smile.", href: "/services/cosmetic-dentistry/", image: "/images/clinic/gallery/cosmetic-treatment.jpeg" },
-  { title: "Gums Treatment", description: "Expert care for bleeding gums, gum disease, and laser gum procedures.", href: "/services/gums-treatment/", image: "/images/clinic/gallery/gum-treatment.jpeg" },
-  { title: "Kids Dentistry", description: "Gentle pediatric dental care for children of all ages.", href: "/services/kids-dentistry/", image: "/images/clinic/gallery/paediatric-dentistry.jpeg" },
-  { title: "Teeth Cleaning", description: "Professional scaling, polishing, and ultrasonic teeth cleaning.", href: "/services/teeth-cleaning/", image: "/images/clinic/gallery/teeth-cleaning-procedure.jpeg" },
-  { title: "Orthodontics Treatment", description: "Braces, clear aligners, and Invisalign for straighter teeth.", href: "/services/orthodontics-treatment/", image: "/images/clinic/gallery/orthodontics.jpeg" },
-  { title: "Maxillofacial Surgery", description: "Wisdom tooth removal and complex oral surgical procedures.", href: "/services/maxillofacial-surgery/", image: "/images/clinic/treatment/modern-treatment-room.jpeg" },
-  { title: "Emergency Dentistry", description: "Urgent care for broken teeth, injuries, and dental emergencies.", href: "/services/emergency-dentistry/", image: "/images/clinic/gallery/treatment-broken-teeth.jpeg" },
-  { title: "Crowns & Bridges", description: "Metal-free zirconia crowns and bridges for lasting restoration.", href: "/services/crowns-bridges/", image: "/images/clinic/gallery/crown-bridges-treatment.jpeg" },
-  { title: "Root Canal Treatment", description: "Painless single-sitting RCT with microscopic precision.", href: "/services/root-canal/", image: "/images/clinic/gallery/single-sitting-rct.jpeg" },
-  { title: "Oral Cancer Detection", description: "Early screening and detection for better treatment outcomes.", href: "/services/oral-cancer-detection/", image: "/images/clinic/gallery/oral-cancer-diagnosis.jpeg" },
-  { title: "Painless Dental Treatment", description: "Comfort-first dentistry including painless root canal procedures.", href: "/services/painless-dental-treatment/", image: "/images/clinic/treatment/consultation-desk.jpeg" },
+  { title: "Dental Implants", description: "Permanent tooth replacement with precision-planned implant treatment.", href: "/services/dental-implants/", image: "/images/services/dental-implants.jpg", alt: "Dental implants — dentist placing a titanium implant in a modern operatory" },
+  { title: "Cosmetic Dentistry", description: "Smile makeovers, veneers, and teeth whitening for a confident smile.", href: "/services/cosmetic-dentistry/", image: "/images/services/cosmetic-dentistry.jpg", alt: "Cosmetic dentistry — dentist applying a porcelain veneer" },
+  { title: "Gums Treatment", description: "Expert care for bleeding gums, gum disease, and laser gum procedures.", href: "/services/gums-treatment/", image: "/images/services/gums-treatment.jpg", alt: "Gums treatment — laser gum procedure" },
+  { title: "Kids Dentistry", description: "Gentle pediatric dental care for children of all ages.", href: "/services/kids-dentistry/", image: "/images/services/kids-dentistry.jpg", alt: "Kids dentistry — dentist showing a child a tooth model" },
+  { title: "Teeth Cleaning", description: "Professional scaling, polishing, and ultrasonic teeth cleaning.", href: "/services/teeth-cleaning/", image: "/images/services/teeth-cleaning.jpg", alt: "Teeth cleaning — ultrasonic scaling procedure" },
+  { title: "Orthodontics Treatment", description: "Braces, clear aligners, and Invisalign for straighter teeth.", href: "/services/orthodontics-treatment/", image: "/images/services/orthodontics.jpg", alt: "Orthodontics — clear aligner fitting" },
+  { title: "Maxillofacial Surgery", description: "Wisdom tooth removal and complex oral surgical procedures.", href: "/services/maxillofacial-surgery/", image: "/images/services/maxillofacial-surgery.jpg", alt: "Maxillofacial surgery — oral surgical procedure" },
+  { title: "Emergency Dentistry", description: "Urgent care for broken teeth, injuries, and dental emergencies.", href: "/services/emergency-dentistry/", image: "/images/services/emergency-dentistry.jpg", alt: "Emergency dentistry — examining a broken tooth" },
+  { title: "Crowns & Bridges", description: "Metal-free zirconia crowns and bridges for lasting restoration.", href: "/services/crowns-bridges/", image: "/images/services/crowns-bridges.jpg", alt: "Crowns and bridges — placing a ceramic crown" },
+  { title: "Root Canal Treatment", description: "Painless single-sitting RCT with microscopic precision.", href: "/services/root-canal/", image: "/images/services/root-canal.jpg", alt: "Root canal treatment — endodontic procedure" },
+  { title: "Oral Cancer Detection", description: "Early screening and detection for better treatment outcomes.", href: "/services/oral-cancer-detection/", image: "/images/services/oral-cancer-detection.jpg", alt: "Oral cancer detection — mouth screening" },
+  { title: "Painless Dental Treatment", description: "Comfort-first dentistry including painless root canal procedures.", href: "/services/painless-dental-treatment/", image: "/images/services/painless-dental-treatment.jpg", alt: "Painless dental treatment — relaxed patient consultation" },
 ];
 
 export interface TechnologyItem {
   title: string;
   description: string;
   image: string;
+  alt?: string;
 }
 
 export const technologyItems: TechnologyItem[] = [
-  { title: "Digital Panoramic X-Ray", description: "Full-mouth digital imaging for precise diagnosis and treatment planning.", image: "/images/clinic/gallery/single-sitting-rct.jpeg" },
-  { title: "Modern Treatment Units", description: "State-of-the-art dental chairs with advanced instrument delivery systems.", image: "/images/clinic/treatment/modern-treatment-room.jpeg" },
-  { title: "Digital Diagnostics", description: "In-house digital X-rays and OPG for faster, accurate diagnoses.", image: "/images/clinic/gallery/clinic-05.jpeg" },
-  { title: "Microscopic Dentistry", description: "Precision root canal and restorative work under magnification.", image: "/images/clinic/gallery/clinic-10.jpeg" },
-  { title: "Ultrasonic Cleaning", description: "Comfortable, thorough teeth cleaning with ultrasonic technology.", image: "/images/clinic/gallery/teeth-cleaning-procedure.jpeg" },
-  { title: "Advanced Implant Planning", description: "Detailed imaging for precise dental implant placement.", image: "/images/clinic/gallery/clinic-08.jpeg" },
+  { title: "Digital Panoramic X-Ray", description: "Full-mouth digital imaging for precise diagnosis and treatment planning.", image: "/images/technology/panoramic-xray.jpg", alt: "Digital panoramic X-ray machine imaging a patient" },
+  { title: "Modern Treatment Units", description: "State-of-the-art dental chairs with advanced instrument delivery systems.", image: "/images/technology/treatment-units.jpg", alt: "Sleek modern dental treatment chair unit" },
+  { title: "Digital Diagnostics", description: "In-house digital X-rays and OPG for faster, accurate diagnoses.", image: "/images/technology/digital-diagnostics.jpg", alt: "Digital intraoral sensor with instant X-ray on monitor" },
+  { title: "Microscopic Dentistry", description: "Precision root canal and restorative work under magnification.", image: "/images/technology/microscopic-dentistry.jpg", alt: "Dental operating microscope for precision dentistry" },
+  { title: "Ultrasonic Cleaning", description: "Comfortable, thorough teeth cleaning with ultrasonic technology.", image: "/images/technology/ultrasonic-cleaning.jpg", alt: "Ultrasonic scaler gently cleaning teeth" },
+  { title: "Advanced Implant Planning", description: "Detailed imaging for precise dental implant placement.", image: "/images/technology/implant-planning.jpg", alt: "3D implant planning software on monitor" },
 ];
 
 export const whyChooseUsPoints = [

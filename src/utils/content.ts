@@ -20,6 +20,7 @@ export function contentToHtml(lines: string[]): { html: string; faqs: { question
     /^Meta Title:/,
     /^Meta Description:/,
     /^Mukhija Dental.*Content$/,
+    /\[Insert/i,
   ];
 
   for (const line of lines) {

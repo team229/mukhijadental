@@ -78,6 +78,20 @@ export const heroSlides = [
 
 export const clinicVideo = "/images/clinic/video/clinic-tour.mp4";
 
+export const clinicTourImages: ClinicImage[] = [
+  { src: "/images/clinic/exterior/clinic-front.webp", alt: "Clinic front exterior", category: "exterior" },
+  { src: "/images/clinic/exterior/entry-gate-new.jpeg", alt: "Glass entrance with logo", category: "exterior" },
+  { src: "/images/clinic/exterior/clinic-board.webp", alt: "Clinics signage", category: "exterior" },
+  { src: "/images/clinic/reception/reception-1.jpeg", alt: "Reception and waiting area", category: "reception" },
+  { src: "/images/clinic/reception/waiting-area-2.webp", alt: "Comfortable waiting room", category: "reception" },
+  { src: "/images/clinic/treatment/patient-chair-1.png", alt: "Dental chair and equipment", category: "treatment" },
+  { src: "/images/clinic/treatment/doctor-desk.jpeg", alt: "Doctor consultation desk", category: "treatment" },
+  { src: "/images/clinic/treatment/modern-treatment-room.jpeg", alt: "State-of-the-art treatment room", category: "treatment" },
+  { src: "/images/clinic/treatment/treatment-room-2.png", alt: "Modern multi-chair treatment room", category: "treatment" },
+  { src: "/images/clinic/gallery/clinic-03.jpeg", alt: "Digital X-ray machine", category: "treatment" },
+  { src: "/images/clinic/gallery/clinic-05.jpeg", alt: "Digital X-ray and OPG imaging desk", category: "treatment" },
+];
+
 export function getImagesByCategory(category: ClinicImage["category"]) {
   return clinicImages.filter((img) => img.category === category);
 }

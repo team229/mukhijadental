@@ -2,6 +2,8 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PageHero from "../components/PageHero.astro";
 import ContentPage from "../components/ContentPage.astro";
+import ContactPage from "../components/ContactPage.astro";
+import DoctorsSection from "../components/DoctorsSection.astro";
 import { staticPages } from "../data/pages";
 import { getPageContent, contentToHtml } from "../utils/content";
 
@@ -28,6 +30,22 @@ const { html, faqs } = contentToHtml(lines);
 ---
 
 <BaseLayout title={page.title} description={page.description} faqs={faqs}>
-  <PageHero title={page.heading} subtitle={page.description} />
-  <ContentPage html={html} faqs={faqs} showForm={pageKey === "contact-us"} />
+  {pageKey === "contact-us" ? (
+    <ContactPage html={html} faqs={faqs} />
+  ) : pageKey === "team-of-specialists" ? (
+    <>
+      <PageHero title={page.heading} subtitle={page.description} />
+      <DoctorsSection
+        label="Our Specialists"
+        title="Meet Our Doctors"
+        description="Experienced specialists dedicated to gentle, precise, patient-first dental care."
+      />
+      <ContentPage html={html} faqs={faqs} showForm={false} />
+    </>
+  ) : (
+    <>
+      <PageHero title={page.heading} subtitle={page.description} />
+      <ContentPage html={html} faqs={faqs} showForm={false} />
+    </>
+  )}
 </BaseLayout>

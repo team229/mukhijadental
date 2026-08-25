@@ -37,7 +37,7 @@ const serviceName = service.heading.replace(/ in Sonipat$/i, "");
     label="Dental Services"
     title={service.heading}
     description={service.description}
-    image={subTreatments[0]?.image ?? "/images/clinic/exterior/clinic-front.webp"}
+    image={service.heroImage ?? subTreatments[0]?.image ?? "/images/clinic/exterior/clinic-front.webp"}
   >
     <AppointmentForm client:visible compact={true} />
   </BannerWithForm>

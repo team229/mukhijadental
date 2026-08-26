@@ -41,7 +41,7 @@ export const allServices: ServiceItem[] = [
   { title: "Maxillofacial Surgery", description: "Wisdom tooth removal and complex oral surgical procedures.", href: "/services/maxillofacial-surgery/", image: "/images/services/maxillofacial-surgery.jpg?v=2", alt: "Maxillofacial surgery — oral surgical procedure" },
   { title: "Emergency Dentistry", description: "Urgent care for broken teeth, injuries, and dental emergencies.", href: "/services/emergency-dentistry/", image: "/images/services/emergency-dentistry.jpg?v=2", alt: "Emergency dentistry — examining a broken tooth" },
   { title: "Crowns & Bridges", description: "Metal-free zirconia crowns and bridges for lasting restoration.", href: "/services/crowns-bridges/", image: "/images/services/crowns-bridges.jpg?v=2", alt: "Crowns and bridges — placing a ceramic crown" },
-  { title: "Root Canal Treatment", description: "Painless single-sitting RCT with microscopic precision.", href: "/services/root-canal/", image: "/images/services/root-canal.jpg?v=2", alt: "Root canal treatment — endodontic procedure" },
+  { title: "Root Canal Treatment", description: "Painless single-sitting RCT with modern root canal systems.", href: "/services/root-canal/", image: "/images/services/root-canal.jpg?v=2", alt: "Root canal treatment — endodontic procedure" },
   { title: "Oral Cancer Detection", description: "Early screening and detection for better treatment outcomes.", href: "/services/oral-cancer-detection/", image: "/images/services/oral-cancer-detection.jpg?v=2", alt: "Oral cancer detection — mouth screening" },
   { title: "Painless Dental Treatment", description: "Comfort-first dentistry including painless root canal procedures.", href: "/services/painless-dental-treatment/", image: "/images/services/painless-dental-treatment.jpg?v=2", alt: "Painless dental treatment — relaxed patient consultation" },
 ];
@@ -57,14 +57,13 @@ export const technologyItems: TechnologyItem[] = [
   { title: "Digital Panoramic X-Ray", description: "Full-mouth digital imaging for precise diagnosis and treatment planning.", image: "/images/technology/panoramic-xray.jpg?v=2", alt: "Digital panoramic X-ray machine imaging a patient" },
   { title: "Modern Treatment Units", description: "State-of-the-art dental chairs with advanced instrument delivery systems.", image: "/images/technology/treatment-units.jpg?v=2", alt: "Sleek modern dental treatment chair unit" },
   { title: "Digital Diagnostics", description: "In-house digital X-rays and OPG for faster, accurate diagnoses.", image: "/images/technology/digital-diagnostics.jpg?v=2", alt: "Digital intraoral sensor with instant X-ray on monitor" },
-  { title: "Microscopic Dentistry", description: "Precision root canal and restorative work under magnification.", image: "/images/technology/microscopic-dentistry.jpg?v=2", alt: "Dental operating microscope for precision dentistry" },
   { title: "Ultrasonic Cleaning", description: "Comfortable, thorough teeth cleaning with ultrasonic technology.", image: "/images/technology/ultrasonic-cleaning.jpg?v=2", alt: "Ultrasonic scaler gently cleaning teeth" },
   { title: "Advanced Implant Planning", description: "Detailed imaging for precise dental implant placement.", image: "/images/technology/implant-planning.jpg?v=2", alt: "3D implant planning software on monitor" },
 ];
 
 export const whyChooseUsPoints = [
   { title: "Comprehensive care under one roof", description: "From routine cleanings to complex maxillofacial surgery — all handled here." },
-  { title: "Technology that actually matters", description: "Digital X-rays, microscopic dentistry, and ultrasonic cleaning for precise care." },
+  { title: "Technology that actually matters", description: "Digital X-rays, OPG, root canal systems, and ultrasonic cleaning for precise care." },
   { title: "Accessibility first", description: "Wheelchair-accessible parking and facilities for every patient." },
   { title: "Family dentist for all ages", description: "From toddlers to grandparents — care for every generation." },
 ];

@@ -17,6 +17,11 @@ import { Check, Phone, Star } from "lucide-react";
 const page = staticPages.home;
 const lines = getPageContent(page.contentKey);
 const { html } = contentToHtml(lines);
+
+const bookingPhones = [
+  { display: "9992023944", href: "tel:+919992023944" },
+  { display: "7206722618", href: "tel:+917206722618" },
+];
 ---
 
 <BaseLayout title={page.title} description={page.description} faqs={faqs}>
@@ -58,15 +63,14 @@ const { html } = contentToHtml(lines);
               <span class="text-sm text-white/90"><strong class="font-semibold text-white">{siteConfig.googleRating}</strong> <span class="text-white/70">on Google</span></span>
             </div>
             <span class="h-5 w-px bg-white/25 hidden sm:block"></span>
-            <span class="inline-flex items-center gap-2 text-sm text-white/90">
-              <Check className="w-4 h-4 text-accent-light" /> NABH Accredited Facility
-            </span>
           </div>
 
           <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4">
-            <a href={`tel:${siteConfig.phone}`} class="inline-flex items-center gap-2 px-7 py-3.5 bg-accent hover:bg-accent-light text-white font-bold rounded-xl shadow-xl hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300 text-sm uppercase tracking-wider">
-              <Phone className="w-4 h-4" /> {siteConfig.phone}
-            </a>
+            {bookingPhones.map((phone) => (
+              <a href={phone.href} class="inline-flex items-center gap-2 px-7 py-3.5 bg-accent hover:bg-accent-light text-white font-bold rounded-xl shadow-xl hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300 text-sm uppercase tracking-wider">
+                <Phone className="w-4 h-4" /> {phone.display}
+              </a>
+            ))}
             <a href="/contact-us/" class="inline-flex items-center gap-2 px-7 py-3.5 bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold rounded-xl transition-all duration-300 text-sm">
               Book Appointment
             </a>
@@ -112,9 +116,9 @@ const { html } = contentToHtml(lines);
           <p class="text-slate-600 leading-relaxed mb-7 max-w-lg">
             We specialize in dental implants, teeth whitening, porcelain veneers, smile corrections, root canal treatment, gum surgery, braces, kids dentistry, laser dentistry, and more — all under one roof.
           </p>
-          <a href="/team-of-specialists/" class="group inline-flex items-center gap-2 text-accent font-semibold hover:underline">
+          <a href="/team-of-specialists/" class="group inline-flex flex-wrap items-center gap-3 font-display text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight text-brand-dark hover:text-accent transition-colors">
             Meet Our Team
-            <span class="transition-transform duration-200 group-hover:translate-x-1">→</span>
+            <span class="text-accent transition-transform duration-200 group-hover:translate-x-1">→</span>
           </a>
         </div>
 

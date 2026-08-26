@@ -69,7 +69,7 @@ export const heroSlides = [
   {
     image: "/images/clinic/treatment/modern-treatment-room.jpeg",
     title: "Advanced Dental Technology",
-    subtitle: "Digital X-Rays & Microscopic Dentistry",
+    subtitle: "Digital X-Rays & Modern Root Canal Systems",
     description: "Precision diagnostics and minimally invasive treatments for the best possible results.",
     cta: "Our Technology",
     ctaLink: "/technology/",

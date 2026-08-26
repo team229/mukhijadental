@@ -308,7 +308,7 @@ export const blogPosts: BlogPost[] = [
       "Modern root canal treatment is nowhere near as bad as its reputation. Here's what's happening in your mouth, what the procedure involves, and what affects the cost.",
     metaTitle: "Root Canal Treatment in Sonipat | Painless RCT – Mukhija Dental Clinic",
     metaDescription:
-      "What actually happens during a root canal, what single sitting RCT means, and what affects root canal cost in Sonipat. Painless, microscopic RCT at Mukhija Dental Clinic.",
+      "What actually happens during a root canal, what single sitting RCT means, and what affects root canal cost in Sonipat. Painless, single-sitting RCT at Mukhija Dental Clinic.",
     date: "2026-07-18",
     image: "/images/clinic/gallery/single-sitting-rct.jpeg",
     html: `
@@ -321,7 +321,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Why People Fear It (And Why That Fear Is Mostly Outdated)</h2>
 <p>The reputation root canals have comes largely from decades-old dentistry, before modern anesthesia and rotary instruments became standard. Back then, procedures took longer, anesthesia wasn't always as effective, and the tools were far less precise.</p>
-<p>Today, especially with microscopic dentistry — where the dentist uses high magnification to see the internal canal structure of the tooth in real detail — the whole procedure is more accurate and considerably more comfortable. You're numb throughout, and most of what you feel is pressure and vibration, not pain. The actual "painful" part most people remember is the toothache that got them into the chair in the first place, not the treatment itself.</p>
+<p>Today, especially with modern root canal systems — which let the dentist clean and shape the internal canal structure of the tooth with real precision — the whole procedure is more accurate and considerably more comfortable. You're numb throughout, and most of what you feel is pressure and vibration, not pain. The actual "painful" part most people remember is the toothache that got them into the chair in the first place, not the treatment itself.</p>
 
 <h2>Single Sitting RCT: What It Means and Who It's For</h2>
 <p>One thing patients ask about a lot is single-sitting root canal treatment — finishing the whole procedure in one visit instead of two or three spread over weeks.</p>
@@ -334,7 +334,7 @@ export const blogPosts: BlogPost[] = [
 <li>Which tooth is involved. Front teeth generally have a single canal and are simpler to treat. Molars can have three or four canals, which takes more time and skill.</li>
 <li>Whether it's single or multiple sittings. More visits generally means a different fee structure.</li>
 <li>The final restoration. A root canal-treated tooth, especially a molar, usually needs a crown afterward to protect it from cracking under chewing pressure. This is often quoted separately from the RCT itself, and skipping it is a common mistake that leads to the tooth fracturing later.</li>
-<li>Whether microscopic dentistry is used. Clinics using magnification for precision work sometimes have a different cost structure, but the improved accuracy is usually worth it, especially for molars with complex canal systems.</li>
+<li>The technology used. Clinics using modern root canal systems for precision work sometimes have a different cost structure, but the improved accuracy is usually worth it, especially for molars with complex canal systems.</li>
 </ul>
 <p>When you're comparing root canal cost in Sonipat between clinics, always ask whether the quote includes the crown, and whether it's single or multi-visit — apples-to-apples comparisons matter more than the sticker price alone.</p>
 
@@ -406,11 +406,11 @@ export const blogPosts: BlogPost[] = [
 <p>Sonipat has grown fast — Sector 12, Sector 14, Sector 15, Sector 35, Kundli, Murthal, Omaxe City — and dental clinics have popped up just as quickly. Not all of them are equipped for real, comprehensive care. That's the gap we noticed, and it's why patient-centric, full-service dentistry became the whole point of our clinic.</p>
 
 <h2>What Makes a Dental Clinic in Sonipat Trustworthy</h2>
-<p>This is where the term EEAT gets thrown around a lot in marketing circles, but honestly, it just means what any patient already intuitively checks for: experience, expertise, and whether people can actually vouch for the place. At Mukhija Dental Clinic in Model Town, Sonepat, we've treated everything from a five-year-old's first cavity to a root canal for someone who'd been avoiding the dentist for a decade out of fear. That range matters. A clinic that only sees "easy" cases hasn't been tested the way one that handles complex maxillofacial surgery, oral cancer screening, and microscopic dentistry has.</p>
+<p>This is where the term EEAT gets thrown around a lot in marketing circles, but honestly, it just means what any patient already intuitively checks for: experience, expertise, and whether people can actually vouch for the place. At Mukhija Dental Clinic in Model Town, Sonepat, we've treated everything from a five-year-old's first cavity to a root canal for someone who'd been avoiding the dentist for a decade out of fear. That range matters. A clinic that only sees "easy" cases hasn't been tested the way one that handles complex maxillofacial surgery, oral cancer screening, and complex root canal treatment has.</p>
 <p>A few things we think genuinely set a clinic apart when you're comparing options in Sonipat:</p>
 <ul>
-<li><strong>Breadth of services under one roof.</strong> You shouldn't have to bounce between three different clinics for a filling, a root canal, and braces. We handle dental implants, cosmetic dentistry, gum treatment, kids dentistry, maxillofacial surgery, orthodontics, crowns and bridges, microscopic dentistry, oral cancer detection, and more — all at one location.</li>
-<li><strong>Technology that actually changes outcomes.</strong> Microscopic dentistry, for instance, lets us see root canal systems in a level of detail that the naked eye simply can't match. Digital radiology means lower radiation exposure and faster, more accurate diagnosis. This isn't about having shiny equipment for the sake of it — it directly affects how precise and comfortable your treatment is.</li>
+<li><strong>Breadth of services under one roof.</strong> You shouldn't have to bounce between three different clinics for a filling, a root canal, and braces. We handle dental implants, cosmetic dentistry, gum treatment, kids dentistry, maxillofacial surgery, orthodontics, crowns and bridges, oral cancer detection, and more — all at one location.</li>
+<li><strong>Technology that actually changes outcomes.</strong> Modern root canal systems, for instance, let us treat even complex canals with a level of control that directly improves results. Digital radiology means lower radiation exposure and faster, more accurate diagnosis. This isn't about having shiny equipment for the sake of it — it directly affects how precise and comfortable your treatment is.</li>
 <li><strong>Accessibility that isn't an afterthought.</strong> We built the clinic with wheelchair-accessible parking because dental care should be usable by everyone, including elderly patients and those with mobility challenges. It's a small detail that a lot of clinics skip, but it tells you a lot about how a place thinks about patients.</li>
 <li><strong>A team that treats families, not just teeth.</strong> Being a family dentist in Sonipat means we see the same patients across years — kids who first came in scared of the chair, now bringing their own children in. That continuity builds a kind of trust that's hard to fake.</li>
 </ul>

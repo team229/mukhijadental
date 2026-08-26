@@ -128,7 +128,7 @@ export const homeTreatments = [
 
 export const technologies = [
   { title: "Digital X-Rays", description: "In-house digital dental and oral X-rays for faster diagnoses." },
-  { title: "Microscopic Dentistry", description: "Precision techniques for complex root canal treatments." },
+  { title: "OPG Imaging", description: "Full-mouth panoramic imaging for comprehensive treatment planning." },
   { title: "Ultrasonic Cleaning", description: "Quick, thorough teeth cleaning that's comfortable." },
   { title: "Advanced Implant Planning", description: "Detailed imaging for precise implant placement." },
   { title: "Laser Dentistry", description: "Minimally invasive gum and soft tissue procedures." },

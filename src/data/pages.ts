@@ -272,7 +272,7 @@ export const staticPages: Record<string, PageMeta> = {
     "heading": "Latest Technology",
     "contentKey": "Technology Dental Clinic",
     "title": "Advanced Dental Technology | Best Dental Clinic in Sonipat – Mukhija Dental",
-    "description": "Digital X-rays, microscopic dentistry & ultrasonic technology at Mukhija Dental Clinic, Sonipat — precision care for a genuinely painless experience."
+    "description": "Digital X-rays, OPG, modern root canal systems & ultrasonic cleaning at Mukhija Dental Clinic, Sonipat — precision care for a genuinely painless experience."
   },
   "cases": {
     "slug": "cases",

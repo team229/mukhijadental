@@ -24,7 +24,7 @@ export const serviceSubTreatments: Record<string, SubTreatment[]> = {
   "root-canal": [
     { title: "Single Sitting RCT", description: "Complete root canal in one comfortable visit.", image: "/images/clinic/gallery/single-sitting-rct.jpeg" },
     { title: "Re-RCT", description: "Retreatment of previously treated root canals.", image: "/images/clinic/gallery/single-sitting-rct.jpeg" },
-    { title: "Microscopic RCT", description: "Precision treatment under dental microscope.", image: "/images/clinic/treatment/modern-treatment-room.jpeg" },
+    { title: "Rotary RCT", description: "Precision treatment with modern root canal systems.", image: "/images/clinic/treatment/modern-treatment-room.jpeg" },
   ],
 };
 

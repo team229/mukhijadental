@@ -1,4 +1,5 @@
 ---
+import { getImage } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PageHero from "../components/PageHero.astro";
 import ContentPage from "../components/ContentPage.astro";
@@ -6,10 +7,20 @@ import ImageGallery from "../components/react/ImageGallery";
 import { staticPages } from "../data/pages";
 import { getPageContent, contentToHtml } from "../utils/content";
 import { clinicTourImages, clinicVideo } from "../data/images";
+import { getAsset } from "../lib/images";
 
 const page = staticPages["clinic-tour"];
 const lines = getPageContent(page.contentKey);
 const { html, faqs } = contentToHtml(lines);
+
+const galleryOptimized = await Promise.all(
+  clinicTourImages.map(async (img) => ({
+    ...img,
+    src: (await getImage({ src: getAsset(img.src) })).src,
+  }))
+);
+
+const clinicVideoPoster = (await getImage({ src: getAsset("/images/clinic/exterior/clinic-front.webp") })).src;
 ---
 
 <BaseLayout title={page.title} description={page.description}>
@@ -21,7 +32,7 @@ const { html, faqs } = contentToHtml(lines);
         <h2 class="font-display text-2xl md:text-3xl font-bold text-brand mb-3">Explore Our Clinic</h2>
         <p class="text-slate-600 max-w-2xl mx-auto">From the entrance to treatment rooms — see why patients trust Mukhija Dental & Implant Centre.</p>
       </div>
-      <ImageGallery client:visible images={clinicTourImages} showFilters={true} columns={3} />
+      <ImageGallery client:visible images={galleryOptimized} showFilters={true} columns={3} />
     </div>
   </section>
 
@@ -33,7 +44,7 @@ const { html, faqs } = contentToHtml(lines);
           src={clinicVideo}
           controls
           class="w-full h-full"
-          poster="/images/clinic/exterior/clinic-front.webp"
+          poster={clinicVideoPoster}
         >
           Your browser does not support the video tag.
         </video>

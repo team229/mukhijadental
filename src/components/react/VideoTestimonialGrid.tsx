@@ -1,11 +1,15 @@
 import { useState } from "react";
 import { MapPin, Clock, Play, X, ChevronRight } from "lucide-react";
-import { videoTestimonials } from "../../data/videoTestimonials";
+import { videoTestimonials, type VideoTestimonial } from "../../data/videoTestimonials";
 
-export default function VideoTestimonialGrid() {
+interface Props {
+  testimonials?: VideoTestimonial[];
+}
+
+export default function VideoTestimonialGrid({ testimonials = videoTestimonials }: Props) {
   const [selected, setSelected] = useState(0);
   const [playing, setPlaying] = useState(false);
-  const current = videoTestimonials[selected];
+  const current = testimonials[selected];
 
   function selectItem(index: number) {
     if (index === selected) {
@@ -92,7 +96,7 @@ export default function VideoTestimonialGrid() {
           <div className="lg:col-span-2">
             <p className="text-sm font-semibold uppercase tracking-wide text-slate-500 mb-4">Choose a story</p>
             <div className="flex lg:flex-col gap-4 overflow-x-auto lg:overflow-visible pb-2 lg:pb-0 -mx-4 lg:mx-0 px-4 lg:px-0">
-              {videoTestimonials.map((t, i) => {
+              {testimonials.map((t, i) => {
                 const active = i === selected;
                 return (
                   <button

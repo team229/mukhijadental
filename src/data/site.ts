@@ -3,7 +3,7 @@ export const siteConfig = {
   shortName: "Mukhija Dental Clinic",
   tagline: "Best Dental Clinic in Sonipat",
   url: "https://mukhijadentalclinic.com",
-  phone: "+91-9992023944",
+  phone: "+91-7206722618",
   phoneAlt: "+91-7206722618",
   email: "info@mukhijadentalclinic.com",
   address: "Model Town, Sonepat, Haryana, India",

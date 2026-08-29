@@ -49,6 +49,15 @@ export const clinicImages: ClinicImage[] = [
   { src: "/images/clinic/gallery/clinic-22.jpeg", alt: "After tooth replacement", category: "gallery" },
 ];
 
+export interface HeroSlide {
+  image: string;
+  title: string;
+  subtitle: string;
+  description: string;
+  cta: string;
+  ctaLink: string;
+}
+
 export const heroSlides = [
   {
     image: "/images/clinic/exterior/clinic-front.webp",

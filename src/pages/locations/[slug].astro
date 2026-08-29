@@ -1,4 +1,5 @@
 ---
+import { Image, getImage } from "astro:assets";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import BannerWithForm from "../../components/BannerWithForm.astro";
 import SectionHeading from "../../components/SectionHeading.astro";
@@ -13,6 +14,7 @@ import { getPageContent, contentToHtml } from "../../utils/content";
 import { whyChooseUsPoints, technologyItems } from "../../data/homepage";
 import { caseImages } from "../../data/serviceDetails";
 import { faqs } from "../../data/site";
+import { getAsset } from "../../lib/images";
 
 export function getStaticPaths() {
   return locations.map((location) => ({
@@ -25,6 +27,13 @@ const { location } = Astro.props;
 const lines = getPageContent(location.contentKey);
 const { html, faqs: contentFaqs } = contentToHtml(lines);
 const pageFaqs = contentFaqs.length > 0 ? contentFaqs : faqs;
+
+const caseImagesOptimized = await Promise.all(
+  caseImages.map(async (img) => ({
+    ...img,
+    src: (await getImage({ src: getAsset(img.src) })).src,
+  }))
+);
 ---
 
 <BaseLayout title={location.title} description={location.description} faqs={pageFaqs}>
@@ -33,7 +42,7 @@ const pageFaqs = contentFaqs.length > 0 ? contentFaqs : faqs;
     label="Locations"
     title={location.heading}
     description={location.description}
-    image="/images/clinic/exterior/clinic-front.webp"
+    image={getAsset("/images/clinic/exterior/clinic-front.webp")}
   >
     <AppointmentForm client:visible compact={true} />
   </BannerWithForm>
@@ -43,7 +52,7 @@ const pageFaqs = contentFaqs.length > 0 ? contentFaqs : faqs;
     label="Why Choose Us"
     title="Why Choose Mukhija Dental Clinic"
     description="Trusted dental care in Model Town, Sonipat — serving patients from across the region with comprehensive, patient-first treatment."
-    image="/images/clinic/reception/reception-1.jpeg"
+    image={getAsset("/images/clinic/reception/reception-1.jpeg")}
     bg="surface"
   >
     <ul class="space-y-4">
@@ -73,7 +82,7 @@ const pageFaqs = contentFaqs.length > 0 ? contentFaqs : faqs;
   <section class="py-14 md:py-20 bg-surface">
     <div class="max-w-7xl mx-auto px-4">
       <SectionHeading label="Results" title="Patient Cases" description="Real smile transformations from our clinic." />
-      <CaseImageSlider client:visible images={caseImages} />
+      <CaseImageSlider client:visible images={caseImagesOptimized} />
     </div>
   </section>
 
@@ -85,7 +94,7 @@ const pageFaqs = contentFaqs.length > 0 ? contentFaqs : faqs;
         {technologyItems.slice(0, 3).map((tech) => (
           <div class="bg-white rounded-3xl overflow-hidden shadow-md border border-slate-100">
             <div class="aspect-[16/10] overflow-hidden">
-              <img src={tech.image} alt={tech.title} class="w-full h-full object-cover" loading="lazy" />
+              <Image src={getAsset(tech.image)} alt={tech.title} class="w-full h-full object-cover" loading="lazy" />
             </div>
             <div class="p-5">
               <h3 class="font-semibold text-brand-dark mb-2">{tech.title}</h3>

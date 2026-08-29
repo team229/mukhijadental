@@ -1,19 +1,23 @@
 import { useState, useEffect, useCallback } from "react";
-import { heroSlides } from "../../data/images";
+import { heroSlides, type HeroSlide } from "../../data/images";
 
-export default function HeroCarousel() {
+interface Props {
+  slides?: HeroSlide[];
+}
+
+export default function HeroCarousel({ slides = heroSlides }: Props) {
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setCurrent((prev) => (prev + 1) % heroSlides.length);
+      setCurrent((prev) => (prev + 1) % slides.length);
     }, 6000);
     return () => clearInterval(timer);
   }, []);
 
   return (
     <section className="relative h-[500px] md:h-[600px] overflow-hidden">
-      {heroSlides.map((slide, index) => (
+      {slides.map((slide, index) => (
         <div
           key={slide.title}
           className={`absolute inset-0 transition-opacity duration-700 ${
@@ -51,7 +55,7 @@ export default function HeroCarousel() {
       ))}
 
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-2 z-10">
-        {heroSlides.map((_, index) => (
+        {slides.map((_, index) => (
           <button
             key={index}
             type="button"

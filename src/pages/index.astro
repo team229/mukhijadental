@@ -1,4 +1,5 @@
 ---
+import { Image, getImage } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import SectionHeading from "../components/SectionHeading.astro";
 import GoogleMap from "../components/GoogleMap.astro";
@@ -12,14 +13,20 @@ import { siteConfig, faqs } from "../data/site";
 import { getPageContent, contentToHtml } from "../utils/content";
 import { doctors, allServices, technologyItems, whyChooseUsPoints } from "../data/homepage";
 import { clinicVideo } from "../data/images";
+import { getAsset } from "../lib/images";
 import { Check, Phone, Star } from "lucide-react";
 
 const page = staticPages.home;
 const lines = getPageContent(page.contentKey);
 const { html } = contentToHtml(lines);
 
+const videoPoster = (await getImage({ src: getAsset("/images/clinic/treatment/doctor-table.webp") })).src;
+const beforeAfterImages = {
+  before: (await getImage({ src: getAsset("/images/clinic/gallery/cases/case1-before.jpg") })).src,
+  after: (await getImage({ src: getAsset("/images/clinic/gallery/cases/case1-after.jpg") })).src,
+};
+
 const bookingPhones = [
-  { display: "9992023944", href: "tel:+919992023944" },
   { display: "7206722618", href: "tel:+917206722618" },
 ];
 ---
@@ -29,8 +36,8 @@ const bookingPhones = [
   <!-- Section 1: Hero — content left, appointment form right -->
   <section class="relative overflow-hidden bg-brand-dark">
     <div class="absolute inset-0">
-      <img
-        src="/images/clinic/exterior/entry-gate-new.jpeg"
+        <Image
+        src={getAsset("/images/clinic/exterior/entry-gate-new.jpeg")}
         alt="Mukhija Dental & Implant Centre entrance"
         class="w-full h-full object-cover hero-bg"
       />
@@ -95,7 +102,7 @@ const bookingPhones = [
   <!-- Section 2: Clinic tour video -->
   <VideoSection
     client:visible
-    poster="/images/clinic/treatment/doctor-table.webp"
+    poster={videoPoster}
     videoSrc={clinicVideo}
     label="Clinic Tour"
     title="Take a Virtual Tour of Our Clinic"
@@ -116,22 +123,24 @@ const bookingPhones = [
           <p class="text-slate-600 leading-relaxed mb-7 max-w-lg">
             We specialize in dental implants, teeth whitening, porcelain veneers, smile corrections, root canal treatment, gum surgery, braces, kids dentistry, laser dentistry, and more — all under one roof.
           </p>
-          <a href="/team-of-specialists/" class="group inline-flex flex-wrap items-center gap-3 font-display text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight text-brand-dark hover:text-accent transition-colors">
-            Meet Our Team
-            <span class="text-accent transition-transform duration-200 group-hover:translate-x-1">→</span>
-          </a>
+          <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight text-brand-dark">
+            <a href="/team-of-specialists/" class="group inline-flex flex-wrap items-center gap-3 hover:text-accent transition-colors">
+              Meet Our Team
+              <span class="text-accent transition-transform duration-200 group-hover:translate-x-1">→</span>
+            </a>
+          </h2>
         </div>
 
         <div class="relative">
           <div class="grid grid-cols-2 gap-4">
             <div class="col-span-2 rounded-2xl overflow-hidden border border-slate-200 shadow-sm aspect-[16/9]">
-              <img src="/images/clinic/exterior/clinic-front.webp" alt="Clinic exterior" class="w-full h-full object-cover" loading="lazy" />
+              <Image src={getAsset("/images/clinic/exterior/clinic-front.webp")} alt="Clinic exterior" class="w-full h-full object-cover" loading="lazy" />
             </div>
             <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-sm aspect-square">
-              <img src="/images/clinic/reception/reception-3.jpeg" alt="Reception area" class="w-full h-full object-cover" loading="lazy" />
+              <Image src={getAsset("/images/clinic/reception/reception-3.jpeg")} alt="Reception area" class="w-full h-full object-cover" loading="lazy" />
             </div>
             <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-sm aspect-square">
-              <img src="/images/clinic/reception/waiting-area-3.webp" alt="Waiting area" class="w-full h-full object-cover" loading="lazy" />
+              <Image src={getAsset("/images/clinic/reception/waiting-area-3.webp")} alt="Waiting area" class="w-full h-full object-cover" loading="lazy" />
             </div>
           </div>
           <div class="absolute -bottom-5 left-1/2 -translate-x-1/2 bg-white rounded-xl shadow-lg border border-slate-200 px-5 py-3.5 flex items-center gap-3">
@@ -182,7 +191,7 @@ const bookingPhones = [
         {doctors.map((doctor) => (
           <div class="group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300">
             <div class="relative aspect-[4/5] overflow-hidden">
-              <img src={doctor.image} alt={doctor.name} class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+              <Image src={getAsset(doctor.image)} alt={doctor.name} class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" loading="lazy" />
               <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/40 to-transparent"></div>
               <span class="absolute bottom-4 left-4 inline-flex px-3 py-1 bg-white/90 backdrop-blur text-accent text-[11px] font-bold uppercase tracking-wider rounded-full">
                 {doctor.credentials}
@@ -211,7 +220,7 @@ const bookingPhones = [
         {allServices.map((service) => (
           <a href={service.href} class="group flex flex-col bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
             <div class="relative aspect-[16/11] overflow-hidden">
-              <img src={service.image} alt={service.alt ?? service.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+              <Image src={getAsset(service.image)} alt={service.alt ?? service.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
               <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <span class="absolute top-4 left-4 inline-flex w-9 h-9 bg-accent text-white items-center justify-center rounded-full shadow-lg opacity-0 group-hover:opacity-100 translate-y-1 group-hover:translate-y-0 transition-all duration-300">→</span>
             </div>
@@ -240,7 +249,7 @@ const bookingPhones = [
         {technologyItems.map((tech) => (
           <div class="group bg-surface rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-lg transition-all duration-300">
             <div class="aspect-[16/10] overflow-hidden">
-              <img src={tech.image} alt={tech.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+              <Image src={getAsset(tech.image)} alt={tech.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
             </div>
             <div class="p-6">
               <h3 class="font-display font-bold text-brand-dark mb-2 leading-snug">{tech.title}</h3>
@@ -263,8 +272,8 @@ const bookingPhones = [
       <div class="max-w-3xl mx-auto mt-6">
         <BeforeAfterSlider
           client:visible
-          beforeImage="/images/clinic/gallery/cases/case1-before.jpg"
-          afterImage="/images/clinic/gallery/cases/case1-after.jpg"
+          beforeImage={beforeAfterImages.before}
+          afterImage={beforeAfterImages.after}
           beforeLabel="Before: Crowding & Misalignment"
           afterLabel="After: Aligned, Confident Smile"
         />
@@ -301,7 +310,7 @@ const bookingPhones = [
             </a>
           </div>
           <div class="rounded-2xl overflow-hidden shadow-2xl aspect-video border-4 border-white/10">
-            <img src="/images/clinic/treatment/consultation-desk.jpeg" alt="Teledentistry consultation" class="w-full h-full object-cover" loading="lazy" />
+            <Image src={getAsset("/images/clinic/treatment/consultation-desk.jpeg")} alt="Teledentistry consultation" class="w-full h-full object-cover" loading="lazy" />
           </div>
         </div>
       </div>

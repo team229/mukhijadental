@@ -1,14 +1,24 @@
 ---
+import { getImage } from "astro:assets";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHero from "../../components/PageHero.astro";
 import ContentPage from "../../components/ContentPage.astro";
 import VideoTestimonialGrid from "../../components/react/VideoTestimonialGrid";
 import { getCredibilityBySlug } from "../../data/pages";
 import { getPageContent, contentToHtml } from "../../utils/content";
+import { videoTestimonials } from "../../data/videoTestimonials";
+import { getAsset } from "../../lib/images";
 
 const page = getCredibilityBySlug("video-testimonials")!;
 const lines = getPageContent(page.contentKey);
 const { html, faqs } = contentToHtml(lines);
+
+const optimizedTestimonials = await Promise.all(
+  videoTestimonials.map(async (t) => ({
+    ...t,
+    poster: (await getImage({ src: getAsset(t.poster) })).src,
+  }))
+);
 ---
 
 <BaseLayout title={page.title} description={page.description}>
@@ -21,7 +31,7 @@ const { html, faqs } = contentToHtml(lines);
     ]}
   />
 
-  <VideoTestimonialGrid client:visible />
+  <VideoTestimonialGrid client:visible testimonials={optimizedTestimonials} />
 
   <ContentPage html={html} faqs={faqs} />
 </BaseLayout>

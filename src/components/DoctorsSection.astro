@@ -1,5 +1,7 @@
 ---
+import { Image } from "astro:assets";
 import { doctors } from "../data/homepage";
+import { getAsset } from "../lib/images";
 interface Props {
   label?: string;
   title?: string;
@@ -19,7 +21,7 @@ const { label = "Our Specialists", title = "Meet Our Doctors", description = "Ex
       {doctors.map((doctor) => (
         <div class="group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300">
           <div class="relative aspect-[4/5] overflow-hidden">
-            <img src={doctor.image} alt={doctor.name} class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+            <Image src={getAsset(doctor.image)} alt={doctor.name} class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" loading="lazy" />
             <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/40 to-transparent"></div>
             <span class="absolute bottom-4 left-4 inline-flex px-3 py-1 bg-white/90 backdrop-blur text-accent text-[11px] font-bold uppercase tracking-wider rounded-full">
               {doctor.credentials}

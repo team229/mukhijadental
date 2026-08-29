@@ -1,11 +1,13 @@
 ---
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
 import SectionHeading from "./SectionHeading.astro";
 
 interface Props {
   label?: string;
   title: string;
   description?: string;
-  image: string;
+  image: ImageMetadata;
   imageAlt?: string;
   reverse?: boolean;
   bg?: "white" | "surface";
@@ -34,7 +36,7 @@ const { label, title, description, image, imageAlt = title, reverse = false, bg 
       <div class="relative group w-full">
         <div class="absolute -inset-3 rounded-[2.2rem] bg-gradient-to-tr from-accent/20 to-brand/10 -z-10 group-hover:scale-[1.03] transition-all duration-300"></div>
         <div class="rounded-[2rem] overflow-hidden shadow-2xl aspect-[4/3] w-full border border-slate-100/50 bg-white">
-          <img src={image} alt={imageAlt} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+          <Image src={image} alt={imageAlt} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
         </div>
       </div>
     </div>

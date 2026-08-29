@@ -54,11 +54,10 @@ export interface TechnologyItem {
 }
 
 export const technologyItems: TechnologyItem[] = [
-  { title: "Digital Panoramic X-Ray", description: "Full-mouth digital imaging for precise diagnosis and treatment planning.", image: "/images/technology/panoramic-xray.jpg?v=2", alt: "Digital panoramic X-ray machine imaging a patient" },
-  { title: "Modern Treatment Units", description: "State-of-the-art dental chairs with advanced instrument delivery systems.", image: "/images/technology/treatment-units.jpg?v=2", alt: "Sleek modern dental treatment chair unit" },
-  { title: "Digital Diagnostics", description: "In-house digital X-rays and OPG for faster, accurate diagnoses.", image: "/images/technology/digital-diagnostics.jpg?v=2", alt: "Digital intraoral sensor with instant X-ray on monitor" },
+  { title: "Digital X-Rays", description: "In-house digital dental and oral X-rays for faster, accurate diagnoses.", image: "/images/technology/digital-diagnostics.jpg?v=2", alt: "Digital intraoral X-ray sensor with instant image on monitor" },
+  { title: "OPG Imaging", description: "Full-mouth digital panoramic imaging for comprehensive treatment planning.", image: "/images/technology/panoramic-xray.jpg?v=2", alt: "Digital OPG panoramic X-ray machine" },
+  { title: "Root Canal Systems", description: "Modern root canal systems for precise, comfortable single-sitting RCT.", image: "/images/services/root-canal.jpg?v=2", alt: "Modern root canal treatment system" },
   { title: "Ultrasonic Cleaning", description: "Comfortable, thorough teeth cleaning with ultrasonic technology.", image: "/images/technology/ultrasonic-cleaning.jpg?v=2", alt: "Ultrasonic scaler gently cleaning teeth" },
-  { title: "Advanced Implant Planning", description: "Detailed imaging for precise dental implant placement.", image: "/images/technology/implant-planning.jpg?v=2", alt: "3D implant planning software on monitor" },
 ];
 
 export const whyChooseUsPoints = [

@@ -1,4 +1,5 @@
 ---
+import { Image, getImage } from "astro:assets";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import BannerWithForm from "../../components/BannerWithForm.astro";
 import SectionHeading from "../../components/SectionHeading.astro";
@@ -15,6 +16,7 @@ import { getSubTreatments, getCaseImages } from "../../data/serviceDetails";
 import { whyChooseUsPoints, technologyItems } from "../../data/homepage";
 import { clinicVideo } from "../../data/images";
 import { faqs } from "../../data/site";
+import { getAsset } from "../../lib/images";
 
 export function getStaticPaths() {
   return services.map((service) => ({
@@ -29,6 +31,13 @@ const { html, faqs: contentFaqs } = contentToHtml(lines);
 const subTreatments = getSubTreatments(service.slug);
 const pageFaqs = contentFaqs.length > 0 ? contentFaqs : faqs;
 const serviceName = service.heading.replace(/ in Sonipat$/i, "");
+
+const caseImagesOptimized = await Promise.all(
+  getCaseImages(service.slug).map(async (img) => ({
+    ...img,
+    src: (await getImage({ src: getAsset(img.src) })).src,
+  }))
+);
 ---
 
 <BaseLayout title={service.title} description={service.description} faqs={pageFaqs}>
@@ -37,7 +46,7 @@ const serviceName = service.heading.replace(/ in Sonipat$/i, "");
     label="Dental Services"
     title={service.heading}
     description={service.description}
-    image={service.heroImage ?? subTreatments[0]?.image ?? "/images/clinic/exterior/clinic-front.webp"}
+    image={getAsset(service.heroImage ?? subTreatments[0]?.image ?? "/images/clinic/exterior/clinic-front.webp")}
   >
     <AppointmentForm client:visible compact={true} />
   </BannerWithForm>
@@ -47,7 +56,7 @@ const serviceName = service.heading.replace(/ in Sonipat$/i, "");
     label="Why Choose Us"
     title={`Why Choose Our ${serviceName}`}
     description={`At Mukhija Dental & Implant Centre, we combine specialist expertise, modern technology, and a patient-first approach for every ${serviceName.toLowerCase()} case.`}
-    image={subTreatments[0]?.image ?? "/images/clinic/treatment/doctor-table.webp"}
+    image={getAsset(subTreatments[0]?.image ?? "/images/clinic/treatment/doctor-table.webp")}
     bg="surface"
   >
     <ul class="space-y-4">
@@ -75,7 +84,7 @@ const serviceName = service.heading.replace(/ in Sonipat$/i, "");
         {subTreatments.map((treatment) => (
           <div class="bg-white rounded-3xl overflow-hidden shadow-md border border-slate-100 hover:shadow-lg transition-shadow">
             <div class="aspect-[16/10] overflow-hidden">
-              <img src={treatment.image} alt={treatment.title} class="w-full h-full object-cover" loading="lazy" />
+              <Image src={getAsset(treatment.image)} alt={treatment.title} class="w-full h-full object-cover" loading="lazy" />
             </div>
             <div class="p-5">
               <h3 class="font-semibold text-brand-dark mb-2">{treatment.title}</h3>
@@ -95,14 +104,14 @@ const serviceName = service.heading.replace(/ in Sonipat$/i, "");
         title="Service Cases"
         description="Real treatment outcomes from patients who trusted Mukhija Dental & Implant Centre."
       />
-      <CaseImageSlider client:visible images={getCaseImages(service.slug)} />
+      <CaseImageSlider client:visible images={caseImagesOptimized} />
     </div>
   </section>
 
   <!-- Section 5: Video -->
   <VideoSection
     client:visible
-    poster="/images/clinic/treatment/doctor-table.webp"
+    poster={(await getImage({ src: getAsset("/images/clinic/treatment/doctor-table.webp") })).src}
     videoSrc={clinicVideo}
     label="See Our Clinic"
     title="Advanced Dental Care in Sonipat"

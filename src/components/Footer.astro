@@ -1,4 +1,6 @@
 ---
+import { Image } from "astro:assets";
+import logoWhite from "../assets/images/logo-white.png";
 import { siteConfig, navigation } from "../data/site";
 ---
 
@@ -7,7 +9,7 @@ import { siteConfig, navigation } from "../data/site";
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
       <div>
         <div class="flex items-center gap-3 mb-4">
-          <img src="/logo-white.png" alt={siteConfig.name} class="h-12 w-12 object-contain" />
+          <Image src={logoWhite} alt={siteConfig.name} class="h-12 w-12 object-contain" />
           <div>
             <p class="font-display font-bold text-lg">Dr. Mukhija's</p>
             <p class="text-xs text-white/70">Dental & Implant Centre</p>

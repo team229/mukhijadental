@@ -1,4 +1,5 @@
 ---
+import { getImage } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PageHero from "../components/PageHero.astro";
 import ContentPage from "../components/ContentPage.astro";
@@ -6,11 +7,19 @@ import ImageGallery from "../components/react/ImageGallery";
 import { staticPages } from "../data/pages";
 import { getPageContent, contentToHtml } from "../utils/content";
 import { clinicImages } from "../data/images";
+import { getAsset } from "../lib/images";
 
 const page = staticPages["patient-gallery"];
 const lines = getPageContent(page.contentKey);
 const { html, faqs } = contentToHtml(lines);
 const galleryImages = clinicImages.filter((img) => img.category === "gallery");
+
+const galleryOptimized = await Promise.all(
+  galleryImages.map(async (img) => ({
+    ...img,
+    src: (await getImage({ src: getAsset(img.src) })).src,
+  }))
+);
 ---
 
 <BaseLayout title={page.title} description={page.description}>
@@ -22,7 +31,7 @@ const galleryImages = clinicImages.filter((img) => img.category === "gallery");
         <h2 class="font-display text-2xl md:text-3xl font-bold text-brand mb-3">Patient Gallery</h2>
         <p class="text-slate-600 max-w-2xl mx-auto">Real treatment photos from Mukhija Dental & Implant Centre. Click any image to view full size.</p>
       </div>
-      <ImageGallery client:visible images={galleryImages} showFilters={false} columns={3} />
+      <ImageGallery client:visible images={galleryOptimized} showFilters={false} columns={3} />
     </div>
   </section>
 

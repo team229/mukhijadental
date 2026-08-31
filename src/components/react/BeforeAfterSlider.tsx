@@ -14,7 +14,7 @@ export default function BeforeAfterSlider({
   afterLabel = "After (Perfect Smile Makeover)"
 }: Props) {
   const [sliderPosition, setSliderPosition] = useState(50);
-  const [isDragging, setIsDragging] = useState(false);
+  const isDraggingRef = useRef(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
   const handleMove = (clientX: number) => {
@@ -26,12 +26,12 @@ export default function BeforeAfterSlider({
   };
 
   const handleMouseMove = (e: MouseEvent) => {
-    if (!isDragging) return;
+    if (!isDraggingRef.current) return;
     handleMove(e.clientX);
   };
 
   const handleTouchMove = (e: TouchEvent) => {
-    if (!isDragging) return;
+    if (!isDraggingRef.current) return;
     if (e.touches.length > 0) {
       handleMove(e.touches[0].clientX);
     }
@@ -43,11 +43,12 @@ export default function BeforeAfterSlider({
       className="relative w-full max-w-3xl mx-auto aspect-[4/3] rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white select-none cursor-ew-resize bg-slate-900 touch-none"
       onMouseMove={handleMouseMove}
       onTouchMove={handleTouchMove}
-      onMouseDown={() => setIsDragging(true)}
-      onTouchStart={() => setIsDragging(true)}
-      onMouseUp={() => setIsDragging(false)}
-      onMouseLeave={() => setIsDragging(false)}
-      onTouchEnd={() => setIsDragging(false)}
+      onMouseDown={() => { isDraggingRef.current = true; }}
+      onTouchStart={() => { isDraggingRef.current = true; }}
+      onMouseUp={() => { isDraggingRef.current = false; }}
+      onMouseLeave={() => { isDraggingRef.current = false; }}
+      onTouchEnd={() => { isDraggingRef.current = false; }}
+      onTouchCancel={() => { isDraggingRef.current = false; }}
     >
       {/* After Image (Background) */}
       <img 

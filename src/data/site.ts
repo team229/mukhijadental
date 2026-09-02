@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Mukhija Dental & Implant Centre",
+  name: "Mukhija Dental and ENT centre",
   shortName: "Mukhija Dental Clinic",
   tagline: "Best Dental Clinic in Sonipat",
   url: "https://mukhijadentalclinic.com",

@@ -13,7 +13,7 @@ const { html, faqs = [] } = Astro.props;
 const mainPhone = siteConfig.phone.replace(/[^+\d]/g, "");
 const altPhone = siteConfig.phoneAlt.replace(/[^+\d]/g, "");
 const whatsappLink = `https://wa.me/${altPhone}`;
-const mapEmbedUrl = "https://maps.google.com/maps?q=" + encodeURIComponent("Mukhija Dental & Implant Centre, Model Town, Sonipat, Haryana") + "&z=15&output=embed";
+const mapEmbedUrl = "https://maps.google.com/maps?q=" + encodeURIComponent("Mukhija Dental and ENT centre, Model Town, Sonipat, Haryana") + "&z=15&output=embed";
 
 const locateAnchor = "<h2>Where to Find Us</h2>";
 const restAnchor = "<h2>What to Expect When You Reach Out</h2>";
@@ -104,7 +104,7 @@ const contactCards = [
           </div>
           <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-sm aspect-[4/3] sm:aspect-[16/9] bg-surface">
             <iframe
-              title="Mukhija Dental & Implant Centre location"
+              title="Mukhija Dental and ENT centre location"
               src={mapEmbedUrl}
               class="w-full h-full"
               style="border:0"

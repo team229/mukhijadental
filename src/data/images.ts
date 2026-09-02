@@ -5,7 +5,7 @@ export interface ClinicImage {
 }
 
 export const clinicImages: ClinicImage[] = [
-  { src: "/images/clinic/exterior/clinic-front.webp", alt: "Mukhija Dental & Implant Centre exterior", category: "exterior" },
+  { src: "/images/clinic/exterior/clinic-front.webp", alt: "Mukhija Dental and ENT centre exterior", category: "exterior" },
   { src: "/images/clinic/exterior/main-gate.webp", alt: "Clinic main gate entrance", category: "exterior" },
   { src: "/images/clinic/exterior/clinic-main-gate.webp", alt: "Clinic entrance gate", category: "exterior" },
   { src: "/images/clinic/exterior/clinic-board.webp", alt: "Mukhija Dental clinic signage", category: "exterior" },
@@ -61,7 +61,7 @@ export interface HeroSlide {
 export const heroSlides = [
   {
     image: "/images/clinic/exterior/clinic-front.webp",
-    title: "Welcome to Mukhija Dental & Implant Centre",
+    title: "Welcome to Mukhija Dental and ENT centre",
     subtitle: "Best Dental Clinic in Sonipat — Model Town",
     description: "Comprehensive dental care for your whole family. Implants, braces, RCT & cosmetic dentistry under one roof.",
     cta: "Book Appointment",

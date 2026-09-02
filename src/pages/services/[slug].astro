@@ -55,7 +55,7 @@ const caseImagesOptimized = await Promise.all(
   <SplitSection
     label="Why Choose Us"
     title={`Why Choose Our ${serviceName}`}
-    description={`At Mukhija Dental & Implant Centre, we combine specialist expertise, modern technology, and a patient-first approach for every ${serviceName.toLowerCase()} case.`}
+    description={`At Mukhija Dental and ENT centre, we combine specialist expertise, modern technology, and a patient-first approach for every ${serviceName.toLowerCase()} case.`}
     image={getAsset(subTreatments[0]?.image ?? "/images/clinic/treatment/doctor-table.webp")}
     bg="surface"
   >
@@ -102,7 +102,7 @@ const caseImagesOptimized = await Promise.all(
       <SectionHeading
         label="Cases"
         title="Service Cases"
-        description="Real treatment outcomes from patients who trusted Mukhija Dental & Implant Centre."
+        description="Real treatment outcomes from patients who trusted Mukhija Dental and ENT centre."
       />
       <CaseImageSlider client:visible images={caseImagesOptimized} />
     </div>

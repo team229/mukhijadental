@@ -32,7 +32,7 @@ export interface ServiceItem {
 }
 
 export const allServices: ServiceItem[] = [
-  { title: "Dental Implants", description: "Permanent tooth replacement with precision-planned implant treatment.", href: "/services/dental-implants/", image: "/images/services/dental-implants.jpg?v=2", alt: "Dental implants — dentist placing a titanium implant in a modern operatory" },
+  { title: "Dental Implants", description: "Permanent tooth replacement with precision-planned implant treatment.", href: "/services/dental-implants/", image: "/images/services/dental-implants-treatment-sonipat.jpg?v=1", alt: "Dental implants — dentist placing a titanium implant in a modern operatory" },
   { title: "Cosmetic Dentistry", description: "Smile makeovers, veneers, and teeth whitening for a confident smile.", href: "/services/cosmetic-dentistry/", image: "/images/services/cosmetic-dentistry.jpg?v=2", alt: "Cosmetic dentistry — dentist applying a porcelain veneer" },
   { title: "Gums Treatment", description: "Expert care for bleeding gums, gum disease, and laser gum procedures.", href: "/services/gums-treatment/", image: "/images/services/gums-treatment.jpg?v=2", alt: "Gums treatment — laser gum procedure" },
   { title: "Kids Dentistry", description: "Gentle pediatric dental care for children of all ages.", href: "/services/kids-dentistry/", image: "/images/services/kids-dentistry.jpg?v=2", alt: "Kids dentistry — dentist showing a child a tooth model" },

@@ -35,7 +35,9 @@ const serviceName = service.heading.replace(/ in Sonipat$/i, "");
 const whyChooseImage =
   service.slug === "orthodontics-treatment"
     ? "/images/services/orthodontics-treatment-sonipat.jpg"
-    : subTreatments[0]?.image ?? "/images/clinic/treatment/doctor-table.webp";
+    : service.slug === "dental-implants"
+      ? "/images/services/dental-implants-treatment-sonipat.jpg"
+      : subTreatments[0]?.image ?? "/images/clinic/treatment/doctor-table.webp";
 
 const caseImagesOptimized = await Promise.all(
   getCaseImages(service.slug).map(async (img) => ({

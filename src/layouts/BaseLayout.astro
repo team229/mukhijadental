@@ -16,13 +16,14 @@ const { title, description, canonical, noindex = false, faqs } = Astro.props;
 const pageTitle = title.includes(siteConfig.shortName) ? title : `${title} | ${siteConfig.shortName}`;
 const canonicalUrl = canonical ?? new URL(Astro.url.pathname, siteConfig.url).href;
 
-const openingDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-const openingHoursSpecification = openingDays.map((dayOfWeek) => ({
-  "@type": "OpeningHoursSpecification",
-  "dayOfWeek": dayOfWeek,
-  "opens": "09:30",
-  "closes": "19:00",
-}));
+const openingWeekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const openingHoursSpecification = [
+  ...openingWeekdays.flatMap((dayOfWeek) => [
+    { "@type": "OpeningHoursSpecification", dayOfWeek, opens: "09:00", closes: "14:00" },
+    { "@type": "OpeningHoursSpecification", dayOfWeek, opens: "16:30", closes: "19:30" },
+  ]),
+  { "@type": "OpeningHoursSpecification", dayOfWeek: "Sunday", opens: "09:00", closes: "14:00" },
+];
 
 const faqSchema =
   faqs && faqs.length > 0

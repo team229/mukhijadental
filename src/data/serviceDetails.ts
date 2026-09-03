@@ -18,7 +18,7 @@ export const serviceSubTreatments: Record<string, SubTreatment[]> = {
   ],
   "gums-treatment": [
     { title: "Deep Cleaning", description: "Remove plaque and tartar below the gum line.", image: "/images/clinic/gallery/gum-treatment.jpeg" },
-    { title: "Gum Surgery", description: "Surgical treatment for advanced gum disease.", image: "/images/clinic/gallery/gum-treatment.jpeg" },
+    { title: "Gum Surgery", description: "Surgical treatment for advanced gum disease.", image: "/images/services/gums-surgery-sonipat.jpg" },
     { title: "Laser Gum Treatment", description: "Minimally invasive laser gum procedures.", image: "/images/clinic/treatment/modern-treatment-room.jpeg" },
   ],
   "root-canal": [

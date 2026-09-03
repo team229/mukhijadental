@@ -39,7 +39,9 @@ const whyChooseImage =
       ? "/images/services/dental-implants-treatment-sonipat.jpg"
       : service.slug === "teeth-cleaning"
         ? "/images/services/teeth-cleaning-treatment-sonipat.jpg"
-        : subTreatments[0]?.image ?? "/images/clinic/treatment/doctor-table.webp";
+        : service.slug === "gums-treatment"
+          ? "/images/services/gums-surgery-sonipat.jpg"
+          : subTreatments[0]?.image ?? "/images/clinic/treatment/doctor-table.webp";
 
 const caseImagesOptimized = await Promise.all(
   getCaseImages(service.slug).map(async (img) => ({

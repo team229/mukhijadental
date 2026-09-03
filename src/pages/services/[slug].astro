@@ -32,6 +32,11 @@ const subTreatments = getSubTreatments(service.slug);
 const pageFaqs = contentFaqs.length > 0 ? contentFaqs : faqs;
 const serviceName = service.heading.replace(/ in Sonipat$/i, "");
 
+const whyChooseImage =
+  service.slug === "orthodontics-treatment"
+    ? "/images/services/orthodontics-treatment-sonipat.jpg"
+    : subTreatments[0]?.image ?? "/images/clinic/treatment/doctor-table.webp";
+
 const caseImagesOptimized = await Promise.all(
   getCaseImages(service.slug).map(async (img) => ({
     ...img,
@@ -56,7 +61,7 @@ const caseImagesOptimized = await Promise.all(
     label="Why Choose Us"
     title={`Why Choose Our ${serviceName}`}
     description={`At Mukhija Dental and ENT centre, we combine specialist expertise, modern technology, and a patient-first approach for every ${serviceName.toLowerCase()} case.`}
-    image={getAsset(subTreatments[0]?.image ?? "/images/clinic/treatment/doctor-table.webp")}
+    image={getAsset(whyChooseImage)}
     bg="surface"
   >
     <ul class="space-y-4">

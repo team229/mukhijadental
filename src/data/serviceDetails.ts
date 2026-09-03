@@ -26,11 +26,6 @@ export const serviceSubTreatments: Record<string, SubTreatment[]> = {
     { title: "Re-RCT", description: "Retreatment of previously treated root canals.", image: "/images/clinic/gallery/single-sitting-rct.jpeg" },
     { title: "Rotary RCT", description: "Precision treatment with modern root canal systems.", image: "/images/clinic/treatment/modern-treatment-room.jpeg" },
   ],
-  "orthodontics-treatment": [
-    { title: "Braces & Aligners", description: "Straighten teeth with braces or clear aligners.", image: "/images/services/orthodontics.jpg" },
-    { title: "Invisible Aligners", description: "Discreet, removable clear aligners for a straighter smile.", image: "/images/clinic/gallery/clinic-21.jpeg" },
-    { title: "Retainers", description: "Keep your results with custom-made retainers.", image: "/images/clinic/treatment/consultation-desk.jpeg" },
-  ],
 };
 
 export const defaultSubTreatments: SubTreatment[] = [

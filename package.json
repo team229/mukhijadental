@@ -7,7 +7,8 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/watermark.mjs",
+    "build": "astro build",
+    "watermark": "node scripts/watermark.mjs src/assets/images && node scripts/watermark.mjs public/images",
     "preview": "astro preview",
     "astro": "astro"
   },

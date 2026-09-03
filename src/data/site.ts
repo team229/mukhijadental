@@ -103,6 +103,7 @@ export const procedures = [
   "Partial Dentures",
   "Professional Clean Up",
   "Root Canal Treatment",
+  "Scaling",
   "Smile Designing / Smile Makeover",
   "Surgical Extraction of Impacted Teeth",
 ];

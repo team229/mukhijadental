@@ -1,5 +1,14 @@
 import pageContent from "../data/page-content.json";
 
+const AREA_LIST_LINES = new Set([
+  "Sonepat city and Model Town",
+  "Murthal",
+  "Kundli",
+  "Sector 12, Sector 14, and Sector 15",
+  "Sector 35",
+  "Omaxe City",
+]);
+
 export function getPageContent(contentKey?: string): string[] {
   if (!contentKey) return [];
   const content = pageContent as Record<string, string[]>;
@@ -66,6 +75,10 @@ export function contentToHtml(lines: string[]): { html: string; faqs: { question
     if (line.length < 80 && !line.includes(".") && line.length > 3) {
       const isLikelyHeading = /^[A-Z]/.test(line) && !line.endsWith(".");
       if (isLikelyHeading) {
+        if (AREA_LIST_LINES.has(line)) {
+          html += `<p><strong>${line}</strong></p>\n`;
+          continue;
+        }
         html += `<h2>${line}</h2>\n`;
         continue;
       }

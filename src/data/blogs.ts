@@ -249,7 +249,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-08-23",
     image: "/images/clinic/gallery/teeth-cleaning-procedure.jpeg",
     html: `
-<p>Not every dental visit is planned. Sometimes it's a chipped tooth from a fall, gums that won't stop bleeding when you brush, a kid who won't stop crying about a toothache, or a wisdom tooth that's decided to make itself known at the worst possible time. This one's for those situations — the "I need help now, not eventually" moments.</p>
+<p>Not every dental visit is planned. Sometimes it's a chipped tooth from a fall, <a href="/services/gums-treatment/">gums that won't stop bleeding when you brush</a>, a kid who won't stop crying about a toothache, or a wisdom tooth that's decided to make itself known at the worst possible time. This one's for those situations — the "I need help now, not eventually" moments.</p>
 
 <h2>When It's Actually a Dental Emergency</h2>
 <p>People often aren't sure what counts as urgent versus what can wait for a regular appointment. Here's a rough, practical guide.</p>
@@ -267,7 +267,7 @@ export const blogPosts: BlogPost[] = [
 <li>Mild gum bleeding that started recently</li>
 <li>Sensitivity to hot or cold that's manageable</li>
 </ul>
-<p>If you're searching "emergency dental clinic near me" at an odd hour, the priority is simple: don't wait it out hoping it resolves on its own, especially with facial swelling or trauma — these can escalate quickly and are far easier to treat early.</p>
+<p>If you're searching "<a href="/services/emergency-dentistry/">emergency dental clinic near me</a>" at an odd hour, the priority is simple: don't wait it out hoping it resolves on its own, especially with facial swelling or trauma — these can escalate quickly and are far easier to treat early.</p>
 
 <h2>Broken Tooth Treatment: What Actually Happens</h2>
 <p>A broken or chipped tooth doesn't always mean extraction — that's a common fear, but it's usually not the outcome. Depending on how much tooth structure is affected:</p>
@@ -291,7 +291,7 @@ export const blogPosts: BlogPost[] = [
 <p>A structured gum treatment plan usually starts with deep cleaning (scaling, sometimes root planing for more advanced cases) to remove buildup below the gumline, followed by a maintenance schedule tighter than the standard six-month cleaning. Ultrasonic teeth cleaning technology, which we use regularly, is more precise and comfortable than older manual scaling methods, particularly for patients with sensitive gums.</p>
 
 <h2>Kids Dentistry: Making the First Visits Count</h2>
-<p>If you're a parent, the goal isn't just fixing cavities when they show up — it's making sure your kid doesn't grow up dreading the dentist the way a lot of adults do. A pediatric dentist in Sonipat should be doing more than just checking teeth; they should be building a kid's comfort with the whole experience.</p>
+<p>If you're a parent, the goal isn't just fixing cavities when they show up — it's making sure your kid doesn't grow up dreading the dentist the way a lot of adults do. A <a href="/services/kids-dentistry/">pediatric dentist in Sonipat</a> should be doing more than just checking teeth; they should be building a kid's comfort with the whole experience.</p>
 <p>A few things that actually matter for kids dentistry:</p>
 <ul>
 <li>Early visits, before there's a problem. Getting kids used to a dental chair before they ever have pain makes future visits dramatically easier.</li>
@@ -368,7 +368,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-08-14",
     image: "/images/clinic/gallery/clinic-07.jpeg",
     html: `
-<p>Somewhere between "I've always wanted straighter teeth" and actually booking a consultation, most people get stuck comparing options — metal braces versus Invisalign, crowns versus veneers, and a dozen price points that don't seem to make sense next to each other. So let's actually sort through it, the way we'd explain it to a patient sitting in our chair in Model Town.</p>
+<p>Somewhere between "I've always wanted straighter teeth" and actually booking a consultation, most people get stuck comparing options — metal braces versus <a href="/services/orthodontics-treatment/">Invisalign</a>, crowns versus veneers, and a dozen price points that don't seem to make sense next to each other. So let's actually sort through it, the way we'd explain it to a patient sitting in our chair in Model Town.</p>
 
 <h2>Braces vs. Invisalign: The Real Differences, Not Just the Marketing</h2>
 <p>Traditional braces — metal brackets and wires — remain one of the most effective, predictable ways to correct misalignment, crowding, and bite issues, especially in more complex cases. They work continuously, don't require the discipline of taking anything in or out, and are usually the more affordable route.</p>
@@ -392,14 +392,14 @@ export const blogPosts: BlogPost[] = [
 <h2>Beyond Straightening: Crowns, Veneers, and Whitening</h2>
 <p>Once teeth are aligned — or even independent of alignment — a lot of patients ask about smile makeovers more broadly. A few common questions:</p>
 <h3>Tooth Cap (Crowns) — What's the Zirconia Difference?</h3>
-<p>A dental crown, or "tooth cap," covers a damaged or weakened tooth entirely. Zirconia crowns have become the preferred option for a lot of patients because they combine strength (they hold up well under chewing force, especially for molars) with a more natural, tooth-like appearance compared to older metal-fused options. They're a solid long-term investment, particularly on teeth that have had root canal treatment and need extra protection.</p>
+<p>A dental crown, or "tooth cap," covers a damaged or weakened tooth entirely. <a href="/services/crowns-bridges/">Zirconia crowns</a> have become the preferred option for a lot of patients because they combine strength (they hold up well under chewing force, especially for molars) with a more natural, tooth-like appearance compared to older metal-fused options. They're a solid long-term investment, particularly on teeth that have had root canal treatment and need extra protection.</p>
 <h3>Veneers: Cost and What They're Actually For</h3>
 <p>Veneers are thin shells bonded to the front of teeth, mainly used for cosmetic correction — chips, gaps, discoloration that whitening can't fix, or minor shape irregularities. Composite veneers are the more budget-friendly option and can often be done in a single visit, though they don't last as long as porcelain veneers and can stain over time. Porcelain veneers cost more but resist staining better and typically last longer. Veneer cost in India varies based on material and how many teeth are involved — a single veneer for a chipped front tooth is a very different quote than a full smile makeover across eight teeth.</p>
 <h3>Teeth Whitening: Professional vs. Over-the-Counter</h3>
 <p>In-clinic teeth whitening uses higher-concentration whitening agents applied under controlled conditions, giving faster, more even results than store-bought strips or kits — and it's done safely without damaging enamel or irritating gums, which is a real risk with unsupervised at-home treatments.</p>
 
 <h2>Don't Skip Teeth Cleaning Before Cosmetic Work</h2>
-<p>Something that gets overlooked: professional teeth cleaning (scaling and polishing) should generally happen before whitening, veneers, or even starting braces. Plaque and tartar buildup can throw off both the accuracy of shade-matching for veneers and the fit of orthodontic brackets. Teeth cleaning cost in Sonipat is relatively minor compared to cosmetic procedures, but it's a step worth not skipping — both for hygiene and for making sure your cosmetic results actually look right.</p>
+<p>Something that gets overlooked: <a href="/services/teeth-cleaning/">professional teeth cleaning</a> (scaling and polishing) should generally happen before whitening, veneers, or even starting braces. Plaque and tartar buildup can throw off both the accuracy of shade-matching for veneers and the fit of orthodontic brackets. Teeth cleaning cost in Sonipat is relatively minor compared to cosmetic procedures, but it's a step worth not skipping — both for hygiene and for making sure your cosmetic results actually look right.</p>
 
 <h2>Choosing the Right Orthodontist in Sonipat</h2>
 <p>A few things worth checking before committing to braces or Invisalign anywhere:</p>
@@ -454,7 +454,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-08-05",
     image: "/images/clinic/gallery/clinic-18.jpeg",
     html: `
-<p>Missing a tooth changes more than your smile. It changes how you chew, how your jawbone holds up over time, and honestly, how confident you feel talking to people. Dental implants are the closest thing dentistry has to replacing a natural tooth — but the moment people start researching, the first question is always the same: what's the actual dental implant cost in India, and why does it vary so much between clinics?</p>
+<p>Missing a tooth changes more than your smile. It changes how you chew, how your jawbone holds up over time, and honestly, how confident you feel talking to people. Dental implants are the closest thing dentistry has to replacing a natural tooth — but the moment people start researching, the first question is always the same: what's the actual <a href="/services/dental-implants/">dental implant cost in India</a>, and why does it vary so much between clinics?</p>
 <p>Let's break it down properly, without the marketing spin.</p>
 
 <h2>Why Tooth Implant Cost in India Varies So Much</h2>
@@ -472,7 +472,7 @@ export const blogPosts: BlogPost[] = [
 <p>At Mukhija Dental Clinic, our approach to implants is straightforward: we do a full diagnostic workup first — digital X-rays, an assessment of your bone structure and gum health — before ever quoting a price. That way what we tell you upfront is what you actually pay, without surprise additions halfway through treatment.</p>
 
 <h2>A Case That Sticks With Me</h2>
-<p>A patient came to us from Kundli a couple of years back, in his early 40s, having lost a molar to an old, badly managed root canal. He'd been chewing on one side for almost three years and had started getting jaw discomfort because of it — a really common but underrated consequence of ignoring a missing tooth for too long. He'd gotten a couple of quotes elsewhere that felt more like sales pitches than treatment plans.</p>
+<p>A patient came to us from Kundli a couple of years back, in his early 40s, having lost a molar to an old, badly managed <a href="/services/root-canal/">root canal</a>. He'd been chewing on one side for almost three years and had started getting jaw discomfort because of it — a really common but underrated consequence of ignoring a missing tooth for too long. He'd gotten a couple of quotes elsewhere that felt more like sales pitches than treatment plans.</p>
 <p>We took proper X-rays, assessed his bone density (which was still good, thankfully, since prolonged gaps can cause bone loss), and placed a single implant with a zirconia crown. What made the difference wasn't the implant itself — it was the follow-up. We checked healing at intervals, adjusted his bite once the crown was placed, and made sure he wasn't compensating with the other side anymore. Two years later, he still comes in for his six-monthly cleanings, and that implant functions exactly like a natural tooth.</p>
 <p>That's the real marker of a good implant dentist — not just the placement, but the follow-through.</p>
 
@@ -488,7 +488,7 @@ export const blogPosts: BlogPost[] = [
 <p>A dentist who answers these clearly, without getting defensive, is generally one you can trust.</p>
 
 <h2>Is a Dental Implant Actually Worth It Compared to Alternatives?</h2>
-<p>People sometimes ask whether a bridge or partial denture is a "cheaper, good enough" alternative. It can be, in the right situation — but implants have one major advantage: they don't rely on adjacent teeth for support. A bridge requires shaving down healthy neighboring teeth to anchor it, which isn't ideal if those teeth are otherwise fine. An implant stands alone, preserves your other teeth, and also helps maintain the jawbone in that area, which naturally shrinks once a tooth is missing for too long.</p>
+<p>People sometimes ask whether a <a href="/services/crowns-bridges/">dental bridge</a> or partial denture is a "cheaper, good enough" alternative. It can be, in the right situation — but implants have one major advantage: they don't rely on adjacent teeth for support. A bridge requires shaving down healthy neighboring teeth to anchor it, which isn't ideal if those teeth are otherwise fine. An implant stands alone, preserves your other teeth, and also helps maintain the jawbone in that area, which naturally shrinks once a tooth is missing for too long.</p>
 <p>That said, implants aren't automatically right for everyone — smokers, people with uncontrolled diabetes, or those with significant bone loss may need additional planning or alternative options. This is exactly why a proper consultation matters more than a quick online price comparison.</p>
 
 <h2>Bottom Line</h2>
@@ -534,12 +534,12 @@ export const blogPosts: BlogPost[] = [
     date: "2026-07-18",
     image: "/images/clinic/gallery/single-sitting-rct.jpeg",
     html: `
-<p>Say "root canal" to most people and you'll watch them wince. It's become shorthand for the worst possible dental experience, even though — and I mean this seriously — modern root canal treatment is nowhere near as bad as its reputation. The dread usually comes from outdated stories, not current reality.</p>
-<p>If you're dealing with a toothache right now and searching for "root canal cost Sonipat" or "painless RCT near me," let's actually walk through what's happening in your mouth, what treatment involves, and why the fear is mostly outdated.</p>
+<p>Say "<a href="/services/root-canal/">root canal</a>" to most people and you'll watch them wince. It's become shorthand for the worst possible dental experience, even though — and I mean this seriously — modern root canal treatment is nowhere near as bad as its reputation. The dread usually comes from outdated stories, not current reality.</p>
+<p>If you're dealing with a toothache right now and searching for "root canal cost Sonipat" or "<a href="/services/painless-dental-treatment/">painless RCT near me</a>," let's actually walk through what's happening in your mouth, what treatment involves, and why the fear is mostly outdated.</p>
 
 <h2>What's Actually Happening When You Need a Root Canal</h2>
 <p>Inside every tooth, beneath the enamel and dentin, there's a soft core called the pulp — nerves, blood vessels, connective tissue. When deep decay, a crack, or repeated dental procedures let bacteria reach that pulp, it gets infected or inflamed. That's what causes the sharp, throbbing pain that gets worse with hot or cold, or sometimes just a dull ache that won't quit.</p>
-<p>Left untreated, the infection doesn't just sit there — it can spread to the bone around the root, form an abscess, and eventually you risk losing the tooth entirely. A root canal removes that infected pulp, cleans and shapes the inside of the tooth, and seals it — saving the natural tooth instead of extracting it.</p>
+<p>Left untreated, the infection doesn't just sit there — it can spread to the bone around the root, form an abscess, and eventually you risk losing the tooth entirely. A root canal removes that infected pulp, cleans and shapes the inside of the tooth, and seals it — saving the natural tooth instead of <a href="/services/maxillofacial-surgery/">extracting it</a>.</p>
 
 <h2>Why People Fear It (And Why That Fear Is Mostly Outdated)</h2>
 <p>The reputation root canals have comes largely from decades-old dentistry, before modern anesthesia and rotary instruments became standard. Back then, procedures took longer, anesthesia wasn't always as effective, and the tools were far less precise.</p>
@@ -614,7 +614,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-07-10",
     image: "/images/doctors/dr-bhupesh-mukhija.jpg?v=2",
     html: `
-<p>If you've typed "dentist near me" into Google at 11 PM because a tooth started throbbing out of nowhere, you already know the problem with dental searches. You get twenty results, all claiming to be the "best dental clinic in Sonipat," and no real way to tell which one actually knows what they're doing.</p>
+<p>If you've typed "<a href="/">dentist near me</a>" into Google at 11 PM because a tooth started throbbing out of nowhere, you already know the problem with dental searches. You get twenty results, all claiming to be the "best dental clinic in Sonipat," and no real way to tell which one actually knows what they're doing.</p>
 <p>I get it. Picking a dentist isn't like picking a restaurant. If the food's bad, you just don't go back. If a dentist gets it wrong, you're dealing with pain, extra cost, and sometimes damage that's hard to undo. So this guide is meant to cut through the noise a bit — what to actually look for in a dental clinic in Sonipat, and why we built Mukhija Dental Clinic the way we did.</p>
 
 <h2>Why "Nearest Dental Clinic" Shouldn't Be Your Only Filter</h2>
@@ -623,12 +623,12 @@ export const blogPosts: BlogPost[] = [
 <li>Who's actually treating you? Is it a qualified dentist, or are you being passed to whoever's free that day?</li>
 <li>What equipment do they use? Digital X-rays and proper sterilization aren't luxuries anymore — they're basics.</li>
 <li>Do they explain things, or just tell you what to do? A good dentist walks you through what's wrong and why, not just what it'll cost.</li>
-<li>Can they handle more than fillings? Root canals, implants, braces, gum treatment — if a clinic only does the basics, you'll end up being referred out for anything serious.</li>
+<li>Can they handle more than fillings? <a href="/services/root-canal/">Root canals</a>, implants, braces, gum treatment — if a clinic only does the basics, you'll end up being referred out for anything serious.</li>
 </ul>
 <p>Sonipat has grown fast — Sector 12, Sector 14, Sector 15, Sector 35, Kundli, Murthal, Omaxe City — and dental clinics have popped up just as quickly. Not all of them are equipped for real, comprehensive care. That's the gap we noticed, and it's why patient-centric, full-service dentistry became the whole point of our clinic.</p>
 
 <h2>What Makes a Dental Clinic in Sonipat Trustworthy</h2>
-<p>This is where the term EEAT gets thrown around a lot in marketing circles, but honestly, it just means what any patient already intuitively checks for: experience, expertise, and whether people can actually vouch for the place. At Mukhija Dental Clinic in Model Town, Sonepat, we've treated everything from a five-year-old's first cavity to a root canal for someone who'd been avoiding the dentist for a decade out of fear. That range matters. A clinic that only sees "easy" cases hasn't been tested the way one that handles complex maxillofacial surgery, oral cancer screening, and complex root canal treatment has.</p>
+<p>This is where the term EEAT gets thrown around a lot in marketing circles, but honestly, it just means what any patient already intuitively checks for: experience, expertise, and whether people can actually vouch for the place. At Mukhija Dental Clinic in Model Town, Sonepat, we've treated everything from a five-year-old's first cavity to a root canal for someone who'd been avoiding the dentist for a decade out of fear. That range matters. A clinic that only sees "easy" cases hasn't been tested the way one that handles complex maxillofacial surgery, <a href="/services/oral-cancer-detection/">oral cancer screening</a>, and complex root canal treatment has.</p>
 <p>A few things we think genuinely set a clinic apart when you're comparing options in Sonipat:</p>
 <ul>
 <li><strong>Breadth of services under one roof.</strong> You shouldn't have to bounce between three different clinics for a filling, a root canal, and braces. We handle dental implants, cosmetic dentistry, gum treatment, kids dentistry, maxillofacial surgery, orthodontics, crowns and bridges, oral cancer detection, and more — all at one location.</li>

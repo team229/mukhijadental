@@ -49,6 +49,8 @@ const whyChooseImage =
               ? "/images/clinic/gallery/Crowns-Bridges-Dental-Treatment.jpg"
             : service.slug === "root-canal"
               ? "/images/clinic/gallery/Root-Canal-Treatment.jpg"
+            : service.slug === "oral-cancer-detection"
+              ? "/images/clinic/gallery/Oral-Cancer-Treatment.jpg"
             : service.slug === "kids-dentistry"
               ? "/images/clinic/gallery/Why-Choose-Our-Kids-Dentistry.webp"
               : subTreatments[0]?.image ?? "/images/clinic/treatment/doctor-table.webp";

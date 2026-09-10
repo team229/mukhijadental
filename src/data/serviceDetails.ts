@@ -21,6 +21,11 @@ export const serviceSubTreatments: Record<string, SubTreatment[]> = {
     { title: "Gum Surgery", description: "Surgical treatment for advanced gum disease.", image: "/images/services/gums-surgery-sonipat.jpg" },
     { title: "Electrocautery Gum Treatment", description: "Minimally invasive electrocautery gum procedures.", image: "/images/clinic/gallery/Electrocautery-Gum-Treatment.jpg" },
   ],
+  "kids-dentistry": [
+    { title: "Consultation", description: "Detailed examination and treatment planning.", image: "/images/clinic/treatment/consultation-desk.jpeg" },
+    { title: "Diagnosis", description: "Digital X-rays and comprehensive assessment.", image: "/images/clinic/gallery/Gum-Cleaning.webp" },
+    { title: "Treatment", description: "Expert care using modern dental technology.", image: "/images/clinic/gallery/Gum-Cleaning.webp" },
+  ],
   "root-canal": [
     { title: "Single Sitting RCT", description: "Complete root canal in one comfortable visit.", image: "/images/clinic/gallery/single-sitting-rct.jpeg" },
     { title: "Re-RCT", description: "Retreatment of previously treated root canals.", image: "/images/clinic/gallery/single-sitting-rct.jpeg" },

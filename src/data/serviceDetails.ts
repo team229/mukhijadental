@@ -6,9 +6,9 @@ export interface SubTreatment {
 
 export const serviceSubTreatments: Record<string, SubTreatment[]> = {
   "dental-implants": [
-    { title: "Single Tooth Implant", description: "Replace one missing tooth with a natural-looking implant.", image: "/images/clinic/gallery/clinic-08.jpeg" },
-    { title: "Multiple Teeth Implants", description: "Restore several missing teeth with implant-supported solutions.", image: "/images/clinic/gallery/clinic-14.jpeg" },
-    { title: "Full Arch Implants", description: "Complete smile restoration with full-arch implant treatment.", image: "/images/clinic/gallery/clinic-19.jpeg" },
+    { title: "Single Tooth Implant", description: "Replace one missing tooth with a natural-looking implant.", image: "/images/clinic/gallery/single-tooth-implant.jpg" },
+    { title: "Multiple Teeth Implants", description: "Restore several missing teeth with implant-supported solutions.", image: "/images/clinic/gallery/multiple-teeth-implants.jpg" },
+    { title: "Full Arch Implants", description: "Complete smile restoration with full-arch implant treatment.", image: "/images/clinic/gallery/full-arch-implants.jpg" },
   ],
   "cosmetic-dentistry": [
     { title: "Smile Makeover", description: "Complete aesthetic transformation of your smile.", image: "/images/clinic/gallery/cosmetic-treatment.jpeg" },

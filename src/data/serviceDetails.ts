@@ -39,10 +39,13 @@ export function getSubTreatments(slug: string): SubTreatment[] {
 }
 
 export const caseImages = [
-  { src: "/images/clinic/gallery/clinic-18.jpeg", alt: "Before treatment case" },
-  { src: "/images/clinic/gallery/cosmetic-treatment.jpeg", alt: "After smile makeover" },
-  { src: "/images/clinic/gallery/teeth-cleaning-procedure.jpeg", alt: "Teeth cleaning case" },
-  { src: "/images/clinic/gallery/crown-bridges-treatment.jpeg", alt: "Crown and bridge treatment result" },
+  { src: "/images/clinic/gallery/cases/case-1.png", alt: "Dental treatment case 1" },
+  { src: "/images/clinic/gallery/cases/case-2.png", alt: "Dental treatment case 2" },
+  { src: "/images/clinic/gallery/cases/case-3.png", alt: "Dental treatment case 3" },
+  { src: "/images/clinic/gallery/cases/case-4.png", alt: "Dental treatment case 4" },
+  { src: "/images/clinic/gallery/cases/case-5.png", alt: "Dental treatment case 5" },
+  { src: "/images/clinic/gallery/cases/case-6.png", alt: "Dental treatment case 6" },
+  { src: "/images/clinic/gallery/cases/case-7.png", alt: "Dental treatment case 7" },
 ];
 
 export const caseImagesByService: Record<string, { src: string; alt: string }[]> = {

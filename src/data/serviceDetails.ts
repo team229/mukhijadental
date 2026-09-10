@@ -12,9 +12,9 @@ export const serviceSubTreatments: Record<string, SubTreatment[]> = {
   ],
   "cosmetic-dentistry": [
     { title: "Smile Makeover", description: "Complete aesthetic transformation of your smile.", image: "/images/clinic/gallery/cosmetic-treatment.jpeg" },
-    { title: "Teeth Whitening", description: "Professional whitening for a brighter, whiter smile.", image: "/images/clinic/gallery/cosmetic-treatment.jpeg" },
-    { title: "Dental Veneers", description: "Thin porcelain shells for a flawless smile.", image: "/images/clinic/gallery/clinic-07.jpeg" },
-    { title: "Gap Closure", description: "Close unwanted spaces between teeth.", image: "/images/clinic/gallery/clinic-21.jpeg" },
+    { title: "Teeth Whitening", description: "Professional whitening for a brighter, whiter smile.", image: "/images/clinic/gallery/Teeth-Whitening.jpg" },
+    { title: "Dental Veneers", description: "Thin porcelain shells for a flawless smile.", image: "/images/clinic/gallery/Dental-Veneers.jpg" },
+    { title: "Gap Closure", description: "Close unwanted spaces between teeth.", image: "/images/clinic/gallery/Gap-Closure.png" },
   ],
   "gums-treatment": [
     { title: "Deep Cleaning", description: "Remove plaque and tartar below the gum line.", image: "/images/clinic/gallery/gum-treatment.jpeg" },

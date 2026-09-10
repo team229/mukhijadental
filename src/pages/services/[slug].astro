@@ -45,6 +45,8 @@ const whyChooseImage =
             ? "/images/services/maxillofacial-surgery-treatment-sonipat.jpg"
             : service.slug === "emergency-dentistry"
               ? "/images/clinic/gallery/Why-Choose-Our-Emergency-Dentistry.jpg"
+            : service.slug === "crowns-bridges"
+              ? "/images/clinic/gallery/Crowns-Bridges-Dental-Treatment.jpg"
             : service.slug === "kids-dentistry"
               ? "/images/clinic/gallery/Why-Choose-Our-Kids-Dentistry.webp"
               : subTreatments[0]?.image ?? "/images/clinic/treatment/doctor-table.webp";

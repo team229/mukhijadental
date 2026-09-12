@@ -247,7 +247,7 @@ export const blogPosts: BlogPost[] = [
     metaDescription:
       "Broken teeth, bleeding gums, wisdom tooth pain or a scared kid? A practical guide to urgent and everyday dental care at Mukhija Dental Clinic, Model Town, Sonipat.",
     date: "2026-08-23",
-    image: "/images/clinic/gallery/teeth-cleaning-procedure.jpeg",
+    image: "/images/clinic/gallery/treatment-broken-teeth.jpeg",
     html: `
 <p>Not every dental visit is planned. Sometimes it's a chipped tooth from a fall, <a href="/services/gums-treatment/">gums that won't stop bleeding when you brush</a>, a kid who won't stop crying about a toothache, or a wisdom tooth that's decided to make itself known at the worst possible time. This one's for those situations — the "I need help now, not eventually" moments.</p>
 
@@ -366,7 +366,7 @@ export const blogPosts: BlogPost[] = [
     metaDescription:
       "Honest guide to braces vs Invisalign, braces cost in Sonipat, crowns, veneers and teeth whitening — from the best orthodontist in Sonipat, Mukhija Dental Clinic.",
     date: "2026-08-14",
-    image: "/images/clinic/gallery/clinic-07.jpeg",
+    image: "/images/clinic/gallery/orthodontics.jpeg",
     html: `
 <p>Somewhere between "I've always wanted straighter teeth" and actually booking a consultation, most people get stuck comparing options — metal braces versus <a href="/services/orthodontics-treatment/">Invisalign</a>, crowns versus veneers, and a dozen price points that don't seem to make sense next to each other. So let's actually sort through it, the way we'd explain it to a patient sitting in our chair in Model Town.</p>
 
@@ -452,7 +452,7 @@ export const blogPosts: BlogPost[] = [
     metaDescription:
       "What actually drives dental implant cost in India, and why Sonipat is a smart place to get it done. Affordable, transparent implants from Mukhija Dental Clinic, Model Town.",
     date: "2026-08-05",
-    image: "/images/clinic/gallery/clinic-18.jpeg",
+    image: "/images/clinic/gallery/dental-implants-before-after.jpeg",
     html: `
 <p>Missing a tooth changes more than your smile. It changes how you chew, how your jawbone holds up over time, and honestly, how confident you feel talking to people. Dental implants are the closest thing dentistry has to replacing a natural tooth — but the moment people start researching, the first question is always the same: what's the actual <a href="/services/dental-implants/">dental implant cost in India</a>, and why does it vary so much between clinics?</p>
 <p>Let's break it down properly, without the marketing spin.</p>

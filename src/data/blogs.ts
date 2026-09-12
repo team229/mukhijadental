@@ -17,6 +17,352 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "tooth-sensitivity-sonipat",
+    title:
+      "Tooth Sensitivity to Hot and Cold: Causes, Treatment & When to See a Dentist in Sonipat",
+    description:
+      "Sharp pain when you sip cold water or hot tea? A practical guide to why teeth become sensitive, what can be done and when to see a dentist in Sonipat.",
+    metaTitle:
+      "Tooth Sensitivity to Hot and Cold: Causes & Treatment | Mukhija Dental Clinic",
+    metaDescription:
+      "Why do teeth hurt when you drink something cold or hot? Causes of sensitive teeth, treatment options, home care tips and when to see a dentist in Sonipat — Mukhija Dental Clinic, Model Town.",
+    date: "2026-09-12",
+    image: "/images/clinic/gallery/tooth-sensitivity-sonipat.webp",
+    html: `
+<p>Have you ever taken a sip of cold water and suddenly felt a sharp pain in your tooth?</p>
+
+<p>Or perhaps hot tea, coffee, ice cream or even a sweet food causes a quick, uncomfortable sensation that disappears within a few seconds.</p>
+
+<p>Many people experience this and simply avoid whatever triggers the pain. But <strong>tooth sensitivity to hot and cold is not something you should always ignore</strong>. Sometimes it is caused by relatively simple problems, while in other cases it can indicate tooth decay, gum recession, a damaged filling, a cracked tooth or an issue affecting the nerve inside the tooth.</p>
+
+<p>If you are searching for <strong>tooth sensitivity treatment in Sonipat</strong>, <strong>sensitive teeth treatment</strong>, or a <a href="https://www.mukhijadentalclinic.com/">dentist near me</a>, the first step is understanding why your teeth are sensitive.</p>
+
+<p>At <a href="https://www.mukhijadentalclinic.com/">Mukhija Dental Clinic</a> in Model Town, Sonepat, patients can have their teeth and gums examined to identify the possible cause and discuss appropriate treatment.</p>
+
+<h2>What Is Tooth Sensitivity?</h2>
+<p>Tooth sensitivity, also called dentin hypersensitivity, usually feels like a sudden, sharp pain when a tooth is exposed to certain triggers.</p>
+<p>Common triggers include:</p>
+<ul>
+<li>Cold water</li>
+<li>Ice cream</li>
+<li>Cold drinks</li>
+<li>Hot tea or coffee</li>
+<li>Sweet foods</li>
+<li>Sour foods</li>
+<li>Cold air</li>
+<li>Brushing</li>
+<li>Sometimes touching the tooth</li>
+</ul>
+<p>The sensation is often brief and may disappear soon after the trigger is removed.</p>
+<p>However, not every type of tooth pain is simple sensitivity. The <strong>duration, intensity and trigger of the pain</strong> can give your dentist useful information about what may be happening inside the tooth.</p>
+<p>For example, a brief sharp sensation when drinking something cold can have a different cause from pain that continues for several minutes after the drink is gone.</p>
+<p>That distinction is one reason a dental examination is important.</p>
+
+<h2>Why Do My Teeth Hurt When I Drink Cold Water?</h2>
+<p>There are several possible reasons.</p>
+<p>One common explanation is exposure of dentin, the layer underneath the tooth enamel.</p>
+<p>Normally, enamel and healthy gum tissue help protect the more sensitive inner structures of a tooth. When dentin becomes exposed, hot, cold, sweet or acidic substances can stimulate the nerves within the tooth more easily.</p>
+<p>Dentin exposure can happen for several reasons.</p>
+
+<h3>1. Gum recession</h3>
+<p>Gums can gradually recede and expose part of the tooth root.</p>
+<p>Unlike the crown of a tooth, the root does not have the same protective enamel covering. As a result, exposed root surfaces can become sensitive.</p>
+<p>Gum recession may be associated with factors such as aggressive brushing, gum disease or other individual causes.</p>
+<p>If you also notice <strong>bleeding gums, swollen gums or bad breath</strong>, don't treat the sensitivity as an isolated problem. A dentist should check your gums as well.</p>
+
+<h3>2. Tooth decay</h3>
+<p>A cavity can sometimes cause sensitivity to cold, hot or sweet foods.</p>
+<p>As decay progresses and gets closer to the inner part of the tooth, symptoms may become more noticeable.</p>
+<p>This is one reason it is not a good idea to simply purchase a toothpaste for sensitive teeth and assume the problem is solved.</p>
+<p>If a cavity is responsible, the underlying decay needs appropriate dental treatment.</p>
+
+<h3>3. Worn tooth enamel</h3>
+<p>Enamel is the hard outer layer of your teeth.</p>
+<p>It can become worn over time for different reasons. Acidic foods and drinks, certain habits and aggressive brushing can contribute to enamel wear.</p>
+<p>Once protective enamel becomes thinner, the underlying dentin may become more exposed and sensitivity can increase.</p>
+
+<h3>4. Brushing too aggressively</h3>
+<p>Brushing harder does not necessarily mean you're cleaning better.</p>
+<p>Using excessive force, particularly with an unsuitable toothbrush, can irritate the gums and contribute to wear around the teeth.</p>
+<p>A soft-bristled toothbrush and gentle brushing technique are generally preferable.</p>
+<p>If you are unsure whether your brushing technique is contributing to sensitivity, ask your dentist to assess it during your next appointment.</p>
+
+<h3>5. Cracked or damaged teeth</h3>
+<p>A cracked tooth can sometimes cause sensitivity when you bite or when the tooth is exposed to hot or cold substances.</p>
+<p>The pain may not always be obvious or constant.</p>
+<p>If sensitivity occurs mainly in one tooth, especially after biting something hard or following an injury, it is worth getting that tooth examined.</p>
+
+<h3>6. Dental fillings or restorations</h3>
+<p>A tooth may sometimes become sensitive after receiving a filling or another dental restoration.</p>
+<p>Some temporary sensitivity can occur following dental treatment. However, if the sensitivity persists, becomes worse or is accompanied by significant pain, the tooth should be reassessed.</p>
+<p>Your dentist can determine whether the sensitivity is expected or whether another problem needs attention.</p>
+
+<h3>7. Teeth grinding</h3>
+<p>Some people grind or clench their teeth, particularly while sleeping.</p>
+<p>Over time, this can contribute to tooth wear and may make teeth more susceptible to sensitivity.</p>
+<p>If you regularly wake up with jaw discomfort, headaches or notice unusual wear on your teeth, mention it during your dental examination.</p>
+
+<h3>8. Teeth whitening</h3>
+<p>Some people experience temporary sensitivity after certain teeth-whitening treatments.</p>
+<p>If you are considering <strong>teeth whitening in Sonipat</strong>, discuss your existing sensitivity with your dentist before treatment.</p>
+<p>It is better to address the cause of sensitivity first rather than assuming that cosmetic treatment will be suitable without an examination.</p>
+
+<h2>Is Tooth Sensitivity a Sign of a Serious Problem?</h2>
+<p>Not necessarily.</p>
+<p>A brief sensitivity to cold does not automatically mean that you need a root canal.</p>
+<p>However, persistent or worsening sensitivity should not be ignored because several dental conditions can produce similar symptoms.</p>
+<p>Your dentist may need to determine whether the problem is related to:</p>
+<ul>
+<li>Enamel wear</li>
+<li>Exposed dentin</li>
+<li>Gum recession</li>
+<li>Tooth decay</li>
+<li>A cracked tooth</li>
+<li>A damaged filling</li>
+<li>Tooth grinding</li>
+<li>Pulp inflammation</li>
+<li>Dental infection</li>
+</ul>
+<p>The important thing is to identify the cause rather than treating the symptom blindly.</p>
+
+<h2>How Do I Know If I Need a Root Canal?</h2>
+<p>This is one of the most common concerns among people experiencing tooth pain.</p>
+<p>Sensitivity alone does <strong>not</strong> automatically mean that you need Root Canal Treatment.</p>
+<p>RCT may be recommended when the pulp inside a tooth has become irreversibly inflamed or infected. This can happen because of deep decay, significant trauma, cracks or other damage.</p>
+<p>Symptoms that may require further evaluation include:</p>
+<ul>
+<li>Severe or persistent toothache</li>
+<li>Pain that lingers after hot or cold exposure</li>
+<li>Pain that occurs without an obvious trigger</li>
+<li>Pain when biting or chewing</li>
+<li>Swelling around the tooth</li>
+<li>Tenderness around the tooth</li>
+<li>A recurring dental abscess</li>
+<li>Significant discoloration of the tooth</li>
+</ul>
+<p>These symptoms do not provide a diagnosis by themselves. A dentist may need to perform clinical tests and take a dental X-ray to understand what is happening.</p>
+<p>If you are searching for <strong>painless root canal near me</strong>, <strong>Root Canal Sonipat</strong> or <a href="/services/root-canal/">Single Sitting RCT</a>, remember that the appropriate treatment and number of appointments depend on the individual tooth and diagnosis.</p>
+
+<h2>What Happens During a Dental Examination for Sensitivity?</h2>
+<p>When you visit a dentist for sensitive teeth, the appointment is not simply about checking whether a tooth hurts.</p>
+<p>Your dentist may ask:</p>
+<ul>
+<li>Which tooth is sensitive?</li>
+<li>Is it triggered by cold, hot, sweet or pressure?</li>
+<li>How long does the pain last?</li>
+<li>When did it start?</li>
+<li>Is the pain getting worse?</li>
+<li>Have you recently had dental treatment?</li>
+<li>Do you grind or clench your teeth?</li>
+<li>Do your gums bleed?</li>
+<li>Have you experienced a dental injury?</li>
+</ul>
+<p>The dentist will then examine the teeth and gums.</p>
+<p>Depending on the symptoms, dental X-rays or other diagnostic tests may be recommended.</p>
+<p>Mukhija Dental Clinic provides <strong>Dental Radiology</strong> and <strong>Dental &amp; Oral X-ray services</strong>, which can be useful when imaging is clinically required to investigate dental problems.</p>
+
+<h2>How Is Tooth Sensitivity Treated?</h2>
+<p>There is no single treatment for sensitive teeth because treatment depends on the cause.</p>
+
+<h3>Treatment for mild dentin sensitivity</h3>
+<p>If the sensitivity is related to exposed dentin without another major dental problem, your dentist may recommend changes to your oral hygiene routine and a toothpaste designed for sensitive teeth.</p>
+<p>The improvement may take some time, so consistency matters.</p>
+
+<h3>Treatment for cavities</h3>
+<p>If decay is responsible for the sensitivity, the dentist may recommend a filling or another appropriate restoration.</p>
+<p>Leaving a cavity untreated can allow the decay to progress deeper.</p>
+
+<h3>Treatment for gum problems</h3>
+<p>If gum recession or gum disease is contributing to sensitivity, the treatment needs to address the gum problem.</p>
+<p>Patients with plaque, tartar, bleeding gums or gum inflammation may benefit from professional cleaning and appropriate <a href="/services/gums-treatment/">gum treatment</a>.</p>
+<p>Mukhija Dental Clinic provides <a href="/services/gums-treatment/">gum treatment</a>, <a href="/services/teeth-cleaning/">ultrasonic teeth cleaning</a>, scaling and polishing and routine dental examinations.</p>
+
+<h3>Treatment for a damaged or cracked tooth</h3>
+<p>Depending on the extent and location of the damage, a cracked or broken tooth may require restoration, a crown, <a href="/services/root-canal/">root canal treatment</a> or another procedure.</p>
+<p>The appropriate treatment cannot be determined accurately without examining the tooth.</p>
+
+<h3>Treatment after dental procedures</h3>
+<p>If sensitivity develops following a filling, crown or another dental procedure, your dentist can assess whether it is expected to settle or whether the tooth needs further evaluation.</p>
+
+<h2>Can Teeth Cleaning Help Sensitive Teeth?</h2>
+<p>It depends on why the tooth is sensitive.</p>
+<p>Professional <a href="/services/teeth-cleaning/">teeth cleaning</a> does not directly treat every cause of sensitivity.</p>
+<p>However, if plaque and tartar buildup are contributing to gum inflammation, professional cleaning may be an important part of improving your oral health.</p>
+<p>Patients often search for <strong>Teeth Cleaning Sonipat</strong>, <strong>Scaling and Polishing</strong> and <strong>Teeth Cleaning Cost Sonipat</strong>.</p>
+<p>During a dental examination, your dentist can determine whether you need routine cleaning, more comprehensive gum treatment or another type of dental care.</p>
+
+<h2>What Can You Do at Home for Sensitive Teeth?</h2>
+<p>While you should not use home care as a substitute for diagnosis, a few habits can help reduce irritation.</p>
+
+<h3>Use a soft toothbrush</h3>
+<p>Avoid aggressive back-and-forth scrubbing.</p>
+<p>Brush gently but thoroughly, particularly around the gumline.</p>
+
+<h3>Use fluoride toothpaste</h3>
+<p>Fluoride toothpaste can help strengthen and protect tooth enamel. If you regularly experience sensitivity, your dentist may recommend a toothpaste specifically formulated for sensitive teeth.</p>
+
+<h3>Clean between your teeth</h3>
+<p>Food and plaque can accumulate between teeth where a toothbrush cannot clean effectively.</p>
+<p>Floss or use an appropriate interdental cleaning method as recommended by your dentist.</p>
+
+<h3>Be careful with acidic foods and drinks</h3>
+<p>Frequent exposure to acidic foods and drinks can contribute to enamel erosion.</p>
+<p>Examples include certain soft drinks, fruit juices and acidic foods.</p>
+<p>You do not necessarily have to eliminate every acidic food from your diet, but reducing frequent exposure can help protect your teeth.</p>
+
+<h3>Don't brush immediately after acidic foods</h3>
+<p>Acid can temporarily soften the tooth surface. Ask your dentist about an appropriate brushing routine if you regularly consume acidic foods or drinks.</p>
+
+<h3>Don't ignore persistent pain</h3>
+<p>If sensitivity keeps returning, particularly in one specific tooth, get it checked.</p>
+<p>Temporary relief does not necessarily mean that the underlying problem has gone away.</p>
+
+<h2>When Should You See a Dentist for Tooth Sensitivity?</h2>
+<p>You should consider a dental examination if:</p>
+<ul>
+<li>Sensitivity keeps happening</li>
+<li>The pain is becoming stronger</li>
+<li>One particular tooth is consistently sensitive</li>
+<li>Pain continues after the hot or cold trigger is removed</li>
+<li>You experience pain while chewing</li>
+<li>Your tooth has changed colour</li>
+<li>Your gums are swollen or bleeding</li>
+<li>You notice a crack or chip</li>
+<li>You have facial or gum swelling</li>
+<li>You have recently injured the tooth</li>
+</ul>
+<p>If you have significant facial swelling, fever, difficulty swallowing or difficulty breathing, seek urgent medical attention.</p>
+
+<h2>Tooth Sensitivity After an Injury</h2>
+<p>A blow to the mouth can damage a tooth even when there is no obvious crack.</p>
+<p>If a tooth becomes sensitive after falling, playing sports, being hit or experiencing another dental injury, arrange an examination.</p>
+<p>Your dentist may recommend an X-ray or other tests depending on the injury.</p>
+<p>Don't assume that a tooth is fine simply because it is still in place.</p>
+<p>Some injuries can affect the pulp or supporting structures without producing obvious external damage.</p>
+
+<h2>What About Children With Sensitive Teeth?</h2>
+<p>Children can also complain that their teeth hurt when eating ice cream or drinking something cold.</p>
+<p>The cause may be something relatively simple, such as tooth sensitivity, but it could also be a cavity, a damaged tooth or another dental problem.</p>
+<p>Parents should not try to diagnose the cause themselves.</p>
+<p>A <strong>Kids Dentist in Sonipat</strong> or pediatric dental professional can examine the child and explain the appropriate treatment.</p>
+<p>Mukhija Dental Clinic provides <a href="/services/kids-dentistry/">Kids Dentistry</a> along with comprehensive dental care for adults and families.</p>
+<p>Early dental visits can also help children become more comfortable with the idea of regular dental care.</p>
+
+<h2>Can Sensitive Teeth Be Prevented?</h2>
+<p>You cannot prevent every cause of tooth sensitivity, but good oral care can reduce the risk of several common problems.</p>
+<p>A practical daily routine includes:</p>
+<ul>
+<li>Brush twice a day with fluoride toothpaste.</li>
+<li>Use a soft-bristled toothbrush.</li>
+<li>Avoid brushing too aggressively.</li>
+<li>Clean between your teeth regularly.</li>
+<li>Limit frequent exposure to acidic drinks.</li>
+<li>Avoid using your teeth to open packages or bite hard objects.</li>
+<li>Wear appropriate protective equipment for contact sports.</li>
+<li>Attend regular dental examinations.</li>
+<li>Get cavities and broken teeth treated promptly.</li>
+<li>Pay attention to persistent gum bleeding.</li>
+</ul>
+<p>Your dentist can also suggest changes based on your individual dental condition.</p>
+
+<h2>Why You Shouldn't Self-Diagnose Tooth Pain</h2>
+<p>Google searches can be useful for understanding possible causes, but they cannot tell you exactly what is happening inside your tooth.</p>
+<p>For example, sensitivity to cold could be associated with exposed dentin, decay, gum recession, a cracked tooth or pulp-related problems.</p>
+<p>These conditions can require completely different treatments.</p>
+<p>Similarly, searching for <strong>painless dentist near me</strong> or <strong>best painless RCT clinic Sonipat</strong> should not be the only basis for choosing a <a href="https://www.mukhijadentalclinic.com/">dental clinic</a>.</p>
+<p>Look for a dentist who will first examine the problem, explain the diagnosis and discuss the available treatment options.</p>
+
+<h2>How Much Does Tooth Sensitivity Treatment Cost in Sonipat?</h2>
+<p>There is no single <strong>tooth sensitivity treatment cost in Sonipat</strong> because the treatment depends on the underlying cause.</p>
+<p>For example, treatment may involve something as simple as professional advice and desensitising care, while another patient may need:</p>
+<ul>
+<li>A dental filling</li>
+<li><a href="/services/teeth-cleaning/">Professional teeth cleaning</a></li>
+<li>Gum treatment</li>
+<li>A crown</li>
+<li>Root canal treatment</li>
+<li>Treatment for a cracked tooth</li>
+<li>Another restorative procedure</li>
+</ul>
+<p>Diagnostic X-rays may also be required in some cases.</p>
+<p>The best way to understand your expected cost is to have the tooth examined and receive a treatment plan based on the actual diagnosis.</p>
+
+<h2>Mukhija Dental Clinic for Dental Care in Sonipat</h2>
+<p>Mukhija Dental Clinic is located in <strong>Model Town, Sonepat, Haryana</strong>, and provides comprehensive dental care for children, adults and families.</p>
+<p>The clinic's services include:</p>
+<ul>
+<li>Routine dental examinations</li>
+<li>Dental and oral X-rays</li>
+<li>Dental radiology</li>
+<li>Root Canal Treatment</li>
+<li>Dental implants</li>
+<li>Crowns and bridges</li>
+<li>Gum treatment</li>
+<li>Bleeding gums treatment</li>
+<li>Ultrasonic teeth cleaning</li>
+<li>Scaling and polishing</li>
+<li>Braces</li>
+<li>Orthodontics</li>
+<li>Teeth aligners</li>
+<li>Cosmetic dentistry</li>
+<li>Teeth whitening</li>
+<li>Kids dentistry</li>
+<li>Wisdom tooth removal</li>
+<li>Tooth extraction</li>
+<li>Maxillofacial surgery</li>
+<li>Microscopic dentistry</li>
+<li>Oral cancer detection</li>
+</ul>
+<p>The clinic serves patients from <strong>Sonipat, Murthal, Kundli, Sector 12, Sector 14, Sector 15, Sector 35 and Omaxe City</strong>.</p>
+<p>Wheelchair-accessible parking is also available.</p>
+<p>So, if you are searching for a <strong>dentist in Sonipat</strong>, <strong>dental clinic near me</strong>, <strong>dentist for sensitive teeth Sonipat</strong> or <strong>nearest dental clinic</strong>, Mukhija Dental Clinic can provide an examination and help you understand the cause of your dental discomfort.</p>
+
+<h2>Don't Ignore a Tooth That Keeps Hurting</h2>
+<p>A quick sharp sensation from cold water may seem like a small problem, especially when it disappears within seconds.</p>
+<p>But if the same tooth keeps reacting to cold, hot, sweet foods or pressure, there is a reason worth investigating.</p>
+<p>The good news is that many causes of sensitivity can be managed effectively once they are identified. The important part is not to keep avoiding cold water or hot tea while hoping the problem disappears.</p>
+<p>If you are experiencing persistent sensitivity and are looking for <strong>tooth sensitivity treatment in Sonipat</strong>, a <strong>dentist near me</strong>, or a <strong>dental clinic in Sonipat</strong>, consider getting the tooth examined.</p>
+<p>At Mukhija Dental Clinic, Model Town, Sonepat, the dental team can assess your teeth and gums, use dental X-rays when clinically required and explain the treatment options suitable for your condition.</p>
+`,
+    faqs: [
+      {
+        question: "Why do my teeth hurt when I drink cold water?",
+        answer:
+          "Cold water can trigger pain when the protective enamel or gum tissue no longer adequately protects the sensitive inner parts of the tooth. Common causes can include exposed dentin, gum recession, enamel wear, cavities or other dental problems.",
+      },
+      {
+        question: "Why are my teeth sensitive to hot drinks?",
+        answer:
+          "Sensitivity to hot drinks can have several causes, including tooth decay, damage to the tooth or inflammation of the pulp. If hot drinks consistently cause pain, especially if the pain lingers, arrange a dental examination.",
+      },
+      {
+        question: "Is sensitive teeth a sign that I need a root canal?",
+        answer:
+          "Not necessarily. Many cases of sensitivity do not require RCT. Root canal treatment is generally considered when the pulp inside a tooth has become irreversibly inflamed or infected. Your dentist needs to evaluate the tooth before recommending RCT.",
+      },
+      {
+        question: "Can sensitive teeth be cured permanently?",
+        answer:
+          "Treatment depends on the cause. If sensitivity is caused by an underlying dental problem, treating that problem may resolve the symptoms. In other cases, sensitivity can be managed with appropriate dental care and changes to your oral hygiene routine.",
+      },
+      {
+        question: "Can brushing too hard cause tooth sensitivity?",
+        answer:
+          "Aggressive brushing can contribute to gum irritation and wear around the teeth, which may expose more sensitive tooth surfaces. A soft-bristled toothbrush and gentle technique are generally recommended.",
+      },
+      {
+        question: "Should I avoid cold foods if my teeth are sensitive?",
+        answer:
+          "Avoiding triggers may reduce discomfort temporarily, but it does not identify or treat the underlying cause. If sensitivity is persistent, it is better to have your teeth examined.",
+      },
+      {
+        question: "Can a cavity cause sensitivity to cold?",
+        answer:
+          "Yes. Tooth decay can cause sensitivity, particularly as it progresses deeper into the tooth. A dentist can determine whether decay is responsible and recommend appropriate treatment.",
+      },
+    ],
+  },
+  {
     slug: "dental-treatment-cost-sonipat",
     title: "Dental Treatment Cost in Sonipat: RCT, Implants, Braces, Crowns, Cleaning and More",
     description:

@@ -27,7 +27,7 @@ import { getAsset } from "../../lib/images";
             <div class="aspect-[16/10] overflow-hidden">
               <Image
                 src={getAsset(post.image)}
-                alt={post.title}
+                alt={post.imageAlt ?? post.title}
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"
               />

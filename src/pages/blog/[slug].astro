@@ -18,6 +18,7 @@ const { html, faqs, title, metaTitle, metaDescription, date, image } = post;
 const imageAlt = post.imageAlt ?? title;
 const dateLabel = formatBlogDate(date);
 const canonical = new URL(`/blog/${post.slug}/`, Astro.site ?? "https://mukhijadentalclinic.com").href;
+const postImage = new URL(getAsset(image).src, Astro.site ?? "https://mukhijadentalclinic.com").href;
 ---
 
 <BaseLayout title={metaTitle} description={metaDescription} canonical={canonical}>
@@ -49,7 +50,9 @@ const canonical = new URL(`/blog/${post.slug}/`, Astro.site ?? "https://mukhijad
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": title,
+  "description": post.description,
   "datePublished": date,
+  "image": postImage,
   "mainEntityOfPage": canonical,
   "publisher": {
     "@type": "Organization",

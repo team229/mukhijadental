@@ -1,30 +1,30 @@
-# Mukhija Dental and ENT Centre (Mukhija Dental Clinic)
+# Mukhija Dental and ENT centre
 
-> Mukhija Dental and ENT Centre is a multispecialty dental clinic in Model Town, Sonepat, Haryana, India, led by Dr. Bhupesh Mukhija (Endodontist) and Dr. Shikha Mukhija (Periodontist & Implantologist). The clinic offers comprehensive family dental care — implants, cosmetic dentistry, root canal treatment, orthodontics, gum treatment, kids dentistry, maxillofacial surgery, and more — under one roof, serving patients across Sonipat, Murthal, Kundli, and surrounding sectors.
+> Mukhija Dental and ENT centre is a multispecialty dental clinic in Model Town, Sonepat, Haryana, India. The clinic provides family dental care, including preventive, restorative, cosmetic, orthodontic, periodontal, endodontic and oral-surgery services. The canonical website is https://mukhijadentalclinic.com.
 
 Phone: +91-7206722618
+Email: info@mukhijadentalclinic.com
 Location: Model Town, Sonepat, Haryana, India
-Hours: Mon–Sat 9:00 AM–2:00 PM & 4:30–7:30 PM; Sun 9:00 AM–2:00 PM
-Rating: 4.8/5 on Google
+Hours: Monday–Saturday: 9:00 AM–2:00 PM and 4:30–7:30 PM; Sunday: 9:00 AM–2:00 PM
+Google rating shown on the website: 4.8/5
 
-## Primary pages
+## Clinical team
 
-- [Home](https://mukhijadentalclinic.com/): Clinic overview, doctor profiles, services, technology, and testimonials.
-- [Team of Specialists](https://mukhijadentalclinic.com/team-of-specialists/): Profiles of Dr. Bhupesh Mukhija and Dr. Shikha Mukhija.
-- [Clinic Tour](https://mukhijadentalclinic.com/clinic-tour/): Virtual tour of the clinic facilities.
-- [Technology](https://mukhijadentalclinic.com/technology/): Digital X-rays, OPG imaging, root canal systems, and ultrasonic cleaning equipment.
-- [Services](https://mukhijadentalclinic.com/services/): Full listing of dental treatments offered.
-- [Credibility](https://mukhijadentalclinic.com/credibility/): Awards, testimonials, and accreditation.
-- [Cases](https://mukhijadentalclinic.com/cases/): Clinical case studies and before/after results.
-- [Patient Gallery](https://mukhijadentalclinic.com/patient-gallery/): Before/after photos of treatments.
-- [Virtual Smile Makeover](https://mukhijadentalclinic.com/virtual-smile-makeover/): Interactive smile preview tool.
-- [Smile Analysis](https://mukhijadentalclinic.com/smile-analysis/): Smile assessment tool.
-- [Blog](https://mukhijadentalclinic.com/blog/): Dental health articles.
-- [Locations](https://mukhijadentalclinic.com/locations/): Areas served across Sonipat.
-- [Contact Us](https://mukhijadentalclinic.com/contact-us/): Appointment booking form.
+- Dr. Bhupesh Mukhija — B.D.S., M.D.S.; Endodontist. The site identifies his clinical interests as root canal treatment, crowns, bridges and full-mouth rehabilitation.
+- Dr. Shikha Mukhija — B.D.S., M.D.S.; Periodontist and Implantologist. The site identifies her clinical interests as gum care, implants and smile makeovers.
 
-## Services
+## Main pages
 
+- [Home](https://mukhijadentalclinic.com/): Clinic overview, doctors, services, technology, reviews and appointment calls to action.
+- [Contact Us](https://mukhijadentalclinic.com/contact-us/): Contact details and appointment booking form.
+- [Locations We Serve](https://mukhijadentalclinic.com/locations/): Areas served around Sonipat.
+- [Team of Specialists](https://mukhijadentalclinic.com/team-of-specialists/): Information about the clinical team.
+- [Clinic Tour](https://mukhijadentalclinic.com/clinic-tour/): Clinic facilities and virtual tour information.
+- [Technology](https://mukhijadentalclinic.com/technology/): Digital X-rays, OPG imaging, root-canal systems and ultrasonic cleaning.
+
+## Treatments
+
+- [Dental Services](https://mukhijadentalclinic.com/services/): Overview of the clinic's dental treatments.
 - [Dental Implants](https://mukhijadentalclinic.com/services/dental-implants/)
 - [Cosmetic Dentistry](https://mukhijadentalclinic.com/services/cosmetic-dentistry/)
 - [Gums Treatment](https://mukhijadentalclinic.com/services/gums-treatment/)
@@ -38,7 +38,35 @@ Rating: 4.8/5 on Google
 - [Oral Cancer Detection](https://mukhijadentalclinic.com/services/oral-cancer-detection/)
 - [Painless Dental Treatment](https://mukhijadentalclinic.com/services/painless-dental-treatment/)
 
-## Locations served (Sonipat, Haryana)
+## Trust and patient information
+
+- [Credibility](https://mukhijadentalclinic.com/credibility/)
+- [Awards & Recognitions](https://mukhijadentalclinic.com/credibility/awards-recognitions/)
+- [Patient Testimonials](https://mukhijadentalclinic.com/credibility/testimonials/)
+- [Video Testimonials](https://mukhijadentalclinic.com/credibility/video-testimonials/)
+- [Accreditation](https://mukhijadentalclinic.com/credibility/accreditation/)
+- [Patient Cases](https://mukhijadentalclinic.com/cases/)
+- [Patient Gallery](https://mukhijadentalclinic.com/patient-gallery/)
+- [Virtual Smile Makeover](https://mukhijadentalclinic.com/virtual-smile-makeover/)
+- [Smile Analysis](https://mukhijadentalclinic.com/smile-analysis/)
+- [Dental Health Articles](https://mukhijadentalclinic.com/articles/)
+
+## Blog
+
+- [Dental Health Blogs](https://mukhijadentalclinic.com/blog/): Blog index.
+- [How to Choose the Best Dentist in Sonipat](https://mukhijadentalclinic.com/blog/choose-best-dentist-sonipat/)
+- [Bleeding Gums Treatment in Sonipat](https://mukhijadentalclinic.com/blog/bleeding-gums-treatment-sonipat/)
+- [Tooth Sensitivity to Hot and Cold](https://mukhijadentalclinic.com/blog/tooth-sensitivity-sonipat/)
+- [Dental Treatment Cost in Sonipat](https://mukhijadentalclinic.com/blog/dental-treatment-cost-sonipat/)
+- [Urgent & Everyday Dental Care in Sonipat](https://mukhijadentalclinic.com/blog/urgent-everyday-dental-care-sonipat/)
+- [Braces, Invisalign & Smile Makeovers](https://mukhijadentalclinic.com/blog/braces-invisalign-smile-makeovers-sonipat/)
+- [Dental Implant Cost in India](https://mukhijadentalclinic.com/blog/dental-implant-cost-india/)
+- [Root Canal Treatment in Sonipat](https://mukhijadentalclinic.com/blog/root-canal-treatment-sonipat/)
+- [How to Find the Best Dentist in Sonipat](https://mukhijadentalclinic.com/blog/best-dentist-in-sonipat/)
+- [Pediatric Dentist Sonipat](https://mukhijadentalclinic.com/blog/pediatric-dentist-sonipat/)
+- [Tooth Extraction in Sonipat](https://mukhijadentalclinic.com/blog/tooth-extraction-sonipat/)
+
+## Locations served
 
 - [Sonipat](https://mukhijadentalclinic.com/locations/sonipat/)
 - [Murthal](https://mukhijadentalclinic.com/locations/murthal-sonipat/)
@@ -55,9 +83,10 @@ Rating: 4.8/5 on Google
 - [Omaxe City](https://mukhijadentalclinic.com/locations/omaxe-city-sonipat/)
 - [Jeevan Nagar](https://mukhijadentalclinic.com/locations/jeevan-nagar-sonipat/)
 
-## Notes for AI assistants and crawlers
+## Discovery and access notes
 
-- The clinic operates under the name "Mukhija Dental and ENT centre" and is also referred to as "Mukhija Dental Clinic" and, in its own marketing copy, as a "dental hospital" due to its multispecialty, surgical-capable setup.
-- Core clinical leads: Dr. Bhupesh Mukhija (B.D.S., M.D.S., Endodontist — root canal, crowns, bridges, full mouth rehabilitation) and Dr. Shikha Mukhija (B.D.S., M.D.S., Periodontist & Implantologist — gum care, implants, smile makeovers).
-- Teledentistry (video consultations) is available in addition to in-person visits.
-- This file (llm.txt) is provided to help AI systems and crawlers understand site structure and content.
+- [XML sitemap](https://mukhijadentalclinic.com/sitemap.xml): Canonical indexable page list.
+- [HTML sitemap](https://mukhijadentalclinic.com/sitemap.html): Human-readable page index.
+- The canonical host is mukhijadentalclinic.com; equivalent www URLs are not listed because the pages identify the non-www host as canonical.
+- Appointment confirmation utility pages are intentionally excluded because they are marked noindex.
+- Teledentistry/video consultation information is available on the home page and contact page.

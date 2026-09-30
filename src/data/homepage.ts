@@ -11,14 +11,14 @@ export const doctors: Doctor[] = [
     name: "Dr. Bhupesh Mukhija",
     credentials: "B.D.S., M.D.S.",
     specialty: "Endodontist",
-    image: "/images/doctors/dr-bhupesh-mukhija.jpg?v=2",
+    image: "/images/doctors/dr-bhupesh-mukhija-portrait.webp?v=1",
     bio: "Specialist in Single Sitting Root Canal Treatment, Crowns, Bridges and Full Mouth Rehabilitation with precision planning and care.",
   },
   {
     name: "Dr. Shikha Mukhija",
     credentials: "B.D.S., M.D.S.",
     specialty: "Periodontist & Implantologist",
-    image: "/images/doctors/dr-shikha-mukhija.jpg?v=2",
+    image: "/images/doctors/dr-shikha-mukhija-portrait.webp?v=1",
     bio: "Specializes in Gum Care, Implants and Smile Makeover with a gentle patient-first approach.",
   },
 ];

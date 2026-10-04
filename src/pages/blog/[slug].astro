@@ -21,7 +21,12 @@ const canonical = new URL(`/blog/${post.slug}/`, Astro.site ?? "https://mukhijad
 const postImage = new URL(getAsset(image).src, Astro.site ?? "https://mukhijadentalclinic.com").href;
 ---
 
-<BaseLayout title={metaTitle} description={metaDescription} canonical={canonical}>
+<BaseLayout
+  title={metaTitle}
+  description={metaDescription}
+  canonical={canonical}
+  faqs={faqs}
+>
   <PageHero
     title={title}
     subtitle={dateLabel}

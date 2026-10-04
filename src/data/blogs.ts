@@ -18,6 +18,303 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "dental-implant-cost-in-india-what-affects-price",
+    title:
+      "Dental Implant Cost in India: What Affects the Price and How to Compare Quotes",
+    description:
+      "Dental implant cost in India is not one fixed price. Here is what actually decides the quote — number of implants, bone grafting, imaging, crown material and follow-up — and how to compare estimates fairly.",
+    metaTitle:
+      "Dental Implant Cost in India: What Affects It | Mukhija Dental Clinic",
+    metaDescription:
+      "What decides dental implant cost in India — number of implants, case complexity, bone graft, imaging, crown material and specialist skill — plus how to compare quotes.",
+    date: "2026-10-04",
+    image:
+      "/images/clinic/gallery/dental-implant-cost-in-india-what-affects-price.webp",
+    imageAlt:
+      "Dental implant cost in India infographic showing implant placement, crown materials and the factors that change the price",
+    html: `
+<p><strong>Quick answer:</strong> Dental implant cost in India depends on the number of implants, the complexity of the case, the type of crown, imaging needs and the dentist's expertise. There is no single fixed price, so any figure quoted before an examination is only a guess. Ask for an itemised written estimate after a consultation and an X-ray, then compare what each quote includes rather than just the total.</p>
+
+<h2>Why Is Dental Implant Cost in India So Hard to Pin Down?</h2>
+<p>Two patients can both need a "single tooth implant" and receive very different quotes. The reason is simple: an implant is a treatment plan, not a single product.</p>
+<p>Bone quality, gum health, the position of the tooth and the materials used all change the plan. That is why a careful dentist examines you before naming a price.</p>
+
+<h2>What Is a Dental Implant?</h2>
+<p>A dental implant is a small post placed in the jawbone to replace a missing tooth root. A crown, bridge or denture is then attached to it. This makes implants a long-term option for tooth replacement and missing teeth replacement.</p>
+<p>Implants come in several forms:</p>
+<ul>
+<li><strong>Single tooth implant:</strong> replaces one missing tooth.</li>
+<li><strong>Multiple teeth implants:</strong> support a bridge or several crowns.</li>
+<li><strong>Full arch implants:</strong> support a full set of teeth on implants.</li>
+<li><strong>Implant-supported solutions:</strong> include implant-supported dentures for patients missing many teeth.</li>
+</ul>
+<p>Our guide to <a href="/services/dental-implants/">dental implants</a> explains each of these options in more detail.</p>
+
+<h2>What Factors Decide the Cost of Dental Implant Treatment?</h2>
+<p>Cost follows the work involved, so understanding each part helps you compare quotes fairly.</p>
+<ul>
+<li><strong>Number of implants:</strong> more implants mean more components and more procedure time.</li>
+<li><strong>Case complexity:</strong> weak bone or gum disease may need extra steps first.</li>
+<li><strong>Bone graft:</strong> if the jawbone is too thin, a bone graft rebuilds it before or during placement.</li>
+<li><strong>Imaging:</strong> digital X-rays and OPG imaging help plan placement accurately.</li>
+<li><strong>Surgical approach:</strong> some clinics list immediate function and two-stage implant options. The right choice depends on your case.</li>
+<li><strong>Crown material:</strong> a dental crown can be made from different materials. Mukhija Dental and ENT centre lists metal-free zirconia crowns and bridges on its <a href="/services/crowns-bridges/">crowns and bridges</a> page.</li>
+<li><strong>Specialist involvement:</strong> a periodontist or implantologist handles planning and placement.</li>
+</ul>
+
+<h2>Which Treatments Might Be Needed Before an Implant?</h2>
+<p>Some patients need preparation before <a href="/services/dental-implants/">dental implant surgery</a>. Gum disease must be treated first, damaged teeth may need extraction, and weak bone may need grafting. Each step adds to the total cost, but skipping them raises the risk of implant failure.</p>
+<p>For jaw or complex surgical needs, see the clinic's <a href="/services/maxillofacial-surgery/">maxillofacial surgery</a> page.</p>
+
+<h2>How Do You Compare Implant Quotes?</h2>
+<p>A lower total is not always cheaper. Compare what each quote actually covers.</p>
+<ul>
+<li><strong>Itemised breakdown:</strong> ask for the implant, abutment, crown, imaging and surgery costs separately.</li>
+<li><strong>Brand and components:</strong> ask which implant system is used and what the crown is made of.</li>
+<li><strong>Follow-up visits:</strong> check whether review appointments are included.</li>
+<li><strong>Extra procedures:</strong> ask whether a bone graft or extraction might add cost.</li>
+<li><strong>Written estimate:</strong> get it after examination, not over the phone.</li>
+<li><strong>Dentist qualifications:</strong> ask who places the implant and what their training is.</li>
+</ul>
+<p>Affordable dental implants should still mean proper planning. Cutting corners on imaging or materials can cost more later.</p>
+
+<h2>How Can You Verify a Dentist in India?</h2>
+<p>Check that the dentist holds valid registration. The Dentists Act, 1948 provides for State Dental Councils and registration of dentists, and the full text is available from India Code. The government has also launched a National Dental Register that gives verified dentists a unique ID. Ask any clinic for the registration details of the treating dentist.</p>
+
+<h2>What Does Implant Treatment Look Like in Sonipat?</h2>
+<p>Implant dentistry in Sonipat follows the same stages as elsewhere. Mukhija Dental and ENT centre in <a href="/locations/model-town-sonipat/">Model Town</a> lists <a href="/services/dental-implants/">dental implants</a> as a service, with Dr. Shikha Mukhija listed as Periodontist and Implantologist with BDS and MDS qualifications. The clinic's website lists digital X-rays and OPG imaging among its <a href="/technology/">technology</a>, and its booking form includes immediate function and two-stage implant options.</p>
+<p>If you are comparing implant dentists in Sonipat, ask each clinic the same set of questions. See the <a href="/team-of-specialists/">team of specialists</a> page to review the specialists involved.</p>
+
+<h2>Common Mistakes to Avoid</h2>
+<ul>
+<li>Choosing only by the lowest price.</li>
+<li>Accepting a quote without an X-ray.</li>
+<li>Ignoring gum health before surgery.</li>
+<li>Skipping the question of a bone graft.</li>
+<li>Not asking what the crown is made of.</li>
+<li>Neglecting aftercare once the implant is placed.</li>
+</ul>
+
+<h2>Final Key Takeaway</h2>
+<p>Do not shop for implants by the lowest number. Get an examination and X-ray, request an itemised written estimate, and compare what each quote includes. Verify the dentist's registration and ask about bone grafts, crown materials and follow-up care. A clear plan costs less than a corrected mistake.</p>
+
+<h2>Book an Implant Consultation in Sonipat</h2>
+<p>Want a personalised estimate? Contact Mukhija Dental and ENT centre in Model Town, Sonepat, on <a href="tel:+917206722618">+91-7206722618</a> or <a href="/contact-us/">book an appointment online</a>. The clinic lists hours of Monday to Saturday, 9:00 AM to 2:00 PM and 4:30 PM to 7:30 PM, and Sunday, 9:00 AM to 2:00 PM.</p>
+<p><em>This article is general information and does not replace a dentist's examination.</em></p>
+`,
+    faqs: [
+      {
+        question: "What is the average dental implant cost in India?",
+        answer:
+          "It varies by clinic, city and case. Ask for a written estimate after your examination instead of relying on averages.",
+      },
+      {
+        question: "Why do implant prices differ between clinics?",
+        answer:
+          "Components, imaging, specialist skill and the complexity of the case all differ.",
+      },
+      {
+        question:
+          "Is a single tooth implant cheaper than full arch implants?",
+        answer:
+          "Generally yes, because fewer components and less treatment time are involved. Your dentist can confirm for your case.",
+      },
+      {
+        question: "Does the quote include the crown?",
+        answer:
+          "Not always. Ask whether the crown is included or priced separately.",
+      },
+      {
+        question: "Do I always need a bone graft?",
+        answer:
+          "No. It is needed only when there is not enough bone to support the implant.",
+      },
+      {
+        question: "Is dental implant surgery painful?",
+        answer:
+          "Clinics use anaesthesia, and comfort varies by patient. Ask your dentist what to expect.",
+      },
+      {
+        question: "How long does implant treatment take?",
+        answer:
+          "Time depends on healing and any preparation needed. Your dentist can give a timeline after examination.",
+      },
+      {
+        question: "Are implants better than bridges?",
+        answer:
+          "Each suits different cases. Discuss your options, including crowns and bridges, with your dentist.",
+      },
+      {
+        question: "Do I need a referral for implants at Mukhija Dental?",
+        answer:
+          "The clinic's website states no referral is needed for implants or surgery.",
+      },
+      {
+        question: "How do I find the best dental clinic in Sonipat for implants?",
+        answer:
+          "Look for registered specialists, imaging, clear estimates and honest explanations of your options.",
+      },
+    ],
+  },
+  {
+    slug: "root-canal-treatment-sonipat-symptoms-procedure-cost",
+    title:
+      "Root Canal Treatment in Sonipat: Symptoms, Procedure, Cost Factors and What to Expect",
+    description:
+      "What are the symptoms that need a root canal, what the procedure involves, and what actually drives root canal cost in Sonipat — plus how to choose a dentist and what to expect afterwards.",
+    metaTitle:
+      "Root Canal Treatment in Sonipat: Signs & Cost | Mukhija Dental Clinic",
+    metaDescription:
+      "Root canal treatment in Sonipat explained — the signs you need it, how single sitting, rotary and Re-RCT differ, what affects root canal cost and how to choose a dentist.",
+    date: "2026-10-04",
+    image:
+      "/images/clinic/gallery/root-canal-treatment-sonipat-symptoms-procedure-cost.webp",
+    imageAlt:
+      "Root canal treatment in Sonipat diagram showing infected pulp, canal cleaning and a crown restoring the natural tooth",
+    html: `
+<p><strong>Quick answer:</strong> A root canal is a dental treatment that removes infected or inflamed pulp from inside a tooth, cleans the space and seals it to save the tooth. Consider it if you have lingering tooth pain, heat or cold sensitivity, swelling near a tooth, or pain when biting. Many cases are completed in one or two visits, and most treated teeth need a crown afterwards. Costs depend on the tooth, the complexity and whether a crown is needed. This guide explains what root canal treatment in Sonipat involves, what it costs and how to choose a clinic.</p>
+
+<h2>Why Does Root Canal Treatment Matter?</h2>
+<p>Tooth infection does not clear on its own. Without treatment, it can spread to the surrounding bone and eventually cost you the tooth. Prompt <a href="/services/emergency-dentistry/">tooth pain treatment</a> is usually simpler and cheaper than treating a late-stage dental infection.</p>
+<p>The reputation for pain is mostly outdated. The infection causes the pain, and the treatment relieves it.</p>
+
+<h2>What Is a Root Canal?</h2>
+<p>A root canal treatment, also called root canal therapy or RCT, treats the soft core of a tooth called the pulp. The pulp holds nerves, blood vessels and connective tissue. The American Association of Endodontists explains the procedure on its patient page about root canal treatment.</p>
+<p>Infection usually follows deep decay, a crack or repeated procedures on the same tooth. Treatment removes the infected pulp, disinfects the canals and seals them.</p>
+
+<h2>What Are the Signs You May Need a Root Canal?</h2>
+<p>See a dentist if you notice any of these signs:</p>
+<ul>
+<li>Throbbing tooth pain, especially at night.</li>
+<li>Sensitivity to hot or cold that lingers.</li>
+<li>Pain when biting or chewing.</li>
+<li>Swelling or tenderness near one tooth.</li>
+<li>A tooth that darkens in colour.</li>
+<li>A recurring pimple-like bump on the gum.</li>
+</ul>
+<p>Some teeth cause no pain at all once the nerve has died. Routine X-rays often catch these cases. Swelling, fever or spreading pain needs urgent care, so consider the clinic's <a href="/services/emergency-dentistry/">emergency dentistry</a> service.</p>
+
+<h2>How Does the Procedure Work?</h2>
+<p>The treatment follows a clear sequence.</p>
+<ol>
+<li><strong>Diagnosis and imaging:</strong> an X-ray shows the infection and root shape.</li>
+<li><strong>Anaesthesia:</strong> the area is numbed.</li>
+<li><strong>Access:</strong> a small opening reaches the pulp chamber.</li>
+<li><strong>Cleaning and shaping:</strong> infected pulp is removed and the canals are disinfected.</li>
+<li><strong>Filling and sealing:</strong> the canals are filled and sealed.</li>
+<li><strong>Crown placement:</strong> most treated teeth need a crown for protection.</li>
+</ol>
+<p>Mukhija Dental and ENT centre lists digital X-rays, OPG imaging and modern root canal systems among its <a href="/technology/">technology</a>.</p>
+
+<h2>What Are Single Sitting RCT, Rotary RCT and Re-RCT?</h2>
+<p>These are three approaches the clinic lists on its <a href="/services/root-canal/">root canal treatment</a> page.</p>
+<ul>
+<li><strong>Single sitting RCT:</strong> the full treatment in one visit, when the case suits it.</li>
+<li><strong>Rotary RCT:</strong> treatment using modern root canal systems for precision.</li>
+<li><strong>Re-RCT:</strong> root canal retreatment of a tooth treated before.</li>
+</ul>
+<p>Single sitting suits straightforward cases. With heavy infection, a dentist may place a medicated dressing first and finish at a second visit. The right choice depends on your tooth.</p>
+
+<h2>Is Root Canal Treatment Painful?</h2>
+<p>Treatment is done under local anaesthesia, so most patients feel pressure rather than pain. Mild soreness can follow for a day or two. The clinic's <a href="/services/painless-dental-treatment/">painless dental treatment</a> page describes its comfort-focused approach. Tell your dentist if you feel anything sharp during the procedure.</p>
+
+<h2>What Affects Root Canal Cost in Sonipat?</h2>
+<p>Root canal cost in Sonipat and across India varies by case. The Mukhija Dental Clinic website does not publish prices and says it gives estimates after examination and imaging, including the follow-up crown.</p>
+<p>These factors move the price:</p>
+<ul>
+<li><strong>Which tooth:</strong> molars have more canals than front teeth.</li>
+<li><strong>Canal complexity:</strong> curved or narrow canals take more time.</li>
+<li><strong>Number of visits:</strong> single sitting versus staged treatment.</li>
+<li><strong>Crown:</strong> often priced separately. See <a href="/services/crowns-bridges/">crowns and bridges</a>.</li>
+<li><strong>Imaging:</strong> X-rays for diagnosis and checking the result.</li>
+<li><strong>Retreatment:</strong> Re-RCT can differ from a first treatment.</li>
+</ul>
+<p>For comparing RCT cost, ask whether the quote includes the crown, imaging and follow-up visits.</p>
+
+<h2>How Do You Choose a Root Canal Dentist in Sonipat?</h2>
+<p>Evaluate the process, not slogans. Use this checklist for any root canal clinic in Sonipat.</p>
+<ul>
+<li><strong>Imaging first:</strong> treatment should start with an X-ray.</li>
+<li><strong>Specialist involvement:</strong> ask who performs the treatment. The clinic lists Dr. Bhupesh Mukhija, an endodontist with BDS and MDS qualifications, for single sitting root canal treatment. See the <a href="/team-of-specialists/">team page</a>.</li>
+<li><strong>Clear estimate:</strong> ask for the full cost, including the crown.</li>
+<li><strong>Honest staging:</strong> a good dentist explains when one visit is not enough.</li>
+<li><strong>Follow-up plan:</strong> ask about review visits.</li>
+</ul>
+
+<h2>Common Mistakes to Avoid</h2>
+<ul>
+<li>Waiting until the pain becomes unbearable.</li>
+<li>Skipping the crown after treatment.</li>
+<li>Choosing only by the lowest price.</li>
+<li>Stopping treatment between visits.</li>
+<li>Chewing hard food on the treated tooth before restoration.</li>
+</ul>
+<p>If a tooth cannot be saved, replacement options include <a href="/services/dental-implants/">dental implants</a>.</p>
+
+<h2>Where Can You Get Treatment Near Murthal and Kundli?</h2>
+<p>The clinic is in Model Town, Sonepat. It lists patients from Murthal, Kundli and several Sonipat sectors, plus wheelchair-accessible parking. See its pages for <a href="/locations/murthal-sonipat/">Murthal</a> and <a href="/locations/kundli-sonipat/">Kundli</a>.</p>
+
+<h2>Final Key Takeaway</h2>
+<p>Treat lingering tooth pain early. Ask for imaging, an explanation of single sitting versus staged treatment, and a full estimate that includes the crown. A well-sealed and crowned tooth can last for years, but only a dentist's examination can confirm your case.</p>
+
+<h2>Book a Root Canal Consultation</h2>
+<p>Worried about a painful tooth? Contact Mukhija Dental and ENT centre in Model Town, Sonepat, on <a href="tel:+917206722618">+91-7206722618</a> or <a href="/contact-us/">book an appointment online</a>. The clinic lists hours of Monday to Saturday, 9:00 AM to 2:00 PM and 4:30 PM to 7:30 PM, and Sunday, 9:00 AM to 2:00 PM.</p>
+<p><em>This article is general information and does not replace a dentist's examination.</em></p>
+`,
+    faqs: [
+      {
+        question: "What is the difference between root canal and RCT?",
+        answer:
+          "They mean the same treatment. RCT stands for root canal treatment.",
+      },
+      {
+        question: "How long does a root canal take?",
+        answer:
+          "It depends on the tooth and infection. Some cases finish in one visit, others need two.",
+      },
+      {
+        question: "Is a root canal painful?",
+        answer:
+          "It is done under anaesthesia. Mild soreness afterwards is common and usually settles quickly.",
+      },
+      {
+        question: "How much does root canal treatment cost in Sonipat?",
+        answer:
+          "Cost varies by tooth, complexity and crown. Ask for a written estimate after an X-ray.",
+      },
+      {
+        question: "Do I need a crown after a root canal?",
+        answer:
+          "Most treated teeth do, because they can become brittle without protection.",
+      },
+      {
+        question: "Can a root canal be done in one sitting?",
+        answer:
+          "Often yes for straightforward cases. Heavy infection may need a second visit.",
+      },
+      {
+        question: "What is Re-RCT?",
+        answer:
+          "It is root canal retreatment of a tooth that was treated before.",
+      },
+      {
+        question: "What happens if I delay treatment?",
+        answer:
+          "The infection can spread and the tooth may be lost.",
+      },
+      {
+        question: "Can I treat tooth infection with antibiotics alone?",
+        answer:
+          "Antibiotics may help control spread, but the source in the tooth needs dental treatment.",
+      },
+      {
+        question: "Is a specialist needed for root canal treatment?",
+        answer:
+          "General dentists can perform it. Complex cases may need an endodontist.",
+      },
+    ],
+  },
+  {
     slug: "choose-best-dentist-sonipat",
     title: "How to Choose the Best Dentist in Sonipat: A Complete Guide to Dental Care",
     description:

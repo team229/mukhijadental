@@ -4,7 +4,9 @@ import PageHero from "../components/PageHero.astro";
 import ContentPage from "../components/ContentPage.astro";
 import ContactPage from "../components/ContactPage.astro";
 import DoctorsSection from "../components/DoctorsSection.astro";
+import RelatedContent from "../components/RelatedContent.astro";
 import { staticPages } from "../data/pages";
+import { blogPosts } from "../data/blogs";
 import { getPageContent, contentToHtml } from "../utils/content";
 
 export function getStaticPaths() {
@@ -46,6 +48,25 @@ const { html, faqs } = contentToHtml(lines);
     <>
       <PageHero title={page.heading} subtitle={page.description} />
       <ContentPage html={html} faqs={faqs} showForm={false} />
+
+      {pageKey === "articles" && (
+        <section class="py-12 md:py-16 bg-white">
+          <div class="max-w-7xl mx-auto px-4">
+            <RelatedContent
+              heading="All dental health articles"
+              description="Every guide we've published, newest first. Each one is written to answer the questions patients actually ask at the chair."
+              links={blogPosts.map((post) => ({
+                href: `/blog/${post.slug}/`,
+                label: post.title,
+              }))}
+            />
+            <p class="mt-6 text-slate-500">
+              Prefer the blog index? It carries the same articles with cover images and dates:{" "}
+              <a href="/blog/" class="text-accent font-medium underline">browse all dental health blogs</a>.
+            </p>
+          </div>
+        </section>
+      )}
     </>
   )}
 </BaseLayout>

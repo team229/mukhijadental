@@ -4,6 +4,7 @@ import PageHero from "../../components/PageHero.astro";
 import ContentPage from "../../components/ContentPage.astro";
 import { staticPages, locations } from "../../data/pages";
 import { getPageContent, contentToHtml } from "../../utils/content";
+import RelatedContent from "../../components/RelatedContent.astro";
 import { MapPin } from "lucide-react";
 
 const page = staticPages.locations;
@@ -40,4 +41,45 @@ const { html, faqs } = contentToHtml(lines);
   </section>
 
   <ContentPage html={html} faqs={faqs} />
+
+  <section class="py-14 md:py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <RelatedContent
+        heading="Guides for patients in these areas"
+        description="Treatment explainers written for the questions we get most often from Sonipat, Murthal, Kundli and the surrounding sectors."
+        links={[
+          {
+            href: "/blog/best-dentist-in-sonipat/",
+            label: "How to find the best dentist in Sonipat",
+            note: "What to check before choosing a clinic.",
+          },
+          {
+            href: "/blog/root-canal-treatment-sonipat-symptoms-procedure-cost/",
+            label: "Root canal treatment explained",
+            note: "The symptoms, the procedure and what drives the cost.",
+          },
+          {
+            href: "/blog/dental-implant-cost-in-india-what-affects-price/",
+            label: "What affects dental implant cost",
+            note: "How to compare quotes before you commit.",
+          },
+          {
+            href: "/blog/pediatric-dentist-sonipat/",
+            label: "Dental care for children",
+            note: "Making visits easier for younger patients.",
+          },
+          {
+            href: "/blog/bleeding-gums-treatment-sonipat/",
+            label: "Bleeding gums and gum disease",
+            note: "Causes, treatment and when to see a dentist.",
+          },
+          {
+            href: "/blog/dental-treatment-cost-sonipat/",
+            label: "Dental treatment costs in Sonipat",
+            note: "What each treatment involves and how estimates work.",
+          },
+        ]}
+      />
+    </div>
+  </section>
 </BaseLayout>

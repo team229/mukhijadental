@@ -47,7 +47,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Full arch implants:</strong> support a full set of teeth on implants.</li>
 <li><strong>Implant-supported solutions:</strong> include implant-supported dentures for patients missing many teeth.</li>
 </ul>
-<p>Our guide to <a href="/services/dental-implants/">dental implants</a> explains each of these options in more detail.</p>
+<p>Our guide to <a href="/services/dental-implants/">dental implants in Sonipat</a> explains each of these options in more detail.</p>
 
 <h2>What Factors Decide the Cost of Dental Implant Treatment?</h2>
 <p>Cost follows the work involved, so understanding each part helps you compare quotes fairly.</p>
@@ -81,7 +81,7 @@ export const blogPosts: BlogPost[] = [
 <p>Check that the dentist holds valid registration. The Dentists Act, 1948 provides for State Dental Councils and registration of dentists, and the full text is available from India Code. The government has also launched a National Dental Register that gives verified dentists a unique ID. Ask any clinic for the registration details of the treating dentist.</p>
 
 <h2>What Does Implant Treatment Look Like in Sonipat?</h2>
-<p>Implant dentistry in Sonipat follows the same stages as elsewhere. Mukhija Dental and ENT centre in <a href="/locations/model-town-sonipat/">Model Town</a> lists <a href="/services/dental-implants/">dental implants</a> as a service, with Dr. Shikha Mukhija listed as Periodontist and Implantologist with BDS and MDS qualifications. The clinic's website lists digital X-rays and OPG imaging among its <a href="/technology/">technology</a>, and its booking form includes immediate function and two-stage implant options.</p>
+<p>Implant dentistry in Sonipat follows the same stages as elsewhere. Mukhija Dental and ENT centre in <a href="/locations/model-town-sonipat/">Model Town</a> lists <a href="/services/dental-implants/">implant placement</a> as a service, with Dr. Shikha Mukhija listed as Periodontist and Implantologist with BDS and MDS qualifications. The clinic's website lists digital X-rays and OPG imaging among its <a href="/technology/">technology</a>, and its booking form includes immediate function and two-stage implant options.</p>
 <p>If you are comparing implant dentists in Sonipat, ask each clinic the same set of questions. See the <a href="/team-of-specialists/">team of specialists</a> page to review the specialists involved.</p>
 
 <h2>Common Mistakes to Avoid</h2>
@@ -331,14 +331,14 @@ export const blogPosts: BlogPost[] = [
 
 <p>For patients looking for a dentist in Sonipat, dental clinic in Sonipat or even searching Google for a dentist near me, location is certainly important. But it should not be the only deciding factor.</p>
 
-<p><a href="https://www.mukhijadentalclinic.com/">Mukhija Dental Clinic</a> in Model Town, Sonepat, provides comprehensive dental care for children, adults and senior patients. The clinic offers preventive, restorative, cosmetic, orthodontic and surgical dental services, making it possible for families to manage different dental needs under one roof.</p>
+<p><a href="">Mukhija Dental Clinic</a> in Model Town, Sonepat, provides comprehensive dental care for children, adults and senior patients. The clinic offers preventive, restorative, cosmetic, orthodontic and surgical dental services, making it possible for families to manage different dental needs under one roof.</p>
 
 <h2>What Should You Look for in a Dental Clinic in Sonipat?</h2>
 <p>Before booking an appointment, consider a few practical things.</p>
 
 <h3>1. Does the dentist offer the treatment you actually need?</h3>
 <p>Not every dental problem requires the same type of treatment.</p>
-<p>A patient with bleeding gums may need professional cleaning and gum evaluation. Someone with severe tooth pain may require an examination and dental X-ray before the dentist can determine whether <a href="/services/root-canal/">Root Canal Treatment (RCT)</a> is appropriate. A missing tooth may require a discussion about <a href="/services/dental-implants/">dental implants</a>, a bridge or another replacement option.</p>
+<p>A patient with bleeding gums may need professional cleaning and gum evaluation. Someone with severe tooth pain may require an examination and dental X-ray before the dentist can determine whether <a href="/services/root-canal/">Root Canal Treatment (RCT)</a> is appropriate. A missing tooth may require a discussion about <a href="/services/dental-implants/">replacing a missing tooth with an implant</a>, a bridge or another replacement option.</p>
 <p>A good dental clinic in Sonipat should therefore have access to a range of services and the right diagnostic facilities.</p>
 <p>Mukhija Dental Clinic provides services including:</p>
 <ul>
@@ -484,7 +484,7 @@ export const blogPosts: BlogPost[] = [
 <p>Detection does not mean that every unusual mouth symptom is cancer. The purpose of an examination is to identify abnormalities that require further evaluation.</p>
 
 <h2>Why Choose Mukhija Dental Clinic in Model Town, Sonepat?</h2>
-<p><a href="https://www.mukhijadentalclinic.com/">Mukhija Dental Clinic</a> is located in Model Town, Sonepat and provides comprehensive dental care for patients of different age groups.</p>
+<p><a href="">Mukhija Dental Clinic</a> is located in Model Town, Sonepat and provides comprehensive dental care for patients of different age groups.</p>
 <p>The clinic offers diagnostic, preventive, restorative, cosmetic, orthodontic and surgical dental services. It also provides dental radiology and X-ray facilities to support diagnosis where required.</p>
 <p>The clinic serves patients from Sonepat, Murthal, Kundli, Sector 12, Sector 14, Sector 15, Sector 35 and Omaxe City.</p>
 <p>Wheelchair-accessible parking is also available, which can make visits easier for patients who need accessible facilities.</p>
@@ -519,7 +519,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>For people searching for <strong>bleeding gums treatment in Sonipat</strong>, <strong>gum treatment Sonipat</strong>, <strong>gum specialist Sonipat</strong>, or a <strong>bleeding gums doctor near me</strong>, the first step should not be guessing which treatment you need. A dental examination can help determine why your gums are bleeding and whether you need professional cleaning, <a href="/services/gums-treatment/">gum treatment</a> or further evaluation.</p>
 
-<p>At <a href="https://www.mukhijadentalclinic.com/">Mukhija Dental Clinic</a> in Model Town, Sonepat, gum care, <a href="/services/teeth-cleaning/">ultrasonic teeth cleaning</a>, scaling and polishing, routine dental examinations and other dental treatments are available for patients of different age groups.</p>
+<p>At <a href="">Mukhija Dental Clinic</a> in Model Town, Sonepat, gum care, <a href="/services/teeth-cleaning/">ultrasonic teeth cleaning</a>, scaling and polishing, routine dental examinations and other dental treatments are available for patients of different age groups.</p>
 
 <h2>Is It Normal for Gums to Bleed When Brushing?</h2>
 <p>Healthy gums generally should not bleed regularly during normal brushing or cleaning between the teeth.</p>
@@ -594,7 +594,7 @@ export const blogPosts: BlogPost[] = [
 <p>If the problem is associated with plaque and tartar buildup and there is no significant damage to the supporting tissues, professional cleaning may be part of the treatment.</p>
 <p><strong>Scaling and polishing</strong> can help remove deposits and certain surface stains. But if there is deeper periodontal disease, a routine cleaning may not be enough.</p>
 <p>For patients with deeper periodontal pockets, <strong>scaling and root planing</strong> may be recommended. This is a deeper cleaning procedure designed to remove plaque and calculus below the gumline.</p>
-<p>So if you are searching for <a href="/services/teeth-cleaning/">teeth cleaning in Sonipat</a> because your gums are bleeding, it is better to have your gums examined first rather than assuming that a standard cleaning is all you need.</p>
+<p>So if you are searching for <a href="/services/teeth-cleaning/">a professional cleaning in Sonipat</a> because your gums are bleeding, it is better to have your gums examined first rather than assuming that a standard cleaning is all you need.</p>
 
 <h2>What Happens During a Gum Examination?</h2>
 <p>A dental appointment for bleeding gums is usually about finding the cause rather than immediately deciding on a treatment.</p>
@@ -710,13 +710,13 @@ export const blogPosts: BlogPost[] = [
 <p>The clinic provides <strong>gum treatment, bleeding gums treatment, ultrasonic teeth cleaning, scaling and polishing, routine dental examinations and dental X-rays</strong>, along with other restorative, cosmetic, orthodontic and surgical dental services.</p>
 <p>Patients visiting from <strong>Sonipat, Murthal, Kundli, Sector 12, Sector 14, Sector 15, Sector 35 and Omaxe City</strong> can access a range of dental services at the clinic.</p>
 <p>Wheelchair-accessible parking is also available.</p>
-<p>If you are searching for a <strong>gum treatment clinic near me</strong>, <strong>bleeding gums doctor near me</strong>, <strong>gum specialist Sonipat</strong> or <strong>dental clinic in Sonipat</strong>, an examination at <a href="https://www.mukhijadentalclinic.com/">Mukhija Dental Clinic</a> can help determine what is causing your bleeding gums and what treatment, if any, is appropriate.</p>
+<p>If you are searching for a <strong>gum treatment clinic near me</strong>, <strong>bleeding gums doctor near me</strong>, <strong>gum specialist Sonipat</strong> or <strong>dental clinic in Sonipat</strong>, an examination at <a href="">Mukhija Dental Clinic</a> can help determine what is causing your bleeding gums and what treatment, if any, is appropriate.</p>
 
 <h2>Don't Wait for Gum Problems to Become Painful</h2>
 <p>Gum problems are easy to put off because they may not hurt in the beginning.</p>
 <p>But if you regularly see blood on your toothbrush, notice swollen gums or find that your gums bleed when cleaning between your teeth, it is worth getting them checked.</p>
 <p>The goal is not simply to stop the bleeding for a few days. The goal is to identify <strong>why your gums are bleeding</strong> and address the underlying problem.</p>
-<p>If you are looking for <a href="/services/gums-treatment/">gum treatment in Sonipat</a>, <strong>bleeding gums treatment</strong>, <a href="/services/teeth-cleaning/">teeth cleaning in Sonipat</a>, or a <strong>dentist near me</strong>, Mukhija Dental Clinic in Model Town, Sonepat can evaluate your gums and explain the appropriate treatment options.</p>
+<p>If you are looking for <a href="/services/gums-treatment/">gum treatment in Sonipat</a>, <strong>bleeding gums treatment</strong>, <a href="/services/teeth-cleaning/">scaling and polishing</a>, or a <strong>dentist near me</strong>, Mukhija Dental Clinic in Model Town, Sonepat can evaluate your gums and explain the appropriate treatment options.</p>
 <p>Early attention can make dental care simpler, more predictable and easier to maintain over time.</p>
 `,
     faqs: [
@@ -771,9 +771,9 @@ export const blogPosts: BlogPost[] = [
 
 <p>Many people experience this and simply avoid whatever triggers the pain. But <strong>tooth sensitivity to hot and cold is not something you should always ignore</strong>. Sometimes it is caused by relatively simple problems, while in other cases it can indicate tooth decay, gum recession, a damaged filling, a cracked tooth or an issue affecting the nerve inside the tooth.</p>
 
-<p>If you are searching for <strong>tooth sensitivity treatment in Sonipat</strong>, <strong>sensitive teeth treatment</strong>, or a <a href="https://www.mukhijadentalclinic.com/">dentist near me</a>, the first step is understanding why your teeth are sensitive.</p>
+<p>If you are searching for <strong>tooth sensitivity treatment in Sonipat</strong>, <strong>sensitive teeth treatment</strong>, or a <a href="">dentist near me</a>, the first step is understanding why your teeth are sensitive.</p>
 
-<p>At <a href="https://www.mukhijadentalclinic.com/">Mukhija Dental Clinic</a> in Model Town, Sonepat, patients can have their teeth and gums examined to identify the possible cause and discuss appropriate treatment.</p>
+<p>At <a href="">Mukhija Dental Clinic</a> in Model Town, Sonepat, patients can have their teeth and gums examined to identify the possible cause and discuss appropriate treatment.</p>
 
 <h2>What Is Tooth Sensitivity?</h2>
 <p>Tooth sensitivity, also called dentin hypersensitivity, usually feels like a sudden, sharp pain when a tooth is exposed to certain triggers.</p>
@@ -910,8 +910,8 @@ export const blogPosts: BlogPost[] = [
 
 <h3>Treatment for gum problems</h3>
 <p>If gum recession or gum disease is contributing to sensitivity, the treatment needs to address the gum problem.</p>
-<p>Patients with plaque, tartar, bleeding gums or gum inflammation may benefit from professional cleaning and appropriate <a href="/services/gums-treatment/">gum treatment</a>.</p>
-<p>Mukhija Dental Clinic provides <a href="/services/gums-treatment/">gum treatment</a>, <a href="/services/teeth-cleaning/">ultrasonic teeth cleaning</a>, scaling and polishing and routine dental examinations.</p>
+<p>Patients with plaque, tartar, bleeding gums or gum inflammation may benefit from professional cleaning and appropriate <a href="/services/gums-treatment/">gum disease treatment</a>.</p>
+<p>Mukhija Dental Clinic provides <a href="/services/gums-treatment/">treatment for bleeding gums</a>, <a href="/services/teeth-cleaning/">ultrasonic teeth cleaning</a>, scaling and polishing and routine dental examinations.</p>
 
 <h3>Treatment for a damaged or cracked tooth</h3>
 <p>Depending on the extent and location of the damage, a cracked or broken tooth may require restoration, a crown, <a href="/services/root-canal/">root canal treatment</a> or another procedure.</p>
@@ -1005,7 +1005,7 @@ export const blogPosts: BlogPost[] = [
 <p>Google searches can be useful for understanding possible causes, but they cannot tell you exactly what is happening inside your tooth.</p>
 <p>For example, sensitivity to cold could be associated with exposed dentin, decay, gum recession, a cracked tooth or pulp-related problems.</p>
 <p>These conditions can require completely different treatments.</p>
-<p>Similarly, searching for <strong>painless dentist near me</strong> or <strong>best painless RCT clinic Sonipat</strong> should not be the only basis for choosing a <a href="https://www.mukhijadentalclinic.com/">dental clinic</a>.</p>
+<p>Similarly, searching for <strong>painless dentist near me</strong> or <strong>best painless RCT clinic Sonipat</strong> should not be the only basis for choosing a <a href="">dental clinic</a>.</p>
 <p>Look for a dentist who will first examine the problem, explain the diagnosis and discuss the available treatment options.</p>
 
 <h2>How Much Does Tooth Sensitivity Treatment Cost in Sonipat?</h2>
@@ -1109,11 +1109,11 @@ export const blogPosts: BlogPost[] = [
     date: "2026-09-06",
     image: "/images/clinic/treatment/doctor-desk.jpeg",
     html: `
-<p>One of the first questions patients ask when they visit a <a href="https://www.mukhijadentalclinic.com/">dentist in Sonipat</a> is, <strong>"How much will it cost?"</strong></p>
+<p>One of the first questions patients ask when they visit a <a href="">dentist in Sonipat</a> is, <strong>"How much will it cost?"</strong></p>
 
-<p>It is a completely reasonable question. At <a href="https://www.mukhijadentalclinic.com/">Mukhija Dental Clinic</a> in Model Town, Sonepat, patients can have their dental condition examined and discuss the recommended treatment before proceeding.</p>
+<p>It is a completely reasonable question. At <a href="">Mukhija Dental Clinic</a> in Model Town, Sonepat, patients can have their dental condition examined and discuss the recommended treatment before proceeding.</p>
 
-<p>Whether you are searching for <a href="https://www.mukhijadentalclinic.com/services/root-canal/">Root Canal Cost Sonipat</a>, <a href="https://www.mukhijadentalclinic.com/services/dental-implants/">dental implant cost in India</a>, <strong>Braces Cost Sonipat</strong>, <strong>Teeth Cleaning Cost Sonipat</strong>, <strong>Tooth Extraction Cost Sonipat</strong> or the <strong>crown and bridge price near me</strong>, the difficulty is that there is rarely one fixed price that applies to every patient.</p>
+<p>Whether you are searching for <a href="services/root-canal/">Root Canal Cost Sonipat</a>, <a href="services/dental-implants/">dental implant cost in India</a>, <strong>Braces Cost Sonipat</strong>, <strong>Teeth Cleaning Cost Sonipat</strong>, <strong>Tooth Extraction Cost Sonipat</strong> or the <strong>crown and bridge price near me</strong>, the difficulty is that there is rarely one fixed price that applies to every patient.</p>
 
 <p>Dental treatment is personalised. The final cost depends on the condition of the tooth or gums, the complexity of the procedure, materials used, diagnostic requirements and the type of restoration required.</p>
 
@@ -1186,7 +1186,7 @@ export const blogPosts: BlogPost[] = [
 <p>There is no universal answer. Braces may be suitable for many types of alignment and bite problems. Clear aligners may be appropriate for selected cases where the patient's dental condition and treatment goals allow them to be used effectively. A consultation with an <strong>Orthodontist in Sonipat</strong> can help determine which option is appropriate.</p>
 
 <h2>Tooth Cap and Zirconia Crown Cost</h2>
-<p>A severely damaged tooth may sometimes need a crown, often referred to casually as a "tooth cap." Patients searching for <a href="https://www.mukhijadentalclinic.com/services/crowns-bridges/">Tooth Cap Sonipat</a> or <strong>Zirconia Crown</strong> should know that crowns are available in different materials and designs.</p>
+<p>A severely damaged tooth may sometimes need a crown, often referred to casually as a "tooth cap." Patients searching for <a href="services/crowns-bridges/">Tooth Cap Sonipat</a> or <strong>Zirconia Crown</strong> should know that crowns are available in different materials and designs.</p>
 <p>Zirconia is one material used for dental crowns. The appropriate crown depends on factors such as:</p>
 <ul>
 <li>Tooth location</li>
@@ -1866,7 +1866,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Making an Informed Dental Decision</h2>
 <p>Tooth removal is a common dental procedure, but it should still be based on an individual diagnosis rather than symptoms alone. A proper examination helps clarify whether a tooth can be saved, whether extraction is appropriate, and what type of procedure may be required.</p>
-<p>If tooth extraction in Sonipat is being considered, understanding the reason for removal, expected recovery, possible complications, and future treatment choices can help patients have a clearer conversation with a <a href="https://www.mukhijadentalclinic.com/">dentist in Sonipat</a>.</p>
+<p>If tooth extraction in Sonipat is being considered, understanding the reason for removal, expected recovery, possible complications, and future treatment choices can help patients have a clearer conversation with a <a href="">dentist in Sonipat</a>.</p>
 `,
     faqs: [],
   },

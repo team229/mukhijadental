@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHero from "../../components/PageHero.astro";
 import ContentPage from "../../components/ContentPage.astro";
+import RelatedContent from "../../components/RelatedContent.astro";
 import { credibilityPages } from "../../data/pages";
 import { getPageContent, contentToHtml } from "../../utils/content";
 
@@ -15,9 +16,15 @@ export function getStaticPaths() {
 const { item } = Astro.props;
 const lines = getPageContent(item.contentKey);
 const { html, faqs } = contentToHtml(lines);
+
+// Sibling credibility pages, so each sub-page is reachable from more than just
+// the credibility index.
+const siblings = credibilityPages
+  .filter((p) => p.slug !== item.slug)
+  .map((p) => ({ href: `/credibility/${p.slug}/`, label: p.heading, note: p.description }));
 ---
 
-<BaseLayout title={item.title} description={item.description}>
+<BaseLayout title={item.title} description={item.description} faqs={faqs}>
   <PageHero
     title={item.heading}
     subtitle={item.description}
@@ -27,4 +34,27 @@ const { html, faqs } = contentToHtml(lines);
     ]}
   />
   <ContentPage html={html} faqs={faqs} />
+
+  <section class="py-12 md:py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <RelatedContent
+        heading="More ways to check our credentials"
+        description="Each page covers a different part of how this clinic is verified, from formal accreditation to what patients actually say."
+        links={siblings}
+      />
+      <div class="mt-10">
+        <RelatedContent
+          heading="See the work for yourself"
+          links={[
+            { href: "/cases/", label: "Real patient cases", note: "Clinical results shown with patient privacy respected." },
+            { href: "/clinic-tour/", label: "Take a clinic tour", note: "The facilities and equipment behind the treatment." },
+            { href: "/patient-gallery/", label: "Patient gallery", note: "Smile transformations from patients across Sonipat." },
+            { href: "/virtual-smile-makeover/", label: "Preview your own smile change", note: "See a possible result before you commit to treatment." },
+            { href: "/smile-analysis/", label: "Book a digital smile analysis", note: "A structured look at your mouth and options." },
+            { href: "/locations/", label: "Areas we serve", note: "Find the clinic nearest Sonipat, Murthal, Kundli or your sector." },
+          ]}
+        />
+      </div>
+    </div>
+  </section>
 </BaseLayout>

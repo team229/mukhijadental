@@ -2,15 +2,18 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHero from "../../components/PageHero.astro";
 import ContentPage from "../../components/ContentPage.astro";
+import RelatedContent from "../../components/RelatedContent.astro";
 import { staticPages, credibilityPages } from "../../data/pages";
+import { SUPPORTING_PAGES } from "../../data/internalLinks";
 import { getPageContent, contentToHtml } from "../../utils/content";
 
 const page = staticPages.credibility;
 const lines = getPageContent(page.contentKey);
 const { html, faqs } = contentToHtml(lines);
+const supporting = SUPPORTING_PAGES["/credibility/"];
 ---
 
-<BaseLayout title={page.title} description={page.description}>
+<BaseLayout title={page.title} description={page.description} faqs={faqs}>
   <PageHero
     title={page.heading}
     subtitle="What makes Mukhija Dental Clinic a trusted dental hospital in Sonipat."
@@ -37,4 +40,12 @@ const { html, faqs } = contentToHtml(lines);
   </section>
 
   <ContentPage html={html} faqs={faqs} />
+
+  {supporting && (
+    <section class="py-12 md:py-16 bg-white">
+      <div class="max-w-7xl mx-auto px-4">
+        <RelatedContent heading="See it for yourself" links={supporting} />
+      </div>
+    </section>
+  )}
 </BaseLayout>

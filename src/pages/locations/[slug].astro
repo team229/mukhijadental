@@ -7,6 +7,8 @@ import SplitSection from "../../components/SplitSection.astro";
 import GoogleMap from "../../components/GoogleMap.astro";
 import ContentPage from "../../components/ContentPage.astro";
 import FaqAccordion from "../../components/FaqAccordion.astro";
+import RelatedContent from "../../components/RelatedContent.astro";
+import { LOCATION_CLUSTERS } from "../../data/internalLinks";
 import AppointmentForm from "../../components/react/AppointmentForm";
 import TestimonialCarousel from "../../components/react/TestimonialCarousel";
 import CaseImageSlider from "../../components/react/CaseImageSlider";
@@ -28,6 +30,21 @@ const { location } = Astro.props;
 const lines = getPageContent(location.contentKey);
 const { html, faqs: contentFaqs } = contentToHtml(lines);
 const pageFaqs = contentFaqs.length > 0 ? contentFaqs : faqs;
+
+/**
+ * Short, human locality name for headings — "Murthal", not
+ * "Dentist in Murthal — Mukhija Dental Clinic".
+ */
+function locationClusterName(heading: string) {
+  const name = heading
+    .replace(/^Best Dentist in\s*/i, "")
+    .replace(/^Dentist in\s*/i, "")
+    .split(/[—,]/)[0]
+    .replace(/\s+(Mukhija Dental Clinic|Dental Clinic)$/i, "")
+    .replace(/,\s*Sonipat$/i, "")
+    .trim();
+  return name || "Sonipat";
+}
 
 const caseImagesOptimized = await Promise.all(
   caseImages.map(async (img) => ({
@@ -115,4 +132,26 @@ const caseImagesOptimized = await Promise.all(
 
   <!-- SEO Content -->
   <ContentPage html={html} faqs={[]} showForm={false} />
+
+  {(() => {
+    const cluster = LOCATION_CLUSTERS[location.slug];
+    if (!cluster) return null;
+    return (
+      <section class="py-12 md:py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+          <RelatedContent
+            heading={`Treatments for ${locationClusterName(location.heading)} patients`}
+            description="The treatments we see most often from this area, and where to read more about each."
+            links={cluster.relatedServices}
+          />
+          <div class="mt-10">
+            <RelatedContent heading="Guides worth reading" links={cluster.relatedPosts} />
+          </div>
+          <div class="mt-10">
+            <RelatedContent heading="Other areas we serve" links={cluster.nearbyLocations} />
+          </div>
+        </div>
+      </section>
+    );
+  })()}
 </BaseLayout>

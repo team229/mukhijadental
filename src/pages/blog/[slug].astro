@@ -5,6 +5,8 @@ import PageHero from "../../components/PageHero.astro";
 import ContentPage from "../../components/ContentPage.astro";
 import { getAsset } from "../../lib/images";
 import { blogPosts, getBlogBySlug, formatBlogDate } from "../../data/blogs";
+import RelatedContent from "../../components/RelatedContent.astro";
+import { BLOG_CLUSTERS } from "../../data/internalLinks";
 
 export function getStaticPaths() {
   return blogPosts.map((post) => ({
@@ -19,6 +21,7 @@ const imageAlt = post.imageAlt ?? title;
 const dateLabel = formatBlogDate(date);
 const canonical = new URL(`/blog/${post.slug}/`, Astro.site ?? "https://mukhijadentalclinic.com").href;
 const postImage = new URL(getAsset(image).src, Astro.site ?? "https://mukhijadentalclinic.com").href;
+const cluster = BLOG_CLUSTERS[post.slug];
 ---
 
 <BaseLayout
@@ -49,6 +52,17 @@ const postImage = new URL(getAsset(image).src, Astro.site ?? "https://mukhijaden
   </section>
 
   <ContentPage html={html} faqs={faqs} showForm={true} />
+
+  <section class="py-12 md:py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-4">
+      {cluster && <RelatedContent heading="Related reading" links={cluster.relatedPosts} />}
+      {cluster && (
+        <div class="mt-10">
+          <RelatedContent heading="Treatments at Mukhija Dental" links={cluster.relatedServices} />
+        </div>
+      )}
+    </div>
+  </section>
 </BaseLayout>
 
 <script type="application/ld+json" set:html={JSON.stringify({

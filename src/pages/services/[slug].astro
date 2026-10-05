@@ -7,6 +7,8 @@ import SplitSection from "../../components/SplitSection.astro";
 import GoogleMap from "../../components/GoogleMap.astro";
 import ContentPage from "../../components/ContentPage.astro";
 import FaqAccordion from "../../components/FaqAccordion.astro";
+import RelatedContent from "../../components/RelatedContent.astro";
+import { SERVICE_CLUSTERS } from "../../data/internalLinks";
 import AppointmentForm from "../../components/react/AppointmentForm";
 import VideoSection from "../../components/react/VideoSection";
 import TestimonialCarousel from "../../components/react/TestimonialCarousel";
@@ -162,4 +164,33 @@ const caseImagesOptimized = await Promise.all(
 
   <!-- SEO Content -->
   <ContentPage html={html} faqs={[]} showForm={false} />
+
+  {(() => {
+    const cluster = SERVICE_CLUSTERS[service.slug];
+    if (!cluster) return null;
+    return (
+      <section class="py-12 md:py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+          <RelatedContent
+            heading="Related treatments"
+            description="Treatments that often come up alongside this one, and what each involves."
+            links={cluster.relatedServices}
+          />
+          <div class="mt-10">
+            <RelatedContent heading="Read next" links={cluster.relatedPosts} />
+          </div>
+          <div class="mt-10">
+            <RelatedContent
+              heading="Explore before you book"
+              links={[
+                { href: "/cases/", label: "Real patient cases", note: "Comparable clinical work, privacy respected." },
+                { href: "/locations/", label: "Areas we serve", note: "Model Town, plus Murthal, Kundli and nearby sectors." },
+                { href: "/articles/", label: "All dental health articles", note: "Every guide we've published, in one list." },
+              ]}
+            />
+          </div>
+        </div>
+      </section>
+    );
+  })()}
 </BaseLayout>

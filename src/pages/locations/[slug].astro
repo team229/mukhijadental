@@ -6,6 +6,7 @@ import SectionHeading from "../../components/SectionHeading.astro";
 import SplitSection from "../../components/SplitSection.astro";
 import GoogleMap from "../../components/GoogleMap.astro";
 import ContentPage from "../../components/ContentPage.astro";
+import FaqAccordion from "../../components/FaqAccordion.astro";
 import AppointmentForm from "../../components/react/AppointmentForm";
 import TestimonialCarousel from "../../components/react/TestimonialCarousel";
 import CaseImageSlider from "../../components/react/CaseImageSlider";
@@ -108,6 +109,9 @@ const caseImagesOptimized = await Promise.all(
 
   <!-- Section 6: Google Maps -->
   <GoogleMap />
+
+  <!-- Section 7: FAQs — single "Frequently Asked Questions" accordion -->
+  <FaqAccordion faqs={pageFaqs} openFirst={true} />
 
   <!-- SEO Content -->
   <ContentPage html={html} faqs={[]} showForm={false} />

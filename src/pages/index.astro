@@ -4,6 +4,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import SectionHeading from "../components/SectionHeading.astro";
 import GoogleMap from "../components/GoogleMap.astro";
 import ContentPage from "../components/ContentPage.astro";
+import FaqAccordion from "../components/FaqAccordion.astro";
 import AppointmentForm from "../components/react/AppointmentForm";
 import VideoSection from "../components/react/VideoSection";
 import TestimonialCarousel from "../components/react/TestimonialCarousel";
@@ -338,25 +339,7 @@ Mukhija Dental and ENT centre
   <GoogleMap />
 
   <!-- Section 13: FAQs — just before the footer -->
-  <section class="py-16 md:py-24 bg-white">
-    <div class="max-w-3xl mx-auto px-4">
-      <SectionHeading label="FAQ" title="Frequently Asked Questions" />
-      <div class="space-y-4">
-        {faqs.map((faq, i) => (
-          <details class="group bg-surface rounded-2xl border border-slate-200 overflow-hidden transition-all duration-300" open={i === 0}>
-            <summary class="flex items-center justify-between gap-4 p-5 font-semibold text-brand-dark cursor-pointer list-none">
-              <span class="flex items-center gap-3 text-left">
-                <span class="font-display font-bold text-accent text-sm">{String(i + 1).padStart(2, "0")}</span>
-                {faq.question}
-              </span>
-              <span class="shrink-0 w-8 h-8 rounded-full bg-accent/10 text-accent flex items-center justify-center transition-transform duration-200 group-open:rotate-180">▾</span>
-            </summary>
-            <p class="px-5 pb-5 text-slate-600 leading-relaxed">{faq.answer}</p>
-          </details>
-        ))}
-      </div>
-    </div>
-  </section>
+  <FaqAccordion faqs={faqs} openFirst={true} />
 
 </BaseLayout>
 

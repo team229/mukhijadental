@@ -145,7 +145,7 @@ export const testimonials = [
 ];
 
 export const faqs = [
-  { question: "Is Mukhija Dental suitable for children?", answer: "Yes. We offer dedicated kids' dentistry designed to make young patients comfortable, from their very first checkup onward." },
+  { question: "Is Mukhija Dental and ENT centre suitable for children?", answer: "Yes. We offer dedicated kids' dentistry designed to make young patients comfortable, from their very first checkup onward." },
   { question: "Do you handle dental emergencies?", answer: "We treat urgent issues including severe toothaches, bleeding gums, and trauma-related dental injuries. Call ahead so our team can prepare for your visit." },
   { question: "Is the clinic wheelchair accessible?", answer: "Yes, we offer wheelchair-accessible parking and facilities to make sure care is comfortable for every patient." },
   { question: "Which areas do you serve?", answer: "We regularly treat patients from Sonepat, Murthal, Kundli, Sector 12, Sector 14, Sector 15, Sector 35, and Omaxe City." },

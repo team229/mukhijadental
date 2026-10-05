@@ -11,7 +11,7 @@ const lines = getPageContent(page.contentKey);
 const { html, faqs } = contentToHtml(lines);
 ---
 
-<BaseLayout title={page.title} description={page.description}>
+<BaseLayout title={page.title} description={page.description} faqs={faqs}>
   <PageHero
     title={page.heading}
     subtitle="Serving patients across Sonipat, Murthal, Kundli and all nearby sectors."

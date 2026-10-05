@@ -28,10 +28,9 @@ export const blogPosts: BlogPost[] = [
     metaDescription:
       "What decides dental implant cost in India — number of implants, case complexity, bone graft, imaging, crown material and specialist skill — plus how to compare quotes.",
     date: "2026-10-04",
-    image:
-      "/images/clinic/gallery/dental-implant-cost-in-india-what-affects-price.webp",
+    image: "/images/services/dental-implants.jpg",
     imageAlt:
-      "Dental implant cost in India infographic showing implant placement, crown materials and the factors that change the price",
+      "Dental implant model showing the titanium implant post, abutment and crown fitted into the jawbone, the components that determine dental implant cost in India",
     html: `
 <p><strong>Quick answer:</strong> Dental implant cost in India depends on the number of implants, the complexity of the case, the type of crown, imaging needs and the dentist's expertise. There is no single fixed price, so any figure quoted before an examination is only a guess. Ask for an itemised written estimate after a consultation and an X-ray, then compare what each quote includes rather than just the total.</p>
 

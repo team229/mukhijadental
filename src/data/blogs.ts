@@ -1590,9 +1590,9 @@ export const blogPosts: BlogPost[] = [
           "Most patients report far less discomfort than they expect. It's done under local anesthesia, and recovery is generally manageable with standard pain relief for a few days.",
       },
       {
-        question: "What's the real difference between a Rs. 20,000 implant and a Rs. 45,000 implant?",
+        question: "Why can two quotes for the same dental implant differ so much?",
         answer:
-          "Usually it comes down to implant brand quality, the dentist's experience and diagnostic process, and what's included (crown, follow-ups, X-rays). Always ask what's bundled into a quoted price.",
+          "Usually it comes down to implant brand quality, the dentist's experience and the diagnostic process behind it, plus what a quote actually includes — the crown, follow-up visits and X-rays. Ask what is bundled in before you compare two quotes.",
       },
       {
         question: "Can I get a single implant, or do I need to commit to more?",

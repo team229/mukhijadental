@@ -544,11 +544,11 @@ export const blogPosts: BlogPost[] = [
 <h3>2. Tartar or calculus</h3>
 <p>Plaque can harden into tartar, also called calculus.</p>
 <p>Unlike soft plaque, tartar cannot simply be brushed away. It may accumulate along the gumline and make keeping the area clean more difficult.</p>
-<p>Professional scaling can remove these deposits.</p>
+<p><a href="/services/teeth-cleaning/">Professional scaling</a> can remove these deposits.</p>
 
 <h3>3. Gum disease</h3>
 <p>Sometimes bleeding gums are not just an early inflammation problem.</p>
-<p>When <a href="/services/gums-treatment/">periodontal disease</a> progresses, the tissues supporting the teeth can be affected. Signs can include bleeding during examination, deeper spaces between the gums and teeth, <a href="/blog/tooth-sensitivity-sonipat/">gum recession</a> and tooth mobility. Periodontitis can eventually contribute to tooth loss if left untreated.</p>
+<p>When <a href="/services/gums-treatment/">periodontal disease</a> progresses, the tissues supporting the teeth can be affected. Signs can include bleeding during examination, deeper spaces between the gums and teeth, <a href="/blog/tooth-sensitivity-sonipat/">gum recession</a> and tooth mobility. Periodontitis can eventually contribute to <a href="/blog/tooth-extraction-sonipat/">tooth loss</a> if left untreated.</p>
 <p>This is why persistent bleeding deserves an examination rather than repeated self-treatment.</p>
 
 <h3>4. Brushing technique</h3>
@@ -557,7 +557,7 @@ export const blogPosts: BlogPost[] = [
 
 <h3>5. Infrequent cleaning between teeth</h3>
 <p>A toothbrush does not effectively clean every surface between tightly spaced teeth. Cleaning between the teeth helps remove plaque and food debris from areas that toothbrush bristles may not reach.</p>
-<p>If you have recently started flossing or using another interdental cleaning method after not doing so regularly, some bleeding can occur when the gums are inflamed. Consistent, gentle cleaning can help, but persistent bleeding should still be discussed with a dentist.</p>
+<p>If you have recently <a href="/blog/tooth-sensitivity-sonipat/">started flossing</a> or using another interdental cleaning method after not doing so regularly, some bleeding can occur when the gums are inflamed. Consistent, gentle cleaning can help, but persistent bleeding should still be discussed with a dentist.</p>
 
 <h3>6. Certain health conditions or medications</h3>
 <p>Your overall health can sometimes affect your gums.</p>
@@ -569,7 +569,7 @@ export const blogPosts: BlogPost[] = [
 <p><strong>Gingivitis</strong> refers to inflammation of the gums. It can often be improved when the causes of inflammation are addressed and effective oral hygiene is maintained.</p>
 <p><strong>Periodontitis</strong> is a more advanced periodontal condition involving the tissues supporting the teeth. It can involve loss of attachment and bone around teeth.</p>
 <p>The important point is that you cannot reliably determine the stage of gum disease simply by looking at your gums in the mirror.</p>
-<p>A dentist may need to examine your gums, assess periodontal pockets, look for signs of inflammation and use dental X-rays where appropriate.</p>
+<p>A dentist may need to examine your gums, <a href="/services/gums-treatment/">assess periodontal pockets</a>, look for signs of inflammation and use dental X-rays where appropriate.</p>
 
 <h2>What Are the Signs of Gum Disease?</h2>
 <p>Bleeding is one sign, but it is not the only one.</p>
@@ -629,13 +629,13 @@ export const blogPosts: BlogPost[] = [
 
 <h3>Periodontal follow-up</h3>
 <p>Patients with periodontal disease may need <a href="/services/teeth-cleaning/">ongoing maintenance and monitoring</a> because gum disease can recur or progress without appropriate long-term care.</p>
-<p>The appropriate plan depends on the individual patient's condition.</p>
+<p>The appropriate plan <a href="/blog/dental-treatment-cost-sonipat/">depends on the individual patient's condition</a>.</p>
 
 <h2>Does Teeth Cleaning Make Gums Bleed More?</h2>
 <p>Some people worry that professional cleaning will make their gums bleed more.</p>
 <p>If the gums are already inflamed, they may bleed during professional examination or cleaning. That does not necessarily mean the cleaning is damaging your gums.</p>
 <p>In fact, removing plaque and tartar is an important part of managing plaque-related gum inflammation.</p>
-<p>After deeper gum cleaning, some patients may temporarily experience tenderness or sensitivity. Your dentist can explain what to expect based on the treatment performed.</p>
+<p>After deeper gum cleaning, some patients may temporarily experience <a href="/blog/tooth-sensitivity-sonipat/">tenderness or sensitivity</a>. Your dentist can explain what to expect based on the treatment performed.</p>
 
 <h2>How Can You Prevent Bleeding Gums at Home?</h2>
 <p>Professional treatment is only part of maintaining healthy gums.</p>
@@ -647,7 +647,7 @@ export const blogPosts: BlogPost[] = [
 
 <h3>Clean between your teeth</h3>
 <p>Floss, interdental brushes or another suitable interdental cleaning method can help clean areas that a toothbrush cannot reach effectively.</p>
-<p>Your dentist can help you choose the method that works best for your teeth and gums.</p>
+<p>Your dentist can help you <a href="/services/teeth-cleaning/">choose the method that works best</a> for your teeth and gums.</p>
 
 <h3>Don't ignore persistent bleeding</h3>
 <p>If your gums continue to bleed despite improving your oral hygiene, arrange a dental examination.</p>
@@ -679,7 +679,7 @@ export const blogPosts: BlogPost[] = [
 <li>You have recurring gum swelling.</li>
 <li>You have not had a dental examination for a long time.</li>
 </ul>
-<p>If bleeding is accompanied by significant swelling, severe pain, fever, facial swelling or difficulty swallowing or breathing, seek urgent professional medical or dental care.</p>
+<p>If bleeding is accompanied by significant swelling, severe pain, fever, facial swelling or <a href="/services/emergency-dentistry/">difficulty swallowing</a> or breathing, seek urgent professional medical or dental care.</p>
 
 <h2>How Much Does Gum Treatment Cost in Sonipat?</h2>
 <p>Patients often search for <strong>gum bleeding treatment cost</strong>, <strong>gum treatment cost near me</strong> or <strong>gum treatment Sonipat</strong> before booking an appointment.</p>
@@ -695,7 +695,7 @@ export const blogPosts: BlogPost[] = [
 <li>Number of appointments</li>
 <li>Need for ongoing periodontal maintenance</li>
 </ul>
-<p>A simple professional cleaning and treatment for established periodontal disease are not the same procedure, so their costs can be different.</p>
+<p>A simple professional cleaning and treatment for established periodontal disease are not the same procedure, <a href="/blog/dental-treatment-cost-sonipat/">so their costs can be different</a>.</p>
 <p>If cost is a concern, ask your dentist for a treatment plan that explains what is needed and why.</p>
 
 <h2>Can Bleeding Gums Lead to Tooth Loss?</h2>
@@ -708,8 +708,8 @@ export const blogPosts: BlogPost[] = [
 <h2>Why Choose Mukhija Dental Clinic for Gum Treatment in Sonipat?</h2>
 <p>Mukhija Dental Clinic is located in <strong>Model Town, Sonepat, Haryana</strong>, and provides comprehensive dental care for children, adults and senior patients.</p>
 <p>The clinic provides <strong>gum treatment, bleeding gums treatment, ultrasonic teeth cleaning, scaling and polishing, routine dental examinations and dental X-rays</strong>, along with other restorative, cosmetic, orthodontic and surgical dental services.</p>
-<p>Patients visiting from <strong>Sonipat, Murthal, Kundli, Sector 12, Sector 14, Sector 15, Sector 35 and Omaxe City</strong> can access a range of dental services at the clinic.</p>
-<p>Wheelchair-accessible parking is also available.</p>
+<p>Patients visiting from <strong><a href="/locations/">Sonipat, Murthal, Kundli, Sector 12, Sector 14, Sector 15, Sector 35 and Omaxe City</a></strong> can access a range of dental services at the clinic.</p>
+<p><a href="/locations/model-town-sonipat/">Wheelchair-accessible parking</a> is also available.</p>
 <p>If you are searching for a <strong>gum treatment clinic near me</strong>, <strong>bleeding gums doctor near me</strong>, <strong>gum specialist Sonipat</strong> or <strong>dental clinic in Sonipat</strong>, an examination at <a href="">Mukhija Dental Clinic</a> can help determine what is causing your bleeding gums and what treatment, if any, is appropriate.</p>
 
 <h2>Don't Wait for Gum Problems to Become Painful</h2>

@@ -268,12 +268,12 @@ export const blogPosts: BlogPost[] = [
           "They mean the same treatment. RCT stands for root canal treatment.",
       },
       {
-        question: "How long does a root canal take?",
+        question: "How long does the full root canal process take?",
         answer:
           "It depends on the tooth and infection. Some cases finish in one visit, others need two.",
       },
       {
-        question: "Is a root canal painful?",
+        question: "Does root canal treatment hurt?",
         answer:
           "It is done under anaesthesia. Mild soreness afterwards is common and usually settles quickly.",
       },
@@ -742,7 +742,7 @@ export const blogPosts: BlogPost[] = [
           "There is no single cleaning schedule that applies to everyone. Your dentist can recommend a frequency based on your oral health, plaque buildup, gum condition and risk factors.",
       },
       {
-        question: "Are bleeding gums always a sign of gum disease?",
+        question: "What causes bleeding gums, and does it always mean gum disease?",
         answer:
           "Bleeding gums can be associated with gum disease, but they can also have other contributing factors. A dental examination is the appropriate way to determine the cause.",
       },

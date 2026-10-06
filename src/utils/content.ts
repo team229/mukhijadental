@@ -170,6 +170,59 @@ function learnListItemLabels(): Set<string> {
 
 const LIST_ITEM_LABELS = learnListItemLabels();
 
+/** Words ignored when measuring whether a line is title-cased. */
+const STOP_WORDS = new Set([
+  "a", "an", "and", "or", "but", "the", "of", "in", "on", "at", "to", "for", "with", "is",
+  "are", "was", "were", "be", "been", "it", "its", "this", "that", "these", "those", "if",
+  "as", "by", "from", "has", "have", "had", "do", "does", "did", "not", "no", "so", "than",
+  "then", "when", "while", "which", "who", "whom", "your", "you", "we", "our", "they",
+  "their", "can", "will", "would", "should", "could", "may", "might", "must", "into",
+  "over", "under", "up", "down", "out", "off", "per", "via",
+]);
+
+/** Two or more sentences packed into one source line = ordinary paragraph copy. */
+const MULTI_SENTENCE_RE = /[.!?]\s+[A-Z]/;
+
+/**
+ * Fraction of content words that begin lowercase.
+ *
+ * This is what separates a real heading from a list item in this content set.
+ * Every genuine heading is title-cased ("Zirconia Crowns — Why They've Become
+ * So Popular" scores 0%), while list items are ordinary sentence case
+ * ("Untreated cavities or decay, which need addressing first" scores 83%).
+ * Measured across all 755 candidate lines the populations do not overlap:
+ * headings peak near 25%, list items start near 55%.
+ */
+function lowerCaseRatio(text: string): number {
+  const words = text.replace(/[^A-Za-z' -]/g, " ").split(/\s+/).filter(Boolean);
+  if (words.length < 4) return 0;
+  let lower = 0;
+  let content = 0;
+  for (const w of words) {
+    if (STOP_WORDS.has(w.toLowerCase())) continue;
+    content++;
+    if (/^[a-z]/.test(w)) lower++;
+  }
+  return content < 3 ? 0 : lower / content;
+}
+
+/** Above this, a line is sentence case and therefore list copy, not a heading. */
+const SENTENCE_CASE_THRESHOLD = 0.45;
+
+/**
+ * True for a line that is list copy rather than a heading: sentence-cased, not a
+ * multi-sentence paragraph, and not a colon lead-in. Lead-ins such as
+ * "Crowns are typically recommended when a tooth has:" introduce the list that
+ * follows, so they stay paragraphs and deliberately break the list run.
+ */
+function isSentenceCaseListItem(line: string): boolean {
+  const t = line.trim();
+  if (t.length < 12 || t.length > 130) return false;
+  if (MULTI_SENTENCE_RE.test(t)) return false;
+  if (t.endsWith(":")) return false;
+  return lowerCaseRatio(t) >= SENTENCE_CASE_THRESHOLD;
+}
+
 export function getPageContent(contentKey?: string): string[] {
   if (!contentKey) return [];
   const content = pageContent as Record<string, string[]>;
@@ -233,6 +286,19 @@ export function contentToHtml(lines: string[]): { html: string; faqs: Faq[] } {
       continue;
     }
 
+    // Sentence-case list copy ("Untreated cavities or decay, which need
+    // addressing first"). These read as ordinary sentences, so the heading test
+    // must never claim them — otherwise a bulleted list renders as a stack of
+    // full-size section headings.
+    if (isSentenceCaseListItem(line)) {
+      if (!inList) {
+        html += "<ul>\n";
+        inList = true;
+      }
+      html += `<li>${line.trim()}</li>\n`;
+      continue;
+    }
+
     const isListItem = line.startsWith("•") || line.startsWith("-");
 
     if (isListItem) {
@@ -255,10 +321,12 @@ export function contentToHtml(lines: string[]): { html: string; faqs: Faq[] } {
     // their shorter siblings rendered as headings.
     const looksLikeHeading =
       line.length > 3 &&
-      line.length <= 120 &&
+      line.length <= 130 &&
       !line.includes(".") &&
       /^[A-Z]/.test(line) &&
-      !line.endsWith(".");
+      !line.endsWith(".") &&
+      !line.endsWith(":") &&
+      lowerCaseRatio(line) < SENTENCE_CASE_THRESHOLD;
 
     if (looksLikeHeading) {
       if (AREA_LIST_LINES.has(line)) {

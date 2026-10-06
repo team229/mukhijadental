@@ -43,11 +43,14 @@ const faqSchema =
 <html lang="en">
   <head>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    {/* is:inline is required here: without it Astro treats this as a component
+    script and minifies it to type="module" (deferred, strict mode), which
+    stops GTM from firing at all. */}
+    <script is:inline>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TL9BMKDV');</script>
+    })(window,document,'script','dataLayer','GTM-57DP7TVF');</script>
     <!-- End Google Tag Manager -->
     <meta name="google-site-verification" content="UQThGxD0GVm-bN-xh3ccS1mneBhzErxAsgPln4sNBzo" />
     <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-2BDNPB8PKT"></script>
@@ -78,7 +81,7 @@ const faqSchema =
   </head>
   <body class="min-h-screen flex flex-col">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TL9BMKDV"
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57DP7TVF"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <Header />

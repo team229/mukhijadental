@@ -1,14 +1,5 @@
 import pageContent from "../data/page-content.json";
 
-const AREA_LIST_LINES = new Set([
-  "Sonepat city and Model Town",
-  "Murthal",
-  "Kundli",
-  "Sector 12, Sector 14, and Sector 15",
-  "Sector 35",
-  "Omaxe City",
-]);
-
 /**
  * Every FAQ heading variant used across page-content.json. They all collapse
  * into ONE "Frequently Asked Questions" accordion block per page.
@@ -329,10 +320,6 @@ export function contentToHtml(lines: string[]): { html: string; faqs: Faq[] } {
       lowerCaseRatio(line) < SENTENCE_CASE_THRESHOLD;
 
     if (looksLikeHeading) {
-      if (AREA_LIST_LINES.has(line)) {
-        html += `<p><strong>${line}</strong></p>\n`;
-        continue;
-      }
       html += `<h2>${line}</h2>\n`;
       continue;
     }

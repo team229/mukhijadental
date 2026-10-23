@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { createPortal } from "react-dom";
 import { navigation, siteConfig } from "../../data/site";
+import SocialLinks from "./SocialLinks";
 import { Phone, ChevronDown } from "lucide-react";
 
 export default function MobileNav() {
@@ -48,20 +49,26 @@ export default function MobileNav() {
           )
         )}
 
-        <div className="pt-5 mt-4 border-t border-slate-200 space-y-2">
-          <a
-            href="/contact-us/"
-            className="block px-4 py-3.5 bg-accent hover:bg-accent-light text-white text-center font-semibold rounded-xl transition-colors"
-            onClick={() => setOpen(false)}
-          >
-            Book Appointment
-          </a>
-          <a
-            href={`tel:${siteConfig.phone}`}
-            className="flex items-center justify-center gap-2 px-4 py-3 text-sm font-semibold text-brand hover:text-accent transition-colors"
-          >
-            <Phone className="w-4 h-4" /> {siteConfig.phone}
-          </a>
+        <div className="pt-5 mt-4 border-t border-slate-200 space-y-4">
+          <div>
+            <p className="px-4 text-xs font-semibold uppercase tracking-wider text-slate-400 mb-3">Follow us</p>
+            <SocialLinks variant="dark" size="md" className="px-4" />
+          </div>
+          <div className="space-y-2">
+            <a
+              href="/contact-us/"
+              className="block px-4 py-3.5 bg-accent hover:bg-accent-light text-white text-center font-semibold rounded-xl transition-colors"
+              onClick={() => setOpen(false)}
+            >
+              Book Appointment
+            </a>
+            <a
+              href={`tel:${siteConfig.phone}`}
+              className="flex items-center justify-center gap-2 px-4 py-3 text-sm font-semibold text-brand hover:text-accent transition-colors"
+            >
+              <Phone className="w-4 h-4" /> {siteConfig.phone}
+            </a>
+          </div>
         </div>
       </nav>
     </div>

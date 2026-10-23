@@ -12,6 +12,32 @@ export const siteConfig = {
   hours: "Mon–Sat: 9:00 AM – 2:00 PM & 4:30 – 7:30 PM · Sun: 9:00 AM – 2:00 PM",
 };
 
+export type SocialIconName = "instagram" | "facebook" | "google";
+
+export interface SocialLink {
+  label: string;
+  href: string;
+  icon: SocialIconName;
+}
+
+export const socialLinks: SocialLink[] = [
+  {
+    label: "Instagram",
+    href: "https://www.instagram.com/dr.mukhija_dental_centre/",
+    icon: "instagram",
+  },
+  {
+    label: "Facebook",
+    href: "https://www.facebook.com/mukhijadental/",
+    icon: "facebook",
+  },
+  {
+    label: "Google Business Profile",
+    href: "https://share.google/PpNrQz3XqrAlN85Ko",
+    icon: "google",
+  },
+];
+
 export const navigation = [
   { label: "Home", href: "/" },
   {

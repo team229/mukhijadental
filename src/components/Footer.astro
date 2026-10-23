@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 import logoWhite from "../assets/images/logo-white.png";
 import { siteConfig, navigation } from "../data/site";
+import SocialLinks from "./SocialLinks.astro";
 ---
 
 <footer class="bg-brand-dark text-white">
@@ -18,6 +19,10 @@ import { siteConfig, navigation } from "../data/site";
         <p class="text-white/70 text-sm leading-relaxed">
           Comprehensive dental care in Model Town, Sonipat. Trusted by families across Sonipat, Murthal, Kundli and surrounding areas.
         </p>
+        <div class="mt-5">
+          <p class="text-white/50 text-xs uppercase tracking-wide mb-3">Follow Us</p>
+          <SocialLinks variant="light" size="md" />
+        </div>
       </div>
 
       <div>

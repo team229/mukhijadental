@@ -3,6 +3,7 @@ import { Image } from "astro:assets";
 import logoWhite from "../assets/images/logo-white.png";
 import { siteConfig, navigation } from "../data/site";
 import MobileNav from "./react/MobileNav";
+import SocialLinks from "./SocialLinks.astro";
 import { Phone, Mail, ChevronDown } from "lucide-react";
 ---
 
@@ -29,6 +30,8 @@ import { Phone, Mail, ChevronDown } from "lucide-react";
       <a href={`mailto:${siteConfig.email}`} class="hover:text-accent-light transition-colors inline-flex items-center gap-2 text-sm font-medium">
         <Mail className="w-4 h-4 text-accent-light" /> {siteConfig.email}
       </a>
+      <span class="h-5 w-px bg-white/20" aria-hidden="true"></span>
+      <SocialLinks variant="light" size="sm" />
       <a
         href="/contact-us/"
         class="inline-flex items-center px-5 py-2.5 bg-white hover:bg-surface text-brand font-bold text-xs uppercase tracking-wider rounded-xl shadow-md hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
@@ -90,7 +93,8 @@ import { Phone, Mail, ChevronDown } from "lucide-react";
         )}
       </nav>
 
-      <div class="flex-1 flex items-center justify-end">
+      <div class="flex-1 flex items-center justify-end gap-3">
+        <SocialLinks variant="dark" size="sm" className="hidden xl:flex" />
         <MobileNav client:load />
       </div>
     </div>

@@ -1943,6 +1943,74 @@ export const blogPosts: BlogPost[] = [
       { question: "When should I see a dentist for bad breath?", answer: "If it has lasted a few weeks despite good home care, or if you have bleeding gums, toothache, a loose tooth or a bad taste in one spot. Bad breath is often the earliest sign of something cheaper to treat now. *This is general health information for patients in Sonipat, not a diagnosis. Bad breath has many causes, and an examination is the only reliable way to identify yours.*" },
     ],
   },
+  {
+    slug: "wisdom-tooth-pain-removal-sonipat",
+    title: "Wisdom Tooth Pain: Why It Hurts and When Removal Is Really Necessary",
+    description: "Why a wisdom tooth hurts, how to tell if it's impacted, when removal is genuinely needed and when it isn't, and what recovery actually looks like at a Sonipat dental clinic.",
+    metaTitle: "Wisdom Tooth Pain & Removal | Mukhija Dental Clinic",
+    metaDescription: "Why a wisdom tooth hurts, how to tell if it's impacted, when removal is really needed and when it isn't, and what recovery looks like in Sonipat.",
+    date: "2026-10-26",
+    image: "/images/clinic/gallery/wisdom-tooth-pain-removal-sonipat.webp",
+    imageAlt: "Man touching his jaw during a wisdom tooth consultation with a dentist in a bright clinic",
+    html: `
+<p><strong>Short answer:</strong> Wisdom tooth pain usually comes from a gum flap over a tooth that has only half come through. Food and bacteria collect underneath, the gum gets infected, and the back of the jaw aches. That is pericoronitis. Removing the tooth fixes the cause. A buried third molar causing no trouble is watched, not extracted.</p>
+<h2>Why Does My Wisdom Tooth Hurt?</h2>
+<p>Wisdom teeth are third molars, the last to arrive, usually between 17 and 25 into a jaw that has largely finished growing. Often there is no room left, so the tooth sits trapped under the gum, angled into the molar in front, or half out and stopped. <a href="https://my.clevelandclinic.org/health/diseases/22296-impacted-wisdom-teeth">Cleveland Clinic</a> calls that impaction. The horizontal ones hurt most, because the crown presses on the tooth ahead of it.</p>
+<p>The half-emerged version causes most of the pain. A flap of gum sits over the crown like a small tent. Food slides under it when you chew and no brush reaches it. Bacteria settle, the gum turns red and swollen, and you have <strong>pericoronitis</strong>: a dull ache that sharpens on biting, a bad taste, and a tender spot when you press the gum.</p>
+<p>Other causes:</p>
+<ul>
+<li>Decay in the wisdom tooth, or in the second molar where food packs against it.</li>
+<li>Pressure resorbing the root of the tooth in front, silent until that tooth is damaged.</li>
+<li>Referred pain. A lower wisdom tooth can present as a one-sided earache, which is why an "ear infection" that will not settle deserves a look inside the mouth.</li>
+</ul>
+<h2>How Do I Know If My Wisdom Tooth Is Impacted?</h2>
+<p>You cannot tell from the mirror, or from how it feels.</p>
+<p>Many sit fully buried and get found by accident on a routine X-ray; Cleveland Clinic notes they often cause no noticeable problems. A lower tooth lying flat announces itself as pressure on the tooth in front.</p>
+<p>Only imaging answers it. A panoramic X-ray (OPG) shows the angle, depth, root shape, and how close the roots run to the nerve in your jaw. <a href="/technology/">We take digital OPGs in-house</a>, so you read the same screen we do.</p>
+<h2>Do All Wisdom Teeth Need to Be Removed?</h2>
+<p>No. This is the part most clinic pages skip.</p>
+<p><a href="https://www.nice.org.uk/guidance/ta1/chapter/1-Recommendations">NICE TA1</a> is blunt. Prophylactic removal of pathology-free impacted third molars "should be discontinued", and surgery "should be limited to patients with evidence of pathology": unrestorable decay, abscess, cellulitis, resorption, a cyst. <a href="https://www.nhs.uk/conditions/wisdom-tooth-removal/">The NHS says it plainer</a>. No problems, and the tooth is usually left and monitored at check-ups.</p>
+<p>NICE then draws a line most patients never hear. A first episode of pericoronitis, unless particularly severe, should not on its own justify surgery. A second or later episode should. Its wording is "the evidence suggests", so read that as a strong steer: repeated infection is the trigger, not the existence of a tilted tooth.</p>
+<p>A clinic that removes every third molar on the assumption trouble is coming is working against the evidence. We do not.</p>
+<table><thead><tr><th>What the examination shows</th><th>What usually happens</th></tr></thead><tbody><tr><td>Buried or partly through, no symptoms, no decay</td><td>Leave it. Review at check-ups.</td></tr><tr><td>One mild gum flare that settles with cleaning</td><td>Treat the gum, review, no surgery.</td></tr><tr><td>Repeated pericoronitis in the same tooth</td><td>Removal becomes the sensible option.</td></tr><tr><td>Cavity that cannot be properly filled</td><td>Removal.</td></tr><tr><td>Damage or resorption on the second molar</td><td>Removal, and soon.</td></tr><tr><td>Cyst or other pathology around the crown</td><td>Removal.</td></tr><tr><td>Fully through, healthy, easy to clean</td><td>Keep it. It is doing its job.</td></tr></tbody></table>
+<p>If someone recommends surgery for a tooth that has never hurt and looks clean on X-ray, ask two questions: what pathology are we treating, and what happens if we wait six months? A dentist who can answer both is making a clinical decision. One who cannot is selling a procedure.</p>
+<h2>When Should I See a Dentist for Wisdom Tooth Pain?</h2>
+<p>Pain lasting more than three or four days, or returning every few weeks, needs an examination rather than another painkiller. Go the same day, or to hospital if we are closed, if you have:</p>
+<ul>
+<li><strong>Swelling spreading beyond the jaw</strong>, towards the eye or down the neck.</li>
+<li><strong>Fever with facial swelling.</strong> Infection plus systemic signs is not wait-and-see.</li>
+<li><strong>Trismus</strong>: cannot open past two fingers' width, tightening hour by hour.</li>
+<li><strong>Trouble swallowing, a muffled voice, or difficulty breathing.</strong> Hospital, not clinic.</li>
+<li><strong>Bleeding after extraction</strong> that will not stop after 20 minutes of firm pressure.</li>
+<li><strong>Pain worsening after day three</strong> with a bad taste and an empty socket: a dry socket, which needs a dressing, not just antibiotics.</li>
+<li><strong>Numbness in the lip, chin or tongue</strong> weeks after surgery.</li>
+</ul>
+<p>Diabetes, a weakened immune system or blood thinners lower the threshold for all of it. <a href="/services/emergency-dentistry/">Same-day emergency care</a> covers this; there is also a guide to <a href="/blog/urgent-everyday-dental-care-sonipat/">what counts as urgent dental care in Sonipat</a>.</p>
+<h2>Is Wisdom Tooth Removal Painful?</h2>
+<p>The procedure, under local anaesthetic, should not be. You feel the cold swab, a pinch, then nothing sharp. What you notice is pressure, rocking and, if the tooth is sectioned, a cracking sound. The noise is worse than the sensation.</p>
+<p>We will not promise you feel nothing, because nobody honestly can. You control the stop: raise a hand and we pause and top up. If the appointment itself is the worry, say so at booking and <a href="/services/painless-dental-treatment/">we will plan the anaesthetic and sedation around it</a>.</p>
+<p>The pain people remember is usually the two days <em>before</em>, from the infection. As the anaesthetic wears off, expect real soreness for an evening and a day. Take the first painkiller before the numbness goes.</p>
+<h2>What Happens During the Procedure?</h2>
+<p>X-ray first, then your medical history (blood thinners, diabetes, pregnancy), then the specific risks in your case.</p>
+<p><strong>Simple removal:</strong> tooth mostly through. Numbed, loosened, lifted out. Often minutes.</p>
+<p><strong>Surgical removal:</strong> buried, broken or angled. A small incision, sometimes bone removed, the tooth divided, the socket cleaned, dissolvable stitches. The NHS says it should take no more than 40 minutes.</p>
+<p>Lower teeth are more often surgical, and their roots sit closer to the nerve supplying your lip, chin and tongue. Temporary numbness usually settles over weeks or months. Permanent change is uncommon but real, and anyone who says the risk is zero has not read their own consent form.</p>
+<p>Home the same day. Aftercare is close to <a href="/blog/tooth-extraction-sonipat/">a standard extraction, start to finish</a>; what changes is the angle of the tooth and how much bone is in the way. Surgical cases sit inside our <a href="/services/maxillofacial-surgery/">maxillofacial surgery service</a>.</p>
+<h2>How Long Is Recovery After Wisdom Tooth Removal?</h2>
+<p>Longer than a filling, shorter than most people fear. For a surgical lower molar:</p>
+<table><thead><tr><th>When</th><th>What it feels like</th></tr></thead><tbody><tr><td><strong>First 6 hours</strong></td><td>Numb, slightly swollen. Bite on gauze, changing it every 30–45 minutes until bleeding is only pink.</td></tr><tr><td><strong>Day 1</strong></td><td>Soreness builds as the anaesthetic fades. Ice 20 minutes on, 20 off. Soft cold food. No rinsing, straws or smoking.</td></tr><tr><td><strong>Days 2–3</strong></td><td>Swelling peaks around 48–72 hours, then eases. Expected, not infection. Salt rinses from day two.</td></tr><tr><td><strong>Week 1</strong></td><td>Stitches dissolve around day 7–10. Chewing on the other side.</td></tr><tr><td><strong>Week 2</strong></td><td>Swelling gone, mouth opens normally. A small hole still traps food; rinse after meals.</td></tr><tr><td><strong>Week 3–4</strong></td><td>Gum closed. Bone keeps remodelling for months.</td></tr></tbody></table>
+<p>Day three often feels worse than day one. Age matters more than any table: a healthy 19-year-old with a simple upper tooth often eats normally in two days; a 45-year-old with a horizontal lower molar is nearer two weeks.</p>
+<h2>What Does Wisdom Tooth Removal Cost in Sonipat?</h2>
+<p>It is not one price, and a clinic quoting one over the phone is guessing. What moves the number: how deep the tooth sits, whether the roots hook around the nerve, upper or lower, and sedation. We give a written estimate after the X-ray, before anything is booked. <a href="/blog/dental-treatment-cost-sonipat/">What drives dental costs in Sonipat</a> covers the rest.</p>
+<p>The next step is one examination, one X-ray and a straight answer. It might be "leave it alone", and that is a result too. <a href="/contact-us/">Book a consultation</a> at 222 Model Town, Sonipat 131001, or call +91 72067 22618. Cases are seen by <a href="/team-of-specialists/">Dr. Bhupesh Mukhija, endodontist, and Dr. Shikha Mukhija, periodontist and implantologist</a>.</p>
+`,
+    faqs: [
+      { question: "Do all wisdom teeth need to be removed?", answer: "No. A tooth that is fully through, healthy, easy to clean and not damaging its neighbour can stay for life. NICE TA1 is explicit that impacted teeth with no pathology should not be removed preventively. Surgery is for repeated infection, decay, a cyst or damage to the next tooth." },
+      { question: "What happens if I do not remove an impacted wisdom tooth?", answer: "Often nothing. Many are found on an X-ray, cause no symptoms, and get checked at each visit. Others develop pericoronitis, decay or, rarely, a cyst around the crown. Monitoring means a review, not a decision made once and forgotten." },
+      { question: "Can antibiotics cure wisdom tooth pain without surgery?", answer: "They calm an acute infection for a few days, which matters if you are swollen. They do not remove the gum flap that traps food, so it returns. Antibiotics buy time; they do not change the anatomy." },
+      { question: "How long does wisdom tooth pain last if I do nothing?", answer: "A typical pericoronitis flare settles over three to seven days with careful cleaning and painkillers. Then it comes back, often when you are run down. That pattern, not one bad week, is what pushes the decision towards removal." },
+    ],
+  },
 ];
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {

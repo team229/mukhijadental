@@ -1870,6 +1870,79 @@ export const blogPosts: BlogPost[] = [
 `,
     faqs: [],
   },
+  {
+    slug: "bad-breath-that-wont-go-away",
+    title: "Bad Breath That Won't Go Away: What's Really Causing It",
+    description: "Bad breath that survives brushing is usually a coated tongue, gum disease or a decaying tooth — not your stomach. How a dentist finds the cause, how to tell a dental problem from an ENT one, and what actually works.",
+    metaTitle: "Bad Breath That Won't Go Away | Mukhija Dental Clinic",
+    metaDescription: "Bad breath that survives brushing usually starts on the tongue, in the gums or a decaying tooth. How dentists find the cause in Sonipat, and what works.",
+    date: "2026-10-26",
+    image: "/images/clinic/gallery/bad-breath-sonipat.webp",
+    imageAlt: "Dentist examining a patient's teeth and gums at Mukhija Dental and ENT Centre in Model Town, Sonipat, to find the cause of persistent bad breath",
+    html: `
+<p><strong>Quick answer:</strong> Bad breath that survives brushing starts in your mouth — a coated tongue, gum disease or a decaying tooth. Around 90% of halitosis is oral in origin. Sinus problems, tonsil stones and reflux are a small minority. Mouthwash keeps failing because it rinses the smell, not the source.</p>
+<p>Brushing cleans flat tooth surfaces. It never reaches the back of the tongue, the gap between molars, or a gum pocket.</p>
+<p>Most people who come to us brush twice a day. They are cleaning the wrong real estate.</p>
+<h2>Why does bad breath stay even after brushing?</h2>
+<p>The smell is volatile sulphur compounds — gases bacteria release as they break down food, dead cells and proteins. They collect where oxygen is low and your brush never lands: the back of the tongue, between teeth, inside a periodontal pocket.</p>
+<p>Morning breath clears after breakfast as saliva flow restarts. Breath that is bad again by 4 pm is not morning breath — something is feeding it.</p>
+<h2>What causes bad breath that won't go away?</h2>
+<p>Most common first.</p>
+<p><strong>Tongue coating.</strong> Start here. The back of the tongue is rough, and its papillae trap bacteria in a white or yellow film. In a Belgian study of 2,000 breath-clinic patients, coating explained 43% of cases alone and 18% more alongside gum disease.</p>
+<p><strong>Gum disease.</strong> Gums that bleed, look puffy or are shrinking are inflamed. Gingivitis is reversible; periodontitis destroys the bone holding the tooth in. Both leave oxygen-poor pockets a brush cannot enter — what sulphur-producing bacteria want. If yours bleed, read our guide to <a href="/blog/bleeding-gums-treatment-sonipat/">bleeding gums</a>.</p>
+<p><strong>Decay and old dental work.</strong> A cavity is a warm, food-trapping cave. So is a cracked filling, a leaking crown margin, or a bridge you cannot floss under.</p>
+<p><strong>Dry mouth.</strong> Saliva is the mouth's cleaning crew. Antihistamines, blood pressure pills, antidepressants, diabetes and smoking all reduce it.</p>
+<p><strong>Tobacco.</strong> Smoking carries its own odour, dries the mouth and raises gum disease risk. Gutkha adds areca nut, a Group 1 carcinogen, and staining scaling only partly lifts.</p>
+<h2>Does bad breath come from the stomach or the teeth?</h2>
+<p>Mostly the teeth. People spend months on antacids for a problem sitting two centimetres below their nose.</p>
+<p>Your oesophagus has a valve at each end, not an open pipe. Stomach gas does not drift upward all day. When reflux does affect breath it comes with heartburn, a sour taste or a night cough. Treat it — but it rarely explains the smell alone.</p>
+<p>A <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7342603/">2020 expert consensus review</a> puts about 90% of halitosis as oral in origin. The <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6905014/">Cochrane review of halitosis treatments</a> puts 3% to 10% down to ear, nose and throat problems. That leaves a few percent for reflux, diabetes and liver or kidney disease.</p>
+<h2>When is the cause dental and when is it ENT?</h2>
+<p>A minority of cases starts above the collar, and those get missed when nobody looks upward.</p>
+<p><strong>Sinusitis and post-nasal drip.</strong> An inflamed sinus lining produces mucus that runs down the throat, coating the tongue and feeding odour bacteria. Clues: blocked nose, cheek pressure, throat clearing, breath worse lying down.</p>
+<p><strong>Tonsil stones.</strong> Crypts in the tonsils collect food, cells and bacteria, which harden into pale lumps of calcified debris. Clues: a foreign-body feeling in the throat and a bad taste that comes and goes. Small stones often work loose with gargling; do not dig at them.</p>
+<table><thead><tr><th>Clue</th><th>More likely dental</th><th>More likely ENT</th></tr></thead><tbody><tr><td>Where the smell sits</td><td>Front of mouth, gums, between teeth</td><td>Back of throat, "behind the nose"</td></tr><tr><td>Other symptoms</td><td>Bleeding gums, toothache, food trapping</td><td>Blocked nose, facial pressure, throat clearing</td></tr></tbody></table>
+<p>A guide, not a diagnosis. If the examination is clean and the signs point upward, the next step is an ENT opinion — not another scaling.</p>
+<h2>How does a dentist find the actual cause?</h2>
+<p><a href="/team-of-specialists/">Our team</a> smells the breath from the mouth and the nose separately, because that narrows it to oral or nasal before any instrument comes out. Then we check tongue coating, probe every tooth for pocket depth and bleeding, and inspect fillings, crowns and bridges for gaps. X-rays or an OPG show decay, infection at a root tip and bone loss you cannot see.</p>
+<p>Often the answer is dull. One deep pocket behind the last molar. A leaking crown from years ago. A tongue nobody has scraped. Dull is good. Dull means fixable.</p>
+<h2>What actually works for bad breath?</h2>
+<p>Cochrane pooled 44 trials and 1,809 people and could not show any single intervention beating the rest. So the plan removes causes in order of likelihood.</p>
+<p><strong>Clean your tongue once a day.</strong> Scraper, not toothbrush. Reach as far back as you can without gagging, repeat until almost nothing comes off. It reduces the coating that feeds the smell, though Cochrane rates that evidence very low certainty: two trials, 46 people. Part of the routine, not the solution.</p>
+<p><strong>Get professional scaling, and keep the appointment.</strong> Calculus is hardened plaque no brush removes. Full disclosure: the Cochrane review cannot back scaling with a trial, because it excluded advanced gum disease. The support is periodontal evidence, and it is still where we start if your last clean was over a year ago. <a href="/services/teeth-cleaning/">Professional cleaning</a> takes one sitting.</p>
+<p><strong>Treat the decay and the gums, not the smell.</strong> A cavity needs a filling. An infected tooth may need a <a href="/services/root-canal/">root canal</a>. <a href="/services/gums-treatment/">Gum disease</a> needs more than a routine clean, sometimes deep cleaning under the gum line. No rinse fixes an infection.</p>
+<p><strong>Clean between your teeth daily.</strong> Floss or interdental brushes — the step most people skip, and the one that clears the debris feeding the smell.</p>
+<p><strong>Keep your mouth wet.</strong> Water through the day, less tea and coffee, and a word with your doctor if a medicine is drying you out.</p>
+<p><strong>Stop tobacco.</strong> Not a lecture. The one change that improves breath, gum health and cancer risk together.</p>
+<h2>What doesn't work for bad breath?</h2>
+<p><strong>Mouthwash alone.</strong> A rinse knocks bacteria back for a couple of hours, then the biofilm rebuilds. Alcohol-heavy rinses leave the mouth drier, and drier is worse by evening. Chlorhexidine earns its place in short courses; daily for months it stains teeth and dulls taste.</p>
+<p><strong>Lemon juice, baking soda, salt rubbings.</strong> Lemon acid etches enamel. Scrubbing your tongue raw causes inflammation.</p>
+<h2>When should you see a dentist for bad breath?</h2>
+<p>Book if bad breath has not gone after a few weeks of decent brushing, flossing and tongue cleaning. That is the <a href="https://www.nhs.uk/symptoms/bad-breath/">NHS</a> threshold. If it is still there at two to three weeks, stop guessing.</p>
+<p>Come sooner if you notice:</p>
+<ul>
+<li>Gums that bleed regularly, look swollen, or are pulling away from the teeth</li>
+<li>A loose adult tooth, or teeth that have shifted</li>
+<li>Toothache, sharp sensitivity, or a visible hole or crack</li>
+<li>A bad taste in one spot, or a pimple on the gum that drains and returns</li>
+<li>A denture, bridge or filling that no longer fits</li>
+<li>A mouth ulcer, or a white or red patch, that has not healed in three weeks</li>
+<li>A lump in your neck that has lasted three weeks</li>
+</ul>
+<p>That last pair is not about breath. Do not sit on them.</p>
+<p>Two things belong with an ENT surgeon or physician, not a dentist: one-sided nasal blockage with facial pain or blood-stained discharge, and unexplained weight loss or night sweats.</p>
+<h2>Getting this checked in Sonipat</h2>
+<p>Here in <a href="/locations/model-town-sonipat/">Model Town, Sonipat</a>, bad breath is a diagnostic question before it is a treatment. We examine, we tell you what we found, and we recommend only what matches. <a href="/contact-us/">Book an appointment</a> or call +91 72067 22618.</p>
+`,
+    faqs: [
+      { question: "Why does my breath still smell after brushing?", answer: "Because brushing misses the back of the tongue, the gaps between teeth and gum pockets — and cannot clean a cavity or a leaking filling. If the smell returns within an hour, your brush is not reaching the reservoir." },
+      { question: "Can a sinus infection cause bad breath?", answer: "Yes, though less often than dental causes. Sinusitis and post-nasal drip send mucus down the throat, where bacteria break it down. Look for a blocked nose, facial pressure, and breath that is worse lying down." },
+      { question: "Do tonsil stones cause bad breath, and how are they removed?", answer: "They do. A stone is compacted debris that calcifies in the tonsil crypts, hence the smell. Small ones often come away with gargling; large or recurrent ones may need an ENT specialist." },
+      { question: "Does bad breath come from the stomach?", answer: "Rarely. Around nine in ten cases start in the mouth, and only 3% to 10% involve the throat, nose or sinuses. If your stomach has been checked and nothing was found, the next step is a dental examination." },
+      { question: "How do I get rid of bad breath permanently?", answer: "By removing the cause, not covering the smell: daily tongue and interdental cleaning, scaling at the right interval, treatment of decay or gum disease, keeping the mouth moist, and stopping tobacco. The Cochrane trials measured change over one to four weeks." },
+      { question: "When should I see a dentist for bad breath?", answer: "If it has lasted a few weeks despite good home care, or if you have bleeding gums, toothache, a loose tooth or a bad taste in one spot. Bad breath is often the earliest sign of something cheaper to treat now. *This is general health information for patients in Sonipat, not a diagnosis. Bad breath has many causes, and an examination is the only reliable way to identify yours.*" },
+    ],
+  },
 ];
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {

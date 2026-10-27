@@ -8,7 +8,7 @@ export const siteConfig = {
   email: "info@mukhijadentalclinic.com",
   address: "Model Town, Sonepat, Haryana, India",
   googleRating: 4.9,
-  googleReviews: 150,
+  googleReviews: 64,
   hours: "Mon–Sat: 9:00 AM – 2:00 PM & 4:30 – 7:30 PM · Sun: 9:00 AM – 2:00 PM",
 };
 

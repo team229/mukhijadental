@@ -2093,9 +2093,6 @@ export const blogPosts: BlogPost[] = [
     image: "/images/clinic/gallery/dental-anxiety-sonipat-nervous-patient.webp",
     imageAlt: "Calm woman seated in a dental chair as a smiling dentist in teal scrubs talks with her before treatment begins",
     html: `
-<p>&lt;!-- BODY: renders inside .prose-content. No &lt;h1&gt; here — PageHero emits the H1 from <code>title</code>.</p>
-<p>     Prose count: 1,344 body + 242 FAQ = 1,586 words. (<code>wc -w</code> on this file also counts</p>
-<p>     front matter and these implementation notes.) --&gt;</p>
 <p>Being frightened of the dentist isn't childish, and it isn't rare. Plenty of adults have sat in a car outside a clinic and driven home. The fear has a cause: an old bad experience, a memory of pain, or the plain fact that you lie back with your mouth open while somebody holds a drill.</p>
 <p>None of that is irrational. It means the first appointment has to be planned differently.</p>
 <h2>Is dental anxiety actually common?</h2>
@@ -2151,11 +2148,6 @@ export const blogPosts: BlogPost[] = [
 <p>We're at 222 Model Town, Sonipat 131001, a short drive from Sectors 14 and 15. Open Mon–Sat 9am–2pm and 4:30–7:30pm, Sunday 9am–2pm.</p>
 <p>We're rated 4.9 across 64 Google reviews, worth little if you're frightened. What matters is whether you can sit in the chair — that starts with <a href="/contact-us/">getting in touch</a>.</p>
 <p><em>Medically reviewed by Dr. Bhupesh Mukhija, BDS, MDS (Endodontics), Mukhija Dental &amp; ENT Centre, 222 Model Town, Sonipat 131001. General dental information, not a diagnosis, and not a substitute for an examination. If you have a diagnosed anxiety or panic disorder, discuss it with your GP as well.</em></p>
-<p>&lt;!-- ============================================================</p>
-<p>     FAQs — these populate the <code>faqs</code> array in blogs.ts and are</p>
-<p>     rendered by FaqAccordion AFTER the body, plus FAQPage JSON-LD.</p>
-<p>     Do NOT paste this section into the <code>html</code> field.</p>
-<p>     ============================================================ --&gt;</p>
 `,
     faqs: [
       { question: "Should I tell my dentist I'm scared?", answer: "Yes, and say it at booking rather than in the chair. It changes the appointment: extra time, a talk-only first visit, a stop signal agreed in advance, no surprises. Nobody there is judging you." },

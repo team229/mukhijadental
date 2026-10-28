@@ -2011,6 +2011,78 @@ export const blogPosts: BlogPost[] = [
       { question: "How long does wisdom tooth pain last if I do nothing?", answer: "A typical pericoronitis flare settles over three to seven days with careful cleaning and painkillers. Then it comes back, often when you are run down. That pattern, not one bad week, is what pushes the decision towards removal." },
     ],
   },
+  {
+    slug: "dental-insurance-india-what-is-covered",
+    title: "Is Dental Treatment Covered by Insurance in India? What Actually Gets Paid",
+    description: "Most Indian health policies pay for dental work only when treatment needs hospitalisation or follows an accident. What Mediclaim actually pays for, what it excludes, and how to check your own policy before you book.",
+    metaTitle: "Dental Insurance in India: What Pays",
+    metaDescription: "Routine dental work usually isn't covered by Indian health insurance. What Mediclaim pays for, what it excludes, and how to check your policy.",
+    date: "2026-10-28",
+    image: "/images/clinic/gallery/dental-insurance-india-coverage.webp",
+    imageAlt: "Patient reviewing a blank claim form at a clinic desk while a dentist explains coverage in Sonipat",
+    html: `
+<p><strong>Short answer:</strong> Mostly not. Indian health policies pay for dental work when the treatment needs hospitalisation, usually after an accident. They almost never pay for routine dentistry. Cleanings, fillings, root canals, crowns and implants are your own money. An employer policy or a specific add-on can add a small dental limit.</p>
+<p>We explain this at the front desk most weeks: someone holding a bill and a policy card they were sure would help. It usually doesn't, and not because the insurer is cheating them. Most dentistry never needs a hospital bed. If price is the real question, see <a href="/blog/dental-treatment-cost-sonipat/">what dental treatment costs in Sonipat</a>.</p>
+<h2>Which Policy Are You Actually Claiming From?</h2>
+<p>This is why Google contradicts itself. The same root canal is covered, half covered or not, depending on where you claim from.</p>
+<table><thead><tr><th>Where the money comes from</th><th>What it pays for</th><th>What to expect</th></tr></thead><tbody><tr><td>Base health policy (Mediclaim)</td><td>Dental only if hospitalisation is needed, or after an accident</td><td>Usually no</td></tr><tr><td>OPD or dental add-on</td><td>Named procedures, capped per year</td><td>Must be in force before treatment</td></tr><tr><td>Employer group policy</td><td>Sometimes a small dental sub-limit</td><td>Ask HR for the schedule</td></tr><tr><td>"Dental plan" or discount card</td><td>A reduced rate at listed clinics</td><td>A discount isn't insurance</td></tr></tbody></table>
+<p>Star Health's page notes that some insurers sell dental savings plans instead of insurance, offering discounted rates at participating dentists rather than reimbursement. When a comparison site says root canal is covered and a hospital says it isn't, both can be right.</p>
+<h2>What Does Health Insurance Actually Pay For?</h2>
+<p><strong>Accidental damage.</strong> A fall, a road accident, a cricket ball. If a healthy tooth breaks and treatment follows, you're in the one dental scenario Indian policies are most likely to pay for. <a href="https://www.starhealth.in/dental-insurance/">Star Health's dental page</a> says root canal treatment is payable "in the event of an accidental injury to a natural tooth/teeth, excluding dental implants". <a href="https://www.plumhq.com/faq/group-health-insurance">Plum's group cover FAQ</a> puts it as: dental is covered "only when it follows an accident or requires hospitalisation".</p>
+<p><strong>Treatment that needs admission.</strong> Jaw fractures, tumour or cyst removal, drainage of a spreading facial infection, surgical extraction under general anaesthesia. The test in the wording is hospitalisation, not dentistry. <a href="https://www.hdfcergo.com/documents/crosslink/CIS_Health_Suraksha_Policy_Wording(1">HDFC ERGO's wording</a>.pdf) calls in-patient care treatment needing more than 24 hours in hospital. A day-case procedure may not clear that bar unless a day-care list names it.</p>
+<p><strong>A dental benefit you already hold.</strong> A few policies add a narrow outpatient dental benefit after several renewals. The same wording pays, quoted exactly, "50% of the reasonable costs of any necessary dental treatment taken from a Network dentist", from the fourth year, where the insured has renewed "for 3 consecutive years without a break". It's capped by the schedule and covers only X-rays, extractions, fillings, root canal treatments and prescribed drugs. Implants, dentures, orthodontics and cosmetic work are excluded unless an accident or cancer caused the need.</p>
+<h2>What Is Almost Never Covered?</h2>
+<ul>
+<li>Scaling, polishing and routine check-ups.</li>
+<li>Fillings, unless they follow an accident.</li>
+<li>Root canal on a tooth damaged by decay.</li>
+<li>Crowns, bridges and dentures.</li>
+<li>Dental implants, in standard indemnity wordings.</li>
+<li>Braces, aligners and orthodontics.</li>
+<li>Whitening, veneers and gum contouring.</li>
+<li>Replacement of teeth lost before the policy started, under the missing tooth clause. Star Health's page confirms Indian dental plans commonly carry it.</li>
+</ul>
+<h2>Is a Root Canal Covered by Insurance?</h2>
+<p>Almost never, if the cause was decay. HDFC ERGO's exclusions rule out "dental treatment and surgery of any kind, unless requiring Hospitalisation". A root canal happens in a chair, without admission, so it fails the test.</p>
+<p>The exceptions are narrow: accidental injury to a healthy tooth, an infection needing admission, or an add-on that names root canal treatment with a rupee cap.</p>
+<p>"Waiting for insurance" is one of the most expensive delays we see. An untreated tooth goes from a root canal to a root canal plus a crown, then to an extraction and an implant. Read <a href="/blog/root-canal-treatment-sonipat/">what a root canal involves</a> or see our <a href="/services/root-canal/">root canal treatment</a> page.</p>
+<h2>Does Health Insurance Cover Dental Implants?</h2>
+<p>Not under a standard indemnity policy. HDFC ERGO defines dental treatment as examinations, fillings, crowns, extractions and surgery, "excluding any form of cosmetic surgery/implants", and excludes implants again from its outpatient dental benefit.</p>
+<p>Star Health is less absolute. Its FAQ says implants "may or may not get covered" depending on the plan, while its root canal answer still ends "excluding dental implants". So a standard policy won't pay, and a plan that names implants in its schedule is the only place you'll see them paid.</p>
+<p>The logic is simple. An implant replaces a tooth you already lost, so it's planned, not the sudden event insurance prices for. If a tooth was knocked out in an accident, there's an argument to make. It's a conversation, not a guarantee. For the treatment, see <a href="/services/dental-implants/">dental implants</a>.</p>
+<h2>Why Is Dental Not Covered in India?</h2>
+<p><strong>It's a hospitalisation product.</strong> Mediclaim grew around admission, surgery and discharge. Dental care is mostly outpatient, so it sits outside the design rather than on a secret blacklist.</p>
+<p><strong>Dental problems are common, small and repeatable.</strong> Insurers price rare, expensive events. Frequent small claims push premiums up for everyone, and the line between necessary and cosmetic work is blurry: a crown after a root canal is treatment, a crown to reshape a front tooth is a choice.</p>
+<h2>Does Corporate Health Insurance Cover Dental?</h2>
+<p>Sometimes. Plum, which places employer cover, says in its <a href="https://www.plumhq.com/faq/group-health-insurance">group insurance FAQ</a> that standard group cover "does not cover routine dental or vision, since these are outpatient expenses", and that employers can add dental through an OPD rider. Where it exists it's usually a small annual limit per employee. Ask HR for the schedule of benefits, not the brochure, and check when the limit resets.</p>
+<h2>How Do You Check Your Own Policy?</h2>
+<p>Fifteen minutes, before you book.</p>
+<p>1. <strong>Open the Customer Information Sheet.</strong> IRDAI's Master Circular on Health Insurance Business, dated 29 May 2024, requires one with every policy, summarising exclusions, sub-limits and waiting periods.</p>
+<p>2. <strong>Search the exclusions for "dental".</strong> Read the whole sentence, especially everything after "unless". That word is where the cover lives.</p>
+<p>3. <strong>Look for a dental or OPD line in the schedule of benefits.</strong> No line means no cover.</p>
+<p>4. <strong>Find the waiting period.</strong> Dental inside an add-on normally has one; Star Health says waiting periods apply "as mentioned in the policy clause".</p>
+<p>5. <strong>Ask about pre-authorisation.</strong> Planned admission usually needs approval first, and your wording sets an accident reporting window.</p>
+<p>6. <strong>Check the network.</strong> Look up your dentist on the insurer's list. If they aren't on it, plan for reimbursement, not cashless.</p>
+<p>For planned treatment, email the insurer or TPA with the diagnosis and ask in writing whether it's payable. Keep the reply and the bill.</p>
+<p>We're your dentists, not your insurers. We can give an accurate diagnosis, a written plan and correctly worded bills. We can't approve a claim, and no clinic can promise one.</p>
+<h2>What Can You Do If Insurance Won't Pay?</h2>
+<p><strong>Sort urgent from elective.</strong> Pain, swelling, a broken front tooth, an infection spreading into the face: get <a href="/services/emergency-dentistry/">emergency dental care</a> now. Whitening, mild crowding, a molar you lost years ago: those wait.</p>
+<p><strong>Ask for a staged plan with prices.</strong> Root canal now, crown in a few weeks, implant after the site heals. Staging spreads the cost and it's ordinary practice, not a favour. Don't stage the crown indefinitely, though. An unrestored tooth can fracture, and then you pay for an extraction too.</p>
+<p><strong>Get a rejection in writing.</strong> Ask which clause was applied, then escalate to the insurer's grievance officer. If that goes nowhere, <a href="https://bimabharosa.irdai.gov.in/">Bima Bharosa</a> is the portal run by <a href="https://irdai.gov.in/">IRDAI</a>.</p>
+<p><strong>Spend small, avoid big bills.</strong> A <a href="/services/teeth-cleaning/">professional cleaning</a> every six to twelve months is the expense almost no Indian policy reimburses, and the one that prevents the root canals you'd pay for yourself.</p>
+<h2>Get a Written Plan Before You Claim</h2>
+<p>If the real question is cost, we answer it in writing after an examination. We're at 222 Model Town, Sonipat 131001, on +91 72067 22618. <a href="/contact-us/">Call the clinic</a> or see our <a href="/locations/model-town-sonipat/">Model Town location page</a> for directions.</p>
+<p><em>This is general information about how Indian health policies usually treat dental treatment. It isn't insurance advice, and it isn't a recommendation to buy or avoid any product. Wordings differ between insurers and change over time. We read the documents linked here in October 2026. Check your own policy schedule and Customer Information Sheet, and ask your insurer or a licensed adviser about your case. Nothing here is a promise that a claim will be approved.</em></p>
+`,
+    faqs: [
+      { question: "Is dental treatment covered by health insurance in India?", answer: "Mostly not. Cleaning, fillings, root canals and crowns are standard exclusions. Dental is paid mainly when treatment needs hospitalisation or follows an accident. A rider or employer plan may add a small limit." },
+      { question: "Does health insurance cover dental implants?", answer: "Not under a standard indemnity policy. HDFC ERGO excludes implants in its definition of dental treatment and again in its outpatient dental benefit. Star Health says it depends on the plan." },
+      { question: "Is root canal covered by insurance?", answer: "Rarely. A root canal caused by decay and done in a chair is excluded. It may be paid after an accident, if infection needs admission, or if an add-on names it." },
+      { question: "Can I claim dental treatment under Mediclaim?", answer: "You can file, and it will usually be rejected unless treatment needs hospitalisation or follows injury. Check the exclusions for the word dental, confirm any add-on, and keep the bill and X-rays." },
+      { question: "Why is dental not covered in India?", answer: "Health insurance here is built around hospitalisation, and dentistry is mostly outpatient. Dental problems are also common, small and repeatable, a poor fit for a product priced on rare events." },
+      { question: "Does corporate health insurance cover dental?", answer: "Sometimes. Many employer policies carry none, or cover it only after an accident. Where it exists it's usually a small annual OPD or dental sub-limit. Ask HR for the schedule of benefits." },
+    ],
+  },
 ];
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {

@@ -390,6 +390,39 @@ export const BLOG_CLUSTERS: Record<string, BlogCluster> = {
       { href: "/services/dental-implants/", label: "Replacing a missing tooth" },
     ],
   },
+  "bad-breath-that-wont-go-away": {
+    slug: "bad-breath-that-wont-go-away",
+    relatedPosts: [
+      { href: "/blog/bleeding-gums-treatment-sonipat/", label: "Bleeding gums: causes and treatment" },
+      { href: "/blog/root-canal-treatment-sonipat/", label: "When a bad taste points to an infected tooth" },
+    ],
+    relatedServices: [
+      { href: "/services/teeth-cleaning/", label: "Professional cleaning and scaling" },
+      { href: "/services/gums-treatment/", label: "Gum treatment" },
+    ],
+  },
+  "wisdom-tooth-pain-removal-sonipat": {
+    slug: "wisdom-tooth-pain-removal-sonipat",
+    relatedPosts: [
+      { href: "/blog/tooth-extraction-sonipat/", label: "What to expect during a tooth extraction" },
+      { href: "/blog/urgent-everyday-dental-care-sonipat/", label: "When dental pain can't wait" },
+    ],
+    relatedServices: [
+      { href: "/services/maxillofacial-surgery/", label: "Oral surgery and wisdom tooth removal" },
+      { href: "/services/painless-dental-treatment/", label: "Painless dental treatment" },
+    ],
+  },
+  "dental-insurance-india-what-is-covered": {
+    slug: "dental-insurance-india-what-is-covered",
+    relatedPosts: [
+      { href: "/blog/dental-treatment-cost-sonipat/", label: "What dental treatment costs in Sonipat" },
+      { href: "/blog/root-canal-treatment-sonipat/", label: "What a root canal involves" },
+    ],
+    relatedServices: [
+      { href: "/services/dental-implants/", label: "Dental implants" },
+      { href: "/services/root-canal/", label: "Root canal treatment" },
+    ],
+  },
 };
 
 /* ------------------------------------------------------------------ *

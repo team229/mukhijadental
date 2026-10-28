@@ -176,7 +176,7 @@ export const SERVICE_CLUSTERS: Record<string, ServiceCluster> = {
       { href: "/services/maxillofacial-surgery/", label: "Maxillofacial surgery", note: "Surgical cases, explained first" },
     ],
     relatedPosts: [
-      { href: "/blog/urgent-everyday-dental-care-sonipat/", label: "Coping with dental anxiety" },
+      { href: "/blog/dental-anxiety-sonipat-overcome-fear/", label: "Coping with dental anxiety" },
     ],
   },
 };
@@ -421,6 +421,18 @@ export const BLOG_CLUSTERS: Record<string, BlogCluster> = {
     relatedServices: [
       { href: "/services/dental-implants/", label: "Dental implants" },
       { href: "/services/root-canal/", label: "Root canal treatment" },
+    ],
+  },
+  "dental-anxiety-sonipat-overcome-fear": {
+    slug: "dental-anxiety-sonipat-overcome-fear",
+    relatedPosts: [
+      { href: "/blog/root-canal-treatment-sonipat/", label: "What a root canal actually involves" },
+      { href: "/blog/pediatric-dentist-sonipat/", label: "A child's first dental visit" },
+      { href: "/blog/urgent-everyday-dental-care-sonipat/", label: "What counts as urgent and what can wait" },
+    ],
+    relatedServices: [
+      { href: "/services/painless-dental-treatment/", label: "Painless dental treatment" },
+      { href: "/services/emergency-dentistry/", label: "Emergency dentistry" },
     ],
   },
 };

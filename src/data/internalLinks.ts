@@ -447,6 +447,18 @@ export const BLOG_CLUSTERS: Record<string, BlogCluster> = {
       { href: "/services/teeth-cleaning/", label: "Professional cleaning" },
     ],
   },
+  "mouth-ulcers-sonipat-causes-treatment": {
+    slug: "mouth-ulcers-sonipat-causes-treatment",
+    relatedPosts: [
+      { href: "/blog/bad-breath-that-wont-go-away/", label: "Bad breath that won't go away" },
+      { href: "/blog/bleeding-gums-treatment-sonipat/", label: "Bleeding gums: causes and treatment" },
+      { href: "/blog/pediatric-dentist-sonipat/", label: "A child's first dental visit" },
+    ],
+    relatedServices: [
+      { href: "/services/oral-cancer-detection/", label: "Oral cancer screening" },
+      { href: "/services/teeth-cleaning/", label: "Professional cleaning" },
+    ],
+  },
 };
 
 /* ------------------------------------------------------------------ *

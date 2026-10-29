@@ -2233,6 +2233,122 @@ export const blogPosts: BlogPost[] = [
       { question: "Can I just wait until after the delivery?", answer: "You can wait for cosmetic work. Don't wait for pain, swelling or a broken tooth. An untreated infection gets more complex to fix, and the guidance allows treatment at any stage, including the first trimester." },
     ],
   },
+  {
+    slug: "mouth-ulcers-sonipat-causes-treatment",
+    title: "Mouth Ulcers: Why They Keep Coming Back, and When to Get One Checked",
+    description: "Why mouth ulcers keep coming back, what actually helps at home, and the three-week rule that means a dentist should look at an ulcer rather than wait.",
+    metaTitle: "Mouth Ulcers That Keep Coming Back",
+    metaDescription: "Why mouth ulcers keep coming back, how long they should take to heal, what actually helps at home, and the three-week rule that sends you to a dentist.",
+    date: "2026-10-29",
+    image: "/images/clinic/gallery/mouth-ulcers-sonipat-causes-treatment.webp",
+    imageAlt: "Dentist in teal scrubs talking with a calm woman in a dental chair during a routine mouth ulcer check-up in a bright clinic",
+    html: `
+<p><strong>The short answer:</strong> most mouth ulcers (मुँह के छाले) are minor aphthous ulcers — painful, not contagious, and healed within one to two weeks. They keep returning because of stress, a knock to the mouth lining, certain foods, or low iron, B12 or folate. One rule matters more than the rest: an ulcer still there after three weeks needs a dentist to look at it.</p>
+
+<p><em>General information, not a diagnosis. Nobody can tell you what an ulcer is without looking inside your mouth.</em></p>
+
+<h2>What Is a Mouth Ulcer?</h2>
+
+<p>A mouth ulcer is a break in the lining of the mouth: a shallow crater, round or oval, pale in the centre with a red rim. It stings when you eat, talk, or catch it with a toothbrush.</p>
+
+<p>The common type is the <strong>minor aphthous ulcer</strong> — smaller than a centimetre, one to five at a time, usually inside the lip or cheek or on the side of the tongue. NICE puts healing at 10 to 14 days, without a scar. Aphthous ulcers are not contagious: there is no herpes virus behind them, and they cannot be passed on.</p>
+
+<h2>Why Do I Keep Getting Mouth Ulcers?</h2>
+
+<p>Nobody knows exactly, and that is not a cop-out. The cause is genuinely unclear, and most people have several factors stacked at once rather than one.</p>
+
+<ul>
+<li><strong>Stress.</strong> In one Indian series of recurrent cases, stress was the most reported factor at 54.8%, ahead of nutritional deficiency and trauma.</li>
+<li><strong>Low iron, B12 or folate.</strong> An Indian expert consensus on recurrent ulcers recommends a blood count plus B12 and iron studies when ulcers keep coming back. On a mostly vegetarian diet, those are the two worth asking about.</li>
+<li><strong>A sharp tooth, a rough filling, a rocking denture.</strong> An ulcer that keeps appearing in the same spot is usually being damaged by something — the most fixable cause on this list. <a href="/services/painless-dental-treatment/">Smoothing the edge</a> is often the whole treatment.</li>
+<li><strong>Hormones.</strong> Some women get ulcers in the days before a period. NICE lists hormonal changes around the menstrual cycle as a trigger.</li>
+<li><strong>Medicines.</strong> Some painkillers and blood pressure drugs can cause ulceration, and chemotherapy or radiotherapy to the head and neck often does. Don't stop anything on your own — ask the prescriber.</li>
+<li><strong>Toothpaste with sodium lauryl sulphate.</strong> SLS is the foaming agent, and the NHS advises avoiding it. If you get ulcers often, a few weeks on an SLS-free paste is a cheap test.</li>
+<li><strong>Foods.</strong> Chocolate, coffee, peanuts, cheese, tomatoes, strawberries, wheat, anything spicy or acidic. Not everyone, not every time. A two-week food diary beats guessing.</li>
+<li><strong>Genes and smoking.</strong> Some families get ulcers more often. Ulcers are also common in the first weeks after quitting smoking.</li>
+</ul>
+
+<h2>How Long Should a Mouth Ulcer Take to Heal?</h2>
+
+<p>One to two weeks. The NHS says ulcers clear on their own within a week or two, and NICE puts most at 10 to 14 days without scarring. Major ulcers, which are larger and deeper, run two to four weeks and can scar. A cold sore is a different problem: a virus, usually on or around the lip, that starts healing within about 10 days.</p>
+
+<p>If an ulcer is still there at two weeks and not shrinking, book. You're inside the window where a dentist can still call it ordinary with confidence.</p>
+
+<h2>What Helps a Mouth Ulcer Heal Faster?</h2>
+
+<p>Honestly, not much. The NHS is blunt: ulcers "need time to heal and there's no quick fix". Anyone promising three days is guessing. What you can do is cut the pain, stop it getting worse, and give it decent conditions to close in.</p>
+
+<ul>
+<li><strong>Salt water.</strong> Half a teaspoon of salt in a glass of warm water, rinse and spit, a few times a day. It calms the sore. It doesn't speed healing.</li>
+<li><strong>Take the irritation out.</strong> No spicy, salty, very hot or crunchy food while it is open. Cool drinks through a straw, softer meals, a soft brush used gently.</li>
+<li><strong>Ask a pharmacist.</strong> Without a prescription they can suggest a numbing gel or spray, a protective paste, an antiseptic mouthwash or a medicated lozenge. Adult products are not automatically right for a child — ask what suits their age.</li>
+<li><strong>Skip remedies that hurt.</strong> Holding alum or raw salt against an ulcer stings for a reason. No NHS or NICE guidance recommends it.</li>
+</ul>
+
+<p>If an ulcer turns redder, gets more painful and starts bleeding, that can mean infection. That is a reason to be seen, not to self-medicate.</p>
+
+<h2>Mouth Ulcer or Cold Sore: What Is the Difference?</h2>
+
+<table>
+<thead>
+<tr><th></th><th>Minor aphthous ulcer</th><th>Cold sore</th><th>Needs checking</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Where</strong></td><td>Inside the mouth: lip, cheek, side of the tongue</td><td>Usually outside, on or around the lip; can appear elsewhere on the face</td><td>Side of the tongue, floor of the mouth, back of the throat — or any ulcer that has not healed</td></tr>
+<tr><td><strong>Looks like</strong></td><td>Shallow round crater, pale centre, red rim. No blister stage</td><td>Tingling first, then fluid-filled blisters that burst and crust over</td><td>Raised or hard edge, bleeds, or a red or white patch beside it</td></tr>
+<tr><td><strong>Contagious</strong></td><td>No</td><td>Yes — herpes simplex, spreads by contact</td><td>Not contagious, but needs an examination</td></tr>
+<tr><td><strong>Healing</strong></td><td>10 to 14 days</td><td>Starts healing within about 10 days; contagious until fully healed</td><td>Still there after three weeks, or growing</td></tr>
+<tr><td><strong>What helps</strong></td><td>Salt water, soft brush, avoiding triggers, a numbing gel from a pharmacist</td><td>Antiviral cream from a pharmacist, don't pick, don't share towels or lip balm</td><td>An examination, and a referral if anything looks suspicious</td></tr>
+</tbody>
+</table>
+
+<p>A cold sore announces itself: tingling, then blisters, then a scab. An aphthous ulcer never blisters — it simply appears, flat and sore.</p>
+
+<h2>What Is the Three-Week Rule for Mouth Ulcers?</h2>
+
+<p><strong>A mouth ulcer that has not healed after three weeks needs to be examined.</strong> The NHS says to see a dentist or GP if an ulcer lasts longer than three weeks, and lists an ulcer lasting more than three weeks among the main symptoms of mouth cancer.</p>
+
+<p>NICE NG12 turns that threshold into a pathway. Unexplained ulceration in the oral cavity lasting more than three weeks warrants a suspected cancer pathway referral, with an appointment within two weeks. NICE's guidance on aphthous ulcers adds that a single ulcer persisting beyond three weeks should be referred urgently to a specialist for biopsy, to rule out malignancy.</p>
+
+<p>That is a referral route, not a verdict. The NHS's own wording is that these symptoms are very common and can be caused by other conditions, and that having them does not definitely mean cancer. The threshold sits where it does because early oral cancer can look exactly like an ulcer that will not close, and appearance alone cannot separate the two.</p>
+
+<p>Two things make people wait. Both are traps.</p>
+
+<ul>
+<li><strong>It doesn't hurt.</strong> A painless ulcer feels like nothing, so it gets ignored for months. Pain is not the signal here. Time is.</li>
+<li><strong>It got smaller.</strong> An ulcer that shrinks and then stalls is still a non-healing ulcer.</li>
+</ul>
+
+<p>The appointment itself is small. One of <a href="/team-of-specialists/">our dentists</a> looks and feels inside your mouth, then your neck and jaw. It takes minutes. The <a href="/services/oral-cancer-detection/">oral cancer screening</a> we do as part of a routine examination is exactly this. Anything suspicious means a referral, and often a biopsy. A dentist cannot rule cancer out by eye, and should not claim to.</p>
+
+<p>The same threshold applies to children. NICE and the BNF for Children say a child with an unexplained ulcer lasting more than three weeks should be referred urgently. Our <a href="/blog/pediatric-dentist-sonipat/">children's dentistry page</a> covers examining a young mouth without a fight.</p>
+
+<h2>When Should You See a Dentist Sooner Than Three Weeks?</h2>
+
+<ul>
+<li>It's much bigger than your usual ones, or near the back of the throat.</li>
+<li>It bleeds, or becomes steadily more painful and red.</li>
+<li>New ulcers arrive before the old ones heal.</li>
+<li>Eating and drinking are difficult, or there is a fever.</li>
+<li>It's your first ever ulcer and you're over 40. Aphthous ulcers usually begin in childhood.</li>
+<li>You also have ulcers on the skin or genitals, or painful swollen joints. That points to a doctor rather than a dentist.</li>
+<li>Your gums bleed when you brush as well — see our notes on <a href="/blog/bleeding-gums-treatment-sonipat/">bleeding gums</a>.</li>
+</ul>
+
+<p>We are at 222 Model Town, Sonipat, on +91 72067 22618. A persistent ulcer needs a proper look rather than an emergency slot, so <a href="/contact-us/">book a check-up</a> and mention how long it has been there.</p>
+
+<hr />
+
+<p><small><strong>General information only.</strong> This article does not diagnose, does not replace an examination, and cannot tell you what a particular ulcer is. If you are worried about a mouth ulcer, have it looked at. Sources: <a href="https://www.nhs.uk/conditions/mouth-ulcers/" rel="nofollow noopener" target="_blank">NHS — Mouth ulcers</a>, <a href="https://www.nhs.uk/conditions/mouth-cancer/symptoms/" rel="nofollow noopener" target="_blank">NHS — Mouth cancer symptoms</a>, <a href="https://www.nice.org.uk/guidance/ng12/chapter/recommendations-organised-by-site-of-cancer" rel="nofollow noopener" target="_blank">NICE NG12</a>, <a href="https://cks.nice.org.uk/topics/aphthous-ulcer/" rel="nofollow noopener" target="_blank">NICE CKS — Aphthous ulcer</a> and the <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10447672/" rel="nofollow noopener" target="_blank">2023 Indian expert consensus on recurrent aphthous stomatitis</a>. Published 29 October 2026 by Mukhija Dental &amp; ENT Centre, 222 Model Town, Sonipat 131001.</small></p>
+`,
+    faqs: [
+      { question: "Are mouth ulcers contagious?", answer: "No. Aphthous ulcers have no herpes virus behind them and cannot be passed on. Cold sores are the exception — herpes simplex, spread by kissing or sharing drinks, towels and lip balm, and most infectious while the blister is oozing." },
+      { question: "Can stress cause mouth ulcers?", answer: "Stress appears to trigger episodes rather than cause the condition. It was the most reported factor in one Indian series of recurrent cases. People who get ulcers tend to get more of them during exams, deadlines, illness or poor sleep. Cutting stress helps; expecting a cure does not." },
+      { question: "Do mouth ulcers mean I'm low on vitamins?", answer: "Sometimes. Iron, B12 and folate deficiency are recognised contributors, and an Indian expert consensus recommends a blood count plus B12 and iron studies for recurrent cases. That is a test to discuss with a dentist or doctor, not a reason to start supplements on a hunch." },
+      { question: "Does a mouth ulcer turn into cancer?", answer: "An aphthous ulcer is not a cancer. The three-week rule exists for the opposite problem: early oral cancer can look like an ulcer that never closes, so a non-healing ulcer has to be examined rather than assumed harmless. The examination is what establishes whether it is ordinary, and that is the only reliable way to know." },
+      { question: "Can I use mouth ulcer gel on my child?", answer: "Not the adult product without advice. Numbing gels, medicated mouthwashes and medicated lozenges are not automatically suitable for children, so ask a pharmacist what fits your child's age. Salt-water rinses and soft food come first. A child's ulcer lasting more than three weeks needs urgent referral." },
+    ],
+  },
 ];
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {

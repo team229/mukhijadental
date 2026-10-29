@@ -435,6 +435,18 @@ export const BLOG_CLUSTERS: Record<string, BlogCluster> = {
       { href: "/services/emergency-dentistry/", label: "Emergency dentistry" },
     ],
   },
+  "pregnancy-dental-health-sonipat": {
+    slug: "pregnancy-dental-health-sonipat",
+    relatedPosts: [
+      { href: "/blog/bleeding-gums-treatment-sonipat/", label: "Bleeding gums: causes and treatment" },
+      { href: "/blog/root-canal-treatment-sonipat/", label: "What a root canal involves" },
+      { href: "/blog/dental-anxiety-sonipat-overcome-fear/", label: "Treatment when you're frightened of the dentist" },
+    ],
+    relatedServices: [
+      { href: "/services/gums-treatment/", label: "Gum treatment" },
+      { href: "/services/teeth-cleaning/", label: "Professional cleaning" },
+    ],
+  },
 };
 
 /* ------------------------------------------------------------------ *

@@ -659,10 +659,7 @@ export const blogPosts: BlogPost[] = [
 <p>Tobacco use is an important risk factor associated with periodontal health and can make maintaining healthy gums more difficult.</p>
 
 <h2>What About Gum Bleeding During Pregnancy?</h2>
-<p>Pregnancy can bring several changes to the body, including changes that affect the gums.</p>
-<p>Hormonal changes may make some pregnant women more susceptible to gum inflammation, swelling and bleeding.</p>
-<p>If your gums start bleeding more frequently during pregnancy, don't simply assume that it is something you have to tolerate. Mention it to your dentist and follow appropriate oral hygiene and professional-care recommendations.</p>
-<p>Your dentist can also take your pregnancy and overall health into account when planning treatment.</p>
+<p>Hormonal changes can make gums more sensitive, swollen and likely to bleed. It is common in pregnancy, and it is treatable rather than something to endure. Our guide to <a href="/blog/pregnancy-dental-health-sonipat/">dental treatment during pregnancy</a> covers what is safe, what to avoid and when to book.</p>
 
 <h2>When Should You See a Dentist for Bleeding Gums?</h2>
 <p>A one-off episode of minor bleeding after unusually forceful brushing is different from gums that bleed repeatedly.</p>
@@ -2155,6 +2152,85 @@ export const blogPosts: BlogPost[] = [
       { question: "How do I stop being afraid of the dentist?", answer: "Not by deciding to be brave. By making visits smaller and more predictable: a talk-only first appointment, an examination with no treatment, a stop signal you trust, short sessions. For most people the fear eases by the second or third visit, once the body learns the chair isn't dangerous." },
       { question: "What if I haven't seen a dentist in ten years?", answer: "You're a normal patient here, and nobody lectures you about the gap. The first appointment is an examination and a plan. Treatment is then staged in a sensible order, usually starting with whatever is causing pain." },
       { question: "Can I be sedated for dental treatment?", answer: "Sedation isn't the standard here. Most nervous patients are treated with local anaesthetic, unhurried technique and agreed breaks. Our painless treatment page mentions sedation only for more complex extractions. Whether it applies to you is a clinical decision; ask at the consultation." },
+    ],
+  },
+  {
+    slug: "pregnancy-dental-health-sonipat",
+    title: "Pregnancy and Dental Treatment in Sonipat: What's Safe and When to Book",
+    description: "Dental treatment is considered safe at any stage of pregnancy, according to ACOG and the ADA. What changes is the plan: the chair position, the X-ray guidance, and who you tell.",
+    metaTitle: "Dental Treatment During Pregnancy | Mukhija Dental Clinic",
+    metaDescription: "Is dental treatment safe in pregnancy? What ACOG and the ADA say about X-rays, anaesthetic and timing, plus why your gums bleed and what actually helps.",
+    date: "2026-10-29",
+    image: "/images/clinic/gallery/pregnancy-dental-health-sonipat.webp",
+    imageAlt: "Pregnant woman seated in a dental chair talking with a dentist in teal scrubs in a bright clinic room",
+    html: `
+<p>Dental treatment during pregnancy is considered safe at every stage, and delaying a problem is the bigger risk. The ADA and ACOG agree on that: check-ups, fillings, root canals, cleanings, X-rays and local anaesthetic can all be done while you're pregnant. What changes is the plan, not whether you can be treated.</p>
+<p>This is general information, not a diagnosis. Your obstetrician should know about any treatment you're having.</p>
+<h2>What pregnancy does to your mouth</h2>
+<p>Pregnancy changes your mouth early. Oestrogen rises about tenfold and progesterone about thirtyfold, and both change how your gums respond to plaque that was already there.</p>
+<p>Three things follow.</p>
+<p><strong>Pregnancy gingivitis.</strong> Gums that bleed and swell. It usually starts in the second month and settles after delivery.</p>
+<p><strong>A gum lump.</strong> A pyogenic granuloma — sometimes called a pregnancy tumour — appears in roughly 1 to 5 pregnancies in 100. It looks alarming, it's benign, and most shrink on their own once the baby arrives.</p>
+<p><strong>Enamel worn by stomach acid</strong>, if you're vomiting often.</p>
+<p>One myth worth retiring: your teeth don't dissolve to build your baby's skeleton, and the old line about losing a tooth for every baby has no medical literature behind it.</p>
+<h2>Why do my gums bleed when I brush?</h2>
+<p>Higher oestrogen increases capillary permeability, so the same amount of plaque provokes a bigger reaction. The gum between two teeth goes red and swollen, like a small strawberry.</p>
+<p>Pregnancy doesn't create gum disease out of nothing. It worsens what's already there. Which is why the answer is never to stop brushing.</p>
+<p>Bleeding gums need more cleaning, not less: twice a day with a soft brush, once a day between the teeth, and the hard deposits removed professionally. A warm saltwater rinse eases the soreness in between. Most cases of <a href="/blog/bleeding-gums-treatment-sonipat/">bleeding gums</a> settle once the plaque is gone, and <a href="/services/gums-treatment/">gum treatment</a> can be done while you're pregnant.</p>
+<p><strong>One honest caveat.</strong> Gum disease is associated with premature birth and low birth weight. ACOG's committee opinion on oral health is careful about the next part: "evidence has failed to show any improvement in outcomes after dental treatment during pregnancy." Treat your gums because infected gums are bad for you. Not as insurance for the baby.</p>
+<h2>Which trimester is best for dental treatment?</h2>
+<p>Any of them. ACOG and the ADA both allow treatment at every stage, and neither one says to wait for it.</p>
+<p>Weeks 13 to 27 are still the common choice, and it's worth knowing why. The reasons are practical, not about harm:</p>
+<ul>
+<li><strong>First trimester.</strong> Organs are forming and nausea is often at its worst. Some older reviews advise holding elective work until it's over. The current guidance doesn't ask for that.</li>
+<li><strong>Second trimester.</strong> Organ formation is complete, sickness usually eases, and you can lie back for half an hour without it being a production.</li>
+<li><strong>Third trimester.</strong> Fine too, with one adjustment. Lying flat can drop your blood pressure when the uterus presses on the vena cava. A slight tilt onto your left side and a raised headrest fix it.</li>
+</ul>
+<p>So: urgent treatment whenever it's needed, elective treatment when you're comfortable. If you're in pain at seven weeks, we don't wait until fourteen.</p>
+<p>If a clinic tells you to come back after the delivery, it's fair to ask what the wait is protecting against. It isn't in the guidance.</p>
+<h2>Is a dental X-ray safe in pregnancy?</h2>
+<p>The dose is smaller than almost anyone pictures. A 2016 study in <em>Dentomaxillofacial Radiology</em> measured it in a model of a pregnant body across intraoral, panoramic and CBCT exams. Upper estimates of foetal dose ran from 0.009 to 6.9 micrograys — under 1% of the yearly radiation limit for a member of the public. The authors' conclusion: "pregnancy is never a reason to avoid or to postpone a clinically justified dental radiographic examination."</p>
+<p>The advice on lead aprons has changed, which is why clinics differ. The ADA now says radiographs are considered safe at any stage of pregnancy, and that shielding of the abdomen or thyroid is no longer recommended, following 2023 recommendations from the American Academy of Oral and Maxillofacial Radiology. If your last dentist wrapped you in an apron and your next one doesn't, that's a change in practice. It isn't a sign the X-ray got riskier.</p>
+<p>We take the fewest images that answer the question. Nothing routine.</p>
+<h2>Is local anaesthetic safe in pregnancy?</h2>
+<p>The ADA lists local anaesthetic, with or without adrenaline, among the options it considers safe in pregnancy. It's the same injection used for a filling, a root canal or an extraction. Your dentist chooses the type and the dose, and uses the smallest amount that keeps you comfortable.</p>
+<p>Tell us if you've reacted badly to one before, or if you've had nitrous oxide and expect it again. The ADA advises pregnant patients to avoid nitrous oxide, so that plan changes rather than the appointment being cancelled.</p>
+<p>Medication we don't guess at. If you need an antibiotic or a painkiller, that conversation belongs to your obstetrician. Never stop or change anything you've been prescribed without speaking to them first.</p>
+<h2>Morning sickness and your enamel</h2>
+<p>Stomach acid is hard on teeth. Vomiting several times a day gives the enamel on the back of your front teeth repeated acid baths, and that's where erosion starts.</p>
+<p>The instinct is to brush straight away. Don't. Brushing works acid into softened enamel. The ADA's advice is to rinse instead — water, or a teaspoon of baking soda in a cup of water, which neutralises the acid. Brush later, at your normal time.</p>
+<p>If brushing makes you gag, try a smaller head and a milder toothpaste. Book an evening slot, too. Morning appointments are harder when nausea is at its worst, and our evening clinic runs 4:30 to 7:30pm, which suits a lot of pregnant patients better than 9am.</p>
+<h2>Can you have a root canal or a cleaning while pregnant?</h2>
+<p>Yes to both. This is where most of the fear sits.</p>
+<p><strong>Root canal.</strong> The ADA, quoting ACOG, says conditions needing immediate treatment — endodontic treatment and extractions among them — can be managed at any time in pregnancy, and that delay may result in more complex problems. An infected tooth means pain, lost sleep and infection that can spread. If a tooth needs treating at 30 weeks, we treat it. A <a href="/services/root-canal/">single-visit root canal</a> often suits pregnancy better: one appointment instead of three. There's more on what the treatment involves in our <a href="/blog/root-canal-treatment-sonipat/">guide to root canals</a>.</p>
+<p><strong>Cleaning.</strong> The ADA describes scaling and root planing as recognised safe in pregnancy. For bleeding gums it's usually the most useful appointment of the nine months. See <a href="/services/teeth-cleaning/">professional cleaning</a>.</p>
+<p><strong>What waits.</strong> Cosmetic work. Not because there's evidence it's harmful, but because none of it is urgent, and there's no reason to add a question mark to a pregnancy for a brighter shade.</p>
+<h2>What to tell the clinic when you book</h2>
+<p>Five things, thirty seconds:</p>
+<p>1. <strong>That you're pregnant, and how many weeks.</strong> It changes the appointment length and the chair position.</p>
+<p>2. <strong>Your due date.</strong></p>
+<p>3. <strong>Whether it's a high-risk pregnancy.</strong> The ADA suggests dentists ask, because it changes what needs checking first.</p>
+<p>4. <strong>Any medication you take.</strong> We won't change anything. We just need to know.</p>
+<p>5. <strong>Your obstetrician's name.</strong> We'd rather ask them than assume.</p>
+<p>Say so if you're nervous. It's common, it's manageable, and we've written about <a href="/blog/dental-anxiety-sonipat-overcome-fear/">dental treatment when you're frightened</a>. If someone at home is pushing you to stay away, bring them along.</p>
+<p>And if something already hurts — throbbing, swelling, pain when you bite — don't wait for a better trimester. <a href="/services/emergency-dentistry/">Emergency dentistry</a> doesn't pause for nine months.</p>
+<h2>After the baby arrives</h2>
+<p>Your mouth settles. Pregnancy gingivitis eases within a couple of months of delivery, and a pregnancy granuloma usually shrinks on its own.</p>
+<p>If you're breastfeeding, say so when you book, and any medication question goes to your doctor. Your baby's first dental visit is worth arranging once the first teeth come through, early enough that it's a look rather than a rescue.</p>
+<p><strong>If something hurts, don't wait it out.</strong> Toothache at 20 weeks isn't something to endure.</p>
+<p>Call <a href="tel:+917206722618">+91 72067 22618</a> and tell us how many weeks you are. We're at 222 Model Town, Sonipat, open Mon–Sat 9am–2pm and 4:30–7:30pm, Sunday 9am–2pm. Or <a href="/contact-us/">send us a message</a>.</p>
+<h3>Disclaimer</h3>
+<p>This article is general information. It is not a diagnosis, it is not a substitute for an examination, and it does not replace your obstetrician's advice. If you are pregnant and have a dental problem, tell both your dentist and your obstetrician. Nothing here promises a particular outcome.</p>
+<p>Written by Dr. Shikha Mukhija, BDS, MDS (Periodontics), Mukhija Dental &amp; ENT Centre, 222 Model Town, Sonipat 131001. Last checked against the sources below on 29 October 2026.</p>
+<p><strong>Sources:</strong> <a href="https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2013/08/oral-health-care-during-pregnancy-and-through-the-lifespan">ACOG Committee Opinion 569, Oral Health Care During Pregnancy and Through the Lifespan</a> (2013, reaffirmed 2025) · <a href="https://www.ada.org/resources/ada-library/oral-health-topics/pregnancy">ADA Oral Health Topics: Pregnancy</a> (updated July 2025) · Kelaranta A, Ekholm M, Toroi P, Kortesniemi M. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5083886/">Radiation exposure to foetus and breasts from dental X-ray examinations</a>. <em>Dentomaxillofac Radiol.</em> 2016;45:20150095.</p>
+`,
+    faqs: [
+      { question: "Is dental treatment safe during pregnancy?", answer: "It's considered safe at every stage. The ADA says preventive, diagnostic and restorative treatment is safe throughout pregnancy, and both the ADA and ACOG agree that delaying treatment can make a problem more complex. Safe means the evidence supports it, not that your obstetrician shouldn't know." },
+      { question: "Which trimester is best for dental treatment?", answer: "Any trimester is acceptable. The second, weeks 13 to 27, is the usual choice for elective work because nausea has eased and the chair is more comfortable. Urgent treatment for pain or infection happens whenever it's needed." },
+      { question: "Do I have to tell the dentist I'm pregnant?", answer: "Yes, and tell them how many weeks you are. It changes the appointment length, the chair position and whether an X-ray is needed now or can wait. The ADA also suggests dentists ask about your due date and whether the pregnancy is high-risk." },
+      { question: "Is teeth cleaning safe while pregnant?", answer: "Yes. The ADA describes scaling and root planing as recognised safe to perform in pregnancy. For bleeding gums it's often the most useful appointment of the nine months, because it removes the plaque that hormones are exaggerating." },
+      { question: "Will treating my gums protect my baby?", answer: "Not in the way most articles imply. Gum disease is associated with premature birth and low birth weight, but ACOG states that evidence has failed to show any improvement in outcomes after dental treatment during pregnancy. Treat your gums for your own health." },
+      { question: "Can I just wait until after the delivery?", answer: "You can wait for cosmetic work. Don't wait for pain, swelling or a broken tooth. An untreated infection gets more complex to fix, and the guidance allows treatment at any stage, including the first trimester." },
     ],
   },
 ];

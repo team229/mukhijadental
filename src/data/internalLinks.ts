@@ -459,6 +459,30 @@ export const BLOG_CLUSTERS: Record<string, BlogCluster> = {
       { href: "/services/teeth-cleaning/", label: "Professional cleaning" },
     ],
   },
+  "sugar-and-teeth-indian-diet-sonipat": {
+    slug: "sugar-and-teeth-indian-diet-sonipat",
+    relatedPosts: [
+      { href: "/blog/tooth-sensitivity-sonipat/", label: "Tooth sensitivity to hot and cold" },
+      { href: "/blog/pediatric-dentist-sonipat/", label: "A child's first dental visit" },
+      { href: "/blog/bad-breath-that-wont-go-away/", label: "Bad breath that won't go away" },
+    ],
+    relatedServices: [
+      { href: "/services/teeth-cleaning/", label: "Professional cleaning" },
+      { href: "/services/kids-dentistry/", label: "Kids' dentistry" },
+    ],
+  },
+  "diabetes-dental-health-sonipat": {
+    slug: "diabetes-dental-health-sonipat",
+    relatedPosts: [
+      { href: "/blog/bleeding-gums-treatment-sonipat/", label: "Bleeding gums: causes and treatment" },
+      { href: "/blog/dental-implant-cost-in-india-what-affects-price/", label: "What drives dental implant cost" },
+      { href: "/blog/mouth-ulcers-sonipat-causes-treatment/", label: "Mouth ulcers that keep coming back" },
+    ],
+    relatedServices: [
+      { href: "/services/gums-treatment/", label: "Gum treatment" },
+      { href: "/services/teeth-cleaning/", label: "Professional cleaning" },
+    ],
+  },
 };
 
 /* ------------------------------------------------------------------ *

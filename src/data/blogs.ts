@@ -2349,6 +2349,163 @@ export const blogPosts: BlogPost[] = [
       { question: "Can I use mouth ulcer gel on my child?", answer: "Not the adult product without advice. Numbing gels, medicated mouthwashes and medicated lozenges are not automatically suitable for children, so ask a pharmacist what fits your child's age. Salt-water rinses and soft food come first. A child's ulcer lasting more than three weeks needs urgent referral." },
     ],
   },
+  {
+    slug: "sugar-and-teeth-indian-diet-sonipat",
+    title: "How Much Sugar Is Actually Bad for Your Teeth? An Indian Diet Guide",
+    description: "WHO's free-sugar targets translated into chai, biscuits, mithai and juice cartons, plus an honest verdict on jaggery, honey and brown sugar.",
+    metaTitle: "How Much Sugar Is Bad for Teeth?",
+    metaDescription: "WHO's 5% sugar target is about 25g a day on a 2,000 kcal diet. What that means for chai, biscuits, mithai and juice, and why frequency matters more.",
+    date: "2026-11-02",
+    image: "/images/clinic/gallery/sugar-and-teeth-indian-diet-sonipat.webp",
+    imageAlt: "Glass of chai, a dish of glucose biscuits, jaggery pieces and a glass of water on a wooden table",
+    html: `
+<p><strong>Short answer:</strong> WHO wants free sugars below 10% of daily energy, and below 5% would be better. On a 2,000 kcal diet that second number works out at about 25 g a day — six teaspoons. Most people don't break it at dessert. They break it at 4 pm, with the second chai.</p>
+<p>You don't have to give up mithai. You have to stop eating it eight times a day.</p>
+<h2>How Much Sugar Is Actually Bad for Your Teeth?</h2>
+<p>WHO gives two numbers. Free sugars should stay below 10% of total energy intake, and cutting to below 5% would reduce caries risk further, across a lifetime. That's WHO's <a href="https://www.who.int/news-room/fact-sheets/detail/sugars-and-dental-caries">own wording</a>.</p>
+<p>On a 2,000 kcal diet, 10% is about 50 g (12 teaspoons) and 5% is roughly 25 g (6 teaspoons). That 25 g is a worked example for an average adult, not a universal cap: a six-year-old needs less, someone doing heavy physical work more.</p>
+<p>WHO grades them differently: under 10% is strong, under 5% is conditional, because very few populations eat that little and the extra benefit comes from population studies, not trials.</p>
+<p>It's a ceiling, not a target.</p>
+<p><strong>What counts as free sugar:</strong> anything added by a manufacturer, a cook or you, plus the sugars in honey, syrups, fruit juice and concentrate. Whole fruit, vegetables and plain milk don't count. That's the difference between a banana and a glass of banana juice.</p>
+<table><thead><tr><th>What was eaten</th><th>Free sugar</th><th>Share of the 25 g reference</th></tr></thead><tbody><tr><td>3 cups chai, 2 tsp sugar each</td><td>~24 g</td><td>~96%</td></tr><tr><td>4 glucose biscuits</td><td>~6 g</td><td>~24%</td></tr><tr><td>200 ml packaged mango drink</td><td>~27 g added (~32 g total)</td><td>~108%</td></tr><tr><td>2 pieces of mithai</td><td>Varies by shop and recipe</td><td>Often most of a day's reference</td></tr></tbody></table>
+<p>The biscuit number is off the pack: about 25 g of sugar per 100 g, a little over 1 g a biscuit. Chai and four biscuits put you at six teaspoons before lunch, and it doesn't feel like a sugar habit. It feels like breakfast.</p>
+<h2>What Sugar Actually Does Inside Your Mouth</h2>
+<p>Sugar doesn't drill a hole. Plaque bacteria ferment it into acid, and below a plaque pH of about 5.5 that acid pulls mineral out of enamel. Saliva and fluoride push it back. A cavity is where loss outruns repair.</p>
+<p>Early damage is a chalky white spot and can still reverse. Once the surface breaks it's a hole, and holes don't fill themselves. That's where a filling, or eventually a <a href="/services/root-canal/">root canal</a>, comes in. Stickiness matters too: biscuits, rusk, dried fruit and mithai cling to molar grooves.</p>
+<h2>Is Frequency Really More Important Than Amount?</h2>
+<p>Both matter. Frequency is the one you can change without giving anything up.</p>
+<p>Plaque pH drops within a minute of a sugar hit and takes 20 to 40 minutes to recover, buffered by saliva. Eat again inside that window and it never returns to a safe level. UK <a href="https://www.gov.uk/government/publications/delivering-better-oral-health-an-evidence-based-toolkit-for-prevention/chapter-10-healthier-eating">prevention guidance</a> describes the result: repeated intakes keep plaque below the demineralisation threshold for hours.</p>
+<p>Three meals is three acid attacks. A grazing day, with a biscuit at 11, sweet chai at 4, something after dinner and a toffee at 9, is seven or eight, with no gap long enough to repair. Same grams. More damage. The evidence is also steadier for frequency than for total grams, especially in adults.</p>
+<p>Practical shape: two or three sugar contacts a day, at meals, a few hours apart. One gulab jamun after lunch beats half a gulab jamun four times.</p>
+<h2>Is One Sugary Drink a Day Bad for Your Teeth?</h2>
+<p>Yes, and worse than the same sugar on a plate.</p>
+<p>A 200 ml packaged mango drink lists about 13 g of added sugar per 100 ml: roughly 27 g a carton, closer to 32 g with the mango's own sugar. More than the entire 25 g reference, in ninety seconds.</p>
+<p>Daily sugar-sweetened drinks are linked to higher caries risk in adults too. Sipping is the real problem: five minutes is one acid attack, two hours is a bath.</p>
+<p>If you have one, have it with a meal, finish it, use a straw, rinse. "Zero sugar" versions drop the sugar, not the acid: most colas and fruit flavours still contain citric or phosphoric acid. WHO is blunter about young children: under 2, none at all.</p>
+<h2>Are Fruits Bad for Your Teeth?</h2>
+<p>No. Whole fruit isn't free sugar, and chewing it stimulates the saliva that protects enamel. Two a day is not a dental problem.</p>
+<p>Juice is the exception. Juicing releases the sugars and removes the fibre that slowed them, which is why WHO counts fruit juice as free sugar. Fresh orange juice is still a sweet drink to your teeth.</p>
+<p>Dried fruit is sticky and easy to overeat, so keep it to meals. Citrus is acidic, so rinse before brushing.</p>
+<h2>Is Jaggery, Honey or Brown Sugar Better for Teeth?</h2>
+<p>No. All three are free sugar. Honey is named in the WHO definition. Jaggery and brown sugar are cane sugar with more molasses left in: different colour, different price, same sugar.</p>
+<p>The research is better than the marketing. A 2023 <a href="https://doi.org/10.4103/jisppd.jisppd_335_23">study</a> exposed 60 extracted human premolars to refined sugar, jaggery, brown and palm sugar one, three and five times a day. Demineralisation rose with frequency in every group. Jaggery and brown sugar did slightly less damage than refined, and palm sugar did least.</p>
+<p>Then the detail that matters: three exposures of jaggery caused roughly the same surface-hardness loss as one of refined sugar.</p>
+<p>Gur isn't harmless. It's slightly less efficient at doing harm, and three helpings land you where one helping of white sugar would. It's a lab model on extracted teeth, not a human trial, and even palm sugar lost 25% of surface hardness at five exposures a day.</p>
+<p>Honey has antibacterial activity in a dish, not on a tooth. In your mouth it's sticky, acidic once diluted, and eaten three times a day.</p>
+<p>Verdict: pick the one you like, use less, and stop treating gur or honey as a safe harbour. The swap that works is less sweetener, not a different sweetener.</p>
+<h2>How Do You Read an Indian Food Label Without Being Fooled?</h2>
+<p>The front of the pack is marketing. The back table carries legal weight, and FSSAI requires total and added sugars to be declared separately.</p>
+<ul>
+<li><strong>Read per 100 g, not per serve.</strong> Serving size is the brand's call.</li>
+<li><strong>India has no mandatory front-of-pack warning.</strong> So use these cut-offs: 5 g or less per 100 g is low, above 22.5 g is high; for drinks, 2.5 g and 11.25 g per 100 ml.</li>
+<li><strong>"No added sugar" isn't low sugar.</strong> FSSAI allows it only if nothing sugary was added, and the pack must then say "contains naturally occurring sugars". Date paste or juice concentrate used for sweetness counts as sugar.</li>
+<li><strong>"Sugar-free" means 0.5 g or less per 100 g.</strong> It says nothing about acid.</li>
+<li><strong>Ingredients are listed by weight.</strong> Sugar, jaggery, glucose, invert syrup or malt extract in the first three means it's a sugar product with a healthy-looking front.</li>
+<li><strong>Aliases:</strong> sucrose, dextrose, maltose, maltodextrin, corn syrup, invert syrup, juice concentrate, honey, jaggery.</li>
+</ul>
+<p>"Made with real fruit" and "baked not fried" tell you nothing about teeth.</p>
+<h2>What Actually Works in an Indian Kitchen</h2>
+<p>1. <strong>Cut chai sugar by half a teaspoon a week.</strong> Two spoons, then 1.5, then 1, then half. Most people stop noticing by week three, and this removes more sugar than every dessert decision combined.</p>
+<p>2. <strong>Stop dunking biscuits.</strong> Refined starch plus sugar, sticky, eaten slowly. Keep roasted chana, peanuts or plain dahi by the cup instead.</p>
+<p>3. <strong>Move mithai to the meal.</strong> One sitting, after lunch, then rinse. Don't leave the box open for four days.</p>
+<p>4. <strong>No juice in a bottle or sippy cup.</strong> It bathes the teeth for as long as a child holds it.</p>
+<p>5. <strong>Take sugar out of bedtime milk.</strong> Anything sweet after the last brush sits there all night, when saliva flow is lowest. Rinse with water instead.</p>
+<p>6. <strong>Keep sugar-free gum handy.</strong> Chewing lifts saliva flow, and xylitol isn't fermented to acid the way sucrose is.</p>
+<p>Children need the same rules with less slack. Our <a href="/services/kids-dentistry/">children's dentistry service</a> handles first visits and habit coaching.</p>
+<h2>How Long After Eating Sugar Should You Brush?</h2>
+<p>Rinse straight away. Then wait about 30 minutes, and a full hour if what you had was acidic: juice, citrus, soft drink, imli or tamarind chutney.</p>
+<p>Acid softens the outer enamel, so brushing straight away can take mineral with it. The <a href="https://www.mouthhealthy.org/all-topics-a-z/dietary-acids-and-your-teeth/">American Dental Association</a> advises waiting an hour after acidic food or drink, and rinsing with water in the meantime.</p>
+<p>The evidence is cautious rather than airtight: most of it comes from lab work on enamel, not long human trials. Rinsing costs nothing either way.</p>
+<p>Two rules matter more than the exact count: don't brush straight after vomiting or reflux, and do brush last thing at night with fluoride toothpaste.</p>
+<h2>When Diet Advice Isn't the Answer</h2>
+<p>Early decay is cheap to fix. Deep decay isn't. Our <a href="/blog/dental-treatment-cost-sonipat/">cost guide</a> sets out the stages, and a <a href="/services/teeth-cleaning/">professional cleaning</a> twice a year removes the plaque that makes all of this worse.</p>
+<p>Gutkha, paan masala and tobacco sit outside this conversation. They aren't a sugar problem, and they matter more here than anything above.</p>
+<p>We're at 222 Model Town, Sonipat, with a <a href="/team-of-specialists/">periodontist and an endodontist</a> in one building. Call +91 72067 22618 or use the <a href="/contact-us/">contact page</a>.</p>
+`,
+    faqs: [
+      { question: "How much sugar is safe for teeth per day?", answer: "WHO recommends keeping free sugars below 10% of daily energy and says below 5% is better. On a 2,000 kcal diet, 5% is about 25 g, or six teaspoons. That is a ceiling, not a target. Three cups of chai with two teaspoons of sugar each already uses almost all of it." },
+      { question: "Does sugar cause cavities directly?", answer: "Not directly. Plaque bacteria ferment the sugar into acid, and the acid dissolves enamel mineral. That is why frequency and stickiness matter so much. Sugar eaten quickly and rinsed away does far less harm than sugar that sits on a tooth for an hour." },
+      { question: "Is one sugary drink a day bad for teeth?", answer: "Yes. A 200 ml packaged juice or mango drink usually carries 25 to 32 g of sugar, roughly the whole 25 g daily reference in one carton. Daily sugar-sweetened drinks are linked to higher decay risk in adults too. Have it with a meal, finish it in one go, use a straw, rinse." },
+      { question: "Are fruits bad for teeth?", answer: "Whole fruit is not counted as free sugar and is fine for teeth, because chewing stimulates protective saliva and fibre slows the sugar release. Fruit juice is different. Juicing releases the sugars and removes the fibre, which is why WHO counts juice as free sugar." },
+      { question: "Is jaggery or brown sugar better for teeth?", answer: "Not meaningfully. Both are cane sugar and both count as free sugar. Laboratory studies on extracted teeth show slightly less enamel damage than refined sugar at the same exposure, but damage rises with every extra exposure. Three hits of jaggery roughly equal one hit of refined." },
+      { question: "How long after eating sugar should I brush?", answer: "Rinse with water immediately, then wait about 30 minutes. If you had something acidic, such as juice, citrus or a soft drink, wait closer to an hour. Brushing straight away can scrub enamel that acid has temporarily softened." },
+    ],
+  },
+  {
+    slug: "diabetes-dental-health-sonipat",
+    title: "Diabetes and Your Gums: Why They Bleed and What Actually Helps",
+    description: "Diabetes and gum disease affect each other. A Sonipat periodontist explains the two-way link, what gum treatment can and cannot do for HbA1c, and what to tell your dentist before treatment.",
+    metaTitle: "Diabetes and Gum Disease in Sonipat",
+    metaDescription: "Bleeding gums and diabetes affect each other. What changes in your mouth, what gum treatment can and cannot do for HbA1c, and what to tell your dentist.",
+    date: "2026-11-02",
+    image: "/images/clinic/gallery/diabetes-dental-health-sonipat.webp",
+    imageAlt: "Woman seated in a dental chair talking with a dentist in teal scrubs in a bright clinic",
+    html: `
+<p>Yes. Diabetes raises your risk of gum disease, and gum disease makes blood sugar harder to control. The link runs in both directions. What gum treatment can do about your HbA1c is real but modest, and it never replaces your diabetes care.</p>
+<p>This is general information, not a diagnosis. Tell your diabetes team before you plan any dental treatment.</p>
+<h2>Does diabetes affect your teeth and gums?</h2>
+<p>Yes, and gum disease is the most common serious mouth problem linked to it (NIDDK; Diabetes UK).</p>
+<p>Three things change:</p>
+<ul>
+<li><strong>Less saliva.</strong> Diabetes, and some medicines used to treat it, reduce saliva flow. Less washing means more decay and more irritation (NIDDK; Diabetes UK).</li>
+<li><strong>More glucose in saliva.</strong> Higher blood sugar puts more sugar into saliva, which feeds the bacteria that form plaque (Diabetes UK).</li>
+<li><strong>Slower healing, more infection.</strong> The ADA lists delayed wound healing and increased infection among the oral signs of poorly controlled diabetes.</li>
+</ul>
+<p>Haryana carries more diabetes than the national average: 12.4% of adults against 11.4% nationally, and 17.9% in urban areas (Kalra et al., 2024, ICMR-INDIAB-18). Sonipat sits inside the NCR, so that urban figure is the closest published number to this district.</p>
+<h2>How are diabetes and gum disease linked?</h2>
+<p>Two directions, and the evidence is stronger in one than the other.</p>
+<p><strong>High blood glucose worsens gingival inflammation.</strong> Long-term hyperglycaemia damages blood vessels and reduces blood flow (Diabetes UK), and poor control raises inflammatory markers such as interleukin-1β in the fluid around the gum pocket (Stöhr et al., 2021). Plaque that another mouth would tolerate becomes a fight your gums keep losing.</p>
+<p><strong>Gingival inflammation makes control harder.</strong> A meta-analysis of 15 cohort studies found people with periodontitis were about 26% more likely to develop diabetes, and people with diabetes about 24% more likely to develop periodontitis (Stöhr et al., 2021). That is a consistent association at moderate certainty, not proof of cause. The ADA puts the gap plainly: evidence that periodontitis affects glycaemic control is inconsistent, particularly in type 1 diabetes.</p>
+<p><strong>Can treating your gums lower your HbA1c?</strong> A little. The IDF and European Federation of Periodontology consensus calls periodontal therapy safe and effective in diabetes, and reports HbA1c reductions of 0.27 to 0.48 percentage points at three months, while noting that longer-term follow-up is inconclusive (Sanz et al., 2018). The ADA adds that trials disagree, and a large 2013 US trial found no improvement at all.</p>
+<p>So: a real effect, a modest one, no substitute for your medication or your doctor's plan. It does not hold without maintenance.</p>
+<h2>Why do your gums bleed more than they used to?</h2>
+<p>Bleeding is not a feature of diabetes itself. It is inflammation sitting on top of it.</p>
+<p>Plaque collects at the gum line. A mouth with diabetes reacts harder to the same plaque. Gums redden, swell and bleed on contact. That is gingivitis, and it can be reversed with professional cleaning and better home care. Leave it, and inflammation moves below the gum line into bone. That is periodontitis. Bone lost that way does not grow back (Diabetes UK).</p>
+<p>Early gum disease is usually painless, so waiting for pain is not a plan (Diabetes UK).</p>
+<p>If bleeding lasts more than a fortnight, get it examined rather than switching toothpaste. <a href="/blog/bleeding-gums-treatment-sonipat/">Bleeding gums and how they are treated</a> walks through the examination.</p>
+<h2>Does diabetes cause tooth loss?</h2>
+<p>It can, and gum disease is the route. Diabetes UK lists tooth loss among diabetes-related mouth problems. Untreated periodontitis destroys the bone around a tooth until nothing holds it. Loose teeth, new gaps and dentures that stop fitting are late signs.</p>
+<p>Poor control makes loss likelier, not certain. The patients who keep their teeth are usually the ones who came in when the bleeding started, not when the tooth moved.</p>
+<h2>Is dental treatment safe when you have diabetes?</h2>
+<p>For most people, yes. The ADA says well-controlled diabetes can usually be managed conventionally for most surgical procedures. Where control is marginal or poor, elective work may need to wait until it is stable. Be honest about your control. Do not avoid the dentist.</p>
+<ul>
+<li><strong>Book a morning slot.</strong> The ADA advises mornings because cortisol is higher early in the day, which lowers the risk of a hypo. Our first appointments are at 9am.</li>
+<li><strong>Eat as you normally would.</strong> Skipping a meal before a 10am filling is the one problem we can remove before you sit down.</li>
+<li><strong>Tell us what you have taken today.</strong> We do not change doses. If your doctor has told you to adjust anything, we need to know before we start.</li>
+<li><strong>Say if you get hypos, and how you treat them.</strong> We keep glucose on hand.</li>
+</ul>
+<h2>What should you tell the clinic before treatment?</h2>
+<p>Five things:</p>
+<p>1. <strong>Type 1 or type 2</strong>, and how long you have had it.</p>
+<p>2. <strong>Your last HbA1c</strong>, and when it was taken. If you do not know the number, say whether your doctor was happy with it.</p>
+<p>3. <strong>Your medicine names.</strong> Not so we can change them. So we know.</p>
+<p>4. <strong>Other complications</strong> such as kidney, eye, heart or foot problems. They change the plan.</p>
+<p>5. <strong>Your diabetes doctor's name.</strong> We would rather ask than guess.</p>
+<p>We will not adjust your insulin or tablets. That belongs to your doctor, and we will tell them what we are planning and when. If treatment will change when you eat for a day or two, call your doctor first, as the NIDDK advises for oral surgery.</p>
+<h2>Can you get dental implants with diabetes?</h2>
+<p>Often yes, but it is assessed case by case and promised to nobody.</p>
+<p>The ADA describes implant placement as generally safe and reliable in properly controlled diabetes, and possibly in moderately controlled disease, with high survival at least in the first three years. Poor control changes the picture: delayed osseointegration, unpredictable prognosis, higher failure risk. Reviews advise checking HbA1c before placement and through the implant's life.</p>
+<p>So we look at control, gum health, smoking and bone before we discuss a screw. Sometimes the honest answer is "get your HbA1c down and come back in three months." That is not a refusal. It is the plan most likely to leave you with an implant that lasts. <a href="/team-of-specialists/">Dr. Shikha Mukhija</a> starts with the gums, not the implant, and our <a href="/services/dental-implants/">implant page</a> explains the rest.</p>
+<p><strong>Extractions</strong> follow similar rules. Slower healing and higher infection risk are real and manageable: morning appointment, a normal meal first, your usual medication, clear aftercare. If control is poor we may ask you to speak to your doctor before we book. A short delay, not a lost tooth. Our <a href="/blog/tooth-extraction-sonipat/">extraction guide</a> covers aftercare.</p>
+<h2>What daily routine actually protects your gums?</h2>
+<ul>
+<li><strong>Brush twice a day, two minutes, fluoride toothpaste, then spit and do not rinse</strong> (NHS).</li>
+<li><strong>Clean between your teeth daily.</strong> If your gums have receded or you have gaps, interdental brushes beat floss. Ask us for the right size.</li>
+<li><strong>Do not stop brushing where it bleeds.</strong></li>
+<li><strong>Rinse with water after treating a hypo</strong>, especially at night (Diabetes UK).</li>
+<li><strong>Stop smoking.</strong> Smoking plus diabetes is harder on your gums than either alone.</li>
+<li><strong>Book a cleaning, not just a check-up.</strong> A check-up finds the problem; a <a href="/services/teeth-cleaning/">professional cleaning</a> changes it.</li>
+</ul>
+`,
+    faqs: [
+      { question: "Why do my gums bleed when I have diabetes?", answer: "High blood sugar keeps the gum tissue inflamed, so ordinary plaque provokes a bigger reaction than it should. If you are bleeding most days, the cause is usually plaque at the gum line rather than brushing too hard. A dentist can measure pocket depth and tell you which." },
+      { question: "Can gum disease raise my blood sugar?", answer: "It can make control harder. Cohort data put the extra risk of developing diabetes at about 26% for people with periodontitis; gum treatment shifts HbA1c by roughly a quarter to half a point. Useful, not decisive, and never a reason to change your medication." },
+      { question: "Should I stop my diabetes medicine before dental treatment?", answer: "No. Not on your own, and not to make an appointment simpler. Ask your own doctor if anything needs adjusting, then tell us what they said. If a procedure changes when you eat, have that conversation before the appointment, not on the day." },
+      { question: "Can I get a dental implant if I have diabetes?", answer: "Often, but it depends on control, gums, smoking and bone. Well-controlled diabetes generally does well. Poor control raises the risk of delayed healing and failure, so the plan may be to improve HbA1c and review. No clinic can promise an implant will succeed." },
+      { question: "When should someone with diabetes see a dentist?", answer: "Every six months is a reasonable default, and sooner if gums bleed for more than two weeks, a tooth feels loose, bad breath survives brushing, or ulcers keep returning. Dental checks are not part of routine diabetes screening, so you have to book them yourself (Diabetes UK)." },
+      { question: "Bleeding gums are worth a look, not a wait.", answer: "Call [+91 72067 22618](tel:+917206722618) and mention your diabetes when you book, so we can give you a morning slot. We are at [222 Model Town, Sonipat](/locations/model-town-sonipat/), open Mon–Sat 9am–2pm and 4:30pm–7:30pm, Sunday 9am–2pm. Or [send us a message](/contact-us/) and read about [gum treatment](/services/gums-treatment/). *Medically reviewed by Dr. Shikha Mukhija, BDS, MDS (Periodontics), Mukhija Dental & ENT Centre, Sonipat 131001. General information, not a diagnosis. We do not adjust diabetes medication. Speak to your diabetes team about your own treatment.*" },
+    ],
+  },
 ];
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {

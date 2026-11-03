@@ -483,6 +483,30 @@ export const BLOG_CLUSTERS: Record<string, BlogCluster> = {
       { href: "/services/teeth-cleaning/", label: "Professional cleaning" },
     ],
   },
+  "teeth-whitening-sonipat-safety": {
+    slug: "teeth-whitening-sonipat-safety",
+    relatedPosts: [
+      { href: "/blog/tooth-sensitivity-sonipat/", label: "Why teeth feel sensitive after whitening" },
+      { href: "/blog/sugar-and-teeth-indian-diet-sonipat/", label: "What stains teeth in the first place" },
+      { href: "/blog/braces-invisalign-smile-makeovers-sonipat/", label: "Braces, aligners and smile makeovers" },
+    ],
+    relatedServices: [
+      { href: "/services/cosmetic-dentistry/", label: "Cosmetic dentistry" },
+      { href: "/services/teeth-cleaning/", label: "Professional cleaning" },
+    ],
+  },
+  "tobacco-gutkha-oral-health-sonipat": {
+    slug: "tobacco-gutkha-oral-health-sonipat",
+    relatedPosts: [
+      { href: "/blog/mouth-ulcers-sonipat-causes-treatment/", label: "Mouth ulcers that keep coming back" },
+      { href: "/blog/bleeding-gums-treatment-sonipat/", label: "Bleeding gums: causes and treatment" },
+      { href: "/blog/bad-breath-that-wont-go-away/", label: "Bad breath that will not go away" },
+    ],
+    relatedServices: [
+      { href: "/services/oral-cancer-detection/", label: "Oral cancer screening" },
+      { href: "/services/gums-treatment/", label: "Gum treatment" },
+    ],
+  },
 };
 
 /* ------------------------------------------------------------------ *

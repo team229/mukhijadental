@@ -2506,6 +2506,169 @@ export const blogPosts: BlogPost[] = [
       { question: "Bleeding gums are worth a look, not a wait.", answer: "Call [+91 72067 22618](tel:+917206722618) and mention your diabetes when you book, so we can give you a morning slot. We are at [222 Model Town, Sonipat](/locations/model-town-sonipat/), open Mon–Sat 9am–2pm and 4:30pm–7:30pm, Sunday 9am–2pm. Or [send us a message](/contact-us/) and read about [gum treatment](/services/gums-treatment/). *Medically reviewed by Dr. Shikha Mukhija, BDS, MDS (Periodontics), Mukhija Dental & ENT Centre, Sonipat 131001. General information, not a diagnosis. We do not adjust diabetes medication. Speak to your diabetes team about your own treatment.*" },
     ],
   },
+  {
+    slug: "teeth-whitening-sonipat-safety",
+    title: "Teeth Whitening: Does It Damage Enamel, What It Fixes, and What It Won't",
+    description: "Peroxide whitening doesn't dissolve enamel, but it can cause sensitivity and won't fix every stain. What it changes, what it can't, and who should skip it.",
+    metaTitle: "Does Teeth Whitening Damage Enamel?",
+    metaDescription: "Peroxide whitening doesn't dissolve enamel, but it can cause sensitivity and won't fix every stain. What it changes, what it can't, and who should skip it.",
+    date: "2026-11-03",
+    image: "/images/clinic/gallery/teeth-whitening-sonipat.webp",
+    imageAlt: "Ceramic tooth shade guide beside a clear whitening tray on a dental clinic counter",
+    html: `
+<p><strong>Short answer:</strong> at clinical strengths, peroxide whitening does not dissolve enamel. It can leave you sensitive for a few days, and it only works on some stains. If the colour sits inside the tooth, or inside a crown, no gel will shift it. That mismatch disappoints more people than enamel damage ever does.</p>
+<h2>Does Teeth Whitening Damage Enamel?</h2>
+<p>No, not in the way most people mean. Peroxide doesn't eat through enamel. It passes through it. Hydrogen peroxide moves along the enamel's interprismatic spaces and reaches the pulp within about 15 minutes, which is both why whitening works and why it can sting. The <a href="https://www.ada.org/resources/ada-library/oral-health-topics/whitening">American Dental Association describes that diffusion</a> directly.</p>
+<p>The best evidence we have is a 2026 <a href="https://doi.org/10.1016/j.jdent.2026.106786">systematic review and meta-analysis in the Journal of Dentistry</a>. It screened 81 studies and pooled nine that measured enamel microhardness before and after bleaching. The pooled result was a small reduction, and it leaned heavily on one influential study. Remove that study and the effect stops being statistically significant. The authors concluded that peroxide bleaching is unlikely to cause clinically meaningful harm to enamel when used at recommended protocols.</p>
+<p>Two caveats are worth stating plainly. Every pooled study was in vitro, meaning extracted teeth in a dish with no saliva remineralising them and no fluoride toothpaste twice a day. And "recommended protocols" is doing real work in that sentence. Harm comes from concentration, contact time or frequency going past the protocol. Months of unsupervised trays. Daily charcoal scrubbing. Gel left on the gum because nobody checked the tray fit.</p>
+<p>The ingredient is not the villain. The dose is.</p>
+<h2>Is Professional Whitening Safe?</h2>
+<p>For most healthy adults, yes. The <a href="https://www.nhs.uk/tests-and-treatments/teeth-whitening/">NHS</a> calls a dentist-supplied kit or a dental surgery the safest route, and notes the chemicals are strong enough that only dental professionals should use or sell them.</p>
+<p>What you're paying for isn't a stronger gel. It's the diagnosis that happens first: decay, cracks, exposed roots, gum health, which teeth are crowned, and a starting shade recorded on a shade guide so there's something to compare against later.</p>
+<p>The problem we treat most often afterwards isn't enamel loss. It's gum irritation and sensitivity from gel sitting too long on soft tissue.</p>
+<h2>Extrinsic vs Intrinsic: Which Stain Do You Have?</h2>
+<p>Most clinic pages skip this. It's the most useful thing to know before you spend anything.</p>
+<p><strong>Extrinsic stain</strong> sits on the outside, from whatever touches the teeth: chai, coffee, tobacco, gutkha, paan. In Sonipat the pattern we see most is chai plus tobacco, a brown-orange line along the gum and between the teeth.</p>
+<p><strong>Intrinsic stain</strong> sits inside the tooth. Age, as thinner enamel lets yellow dentin show through. Tetracycline taken in childhood. Dental fluorosis. Trauma. A tooth that died.</p>
+<p>These need different treatment. Extrinsic stain often lifts with <a href="/services/teeth-cleaning/">scaling and polishing</a> alone. Intrinsic stain may need months of bleaching, or may not respond at all and need a veneer instead.</p>
+<p>Patients come in and say <em>"daant safed karne hain."</em> The first honest question is which kind of yellow this is.</p>
+<h2>What Can Whitening Change, and What Can't It?</h2>
+<p>| What you see | Stain type | Does whitening help? |</p>
+<p>|---|---|---|</p>
+<p>| Chai, coffee, paan, tobacco stain | Extrinsic | Yes, often after a cleaning alone |</p>
+<p>| Yellowing with age | Intrinsic (dentin) | Yes, usually the best responder |</p>
+<p>| Tetracycline bands | Intrinsic | Partly. ADA notes 3-4 months of nightly use on average |</p>
+<p>| Brown dental fluorosis patches | Intrinsic | Sometimes. Brown responds better than white |</p>
+<p>| White fluorosis patches | Intrinsic | Poorly, and unpredictably |</p>
+<p>| Dark tooth after root canal | Intrinsic | Sometimes, bleached from inside |</p>
+<p>| Crown, bridge, veneer, filling, implant | Not natural tooth | No. Colour will not change |</p>
+<p>| Exposed root from receding gum | Intrinsic | No, and it hurts |</p>
+<p>Only natural teeth bleach. The ADA is explicit that bleaching leaves tooth-coloured restorations unchanged, which can leave a visible difference beside the natural teeth.</p>
+<p>That's the trap. Whiten around a front <a href="/services/crowns-bridges/">crown or bridge</a> and the crown stays where it was while everything next to it lifts, so it reads grey in photographs. If a restoration needs replacing anyway, whiten first, let the shade settle, then match the new one. Bleaching can also change enamel surface roughness enough to reduce bond strength to composite and ceramic, which is the second reason to wait.</p>
+<p>White fluorosis patches deserve their own warning. They respond less than brown stains do, and whether they end up blending in or standing out varies from tooth to tooth. The ADA notes they may look less noticeable as the surrounding enamel lightens; plenty of clinicians see the opposite. Test one tooth before committing to the lot.</p>
+<h2>Why Are My Teeth Still Yellow After Whitening?</h2>
+<p>Four reasons, and none of them means the treatment failed.</p>
+<p><strong>The wrong stain.</strong> Bleaching intrinsic stain or a crown gives you a gentler version of the same colour.</p>
+<p><strong>Fast re-staining.</strong> Most relapse happens early, and chai twice a day will do it. Whitening resets the teeth. It doesn't stain-proof them.</p>
+<p><strong>Restorations that didn't move.</strong> A common "it didn't work" complaint, and an easy one to spot on a shade guide.</p>
+<p><strong>Toothpaste.</strong> Whitening toothpastes work mainly by abrasion, lifting surface stain. They clean; they don't bleach. The ADA notes some contain low levels of peroxide, but that isn't the same as a whitening course.</p>
+<p>There's also a ceiling. Natural teeth aren't white. Dentin underneath is yellow, and the last couple of shades on any guide aren't reachable. If a proper course changed nothing, more gel is not the answer. A shade assessment is. That's what a <a href="/smile-analysis/">smile analysis</a> is for.</p>
+<h2>Does Whitening Hurt?</h2>
+<p>Often a little. It's the most predictable side effect there is.</p>
+<p><strong>What it feels like:</strong> a sharp twinge with cold air or water, a dull ache across several teeth, or gums that go white and sore where gel touched them.</p>
+<p><strong>How common:</strong> the ADA reports transient mild-to-moderate sensitivity in up to two-thirds of people in the early stages. With trays and strips it often starts two to three days in and settles by the fourth day after treatment.</p>
+<p><strong>What helps:</strong> a lower-concentration gel over a longer course. A systematic review cited by the ADA found lower peroxide concentrations produced less sensitivity and greater colour change in in-office bleaching. Custom trays keep gel off the gum. Potassium nitrate or fluoride desensitising gel may help, though the ADA notes the evidence for prevention is still limited. Skipping a day helps. So does treating existing sensitivity first, as our guide to <a href="/blog/tooth-sensitivity-sonipat/">tooth sensitivity</a> explains.</p>
+<p>Sensitivity is not a sign it's working. Pain that's still there days after you stop isn't normal, so get it checked.</p>
+<h2>Clinic, Home Trays, Strips or Toothpaste?</h2>
+<p>1. <strong>In-clinic.</strong> Fastest visible change, usually one visit, best control over where the gel sits. Highest cost and the highest sensitivity risk.</p>
+<p>2. <strong>Dentist-made trays.</strong> Similar final shade over a longer course, gentler on sensitive teeth.</p>
+<p>3. <strong>Over-the-counter strips.</strong> Real whitening, weaker and slower. The ADA cites a study where an OTC product took 16 days to match a seven-day tray or a one-day in-office result.</p>
+<p>4. <strong>Whitening toothpaste.</strong> Abrasive, not bleach. Maintenance, not treatment.</p>
+<p>5. <strong>Charcoal, lemon, baking soda.</strong> No good evidence, and the abrasive or acidic versions can damage enamel. The ADA cites a study where charcoal-and-salt brushing removed enamel and left teeth yellower.</p>
+<p>In-clinic isn't automatically better. Systematic reviews comparing the two find similar final colour, with in-office arriving faster and at-home trays holding their own.</p>
+<h3>How long does whitening last?</h3>
+<p>The NHS says around three years if you follow your dentist's advice. A <a href="https://link.springer.com/article/10.1007/s00784-023-05069-0">2023 systematic review of home bleaching</a> found colour stable for one to two and a half years across 24 studies, with more recurrence in severe discolouration.</p>
+<p>Most of the fade happens early, then it drifts. Chai, tobacco and paan speed it up. Touch-ups are normal. Needing one every three months is a habit problem, not a whitening problem.</p>
+<h2>Who Should Not Whiten</h2>
+<ul>
+<li><strong>Under 18.</strong> The NHS doesn't whiten anyone aged 17 or younger. The American Academy of Pediatric Dentistry discourages full-arch cosmetic bleaching in children and adolescents who still have primary or mixed dentition.</li>
+<li><strong>Pregnant or breastfeeding.</strong> The NHS advises against it. Nothing about whitening is urgent, so it can wait.</li>
+<li><strong>Active decay, cracks or exposed roots.</strong> Treat first.</li>
+<li><strong>Gum disease.</strong> Gel on inflamed gums irritates, and whitening won't fix the cause.</li>
+<li><strong>Worn enamel or severe sensitivity.</strong> Assess before anything else.</li>
+<li><strong>Front crowns you can't replace.</strong> You would create a mismatch you can't undo.</li>
+<li><strong>Anyone who wants paper-white.</strong> That shade doesn't exist in natural teeth.</li>
+</ul>
+<p>If you're in any of these groups, a conversation beats a kit. Our <a href="/team-of-specialists/">specialists</a> would rather say no than sell treatment that can't work.</p>
+<p>A whitening consultation at our <a href="/locations/model-town-sonipat/">Model Town clinic</a> is mostly diagnosis: a shade guide record, a gum check, every restoration counted, and an honest answer about your stain. Sometimes the answer is "a cleaning will do it."</p>
+<p>We don't quote a price before seeing the teeth, because the plan decides the number. Our guide to <a href="/blog/dental-treatment-cost-sonipat/">dental treatment costs in Sonipat</a> explains what drives it. Call +91 72067 22618 or <a href="/contact-us/">get in touch</a>.</p>
+`,
+    faqs: [
+      { question: "Does teeth whitening weaken teeth permanently?", answer: "No. Peroxide passes through enamel rather than dissolving it. A 2026 meta-analysis in the Journal of Dentistry pooled nine laboratory studies and found only small, outlier-sensitive reductions in enamel hardness, with no clear evidence of a clinically meaningful effect at recommended protocols. The damage cases come from misuse: too high a concentration, gel left on too long, or abrasive DIY products used repeatedly. Sensitivity after proper treatment is temporary." },
+      { question: "Can I whiten a crown, cap, veneer or filling?", answer: "No. Bleaching only changes natural tooth structure. Crowns, caps, bridges, veneers, composite bonding and implants keep their original colour, and can look darker once the teeth around them lighten. This is why a front crown is the most common cosmetic mismatch in whitening. If a restoration is due for replacement anyway, whiten first, let the shade settle, then match the new one." },
+      { question: "Why are my teeth still yellow after whitening?", answer: "Usually the wrong diagnosis (intrinsic stain or dental fluorosis rather than surface stain), restorations that did not change, fast re-staining from chai or tobacco, or expecting toothpaste to bleach. Natural teeth also have a ceiling: yellow dentin underneath always shows through slightly, so the last shades on a shade guide are not reachable. More gel will not beat that." },
+      { question: "Is home whitening safe?", answer: "With a kit your dentist assessed you for, yes. Over-the-counter strips are low-risk for healthy adults, but slower and less predictable. Unsupervised strong gels and salon treatments carry real risk of gum burns and sensitivity, because nobody checks your gums, your restorations or your starting shade first." },
+      { question: "Does whitening work on fluorosis?", answer: "Partly, and unevenly. Brown dental fluorosis patches often fade. White chalky patches respond poorly, and whether they blend in or stand out once the surrounding enamel lightens varies from tooth to tooth. This matters locally: Central Ground Water Board data lists Sonipat among Haryana districts where fluoride above the permissible limit appears at some locations, so dental fluorosis is worth ruling out before you pay for bleaching." },
+      { question: "How soon can I whiten again?", answer: "Most dentists prefer a few months between full courses, and short top-ups rather than repeating the whole thing. If the shade drops within weeks, the cause is usually daily staining rather than the whitening wearing off, so the fix is the chai or tobacco habit, not more gel." },
+    ],
+  },
+  {
+    slug: "tobacco-gutkha-oral-health-sonipat",
+    title: "Gutkha and Paan Masala: What It Does to Your Mouth, and What Doesn't Come Back",
+    description: "What gutkha and paan masala do to teeth and gums, why areca nut matters as much as tobacco, and what an oral cancer screening actually involves.",
+    metaTitle: "Gutkha and Paan Masala: What It Does",
+    metaDescription: "Gutkha and paan masala stain teeth, shrink gums and cause white patches. What reverses when you stop, what doesn't, and what a mouth check involves.",
+    date: "2026-11-03",
+    image: "/images/clinic/gallery/tobacco-gutkha-oral-health-sonipat.webp",
+    imageAlt: "Dentist in teal scrubs talking calmly with a seated man in a bright dental clinic",
+    html: `
+<p><strong>The short answer.</strong> Gutkha and paan masala damage the mouth in three places: they stain and wear the teeth, they destroy the gum where the quid sits, and they change the lining itself. Some of that returns when you stop. The gum and the scarring do not.</p>
+<p><em>General information, not a diagnosis. A white patch has to be examined in person.</em></p>
+<h2>What Does Gutkha Do to Your Mouth?</h2>
+<p>Most people hold the quid in the same spot, low in the cheek against the gum, several times a day for years. That is why the damage is easy to find: it sits where the quid sits.</p>
+<p>The grit abrades and the lime burns, so the gum pulls back and does not return. Long-term chewers often end up with a notch of exposed root and heavy staining there.</p>
+<p>The lining goes greyish white and wrinkled at the contact site — tobacco pouch keratosis, the earliest visible change. Over time it can harden into a white or red patch. The ICMR review reports buccal involvement in as many as 80% of cancers arising where the quid is placed.</p>
+<h2>What Is Actually in Gutkha?</h2>
+<p>Chewing tobacco, areca nut, slaked lime, catechu and spices, usually sweetened.</p>
+<p><strong>Tobacco</strong> brings nicotine and tobacco-specific nitrosamines; the US National Cancer Institute counts at least 28 cancer-causing chemicals in smokeless tobacco.</p>
+<p><strong>Areca nut</strong> (<em>supari</em>) is the part people underestimate. In 2003 the WHO's cancer agency concluded that areca nut is carcinogenic to humans (IARC Group 1), and that betel quid <em>without</em> tobacco is carcinogenic too. The <a href="https://ijmr.org.in/oral-health-consequences-of-smokeless-tobacco-use/">ICMR review</a> is blunter: oral submucous fibrosis is "solely caused by areca nut", and the literature has wrongly pinned it on smokeless tobacco.</p>
+<p>A survey of 402,669 people in Lucknow found oral precancer in 3.17% of pan masala users who did not use tobacco, against 0.16% of non-users: an odds ratio of 20.7 (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5343152/">Mehrotra et al., 2017</a>).</p>
+<p><strong>Slaked lime</strong> (<em>chuna</em>) is not filler. It makes the mouth alkaline; above pH 9.5 the cited work reports reactive oxygen species and irritation of the lining into thickening.</p>
+<p>Moving from gutkha to plain supari is a change of packaging, not a reduction in risk.</p>
+<h2>Is Gutkha Worse Than Smoking?</h2>
+<p>"Worse" is the wrong question, and anyone answering with a flat yes or no is selling something.</p>
+<p>Smokeless tobacco is not a safe substitute for cigarettes, per the National Cancer Institute. What differs is where the damage lands. Smoke travels the whole upper airway. A quid sits still, so chewing tends to produce cancers at the contact site.</p>
+<p>A meta-analysis of ten studies put the relative risk for betel quid with tobacco at 6.19 (95% CI 4.16–9.21).</p>
+<h2>What Are the White Patches in the Mouth From Tobacco?</h2>
+<p>Leukoplakia is a description rather than a diagnosis: a white patch that cannot be rubbed or scraped off. The <a href="https://www.nhs.uk/conditions/leukoplakia/">NHS describes</a> patches that are not usually painful, irregular in shape, sometimes raised, sometimes with red areas inside, often on or under the tongue or inside the cheek.</p>
+<p>Leukoplakia is around six times more common in smokeless tobacco users. The patch is not the danger; what sits under it is. Some patches carry dysplasia, cell change that can precede cancer, and you cannot see that by looking. A red area inside a white patch raises the concern.</p>
+<p>The NHS wording is exact: "there's a small chance it could progress to mouth cancer over time". A painless patch is the trap, which is why one that does not go away should be seen.</p>
+<p>Three weeks is the line. A patch or ulcer sitting in one place beyond that is the appointment to make. Our notes on <a href="/blog/mouth-ulcers-sonipat-causes-treatment/">ulcers that will not heal</a> explain why.</p>
+<h2>Does Chewing Tobacco Cause Gum Disease?</h2>
+<p>Yes. The ICMR review lists gum recession with exposed roots, periodontal pockets and plaque among smokeless tobacco users, with odds ratios for periodontal inflammation between 1.6 and 3.6.</p>
+<p>In a Delhi NCR study of 100 gutkha chewers and 100 non-chewers, recession was present in 62% against 25%, and attachment loss over 5mm in 41% against 21%.</p>
+<p>Two mechanisms: an abrasive, alkaline bolus held against thin gum for hours, and arecoline from areca nut, which affects the fibroblasts holding a tooth in its socket. Both act where the quid sits, which is why a dentist asks which side you chew on.</p>
+<p><a href="/services/gums-treatment/">Gum treatment</a> can control inflammation. It cannot rebuild what has gone.</p>
+<h2>What Reverses, and What Doesn't</h2>
+<p>| What changed | Does it reverse? |</p>
+<p>|---|---|</p>
+<p>| Staining | Mostly, with <a href="/services/teeth-cleaning/">professional cleaning</a>, once the habit stops. |</p>
+<p>| Gum inflammation, bleeding | Largely, over weeks, with cleaning. |</p>
+<p>| Early white patch in a young mouth | Often. |</p>
+<p>| Gum recession | No. Gum does not grow back. |</p>
+<p>| Oral submucous fibrosis | Not usually. Care is about stopping progression. |</p>
+<p>| Long-standing patch, or dysplasia | Cannot be assumed to reverse. Needs review. |</p>
+<p>A cohort of 12,212 tobacco users in Kerala, examined annually for ten years, found new leukoplakia dropped sharply among those who stopped, incidence ratio 0.31. That is fewer new lesions, not a guaranteed drop in cancer risk.</p>
+<p>The better-known study examined 3,051 US Air Force trainees at the start of basic training, mean age 19.5. Among smokeless tobacco users, 39.4% had leukoplakia, against 1.5% of non-users. After six weeks of mandatory abstinence, 97.5% of those lesions had resolved clinically.</p>
+<p>Read the caveat first. Those were young, otherwise healthy men in a compulsorily tobacco-free environment, examined twice in six weeks. Applying 97.5% to a 50-year-old with a twenty-year habit is not what the study found.</p>
+<p>Fibrosis is the other side. Oral submucous fibrosis is scarring of the lining that tightens the mouth, and the tightness on opening wide usually does not return, which is why care aims at stopping it getting worse.</p>
+<h2>What Does a Mouth Cancer Screening Involve?</h2>
+<p>About ten minutes, and most of it is looking: both cheeks, gums, under the tongue, the floor of the mouth, the back of the throat.</p>
+<p>Then the hands. A gloved finger feels for anything firm or fixed, and the neck and jaw are checked for enlarged nodes. No fasting, no dye, no pain.</p>
+<p>If something needs a closer look, you are referred and usually biopsied. The <a href="https://www.nhs.uk/conditions/mouth-cancer/tests-and-next-steps/">NHS says results</a> usually come back within two weeks. A dentist cannot rule cancer in or out by eye, and should not claim to.</p>
+<h3>What happens if something is found?</h3>
+<p>Nobody can promise a cure, and anyone who does is not being straight with you.</p>
+<p><a href="https://www.nhs.uk/conditions/mouth-cancer/treatment/">Per the NHS</a>, surgery is usually needed and can mean removing part of the tongue or jaw. Radiotherapy may be the only treatment needed if the cancer is found early. For advanced cancer, treatment may not cure, and the aim shifts to slowing growth and easing symptoms.</p>
+<p>Same disease, same guidance. The difference is largely when it was found. Not that early means safe. That early means smaller.</p>
+<p>Screening and referral are what this clinic does. Cancer treatment is not; that belongs with an oncology team, and we will say so plainly if that is where you need to be. The <a href="/services/oral-cancer-detection/">screening itself</a> is part of a routine examination, done by <a href="/team-of-specialists/">our dentists</a>.</p>
+<h2>Quitting: What Changes in Your Mouth, and When</h2>
+<p><strong>First two weeks.</strong> Nothing looks different yet, and you may feel worse before better. Nicotine withdrawal is real and temporary. The National Tobacco Quitline is free on 1800-11-2356. It is counselling, not medicine; anything medicinal belongs with a clinician who knows your history.</p>
+<p><strong>Week two to six.</strong> Staining stops getting worse; what is already there can be cleaned off.</p>
+<p><strong>Around six weeks.</strong> Early white patches have a real chance of fading. If yours has not changed by then, that is information, not a failure.</p>
+<p>Two notes. Cutting down is not the same as stopping. And stopping does not undo fibrosis or bring back receded gum; it stops the clock on the parts still moving.</p>
+<h2>If You Have Been Putting This Off</h2>
+<p>A white patch or a receding gum is not an emergency. It is easier at ten minutes than at two years.</p>
+<p>A check-up at 222 Model Town, Sonipat takes about half an hour. Mon–Sat 9am–2pm and 4:30–7:30pm, Sun 9am–2pm. Call +91 72067 22618, or <a href="/contact-us/">book a check-up</a>. Our page on <a href="/blog/dental-treatment-cost-sonipat/">dental treatment costs in Sonipat</a> covers consultation fees.</p>
+<p>No lectures at the door.</p>
+`,
+    faqs: [
+      { question: "Does gutkha cause cancer even if you spit out the juice?", answer: "Yes. Spitting removes the excess, not the exposure. The carcinogens sit against the lining while the quid is in place, and some is swallowed." },
+      { question: "Is tobacco-free paan masala safe?", answer: "No. IARC lists areca nut as a Group 1 carcinogen in its own right, independent of tobacco, and pan masala is built on areca nut and slaked lime. Removing tobacco removes one hazard, not the hazard." },
+      { question: "Can a white patch in the mouth go away on its own?", answer: "Sometimes, especially in younger people with a short history, and more reliably once the habit stops. But nobody can tell by looking which patch will fade and which carries dysplasia." },
+      { question: "How long after quitting does mouth cancer risk actually fall?", answer: "There is no honest single number. New leukoplakia becomes much less common after stopping, roughly a third of the previous rate in one Indian cohort. Beyond that, it depends on how long and how much you used." },
+      { question: "Is it too late to stop after twenty years?", answer: "No. Some damage is permanent, but the parts still moving stop moving. That is worth having. <small><strong>General information only.</strong> This article does not diagnose, does not replace an examination, and cannot tell you what a particular patch is. This clinic provides oral cancer screening and referral, not cancer treatment. If you are worried about a white patch, an ulcer or a receding gum, have it looked at in person. Sources: <a href=\"https://www.who.int/news/item/07-08-2003-iarc-monographs-programme-finds-betel-quid-and-areca-nut-chewing-carcinogenic-to-humans\" rel=\"nofollow noopener\" target=\"_blank\">WHO/IARC</a>, <a href=\"https://ijmr.org.in/oral-health-consequences-of-smokeless-tobacco-use/\" rel=\"nofollow noopener\" target=\"_blank\">IJMR/ICMR</a>, <a href=\"https://www.cancer.gov/about-cancer/causes-prevention/risk/tobacco/smokeless-fact-sheet\" rel=\"nofollow noopener\" target=\"_blank\">NCI</a>, <a href=\"https://www.nhs.uk/conditions/leukoplakia/\" rel=\"nofollow noopener\" target=\"_blank\">NHS leukoplakia</a> and <a href=\"https://www.nhs.uk/conditions/mouth-cancer/treatment/\" rel=\"nofollow noopener\" target=\"_blank\">NHS mouth cancer treatment</a>. Published 3 November 2026 by Mukhija Dental &amp; ENT Centre, 222 Model Town, Sonipat 131001. Reviewed by Dr. Bhupesh Mukhija, BDS, MDS.</small>" },
+    ],
+  },
 ];
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {

@@ -2669,6 +2669,392 @@ export const blogPosts: BlogPost[] = [
       { question: "Is it too late to stop after twenty years?", answer: "No. Some damage is permanent, but the parts still moving stop moving. That is worth having. <small><strong>General information only.</strong> This article does not diagnose, does not replace an examination, and cannot tell you what a particular patch is. This clinic provides oral cancer screening and referral, not cancer treatment. If you are worried about a white patch, an ulcer or a receding gum, have it looked at in person. Sources: <a href=\"https://www.who.int/news/item/07-08-2003-iarc-monographs-programme-finds-betel-quid-and-areca-nut-chewing-carcinogenic-to-humans\" rel=\"nofollow noopener\" target=\"_blank\">WHO/IARC</a>, <a href=\"https://ijmr.org.in/oral-health-consequences-of-smokeless-tobacco-use/\" rel=\"nofollow noopener\" target=\"_blank\">IJMR/ICMR</a>, <a href=\"https://www.cancer.gov/about-cancer/causes-prevention/risk/tobacco/smokeless-fact-sheet\" rel=\"nofollow noopener\" target=\"_blank\">NCI</a>, <a href=\"https://www.nhs.uk/conditions/leukoplakia/\" rel=\"nofollow noopener\" target=\"_blank\">NHS leukoplakia</a> and <a href=\"https://www.nhs.uk/conditions/mouth-cancer/treatment/\" rel=\"nofollow noopener\" target=\"_blank\">NHS mouth cancer treatment</a>. Published 3 November 2026 by Mukhija Dental &amp; ENT Centre, 222 Model Town, Sonipat 131001. Reviewed by Dr. Bhupesh Mukhija, BDS, MDS.</small>" },
     ],
   },
+  {
+    slug: "teeth-grinding-bruxism-sonipat",
+    title: "Teeth Grinding at Night: Why It Happens and What Actually Helps",
+    description: "Night grinding is sleep bruxism: a brain-driven reflex with no cure. What protects the teeth, what a night guard does and doesn't do, and when jaw pain needs a look.",
+    metaTitle: "Teeth Grinding at Night: What Helps",
+    metaDescription: "Night grinding is sleep bruxism, and there's no single cure. What actually helps, what a night guard does and doesn't do, and when to get your jaw checked.",
+    date: "2026-11-12",
+    image: "/images/clinic/gallery/teeth-grinding-bruxism-sonipat.webp",
+    imageAlt: "Man asleep on a soft white pillow in calm morning light after a restless night",
+    html: `
+<p><strong>Short answer:</strong> most night grinding is sleep bruxism, jaw-muscle activity your brain runs during lighter sleep. You cannot switch it off by deciding to. There is no cure. What helps is protecting the teeth with a well-made guard, easing the triggers, and having heavy snoring or daytime sleepiness assessed on its own terms.</p>
+<p>If you wake with a dull headache and a jaw that feels like it has been chewing gravel, something is happening at night whether or not you notice it. Search "how to stop grinding teeth" and you will find a hundred pages promising a mouthguard will do exactly that. The evidence is more modest, and more useful once you understand it, because what a guard protects is enamel you do not get back. That is the same enamel behind the <a href="/blog/tooth-sensitivity-sonipat/">sensitivity</a> that brings people in years later.</p>
+<h2>Why Do I Grind My Teeth at Night?</h2>
+<p>Because your brain is doing it. Not your teeth.</p>
+<p>Sleep bruxism is rhythmic jaw-muscle activity that appears in the lighter stages of sleep. <a href="https://www.leedsth.nhs.uk/patients/resources/clenching-and-grinding-your-teeth-bruxism">Leeds Dental Institute's patient information</a> puts it plainly: the brain signals happen in lighter sleep and you have no control over them. It is not a habit you can unlearn the way you unlearn nail biting.</p>
+<p>Leeds puts sleep bruxism at around 1 in 10 people, with up to 1 in 5 clenching while awake. That second number matters, because it is a different problem with a different fix.</p>
+<p>Awake bruxism is mostly clenching: jaw tight, teeth pressed together, often while you concentrate at a desk or in traffic. That one you can catch, and catching it is most of the treatment.</p>
+<p>What makes either pattern more likely, per the <a href="https://www.nhs.uk/symptoms/teeth-grinding">NHS</a>:</p>
+<ul>
+<li>Stress and anxiety, the most commonly cited cause</li>
+<li>Poor or broken sleep</li>
+<li>Caffeine, alcohol and smoking</li>
+<li>Some medicines, including SSRIs for depression or anxiety, and some used for ADHD or seizures</li>
+<li>Snoring, sleep apnoea and reflux, where the link is possible rather than proven</li>
+<li>Rarely, neurological conditions such as Parkinson's disease</li>
+</ul>
+<p>Different causes, different fixes. Blurring them together is why a lot of advice misses.</p>
+<h2>How Do You Know If You're Grinding? Signs Most People Miss</h2>
+<p>Often you don't. People grind in their sleep with no awareness at all, which is why a check-up finds this more reliably than a symptom search does.</p>
+<p>What to look for:</p>
+<ul>
+<li>Chewing surfaces that look flat instead of bumpy</li>
+<li>Canine tips worn flat, since they take the sideways load when the jaw slides</li>
+<li>Teeth that look shorter than in old photographs. This is the cheapest test you can run, and the most convincing</li>
+<li>Chipped edges, especially on the front teeth</li>
+<li>Tooth-prints along the sides of your tongue</li>
+<li>A dull headache around the temples when you wake</li>
+<li>Jaw muscles that feel tired or tight on waking</li>
+<li>Earache with no ear problem behind it</li>
+<li>Fillings or crowns that keep failing</li>
+</ul>
+<p>One flattened tooth means little. A pattern of wear plus symptoms is what makes us look closer.</p>
+<h2>What Does Grinding Actually Damage?</h2>
+<p>Four things, roughly in order.</p>
+<p><strong>Enamel.</strong> Grinding wears enamel away, which dentists call attrition, and enamel does not grow back. Once the chewing surfaces flatten, the softer dentine underneath is exposed. That is where unexplained tooth sensitivity usually starts.</p>
+<p><strong>Fillings, crowns and teeth.</strong> Grinding loads restorations in directions they were not designed for. Margins chip, crowns fracture, and occasionally a tooth cracks badly enough to need a <a href="/blog/root-canal-treatment-sonipat/">root canal</a> or a <a href="/services/crowns-bridges/">crown</a> to rebuild it.</p>
+<p><strong>The jaw joint (TMJ) and muscles.</strong> This is where the internet overreaches. Leeds Dental Institute is explicit: bruxism does not cause TMD and does not damage the jaw joint or muscles on its own. If you already have TMD, grinding can make the symptoms worse. Some leaflets go further and link jaw pain to TMD. Either way, get jaw pain examined rather than assuming the joint is being ground away.</p>
+<p><strong>Sleep.</strong> The activity happens in lighter sleep and fragments it. Partners lose sleep too, and they often report the grinding before you do.</p>
+<h2>Is Teeth Grinding Linked to Stress?</h2>
+<p>Partly, and less cleanly than most articles suggest.</p>
+<p>Stress is the most cited trigger, and the link is strongest for daytime clenching. For sleep bruxism the picture is messier: the studies are small, the measurements vary, and stress management helps some people a lot and others barely at all.</p>
+<p>So treat stress as one lever, not the lever. Address it for its own sake. Just don't expect your jaw to go quiet the week the deadline passes.</p>
+<h2>Can Teeth Grinding Be Cured?</h2>
+<p>No. There is no cure, and anyone selling one is overselling.</p>
+<p>What exists is management, with three goals in this order:</p>
+<p>1. Stop the teeth wearing down further</p>
+<p>2. Reduce pain in the jaw and face</p>
+<p>3. Reduce how often or how hard you grind, where that is possible</p>
+<p>Children usually grow out of it by adolescence, according to the <a href="https://my.clevelandclinic.org/health/diseases/10955-teeth-grinding-bruxism">Cleveland Clinic</a>. Adults tend to notice it in stretches rather than as a steady state: worse in busy months, quieter on holiday. That pattern is common in clinic, and it is why we review instead of treating once and discharging.</p>
+<h2>Does a Night Guard Help? What the Evidence Actually Says</h2>
+<p>For protection, yes. As a cure, no.</p>
+<p>A custom guard (the clinical term is occlusal splint) sits between the upper and lower teeth and takes the force instead of your enamel. <a href="https://www.mayoclinic.org/diseases-conditions/bruxism/diagnosis-treatment/drc-20356100">Mayo Clinic</a> is direct about the limit: splints and mouth guards can protect your teeth, though they may not stop the bruxism.</p>
+<p>The research backs the modest version. A <a href="https://pubmed.ncbi.nlm.nih.gov/33652054">2021 systematic review in the Journal of Dentistry</a> found insufficient evidence that occlusal splints treat bruxism better than no treatment, another appliance, or behavioural therapy. The trials were few, small, and mostly at medium to high risk of bias.</p>
+<p>That sounds like bad news until you notice what the review measured: whether the grinding itself falls. On that question, the honest answer is that nobody knows. On protecting teeth, a well-made guard does its job. The <a href="https://www.nidcr.nih.gov/health-info/bruxism">NIH's dental research arm</a> says a guard "prevents tooth damage and may reduce muscle activity". The "may" is doing real work in that sentence.</p>
+<p>So the honest pitch is simple. Wear it to keep your teeth, not to fix the habit.</p>
+<p>Three practical points.</p>
+<p><strong>Hard or soft.</strong> Soft splints suit some people, but Leeds notes they can make others clench more, and they wear through quickly. A hard stabilisation splint is usually the workhorse.</p>
+<p><strong>Custom or pharmacy.</strong> Boil-and-bite guards are bulky, wear fast, and a bad fit can hold the bite in an odd position. For an occasional flare, better than nothing. For nightly grinding, get one made and adjusted.</p>
+<p><strong>Bring it to check-ups.</strong> A guard with holes worn through it tells us more than any description you could give. Expect to replace it eventually, and treat a guard that keeps cracking as finished.</p>
+<p>A custom guard is lab work, so it costs more than a pharmacy one. Ask for the figure before it is made. Our <a href="/blog/dental-treatment-cost-sonipat/">treatment cost guide</a> explains how we quote.</p>
+<h2>What Helps, and What Doesn't</h2>
+<p>An honest list.</p>
+<p>| Approach | Does it help? |</p>
+<p>|---|---|</p>
+<p>| Custom night guard | Protects teeth and dental work. Does not stop the grinding |</p>
+<p>| Stress management, breathing, counselling | Helps some people, mostly daytime clenching. Low risk |</p>
+<p>| Better sleep habits: fixed bedtime, dark room | Sensible, low risk, modest evidence |</p>
+<p>| Cutting caffeine and alcohol at night | Worth trying, especially after late nights |</p>
+<p>| Warm compress, soft food during a flare | Eases jaw pain short term |</p>
+<p>| Physiotherapy for jaw and neck | Helps pain. Does not stop the grinding |</p>
+<p>| Botulinum toxin into the jaw muscles | Can reduce muscle bulk and pain for a few months. Not a cure |</p>
+<p>| Internet "jaw exercises" | No good evidence. Some make jaw pain worse |</p>
+<p>| Filing teeth down to "fix the bite" | Rarely the right first move. Get a second opinion |</p>
+<p>Irreversible treatment should be the last step, not the first.</p>
+<h2>Is Grinding a Sign of Sleep Apnoea?</h2>
+<p>Less than the internet suggests, but the two are worth separating properly.</p>
+<p>Grinding and obstructive sleep apnoea do turn up in the same people. A <a href="https://pubmed.ncbi.nlm.nih.gov/35443064">2022 scoping review in the journal Sleep</a> found both conditions in a median of about 39% of adults across the studies it examined, yet no significant association in most of them, and concluded that a relationship cannot be confirmed in adults. Lots of people with both, no consistent statistical link: the review puts that contradiction down to how differently the studies measured grinding. In children an association may be possible, on much weaker evidence.</p>
+<p>So grinding is not a reliable signal of apnoea. Snoring is a better signal, and so is being told you stop breathing in your sleep, or falling asleep in the afternoon.</p>
+<p>Those symptoms deserve their own assessment, whatever your teeth are doing. That may mean a sleep study (polysomnography). If apnoea is confirmed, treatment is chosen by the team managing it, and sometimes includes an appliance that holds the lower jaw forward rather than a standard guard.</p>
+<h2>When Should You See Someone?</h2>
+<p>The <a href="https://www.nhs.uk/symptoms/teeth-grinding">NHS</a> is clear. Book an exam if:</p>
+<ul>
+<li>A partner has heard you grinding</li>
+<li>You wake with jaw pain or headaches most mornings</li>
+<li>Teeth are visibly worn, chipped or sensitive</li>
+<li>A filling or crown has failed more than once</li>
+<li>Your jaw clicks, locks or hurts when you chew</li>
+</ul>
+<p>Come sooner, and say it out loud, if you snore heavily, have been told you stop breathing in your sleep, or feel sleepy during the day. Say it even if your teeth look fine.</p>
+<p>At our <a href="/locations/model-town-sonipat/">Model Town clinic</a>, the exam is straightforward. We look at wear patterns on every tooth, how the canines and front teeth meet, the jaw joint and muscles, and we ask about sleep. It takes about half an hour, and most of it is looking.</p>
+<p>Dr. Bhupesh Mukhija, our endodontist, handles the cracked teeth and root canal work that grinding causes. Dr. Shikha Mukhija, our periodontist and implantologist, looks after the gums and bite. More about <a href="/team-of-specialists/">the team here</a>.</p>
+<p>If nerves have kept you away, we have written about <a href="/blog/dental-anxiety-sonipat-overcome-fear/">how we handle dental anxiety</a>.</p>
+<h2>What Now?</h2>
+<p>Grinding at night is a brain-driven reflex, not a habit, and there is no cure for it. A guard protects your teeth without stopping the grinding. Stress, sleep and caffeine are levers, not switches.</p>
+<p>What you control is how much wear happens before anyone looks. If your jaw aches in the morning, get it checked once. That exam sorts you into "watch and review" or "protect now", and both are easier than guessing.</p>
+<p><a href="/contact-us/">Get in touch</a> if you would like that looked at. We are at 222 Model Town, Sonipat 131001, open Monday to Saturday 9–2 and 4:30–7:30, Sunday 9–2. Phone +91 72067 22618.</p>
+<p><em>General information only. This article does not diagnose anything and does not replace an examination. If a tooth has cracked, or your jaw locks or swells, contact the clinic rather than waiting.</em></p>
+`,
+    faqs: [
+      { question: "Is teeth grinding dangerous?", answer: "Not in the emergency sense, and usually not in the short term. The harm is slow: enamel wear, chipped edges, failing fillings, jaw and temple pain. The exceptions worth acting on quickly are a jaw that locks or swells, a tooth that has cracked through, or heavy snoring with daytime sleepiness." },
+      { question: "Can grinding crack a tooth?", answer: "Yes. Repeated force finds the weakest point, usually a back tooth or one that has already been repaired. A crack can stay shallow and painless for years, then turn sensitive when it reaches the dentine or the nerve. A crown protects a cracked tooth; if the crack reaches the nerve, it needs a root canal." },
+      { question: "Do children grow out of teeth grinding?", answer: "Most do, usually by adolescence. Grinding is more common in children than in adults, and in a child with healthy teeth and no pain the plan is usually to watch, protect if wear is heavy, and review. Bring it up sooner if there is pain, disturbed sleep or visible wear." },
+      { question: "Are pharmacy mouthguards good enough?", answer: "For an occasional flare, better than nothing. For nightly grinding, it is a poor fit: bulky, quick to wear through, and a loose guard can hold the bite in an odd position. A dentist-made splint is trimmed to your bite and can be adjusted as your teeth change." },
+      { question: "Does botulinum toxin (Botox) stop teeth grinding?", answer: "No. It relaxes the jaw muscles, which can reduce bulk and pain for a few months, but it does not touch the brain signal behind the grinding. It is not suitable for everyone. A short-term measure for selected patients, not a cure." },
+      { question: "Will my teeth recover once the grinding stops?", answer: "Enamel does not regrow. Sensitivity may settle once the exposed dentine is protected, and small chips can be smoothed or bonded. Anything already worn away stays worn away, so the aim shifts to protecting what is left and rebuilding function where it matters." },
+    ],
+  },
+  {
+    slug: "dry-mouth-xerostomia-sonipat",
+    title: "Dry Mouth: Why It's Not Just Uncomfortable, and What Helps",
+    description: "Dry mouth is usually a medicine, sometimes a blocked nose or undiagnosed diabetes, and always a cavity risk. What xerostomia does to teeth, what helps at home, and when it needs a doctor.",
+    metaTitle: "Dry Mouth (Xerostomia) | Mukhija Dental Clinic",
+    metaDescription: "Dry mouth raises cavity and gum risk more than most people realise. What causes xerostomia, what helps at home, and when to see a doctor in Sonipat.",
+    date: "2026-11-19",
+    image: "/images/clinic/gallery/dry-mouth-xerostomia-sonipat.webp",
+    imageAlt: "Woman holding a glass of water at a bright kitchen counter in calm daylight",
+    html: `
+<p><strong>Short answer:</strong> Dry mouth (xerostomia) means your salivary glands aren't making enough saliva, or the saliva has changed. The commonest cause is a medicine. On its own it is rarely dangerous, and it is rarely nothing: the real cost is tooth decay, because saliva is what protects teeth between meals.</p>
+<p><em>General information, not a diagnosis. Dry mouth has many causes, and they are treated very differently.</em></p>
+<h2>What dry mouth feels like</h2>
+<p>The tongue sticks to the roof of your mouth mid-sentence. Saliva feels thick or stringy, or there is none. You keep a bottle by the bed because you wake up with a dry throat.</p>
+<p>Other signs: a burning tongue, cracked lips, needing a sip to swallow, food tasting dull, bad breath that keeps returning, dentures that rock.</p>
+<p>Two people can have the same measured salivary flow and only one feels dry. Xerostomia is the <em>sensation</em> of dryness; hyposalivation is the measured drop in flow. That gap is why "my mouth feels dry" is a real symptom even when a test looks normal (<a href="https://www.ada.org/resources/ada-library/oral-health-topics/xerostomia">ADA</a>).</p>
+<h2>What causes dry mouth?</h2>
+<p>Almost every case fits one of four groups, and the group decides what will help.</p>
+<h3>1. Medicines, by a wide margin</h3>
+<p>If you take anything daily, start here. A systematic review cited by the ADA found 106 medicines with strong or moderate evidence of drying the mouth: antihistamines, decongestants, antidepressants, blood pressure medicines, diuretics, bladder medicines, painkillers and muscle relaxants.</p>
+<p>The risk climbs with each one, and is clearly higher on four or more daily prescriptions. But <strong>never stop one on your own.</strong> A blood pressure tablet matters more than the dryness it causes. Ask the prescriber to review the dose, the timing or the choice.</p>
+<h3>2. Medical conditions</h3>
+<ul>
+<li><strong>Diabetes</strong>, especially when blood sugar is poorly controlled. Thirst, passing urine often, tiredness and weight loss point this way; our guide to <a href="/blog/diabetes-dental-health-sonipat/">diabetes and dental health</a> covers the rest.</li>
+<li><strong>Sjögren's disease</strong>, where the immune system attacks the glands that make saliva and tears. Dry eyes, dry mouth and fatigue together is the pattern. About nine in ten people with it are women, but men get it too.</li>
+<li><strong>Radiotherapy to the head and neck.</strong> Almost everyone treated this way develops dry mouth, and the damage can be permanent. Chemotherapy usually dries the mouth only while treatment lasts.</li>
+<li><strong>Salivary gland stones or infection</strong>, often with swelling under the jaw or in front of the ear.</li>
+</ul>
+<h3>3. Daily habits</h3>
+<p>Dehydration from heat or illness. Alcohol. Tobacco and gutkha. Heavy chai or coffee. Salty, spicy or acidic food. Anxiety, which dries the mouth fast. Mouth breathing gets its own section below.</p>
+<h3>4. Age, but not the way you think</h3>
+<p>Dry mouth is <strong>not</strong> a normal part of ageing (<a href="https://www.nidcr.nih.gov/health-info/dry-mouth">NIDCR</a>). It looks that way because prescriptions and long-term conditions pile up. The ADA puts it at about 30% of people over 65 and up to 40% over 80 — and attributes most of that to medicines and coexisting conditions, not to the calendar.</p>
+<p>Age on its own is a weak explanation. If you are 70, take nothing, have no long-term illness and feel dry every day, that still needs a cause.</p>
+<h2>Mouth breathing: the cause people skip</h2>
+<p>You wake up dry, with a sore throat and cracked lips. Your nose is blocked most nights. You are probably sleeping with your mouth open.</p>
+<p>Night is when it bites. Salivary flow is already at its lowest while you sleep, so an open mouth does the most damage then. A blocked nose is usually behind it: a cold, an allergy, a deviated septum, nasal polyps, or enlarged adenoids in a child. Loud snoring with daytime tiredness often travels with it, and needs its own check.</p>
+<p>The upper front teeth sit directly in that airstream. It is where we look first: plaque, dry inflamed gums, and decay right at the gum line. If your nose is blocked more nights than not, get it looked at. Dental and ENT are in the same building, so that is one visit, not two referrals.</p>
+<h2>What does dry mouth do to your teeth?</h2>
+<p>Saliva washes food off the teeth, neutralises acid, carries calcium and phosphate into enamel and keeps bacteria in check. Take it away and the mouth gets less forgiving. The damage follows a pattern.</p>
+<p><strong>Cavities in unusual places.</strong> Not just more decay, but decay where a dentist has to look for it: at the gum line, on exposed roots, at the edge of old fillings, on the tips of teeth. Sometimes the first sign is a tooth breaking on soft food.</p>
+<p><strong>Gum problems.</strong> Plaque stays put. Gums bleed, and the bone underneath starts to go. Our page on <a href="/services/gums-treatment/">gum treatment</a> explains the fix.</p>
+<p><strong>Thrush.</strong> Fungal infection is far more common with a dry mouth: white patches that wipe off and leave red, sore tissue, a burning tongue, food tasting wrong.</p>
+<p><strong>Dentures.</strong> A denture stays put partly by suction, and suction needs saliva. A dry mouth turns a good denture into a loose one that rubs. A reline usually fixes it; a new denture usually isn't needed.</p>
+<p><strong>Taste and swallowing.</strong> Taste dulls, spicy food stings, dry food becomes hard work, and people drift towards softer, <a href="/blog/sugar-and-teeth-indian-diet-sonipat/">sweeter food</a>. Less washing also means more odour, covered in our post on <a href="/blog/bad-breath-that-wont-go-away/">bad breath that won't go away</a>.</p>
+<h2>What actually helps at home?</h2>
+<p>The honest version: no product cures dry mouth. A Cochrane review of sprays, gels, rinses, lozenges, oils, gum and toothpastes found no strong evidence that any of them reliably relieves the sensation (<a href="https://www.cochrane.org/evidence/CD008934_interventions-management-dry-mouth-topical-therapies">Cochrane</a>).</p>
+<p>That is not a verdict that nothing works. It is a verdict that no product has earned a strong claim. Chewing gum does increase saliva flow — the review found that. What it did not find was proof that gum, or any other product, makes the mouth feel reliably better. The cheap, boring measures carry the load. A product is a comfort item you try one at a time, not a treatment you buy three of.</p>
+<ul>
+<li><strong>Sip water through the day</strong> and with meals. Water is not saliva: saliva coats and protects in ways water cannot (<a href="https://my.clevelandclinic.org/health/diseases/10902-dry-mouth-xerostomia">Cleveland Clinic</a>).</li>
+<li><strong>Chew sugar-free gum or suck sugar-free sweets.</strong> The simplest way to push the glands to work. Xylitol is a sensible choice, because decay bacteria cannot turn it into acid.</li>
+<li><strong>Switch to an alcohol-free mouthwash.</strong> Strong antiseptic rinses, the ones that sting, dry the mouth further (<a href="https://www.nhs.uk/symptoms/dry-mouth">NHS</a>).</li>
+<li><strong>Brush twice daily with fluoride toothpaste, and spit rather than rinse</strong> so the fluoride stays on the teeth.</li>
+<li><strong>Use lip balm</strong>, and try a humidifier or a bowl of water by the bed.</li>
+<li><strong>Cut back on chai, coffee, alcohol and tobacco.</strong></li>
+</ul>
+<p><strong>Don't</strong> suck lemons to get saliva going, use an acidic artificial saliva product if you still have your own teeth, sleep in your dentures, or scrub hard. Acid erodes enamel, and with less saliva there is less to undo it. Hard brushing wears away tissue that no longer gets the same protection.</p>
+<p>Pharmacy gels and sprays give temporary relief, not a fix. Ask the pharmacist and try one at a time; cost, side effects and preference matter more than the label.</p>
+<h2>What can a dentist do about it?</h2>
+<p>A dentist cannot change your blood pressure tablet. We can deal with the damage already happening, and catch it earlier.</p>
+<p>At an exam we look for saliva not pooling under the tongue, a dry fissured tongue, decay in those odd spots, inflamed gums, thrush, a denture that no longer fits. If it is borderline, we can measure flow instead of guessing: unstimulated saliva of 0.1 ml a minute or less counts as hyposalivation. X-rays find decay you cannot see yet.</p>
+<p>The plan is usually a <a href="/services/teeth-cleaning/">clean</a>, fluoride varnish if your caries risk is high, early fillings rather than crowns later, gum treatment, and check-ups every three to four months instead of six while things are active.</p>
+<h2>When is it a doctor's problem?</h2>
+<p>Some dry mouths are a dental problem. Some are medical conditions in disguise. See a doctor if the dryness is new and persistent, or if:</p>
+<ul>
+<li>You also have <strong>dry eyes, joint pain or fatigue</strong> (possible Sjögren's)</li>
+<li>You are <strong>thirsty, passing urine often, losing weight</strong> (test blood sugar)</li>
+<li>You <strong>started a new medicine</strong> in the last few months</li>
+<li><strong>Swallowing is difficult</strong>, or your voice has been hoarse for weeks</li>
+<li>You have <strong>white patches, recurring thrush, or a mouth that is red, swollen or bleeding</strong></li>
+<li>There is <strong>swelling under the jaw or in front of the ear</strong></li>
+</ul>
+<p>The NHS draws a similar line: see a GP if home or pharmacy treatments have not worked after a few weeks, or if eating and talking are difficult. The physician finds the cause; the dentist stops the teeth paying for it.</p>
+<h2>Why dry mouth keeps coming up in Sonipat</h2>
+<p>A lot of the dry mouths we see here arrive with a blood sugar problem nobody has tested for. Thirst plus a dry mouth is a cheap reason to check. Blood pressure medicines often start in the forties, and nobody warns patients that the mouth will dry out with them. Gutkha makes it worse: <a href="/blog/tobacco-gutkha-oral-health-sonipat/">tobacco dries the mouth</a> and hides the damage at the same time. Add hot summers, air conditioning and dust.</p>
+<p>Almost nobody comes in saying "my mouth is dry". They come because a tooth broke, a denture rubs, or a cleaning turned into a longer conversation. The dryness is usually there once we ask. Call <strong>+91 72067 22618</strong> or use our <a href="/contact-us/">contact page</a>; our <a href="/team-of-specialists/">team page</a> shows who you will see.</p>
+`,
+    faqs: [
+      { question: "Can dry mouth be cured?", answer: "It depends on the cause. If a medicine, dehydration or a blocked nose is responsible, it often improves once that is dealt with. If the glands are damaged, by radiotherapy or Sjögren's, it is usually managed rather than cured. Most people do get comfortable." },
+      { question: "Is dry mouth a sign of something serious?", answer: "Usually not. But persistent dryness is worth checking rather than assuming, because it can be the first visible sign of diabetes or Sjögren's. The serious part is rarely the dryness itself; it is the decay and gum disease that follow if it is ignored for years." },
+      { question: "Why is my mouth dry even when I drink water?", answer: "Because water and saliva don't do the same job. Water wets the mouth for a minute; saliva coats the tissue, buffers acid and carries minerals into enamel. If you drink plenty through the day and are still dry, the glands are the likely issue, not your water intake." },
+      { question: "What helps dry mouth at night?", answer: "Treat the nose, not just the mouth. A humidifier, water by the bed, no alcohol in the evening, and a nasal check if you are blocked most nights. If a medicine is the cause, ask the prescriber whether the timing can change; some drying medicines are worse taken last thing at night." },
+      { question: "Is dry mouth normal at my age?", answer: "No. It is more common in older adults, but because of medicines and health conditions, not ageing itself. If you are over 60 and dry every day, treat it as a symptom to investigate, not a stage of life to accept." },
+      { question: "Should I see a dentist or a doctor?", answer: "Start with a dentist if teeth, gums, dentures or a blocked nose are the main problem. Start with a doctor if you also have dry eyes, thirst, weight loss, fatigue or trouble swallowing. Expect the two to talk to each other. *This is general health information for patients in Sonipat, not a diagnosis. Dry mouth has many causes, and an examination is the only reliable way to identify yours.*" },
+    ],
+  },
+  {
+    slug: "dental-veneers-sonipat",
+    title: "Veneers: What They Fix, What They Don't, and Why They're Irreversible",
+    description: "Veneers cover chips, gaps and deep stains that whitening cannot reach. Fitting them means removing enamel that never grows back. What they fix, what they don't, and when the answer is a different treatment.",
+    metaTitle: "Dental Veneers in Sonipat | Mukhija Dental Clinic",
+    metaDescription: "Veneers fix chips, gaps and staining that whitening can't. Fitting them removes enamel that never grows back. An honest guide from our Sonipat clinic.",
+    date: "2026-11-26",
+    image: "/images/clinic/gallery/dental-veneers-sonipat.webp",
+    imageAlt: "Dentist in gloves holding instruments over a clean white tray in a softly lit clinic",
+    html: `
+<!-- ===== BODY: paste into the \`html\` field in src/data/blogs.ts. H1 is rendered from \`title\`; do not add an h1. ===== -->
+<p><strong>Short answer:</strong> Veneers are thin shells, porcelain or composite, bonded to the front of a tooth to change its colour, shape or close a small gap. They don't move teeth, fix a bite or hold a broken tooth together. Fitting them means removing a layer of enamel that never grows back. Most clinic pages leave that part for the consultation.</p>
+<h2>What Dental Veneers Are — and What They Aren't</h2>
+<p>A veneer is a facing for the front of a tooth. It covers the visible surface and the biting edge, and stops there. A <a href="/services/crowns-bridges/">crown</a> — a full-coverage restoration — caps the whole tooth: front, back, sides and chewing surface. Same family of materials, very different amount of tooth involved.</p>
+<p>Porcelain is made in a lab from a scan or impression, usually over two visits. Composite is the resin used for fillings, sculpted on and set with a light, often in one visit. The <a href="/services/cosmetic-dentistry/">difference between the two materials</a> is worth its own read; here, one point matters more. Neither makes a tooth stronger. A veneer is chosen for how a tooth looks, never for what it can survive.</p>
+<h2>What Each Complaint Actually Needs</h2>
+<p>The complaint should choose the treatment, not the other way round. Four turn up most weeks.</p>
+<p><strong>"Yellow, and whitening didn't hold."</strong> If the stain is inside the tooth — fluorosis, tetracycline, a tooth that died — a veneer can mask what bleach can't reach. Try <a href="/blog/teeth-whitening-sonipat-safety/">whitening</a> first. It's cheaper, reversible and sometimes enough.</p>
+<p><strong>"Chipped, short or uneven."</strong> The classic veneer case. Composite bonding is the cheaper, more conservative option for a single chip, but it won't hold a sharp incisal edge or resist coffee the way porcelain does.</p>
+<p><strong>"Crowded or spaced."</strong> That's position, not shape. A veneer can close a small gap by making a tooth wider. It can't straighten an arch, and the teeth underneath stay where they were. <a href="/services/orthodontics-treatment/">Braces or clear aligners</a> move teeth and leave the enamel intact, which is why we usually straighten first and look at shape afterwards.</p>
+<p><strong>"Broken, cracked or root-treated."</strong> Crown. A facing doesn't hold a weakened tooth together, and bonding a shell over a crack hides the problem rather than solving it.</p>
+<h2>The Enamel Question: How Much Comes Off</h2>
+<p>Textbooks quote roughly 0.3 to 0.5 mm of enamel preparation for a porcelain veneer. Treat that as a working range, not a fixed number: conservative and no-prep designs remove less, and a rotated or heavily discoloured tooth can need more. The figure only means something next to how much enamel is actually there.</p>
+<p>A 2024 CBCT study of 800 patients and 1,600 upper central incisors measured labial enamel at about 0.45 to 0.48 mm one millimetre above the gum line. Three millimetres up it was 0.75 to 0.82 mm. Five millimetres up, roughly 0.96 mm. Enamel thins with age, and older measurements put the cervical figure nearer 0.31 mm.</p>
+<p>Put those two numbers side by side. Near the gum, a routine preparation uses up most of the layer — and at the top of the quoted range it can pass through into dentine. That's a mechanical problem, not a cosmetic one. Veneers bond best to enamel. Bonded to dentine, the bond is weaker, the tooth more sensitive, the veneer likelier to loosen.</p>
+<p>Enamel has no living cells. It cannot repair itself or grow back. The <a href="https://www.mouthhealthy.org/all-topics-a-z/veneers">American Dental Association</a> puts it in one line: treatment is not reversible, because enamel is removed to place the veneer.</p>
+<p>This is also why the good long-term studies look the way they do. One of the longest cohorts — 499 porcelain veneers followed for up to 21 years — only accepted teeth that still had at least 80% of their enamel. Impressive survival figures come from well-chosen cases. That's not a criticism of the figures; it's what they mean.</p>
+<p>Minimally invasive dentistry exists because of this arithmetic. Keep the preparation inside enamel, at the cervical margin above all, or accept a weaker bond and a shorter life. A trial smile and a measured bur depth protect more enamel than a premium ceramic ever will.</p>
+<p>Once a tooth is prepared it no longer has its full enamel shell, and it will need a restoration on it from then on. That part doesn't reverse.</p>
+<h2>Veneers vs Crowns vs Bonding vs Aligners</h2>
+<table>
+<thead>
+<tr><th>Option</th><th>What it changes</th><th>Tooth removed</th><th>Reversible?</th><th>Typical life</th></tr>
+</thead>
+<tbody>
+<tr><td>Porcelain veneer</td><td>Colour, shape, small gaps. Front surface and biting edge</td><td>Around 0.3–0.5 mm from the front; more if the edge is covered</td><td>No</td><td>10–15 years</td></tr>
+<tr><td>Composite veneer</td><td>Same job, less preparation</td><td>Less than porcelain, still permanent</td><td>No</td><td>5–7 years. Stains and wears</td></tr>
+<tr><td>Full-coverage crown</td><td>Whole tooth: strength, shape, protection</td><td>Much more, all the way round</td><td>No</td><td>10–15 years, often longer</td></tr>
+<tr><td>Composite bonding</td><td>Small chips, one or two teeth</td><td>Usually none — material is added</td><td>Yes. Can be reshaped or polished off</td><td>A few years</td></tr>
+<tr><td>Aligners</td><td>Position, not colour</td><td>None, bar a sliver between teeth in some cases</td><td>Teeth drift back without retainers</td><td>One course, then night retainers</td></tr>
+</tbody>
+</table>
+<p>Ranges are typical clinical figures, not guarantees. Material, tooth position, grinding and hygiene move them more than the name of the ceramic.</p>
+<p><strong>Crowns remove more because they solve more.</strong> A crown isn't a deluxe veneer. It holds a tooth together, and it's the right answer for a cracked, heavily filled or root-treated tooth. If one is proposed for a sound front tooth whose only complaint is colour, ask what it's protecting.</p>
+<p><strong>Bonding is the honest first step for small problems.</strong> Nothing is cut away, it's usually one visit, and you live with the result before committing to anything permanent. It also stains at the margins, chips at the edge and needs repolishing. A few years, not fifteen.</p>
+<h2>How Long Do Veneers Last?</h2>
+<p>Ten to fifteen years is the number on most clinic pages, and it's a fair average. The research underneath it is messier.</p>
+<p>A <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8184312/">systematic review of 30 studies</a> found 10 to 12 year survival anywhere from 53% to 94%. The spread isn't a scandal. The studies disagree about what counts as failure — a chip that polishes out, or only a veneer that has to be replaced — and about who was allowed into the study at all.</p>
+<p>The top of that range comes from a <a href="https://pubmed.ncbi.nlm.nih.gov/23101039/">meta-analysis of feldspathic porcelain</a> bonded to enamel, which put 10-year survival near 95%. A 20-year cohort reported 93.5% at ten years and about 83% at twenty. The high figures come from selected cases: enamel still intact, no grinding, good hygiene, a clinician who planned the preparation.</p>
+<p>What shortens the life:</p>
+<ul>
+<li><strong>Grinding and clenching.</strong> The ADA lists this as a reason veneers may not suit you.</li>
+<li><strong>Hard foods, ice and fingernails.</strong></li>
+<li><strong>Decay at the margin.</strong> You can still get a cavity under a veneer.</li>
+<li><strong>Gum recession</strong>, which exposes root beside the margin.</li>
+<li><strong>Tobacco and paan</strong>, which collect at the edges.</li>
+</ul>
+<p>Repairs are usually possible: re-bonding a loose unit, polishing a chip, replacing one veneer out of eight. Whole-set replacement comes round eventually.</p>
+<h2>Can Veneers Be Removed?</h2>
+<p>Not in any useful sense. The veneer is cut off and destroyed in the process, and the tooth underneath has already been reduced. What follows is another veneer, sometimes a crown, occasionally an implant. Removing a set isn't a way back to your own teeth; it's the start of the next restoration.</p>
+<p>Two things sold as reversible aren't. <strong>No-prep veneers</strong> need less enamel removed, not none. The <a href="https://www.nhs.uk/live-well/healthy-teeth-and-gums/dental-treatments/">NHS</a> notes that some veneers need the front of the tooth drilled and others don't, and <a href="https://my.clevelandclinic.org/health/treatments/23522-dental-veneers">Cleveland Clinic</a> is explicit that some removal is still required — and that they don't suit every mouth. <strong>Snap-on veneers</strong> are a clip-on cover, not a restoration. They change speech and eating, and there's little long-term evidence behind them.</p>
+<h2>Who Should Not Get Veneers</h2>
+<ul>
+<li><strong>You grind or clench.</strong> Porcelain chips under that load.</li>
+<li><strong>Deep overbite.</strong> Lower teeth can hit the upper veneer edges.</li>
+<li><strong>Active decay or gum disease.</strong> Fix it first.</li>
+<li><strong>Enamel already thin or worn.</strong> Not enough left to bond to.</li>
+<li><strong>Crowded teeth.</strong> Aligners are the more conservative route.</li>
+<li><strong>Still growing</strong>, usually under 18. Wait for the gums and jaw to settle.</li>
+<li><strong>You want a new shade every few years.</strong> Veneers can't be whitened.</li>
+<li><strong>You want paper-white.</strong> That shade doesn't exist in natural teeth.</li>
+<li><strong>No appetite for maintenance.</strong> Replacing a set every decade is part of the deal.</li>
+</ul>
+<p>None of these are moral failings. They mean a different treatment, or none.</p>
+<h2>Are Veneers Worth It?</h2>
+<p>For the right person, yes. A healthy front tooth with a chip, a gap or a stain that won't bleach is exactly what a veneer is for. It's stable, needs no daily effort, and looks better than a bonding patch that has yellowed at the edges.</p>
+<p>For the wrong person, it's an expensive permanent decision made in a hurry.</p>
+<p>What it costs comes down to how many teeth, which material, and how much preparation the case needs. We don't quote before seeing the teeth. Our guide to <a href="/blog/dental-treatment-cost-sonipat/">dental costs in Sonipat</a> explains what moves the number.</p>
+<p>It's also not a one-off purchase. Have a set fitted at 32 and you'll probably replace it twice. Ask what that involves — the visits, the temporaries, the cost of doing it again — before the first set, not after.</p>
+<p>A <a href="/smile-analysis/">smile analysis</a> answers the question that decides all of this: is the problem colour, shape, position or strength? Sometimes the answer is a clean and a whitening, and no veneer at all.</p>
+<p>Dr Shikha Mukhija handles gums and implants here, Dr Bhupesh Mukhija the endodontic work, and part of the job is saying when a veneer is the wrong tool. More about <a href="/team-of-specialists/">the team</a>.</p>
+<p>Call +91 72067 22618 or <a href="/contact-us/">send us a message</a>. An examination costs less than a set you regret.</p>
+<p><small><strong>General information only.</strong> This article does not diagnose, does not replace an examination, and cannot tell you whether veneers suit your teeth. Suitability depends on enamel thickness, bite, gum health and habits that only an in-person exam can assess. Published 26 November 2026 by Mukhija Dental &amp; ENT Centre, 222 Model Town, Sonipat 131001, +91 72067 22618. Reviewed by Dr. Shikha Mukhija, BDS, MDS. Sources: <a href="https://www.mouthhealthy.org/all-topics-a-z/veneers" rel="nofollow noopener" target="_blank">American Dental Association</a>, <a href="https://www.nhs.uk/live-well/healthy-teeth-and-gums/dental-treatments/" rel="nofollow noopener" target="_blank">NHS dental treatments</a>, <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8184312/" rel="nofollow noopener" target="_blank">systematic review of veneer survival</a>, <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11592583/" rel="nofollow noopener" target="_blank">CBCT enamel thickness study</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/23101039/" rel="nofollow noopener" target="_blank">meta-analysis of feldspathic veneers</a> and <a href="https://my.clevelandclinic.org/health/treatments/23522-dental-veneers" rel="nofollow noopener" target="_blank">Cleveland Clinic</a>.</small></p>
+<!-- ===== END BODY ===== -->
+<h2>Editor metadata (not part of the rendered body)</h2>
+<p>| Field | Value |</p>
+<p>|---|---|</p>
+<p>| category | Cosmetic dentistry |</p>
+<p>| author | Mukhija Dental &amp; ENT Centre, Model Town, Sonipat |</p>
+<p>| reviewedBy | Dr. Shikha Mukhija, BDS, MDS |</p>
+<p>| readTime | 6 min |</p>
+<p>| primaryKeyword | dental veneers |</p>
+<p>| secondaryKeywords | are veneers permanent · how much enamel is removed for veneers · veneers vs crowns vs bonding · how long do veneers last · can veneers be removed · are veneers worth it · porcelain vs composite veneers · dental veneers Sonipat |</p>
+<p>| targetPrompts | what are dental veneers · are veneers permanent · how much enamel is removed for veneers · veneers vs crowns vs bonding · how long do veneers last · can veneers be removed · are veneers worth it |</p>
+<p>| schema | BlogPosting + FAQPage (from <code>faqs</code> array; rendered by BaseLayout) |</p>
+<p>| externalSources | mouthhealthy.org, nhs.uk, PMC8184312, PMC11592583, PubMed 23101039, my.clevelandclinic.org |</p>
+`,
+    faqs: [
+      { question: "Are veneers permanent?", answer: "Yes, in the way that matters. The veneer itself will need replacing every decade or so, but the enamel removed to fit it never comes back. The ADA calls the treatment non-reversible for that reason. You can replace a veneer; you cannot return the tooth to its unprepared state. If a clinic calls them semi-permanent, ask which part is reversible." },
+      { question: "How much enamel is removed for veneers?", answer: "Commonly quoted at 0.3 to 0.5 mm from the front for porcelain, less for composite and some no-prep techniques. That range is a convention rather than a constant. It is a large share of what is there, because labial enamel near the gum line averages about 0.45 mm in adults, so a preparation at the top of the range can reach dentine." },
+      { question: "Can veneers be removed later?", answer: "The veneer can be cut off, but it is destroyed in the process and the tooth underneath is already reduced. It then needs another veneer or a crown. Leaving it bare means exposed dentine, sensitivity and a visible change in shape. Removal is not a return to your original teeth; it is the start of the next restoration." },
+      { question: "How long do veneers last?", answer: "Most estimates sit around 10 to 15 years. Published 10 to 12 year survival figures range from about 53% to 94%, because studies differ in case selection and in what they count as failure. Results are best on healthy enamel with no grinding. Grinding, hard foods, decay at the margin and gum recession shorten the life." },
+      { question: "Veneers or crowns, which is better?", answer: "Neither is better in general. A veneer changes the front surface of a healthy tooth. A crown covers and protects a tooth that is cracked, heavily filled or root-treated, and it removes more tooth in the process. If your tooth is strong and the problem is appearance, a veneer is the smaller intervention. If it is weak, a crown is the right one." },
+      { question: "Do veneers fix crooked teeth?", answer: "Small overlaps can be disguised by shaping the veneers, but the teeth underneath stay crooked. Real crowding is better treated with braces or clear aligners, which move teeth without removing enamel. Veneering a crowded arch usually means more preparation and a bulkier result, and the bite itself is unchanged." },
+    ],
+  },
+  {
+    slug: "how-often-dentist-checkup-sonipat",
+    title: "How Often Should You Actually See a Dentist? The 6-Month Rule, Examined",
+    description: "Six months is a default, not a rule. What the Cochrane review and the INTERVAL trial actually found, how risk sets your recall interval, what a check-up includes, and when X-rays earn their place.",
+    metaTitle: "How Often Should You See a Dentist?",
+    metaDescription: "Six months is a default, not a rule. A Sonipat dentist explains risk-based check-up intervals, what a check-up includes, and when to come sooner.",
+    date: "2026-11-30",
+    image: "/images/clinic/gallery/dentist-checkup-frequency-sonipat.webp",
+    imageAlt: "Dentist in teal scrubs talking with a seated patient during a routine check-up",
+    html: `
+<p><strong>Short answer:</strong> Six months is a default, not a rule. Most healthy adults do fine at 6 to 12 months. Active decay, gum disease, smoking or diabetes make 3 to 6 more honest, and a stable mouth can stretch to 24. Your risk sets the interval. Dentists call that risk-based recall.</p>
+<p>Most people who walk into our clinic in Model Town have been told six months. For some of them that is right. For others it is either too often or not often enough, and nobody has ever explained which.</p>
+<h2>Where the six-month rule came from</h2>
+<p>Pierre Fauchard, the 18th-century French dentist, wanted his patients examined two or three times a year. The six-month version was probably popularised by American dental-product advertisers in the 1930s, according to <a href="https://www.nature.com/articles/6401353">Richards in <em>Evidence-Based Dentistry</em> (2018)</a>. In Britain it hardened into routine NHS practice and stayed there for decades.</p>
+<p>For most of that time, nobody had tested it properly. When the first systematic review looked in 2003, it found 28 studies and no high-quality evidence either way. Aubrey Sheiham had already asked the question in a 1977 <em>Lancet</em> paper: is there a scientific basis for six-monthly dental examinations? NICE published recall guidance in 2004. The first Cochrane review followed in 2005.</p>
+<p>Six months is a custom with a commercial history. That does not make it wrong. It makes it a default that deserves a reason.</p>
+<h2>What the research actually found</h2>
+<p>The best evidence is the <a href="https://www.cochrane.org/evidence/CD004346_how-often-should-you-see-your-dentist-check-up">2020 Cochrane review</a> and the UK <a href="https://www.nature.com/articles/s41415-021-2612-0">INTERVAL trial</a> it was built on.</p>
+<p>Cochrane pooled two randomised trials covering 1,736 people in regular dental care. In adults, there was little or no difference between six-monthly and risk-based check-ups in decayed tooth surfaces, gum bleeding or quality of life. The review was confident about those three comparisons. On 24-monthly recall it was only moderately confident.</p>
+<p>INTERVAL was the bigger of the two: 2,372 adults, 51 UK practices, four years. Of those, 648 were judged suitable by their own dentist for the 24-month arm, and the rest were not eligible for it. Even in that hand-picked group, 24 months was no worse.</p>
+<p>Now the catch that most "six months is a myth" pieces skip. Everyone in those trials was already a regular attender who agreed to be randomised. Nobody tested the person who has avoided dentists for five years, or the mouth with active gum disease and failing crowns. The evidence covers stable, engaged patients. That isn't everyone reading this.</p>
+<p>One finding gets left out too. Patients in INTERVAL valued frequent check-ups and were willing to pay for them. Convenience economics is not the whole story.</p>
+<p>So the honest summary is not "six months is pointless." It is "six months is not automatically right for everyone."</p>
+<h2>Risk-based recall: who needs 3, 6, 12 or 24 months</h2>
+<p>Dentists call the gap between visits the recall interval. Setting that gap from your disease risk rather than the calendar is risk-based recall.</p>
+<p>| Situation | Interval | Why |</p>
+<p>|---|---|---|</p>
+<p>| New cavity last year, or several fillings | 3–6 months | Decay repeats in the same mouth |</p>
+<p>| Gum disease, bleeding pockets, past treatment | 3–6 months | Plaque returns faster after bone loss |</p>
+<p>| Smoking, gutkha, diabetes, dry mouth | 3–6 months | Faster damage, quieter signs |</p>
+<p>| Stable mouth, old fillings, good hygiene | 6–12 months | Long enough to catch a change |</p>
+<p>| No decay, healthy gums, stable for years | 12–24 months | UK guidance allows 24 for low-risk adults |</p>
+<p>| Child or teenager | 6–12 months | UK guidance caps under-18s at 12 |</p>
+<p>Your last cavity is the best clue to your next one. Three fillings in four years is not bad luck; it is active decay, and a yearly check-up gives it twelve months to work. Gum disease needs <a href="/services/gums-treatment/">gum treatment</a>, not just a clean. If your gums bleed when you brush, that is the first thing to mention.</p>
+<p>Smoking is the one people misread. Nicotine reduces bleeding, so gums can look calm while bone is going. Diabetes changes gum response and healing, which is why <a href="/blog/diabetes-dental-health-sonipat/">gum treatment when you have diabetes</a> needs its own plan. And <a href="/blog/bleeding-gums-treatment-sonipat/">bleeding gums that come back</a> are a symptom, not a personality trait.</p>
+<p>NICE sets the limits: 3 months shortest, 12 months longest under 18, 24 months for adults (<a href="https://www.nice.org.uk/guidance/cg19/chapter/1-Recommendations">NICE CG19</a>). Two caveats matter here. It is UK guidance, not Indian law. India has no national recall rule, so your interval is a clinical decision between you and your dentist. And NICE expects the number to be reviewed at every visit. A blanket move to 24 months for everyone was never the intention.</p>
+<p>Your risk at 25 is not your risk at 55.</p>
+<h2>What happens at a check-up here</h2>
+<p>Not "open wide, looks fine." A proper check-up has parts.</p>
+<ul>
+<li><strong>History first.</strong> Medicines, pregnancy, diabetes, smoking, bleeding, sensitivity, jaw pain.</li>
+<li><strong>Inside and outside the mouth.</strong> Lymph nodes, jaw joint, cheeks, tongue, floor of the mouth, palate, throat. We ask about tobacco and gutkha. Our <a href="/services/oral-cancer-detection/">oral cancer screening</a> is a visual and tactile exam, not a blood test; anything suspicious gets referred.</li>
+<li><strong>Teeth.</strong> Decay, cracks, wear, leaking fillings, exposed roots, bite.</li>
+<li><strong>Gums.</strong> A periodontal probe measures pocket depth and bleeding. We write the numbers down. "4mm pocket, lower right molar, bleeding" is a plan. "Your gums are a bit inflamed" is not.</li>
+<li><strong>X-rays only when they change the answer.</strong></li>
+<li><strong>A recall date with a reason.</strong> "Six months because you had two cavities this year" is useful. "Six months" alone is not.</li>
+</ul>
+<p>Ask <a href="/team-of-specialists/">our specialists</a> why your next date is what it is.</p>
+<h2>Cleaning vs check-up: not the same job</h2>
+<p>A check-up is diagnostic. A cleaning removes calculus and stain. One can happen without the other. Practices book them together for convenience, not because they are the same thing.</p>
+<p>Nor is cleaning frequency automatically six months. IQuaD, a UK trial of 1,877 adults in 63 practices over three years, found no additional clinical benefit from scheduling six-monthly or twelve-monthly scale and polish over not providing it at all, in people with basic gum scores of 0 to 3. Read that carefully. It doesn't say cleaning is useless, and it did not study periodontitis. It says routine polishing of a healthy-ish mouth is a preference, not a prescription.</p>
+<p>Most healthy mouths still do well at 6 to 12 months. Active gum treatment usually means 3 to 4. Smoking or heavy staining, sooner.</p>
+<p>The useful question is not "how often do I get a clean?" but "what's this clean for?" A <a href="/services/teeth-cleaning/">professional cleaning</a> after gum treatment does a different job from a polish before a wedding.</p>
+<h2>Do you need X-rays every visit?</h2>
+<p>No. Taking them every time without a reason is a habit, not a diagnosis.</p>
+<p><a href="https://www.fda.gov/radiation-emitting-products/medical-x-ray-imaging/selection-patients-dental-radiographic-examinations">ADA and FDA guidance</a> ties bitewing frequency to caries risk. High-risk children: every 6 to 12 months. High-risk adults: every 6 to 18. Low-risk children: 12 to 24. Low-risk adolescents: 18 to 36. Low-risk adults: 24 to 36. The rule underneath all of it is ALARA: as low as reasonably achievable.</p>
+<p>We take an X-ray when it will change a decision. Decay between teeth, bone levels, a suspicious root, a wisdom tooth, an implant review. If recent films are still valid and nothing has changed, we skip them.</p>
+<h2>Children: yearly at the outside, more often if decay is active</h2>
+<p>UK guidance caps the interval at 12 months under 18. The American Academy of Pediatric Dentistry says a first visit when the first tooth appears, and by the first birthday at the latest.</p>
+<p>A child with no decay and a clean record can come once a year. Early decay, frequent sugary snacks, previous fillings or braces usually mean 3 to 6 months. Baby teeth matter: decay in a primary molar reaches the nerve faster than in an adult tooth, and an infected primary tooth can damage the permanent one beneath.</p>
+<p>Cochrane could not settle the children's question, because the one trial in under-20s had problems with how it was run. So this is judgment plus prevention. If your child is due a first visit, <a href="/blog/pediatric-dentist-sonipat/">what happens at that appointment</a> is worth five minutes.</p>
+<h2>Why intervals fail in real life</h2>
+<p>Most people don't skip check-ups on purpose. They wait until it hurts.</p>
+<p>That is the flaw in pain-led dentistry. Enamel decay does not hurt. A cracked tooth does not hurt until it splits. Gum disease does not hurt until the bone is gone. A root canal, a crown, or an extraction is a different year of your life.</p>
+<p>The other reasons are ordinary: cost, time, anxiety, a bad experience years ago. We would rather see you late than not at all. If money is the worry, <a href="/blog/dental-treatment-cost-sonipat/">what treatment costs in Sonipat</a> is a plainer starting point than a quote you are afraid to ask for. If it is fear, say so when you book. It changes how the appointment is run.</p>
+<p><strong>Six months is a default. Your mouth gets a reason.</strong></p>
+<p>If you can't remember your last check-up, that's usually the answer. Call <a href="tel:+917206722618">+91 72067 22618</a> and we'll find you a slot. We are at 222 Model Town, Sonipat, open Mon–Sat 9am–2pm and 4:30pm–7:30pm, Sunday 9am–2pm. Or <a href="/contact-us/">send us a message</a> and tell us what has changed since last time.</p>
+<p><em>Medically reviewed by Dr. Bhupesh Mukhija, BDS, MDS (Endodontics), Mukhija Dental &amp; ENT Centre, Sonipat 131001. General information, not a diagnosis. If you have pain, swelling, bleeding that will not stop, or an ulcer that has not healed in three weeks, book sooner.</em></p>
+`,
+    faqs: [
+      { question: "Is a dental check-up every 6 months really necessary?", answer: "For some people, yes. If you get cavities easily, have gum disease, smoke, have diabetes or take drying medicines, six months is sensible and sometimes three. If your mouth has been stable for years, 12 months may be enough. The interval should follow risk, not the calendar." },
+      { question: "How often do I need a cleaning?", answer: "Not the same as a check-up, and not automatically every six months. Most healthy gums do well with a professional clean every 6 to 12 months. During active gum treatment, 3 to 4 months is common. Heavy staining or smoking may mean sooner. Ask what the clean is for, not just when." },
+      { question: "Do I need X-rays at every visit?", answer: "No. Nothing requires an X-ray at every check-up. Bitewings are usually repeated every 6 to 12 months for high-risk children and 6 to 18 months for high-risk adults, and every 24 to 36 months for low-risk adults. We take them when the result will change what we do." },
+      { question: "How often should children see a dentist?", answer: "A first visit by the first birthday, or within six months of the first tooth. After that, at least once a year, and every 6 months if your child has had decay, snacks often or wears braces. UK guidance caps the interval at 12 months under 18." },
+      { question: "Can I wait two years between check-ups?", answer: "Sometimes, but only if your mouth is genuinely low risk and your dentist agrees. The trials that found 24 months safe included regular attenders whom their own dentists judged suitable. With bleeding gums, loose teeth, pain, slow-healing ulcers or dry mouth, do not stretch it." },
+      { question: "What happens if I skip a check-up?", answer: "Often nothing visible. That's the problem with guessing. A small cavity may stay small for a year, or reach the nerve. Gum disease can progress without pain. Skipping one check-up is not a disaster; skipping five years turns a filling into a bigger conversation." },
+    ],
+  },
 ];
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {

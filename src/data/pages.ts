@@ -243,7 +243,7 @@ export const staticPages: Record<string, PageMeta> = {
     "slug": "",
     "heading": "Best Dental Clinic in Sonipat",
     "contentKey": "Homepage - Dental Clinic Sonipat",
-    "title": "Best Dental Clinic in Sonipat | Mukhija Dental Clinic",
+    "title": "Best Dental Clinic in Sonipat | Mukhija Dental Clinic.",
     "description": "Looking for the best dentist in Sonipat? Mukhija Dental Clinic in Model Town offers implants, braces, RCT & family dental care. Book your visit today."
   },
   "services": {

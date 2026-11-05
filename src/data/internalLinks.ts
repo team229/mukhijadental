@@ -507,6 +507,54 @@ export const BLOG_CLUSTERS: Record<string, BlogCluster> = {
       { href: "/services/gums-treatment/", label: "Gum treatment" },
     ],
   },
+  "teeth-grinding-bruxism-sonipat": {
+    slug: "teeth-grinding-bruxism-sonipat",
+    relatedPosts: [
+      { href: "/blog/tooth-sensitivity-sonipat/", label: "Why worn teeth become sensitive" },
+      { href: "/blog/root-canal-treatment-sonipat/", label: "When grinding has reached the nerve" },
+      { href: "/blog/dental-anxiety-sonipat-overcome-fear/", label: "Treatment when you are frightened of the dentist" },
+    ],
+    relatedServices: [
+      { href: "/services/crowns-bridges/", label: "Crowns and bridges" },
+      { href: "/services/painless-dental-treatment/", label: "Painless dental treatment" },
+    ],
+  },
+  "dry-mouth-xerostomia-sonipat": {
+    slug: "dry-mouth-xerostomia-sonipat",
+    relatedPosts: [
+      { href: "/blog/sugar-and-teeth-indian-diet-sonipat/", label: "What sugar does when saliva is low" },
+      { href: "/blog/diabetes-dental-health-sonipat/", label: "Diabetes and your gums" },
+      { href: "/blog/bad-breath-that-wont-go-away/", label: "Bad breath that will not go away" },
+    ],
+    relatedServices: [
+      { href: "/services/teeth-cleaning/", label: "Professional cleaning" },
+      { href: "/services/gums-treatment/", label: "Gum treatment" },
+    ],
+  },
+  "dental-veneers-sonipat": {
+    slug: "dental-veneers-sonipat",
+    relatedPosts: [
+      { href: "/blog/teeth-whitening-sonipat-safety/", label: "Does whitening damage enamel" },
+      { href: "/blog/braces-invisalign-smile-makeovers-sonipat/", label: "Braces, aligners and smile makeovers" },
+      { href: "/blog/dental-treatment-cost-sonipat/", label: "What dental treatment costs" },
+    ],
+    relatedServices: [
+      { href: "/services/cosmetic-dentistry/", label: "Cosmetic dentistry" },
+      { href: "/services/crowns-bridges/", label: "Crowns and bridges" },
+    ],
+  },
+  "how-often-dentist-checkup-sonipat": {
+    slug: "how-often-dentist-checkup-sonipat",
+    relatedPosts: [
+      { href: "/blog/bleeding-gums-treatment-sonipat/", label: "Bleeding gums: causes and treatment" },
+      { href: "/blog/diabetes-dental-health-sonipat/", label: "Why diabetes changes recall intervals" },
+      { href: "/blog/sugar-and-teeth-indian-diet-sonipat/", label: "Sugar, frequency and decay risk" },
+    ],
+    relatedServices: [
+      { href: "/services/teeth-cleaning/", label: "Professional cleaning" },
+      { href: "/services/oral-cancer-detection/", label: "Oral cancer screening" },
+    ],
+  },
 };
 
 /* ------------------------------------------------------------------ *

@@ -311,6 +311,9 @@ export const blogPosts: BlogPost[] = [
         answer:
           "General dentists can perform it. Complex cases may need an endodontist.",
       },
+      { question: "How much does a root canal cost in India?", answer: "There is no single national price. The figure moves with which tooth it is, how many canals it has, whether it is a first treatment or a re-treatment, whether a crown is needed afterwards, and where the clinic is. Anyone quoting a number before seeing an X-ray is guessing. Ask for an itemised written estimate after examination." },
+      { question: "What do root canal charges actually include?", answer: "A fair quote separates the parts: consultation, X-ray or OPG, local anaesthetic, cleaning and shaping of the canals, the filling that seals them, and usually a crown afterwards. Some clinics bundle these, some do not. The crown is often the largest single line, so check whether it is inside the quoted figure." },
+      { question: "How can I compare root canal costs between Indian clinics fairly?", answer: "Compare inclusions, not headlines. Ask each clinic: how many sittings, who performs it, whether a specialist endodontist is involved, what crown material is included, what happens if it fails, and whether follow-up is charged. Two quotes at the same price can differ by thousands once the crown and review visits are counted." },
     ],
   },
   {
@@ -496,7 +499,14 @@ export const blogPosts: BlogPost[] = [
 <p>If you are looking for a dentist in Sonipat or a dental clinic in Sonipat, Mukhija Dental Clinic in Model Town provides comprehensive dental care with a focus on individual treatment needs.</p>
 <p>Book an examination to discuss your dental concern and understand which treatment options are appropriate for you.</p>
 `,
-    faqs: [],
+    faqs: [
+      { question: "How can I verify the qualifications and reviews of doctors at a dental clinic in India?", answer: "Ask for the dentist's full name and registration number, then check it with the State Dental Council or the Dental Council of India. Confirm whether a BDS or an MDS is held and in which speciality. For reviews, read the recent ones rather than the total score, and look for detail about the treatment rather than \"good service\"." },
+      { question: "How do I compare prices and services between dental clinics online?", answer: "Compare what is included, not the headline number. Look for clinics that publish treatment detail, then ask each for an itemised estimate for your specific case. Check whether imaging, materials, review visits and redo policies are inside the price. A published \"starting from\" figure rarely survives contact with an actual diagnosis." },
+      { question: "How do I choose a reputable dental clinic for routine checkups?", answer: "Look for continuity: the same dentist seeing you each time, a proper examination rather than a glance, sterilisation you can see, and a recall interval based on your risk rather than a fixed six months. Ask how they record findings and whether you get a written plan. Those habits matter more than decor." },
+      { question: "What should I consider beyond price when choosing a dental or ENT clinic?", answer: "Qualifications and speciality, how the diagnosis is made, sterilisation, whether treatment is explained before it starts, what aftercare exists, and how urgent problems are handled. Price matters, but the expensive mistakes are usually a wrong diagnosis or a treatment that has to be redone." },
+      { question: "What are the latest dental and ENT treatments in India, and how should I compare them?", answer: "Current options include dental implants, clear aligners, single-visit root canals, digital X-rays and CBCT, and endoscopic ENT procedures. Compare them on evidence and suitability for your case, not novelty. Ask what the alternative is, what the failure rate is, and what happens if it does not work." },
+      { question: "What should I know about Indian dental and ENT clinics?", answer: "Many are single-speciality; some combine dental and ENT care, which helps when a problem could belong to either, such as jaw or referred ear pain. Ask who actually performs your treatment, what their speciality is, and whether they refer onward when a case is outside their scope." },
+    ],
   },
   {
     slug: "bleeding-gums-treatment-sonipat",
@@ -1753,6 +1763,10 @@ export const blogPosts: BlogPost[] = [
         answer:
           "If you're dealing with a broken tooth, sudden severe pain, or an injury, don't wait it out. Call ahead — most dental emergencies get worse the longer they're left untreated, and a clinic that handles maxillofacial and oral surgery cases is equipped to deal with genuine emergencies, not just routine checkups.",
       },
+      { question: "Who is the best dentist in India?", answer: "There is no single answer, because \"best\" depends on what you need. An implantologist, an endodontist and a paediatric dentist are different specialists. What you can verify is registration with the Dental Council of India, a named speciality qualification, and a track record you can see. Judge fit for your specific problem, not a generic ranking." },
+      { question: "How do I find an affordable dental clinic near me?", answer: "Start with clinics close enough that you will actually attend follow-ups, then compare itemised written estimates rather than headline prices. Ask what each quote includes: X-ray, materials, review visits, and what happens if something needs redoing. The cheapest first visit is often not the cheapest completed treatment." },
+      { question: "How do I find a dental clinic near my location?", answer: "Search your area plus the treatment you need, then check the clinic's Google Business Profile for its address, opening hours, photos and recent reviews. Confirm the phone number works and that the clinic is where the listing says. For anything urgent, call ahead rather than travelling on the assumption they can see you." },
+      { question: "What should I search to find a teeth dentist near me?", answer: "Search by treatment and area rather than \"teeth dentist\", for example \"root canal in Model Town Sonipat\" or \"dentist near Sector 15 Sonipat\". Specific searches surface clinics that actually offer that treatment. Then check reviews, qualifications and whether the clinic publishes its address and hours." },
     ],
   },
   {
@@ -1865,7 +1879,11 @@ export const blogPosts: BlogPost[] = [
 <p>Tooth removal is a common dental procedure, but it should still be based on an individual diagnosis rather than symptoms alone. A proper examination helps clarify whether a tooth can be saved, whether extraction is appropriate, and what type of procedure may be required.</p>
 <p>If tooth extraction in Sonipat is being considered, understanding the reason for removal, expected recovery, possible complications, and future treatment choices can help patients have a clearer conversation with a <a href="">dentist in Sonipat</a>.</p>
 `,
-    faqs: [],
+    faqs: [
+      { question: "How much does a tooth extraction cost in India?", answer: "It depends on whether the tooth comes out simply or needs surgical removal, how deeply a wisdom tooth is impacted, whether an X-ray or CBCT is needed, and which city you are in. A simple extraction and a surgical wisdom tooth removal are not comparable procedures. Get a written estimate after the examination, not before." },
+      { question: "Which clinics offer transparent extraction pricing and free quotes?", answer: "Look for a clinic that will examine you first, show you the X-ray, and put the plan and price in writing before treatment. A quote given over the phone without seeing the tooth is not a quote. Ask directly whether the estimate includes the X-ray, anaesthesia, stitches and the review visit." },
+      { question: "Is tooth removal cheaper in a smaller city than a metro?", answer: "Generally yes. Overheads differ, so the same procedure often costs less in Sonipat than in Delhi or Gurugram. That said, a low price that excludes the X-ray, a surgical component or the follow-up is not cheaper. Compare the total cost of the completed treatment, not the advertised starting figure." },
+    ],
   },
   {
     slug: "bad-breath-that-wont-go-away",
@@ -2006,6 +2024,8 @@ export const blogPosts: BlogPost[] = [
       { question: "What happens if I do not remove an impacted wisdom tooth?", answer: "Often nothing. Many are found on an X-ray, cause no symptoms, and get checked at each visit. Others develop pericoronitis, decay or, rarely, a cyst around the crown. Monitoring means a review, not a decision made once and forgotten." },
       { question: "Can antibiotics cure wisdom tooth pain without surgery?", answer: "They calm an acute infection for a few days, which matters if you are swollen. They do not remove the gum flap that traps food, so it returns. Antibiotics buy time; they do not change the anatomy." },
       { question: "How long does wisdom tooth pain last if I do nothing?", answer: "A typical pericoronitis flare settles over three to seven days with careful cleaning and painkillers. Then it comes back, often when you are run down. That pattern, not one bad week, is what pushes the decision towards removal." },
+      { question: "How much does wisdom tooth removal cost?", answer: "It depends on the impaction. An erupted wisdom tooth may come out like any other tooth; a deeply impacted one may need surgical removal, a flap, bone removal or a CBCT scan. Upper and lower teeth differ too. Ask for the estimate after an X-ray, and ask whether it covers the review visit and any medication." },
+      { question: "Why do wisdom tooth removal quotes vary so much between clinics?", answer: "Mostly because the procedures differ. A straightforward extraction and a surgical removal of a horizontal lower wisdom tooth are different operations with different times and risks. Quotes also vary by who performs it, whether sedation is offered, and what aftercare is included. Compare like with like, using the X-ray." },
     ],
   },
   {

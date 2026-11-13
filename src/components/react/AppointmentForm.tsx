@@ -46,7 +46,7 @@ export default function AppointmentForm({ compact = false }: { compact?: boolean
       <div className="absolute top-0 left-0 right-0 h-1.5 bg-accent" />
 
       <div className="mb-6">
-        <h3 className="font-display font-bold text-brand text-2xl mb-1">Book Your Visit</h3>
+        <h2 className="font-display font-bold text-brand text-2xl mb-1">Book Your Visit</h2>
         <p className="text-xs text-muted">Fill out the form below and we will contact you immediately.</p>
       </div>
 

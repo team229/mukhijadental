@@ -2375,7 +2375,7 @@ export const blogPosts: BlogPost[] = [
     description: "WHO's free-sugar targets translated into chai, biscuits, mithai and juice cartons, plus an honest verdict on jaggery, honey and brown sugar.",
     metaTitle: "How Much Sugar Is Bad for Teeth?",
     metaDescription: "WHO's 5% sugar target is about 25g a day on a 2,000 kcal diet. What that means for chai, biscuits, mithai and juice, and why frequency matters more.",
-    date: "2026-11-02",
+    date: "2026-11-27",
     image: "/images/clinic/gallery/sugar-and-teeth-indian-diet-sonipat.webp",
     imageAlt: "Glass of chai, a dish of glucose biscuits, jaggery pieces and a glass of water on a wooden table",
     html: `
@@ -2457,7 +2457,7 @@ export const blogPosts: BlogPost[] = [
     description: "Diabetes and gum disease affect each other. A Sonipat periodontist explains the two-way link, what gum treatment can and cannot do for HbA1c, and what to tell your dentist before treatment.",
     metaTitle: "Diabetes and Gum Disease in Sonipat",
     metaDescription: "Bleeding gums and diabetes affect each other. What changes in your mouth, what gum treatment can and cannot do for HbA1c, and what to tell your dentist.",
-    date: "2026-11-02",
+    date: "2026-11-30",
     image: "/images/clinic/gallery/diabetes-dental-health-sonipat.webp",
     imageAlt: "Woman seated in a dental chair talking with a dentist in teal scrubs in a bright clinic",
     html: `
@@ -2532,7 +2532,7 @@ export const blogPosts: BlogPost[] = [
     description: "Peroxide whitening doesn't dissolve enamel, but it can cause sensitivity and won't fix every stain. What it changes, what it can't, and who should skip it.",
     metaTitle: "Does Teeth Whitening Damage Enamel?",
     metaDescription: "Peroxide whitening doesn't dissolve enamel, but it can cause sensitivity and won't fix every stain. What it changes, what it can't, and who should skip it.",
-    date: "2026-11-03",
+    date: "2026-11-20",
     image: "/images/clinic/gallery/teeth-whitening-sonipat.webp",
     imageAlt: "Ceramic tooth shade guide beside a clear whitening tray on a dental clinic counter",
     html: `
@@ -2618,7 +2618,7 @@ export const blogPosts: BlogPost[] = [
     description: "What gutkha and paan masala do to teeth and gums, why areca nut matters as much as tobacco, and what an oral cancer screening actually involves.",
     metaTitle: "Gutkha and Paan Masala: What It Does",
     metaDescription: "Gutkha and paan masala stain teeth, shrink gums and cause white patches. What reverses when you stop, what doesn't, and what a mouth check involves.",
-    date: "2026-11-03",
+    date: "2026-11-25",
     image: "/images/clinic/gallery/tobacco-gutkha-oral-health-sonipat.webp",
     imageAlt: "Dentist in teal scrubs talking calmly with a seated man in a bright dental clinic",
     html: `
@@ -2695,7 +2695,7 @@ export const blogPosts: BlogPost[] = [
     description: "Night grinding is sleep bruxism: a brain-driven reflex with no cure. What protects the teeth, what a night guard does and doesn't do, and when jaw pain needs a look.",
     metaTitle: "Teeth Grinding at Night: What Helps",
     metaDescription: "Night grinding is sleep bruxism, and there's no single cure. What actually helps, what a night guard does and doesn't do, and when to get your jaw checked.",
-    date: "2026-11-12",
+    date: "2026-11-15",
     image: "/images/clinic/gallery/teeth-grinding-bruxism-sonipat.webp",
     imageAlt: "Man asleep on a soft white pillow in calm morning light after a restless night",
     html: `
@@ -2812,7 +2812,7 @@ export const blogPosts: BlogPost[] = [
     description: "Dry mouth is usually a medicine, sometimes a blocked nose or undiagnosed diabetes, and always a cavity risk. What xerostomia does to teeth, what helps at home, and when it needs a doctor.",
     metaTitle: "Dry Mouth (Xerostomia) | Mukhija Dental Clinic",
     metaDescription: "Dry mouth raises cavity and gum risk more than most people realise. What causes xerostomia, what helps at home, and when to see a doctor in Sonipat.",
-    date: "2026-11-19",
+    date: "2026-11-10",
     image: "/images/clinic/gallery/dry-mouth-xerostomia-sonipat.webp",
     imageAlt: "Woman holding a glass of water at a bright kitchen counter in calm daylight",
     html: `
@@ -2897,7 +2897,7 @@ export const blogPosts: BlogPost[] = [
     description: "Veneers cover chips, gaps and deep stains that whitening cannot reach. Fitting them means removing enamel that never grows back. What they fix, what they don't, and when the answer is a different treatment.",
     metaTitle: "Dental Veneers in Sonipat | Mukhija Dental Clinic",
     metaDescription: "Veneers fix chips, gaps and staining that whitening can't. Fitting them removes enamel that never grows back. An honest guide from our Sonipat clinic.",
-    date: "2026-11-26",
+    date: "2026-11-05",
     image: "/images/clinic/gallery/dental-veneers-sonipat.webp",
     imageAlt: "Dentist in gloves holding instruments over a clean white tray in a softly lit clinic",
     html: `
@@ -3003,7 +3003,7 @@ export const blogPosts: BlogPost[] = [
     description: "Six months is a default, not a rule. What the Cochrane review and the INTERVAL trial actually found, how risk sets your recall interval, what a check-up includes, and when X-rays earn their place.",
     metaTitle: "How Often Should You See a Dentist?",
     metaDescription: "Six months is a default, not a rule. A Sonipat dentist explains risk-based check-up intervals, what a check-up includes, and when to come sooner.",
-    date: "2026-11-30",
+    date: "2026-11-02",
     image: "/images/clinic/gallery/dentist-checkup-frequency-sonipat.webp",
     imageAlt: "Dentist in teal scrubs talking with a seated patient during a routine check-up",
     html: `
